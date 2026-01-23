@@ -21,7 +21,7 @@ exports.handler = async (event) => {
       };
     }
 
-    const filePath = path.join(__dirname, `../../data/${file}.json`);
+    const filePath = path.join(__dirname, `../../../data/${file}.json`);
 
     let data = [];
     if (fs.existsSync(filePath)) {
