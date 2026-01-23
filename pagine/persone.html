@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Persone - Wiki</title>
+    <link rel="stylesheet" href="../styles/wiki_style.css" />
+    <link rel="website icon" type="png" href="../images/Chronicles_logo.png"/>
+</head>
+
+<body>
+
+<header>
+    <div class="title">Chronicles Of Glom</div>
+    <div class="subtitle">Wiki – Persone</div>
+</header>
+
+<main class="wiki-layout">
+
+    <aside class="sidebar">
+        <h3>Sezioni</h3>
+        <ul>
+            <li><a href="../wiki.html">Pagina Principale</a></li>
+            <li><a href="persone.html"><strong>Persone</strong></a></li>
+            <li><a href="creature.html">Creature</a></li>
+            <li><a href="luoghi.html">Luoghi</a></li>
+            <li><a href="lore.html">Lore</a></li>
+            <li><a href="gruppi.html">Gruppi</a></li>
+            <li><a href="geografia.html">Geografia</a></li>
+            <li><a href="divinità.html">Divinità</a></li>
+        </ul>
+    </aside>
+
+    <article class="content">
+        <h1>Persone</h1>
+
+        <div id="lista-persone"></div>
+
+    </article>
+
+</main>
+
+<footer>
+    <small>&copy; D&D Campaign Manager</small>
+</footer>
+
+<script>
+// Carica il JSON e genera la lista
+fetch("../data/persone.json")
+    .then(response => response.json())
+    .then(data => {
+        const container = document.getElementById("lista-persone");
+
+        data.forEach(item => {
+            const p = document.createElement("p");
+            p.innerHTML = `<a href="pagina.html?file=persone&slug=${item.slug}">
+                ${item.nome}
+            </a>`;
+            container.appendChild(p);
+        });
+    })
+    .catch(err => {
+        console.error("Errore nel caricamento del JSON:", err);
+    });
+</script>
+
+</body>
+</html>

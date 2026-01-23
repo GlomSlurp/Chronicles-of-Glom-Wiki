@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Aggiungi Articolo</title>
+    <link rel="stylesheet" href="../styles/wiki_style.css">
+    <link rel="website icon" type="png" href="../images/Chronicles_logo.png"/>
+
+    <!-- TinyMCE -->
+    <script src="https://cdn.jsdelivr.net/npm/tinymce@6.8.3/tinymce.min.js"></script>
+
+    <script>
+
+    // 🔧 TinyMCE
+    tinymce.init({
+        selector: 'textarea[name=contenuto]',
+        height: 500,
+        plugins: 'formatpainter link image lists table code accordion',
+        toolbar: 'undo redo | copy paste formatpainter | bold italic underline | bullist numlist | link image | table | code | accordion',
+        details_serialized_state: 'collapsed',
+
+        content_style: `
+            body {
+                font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+                color: #e7eaf3;
+                background: #0d1220;
+                padding: 16px;
+                line-height: 1.6;
+            }
+            p { margin: 0 0 12px; }
+            a { color: #6c8cff; }
+            table { border-collapse: collapse; }
+            table, th, td { border: 1px solid #2a3246; padding: 6px; }
+        `,
+
+        setup: function (editor) {
+            editor.on('change keyup', function () {
+                editor.save();
+            });
+        }
+    });
+    </script>
+</head>
+
+<body>
+
+<header>
+    <div class="title">Chronicles Of Glom</div>
+    <div class="subtitle">Aggiungi Articolo</div>
+
+    <nav>
+        <a href="wiki_admin.html">Pannello</a>
+    </nav>
+</header>
+
+<main class="wiki-layout">
+
+    <article class="content">
+        <h1>Nuovo Articolo</h1>
+
+        <form id="addForm">
+
+            <label>Sezione</label>
+            <select name="file" required>
+                <option value="persone">Persone</option>
+                <option value="creature">Creature</option>
+                <option value="luoghi">Luoghi</option>
+                <option value="lore">Lore</option>
+                <option value="gruppi">Gruppi</option>
+                <option value="geografia">Geografia</option>
+                <option value="divinita">Divinità</option>
+            </select>
+
+            <label>Nome</label>
+            <input type="text" name="nome" required>
+
+            <label>Slug (identificatore univoco)</label>
+            <input type="text" name="slug" required>
+
+            <label>Immagine (URL o percorso)</label>
+            <input type="text" name="immagine">
+
+            <label>Contenuto</label>
+            <textarea name="contenuto" required></textarea>
+
+            <button type="submit">Salva</button>
+        </form>
+
+    </article>
+
+</main>
+
+<footer>
+    <small>&copy; D&D Campaign Manager</small>
+</footer>
+
+<script>
+// 🔥 Invio dati alla Netlify Function addArticle.js
+document.getElementById("addForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const form = new FormData(e.target);
+
+    const payload = {
+        file: form.get("file"),
+        nome: form.get("nome"),
+        slug: form.get("slug"),
+        immagine: form.get("immagine"),
+        contenuto: form.get("contenuto")
+    };
+
+    const res = await fetch("/.netlify/functions/addArticle", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+    });
+
+    const json = await res.json();
+
+    if (json.success) {
+        alert("Articolo aggiunto con successo!");
+        window.location.href = "wiki_admin.html";
+    } else {
+        alert("Errore: " + json.error);
+    }
+});
+</script>
+
+</body>
+</html>

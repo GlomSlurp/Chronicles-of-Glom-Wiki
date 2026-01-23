@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Wiki di Chronicles of Glom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/wiki_style.css" />
+    <link rel="website icon" type="png" href="./images/Chronicles_logo.png"/>
+</head>
+
+<body>
+
+<header>
+    <div class="topbar">
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        
+            <nav>
+            <a href="./pagine/persone.html">Persone</a>
+            <a href="./pagine/creature.html">Creature</a>
+            <a href="./pagine/luoghi.html">Luoghi</a>
+            <a href="./pagine/lore.html">Lore</a>
+            <a href="./pagine/gruppi.html">Gruppi</a>
+            <a href="./pagine/geografia.html">Geografia</a>
+            <a href="./pagine/divinita.html">Divinità</a>
+            </nav>
+
+        </div>
+        <div class="title">Chronicles Of Glom</div>
+        </div>
+
+    <div class="spacer" style="height: 16px;"></div>
+    <div class="subtitle">Wiki Ufficiale</div>
+
+
+<div class="spacer" style="height: 16px;"></div>
+
+    <form action="./pagine/search.html" method="GET" class="wiki-search">
+    <input type="text" name="q" placeholder="Cerca nella Wiki..." required>
+</form>
+
+</header>
+
+<main class="wiki-layout">
+
+    <aside class="sidebar">
+        <h3>Sezioni</h3>
+        <ul>
+            <li><a href="./pagine/persone.html">Persone</a></li>
+            <li><a href="./pagine/creature.html">Creature</a></li>
+            <li><a href="./pagine/luoghi.html">Luoghi</a></li>
+            <li><a href="./pagine/lore.html">Lore</a></li>
+            <li><a href="./pagine/gruppi.html">Gruppi</a></li>
+            <li><a href="./pagine/geografia.html">Geografia</a></li>
+            <li><a href="./pagine/divinita.html">Divinità</a></li>
+        </ul>
+    </aside>
+
+    <article class="content">
+        <h1>Benvenuto nella Wiki di Chronicles of Glom</h1>
+        <p>Qui troverai informazioni ufficiali su persone, creature, luoghi e la storia del mondo di Glomran.</p>
+    </article>
+
+</main>
+
+<footer>
+
+    <a href="./wiki_management/wiki_admin.html">Gestisci Articoli</a> |
+
+    <small><span id="currentYear"></span> &copy; D&D Campaign Manager</small>
+
+    <script>
+    // Imposta l'anno corrente nel footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
+
+</footer>
+
+
+
+<script>
+function toggleMenu() {
+    const burger = document.querySelector('.hamburger');
+    const nav = document.querySelector('nav');
+
+    burger.classList.toggle('active');
+    nav.classList.toggle('show');
+}
+</script>
+
+</body>
+</html>

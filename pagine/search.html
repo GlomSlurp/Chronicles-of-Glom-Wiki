@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Risultati ricerca</title>
+    <link rel="stylesheet" href="../styles/wiki_style.css" />
+    <link rel="website icon" type="png" href="../images/Chronicles_logo.png"/>
+</head>
+
+<body>
+
+<header>
+    <div class="title">Chronicles Of Glom</div>
+    <div class="subtitle">Risultati della ricerca</div>
+
+    <nav>
+        <a href="../wiki.html" class="active">Wiki</a>
+        <form action="search.html" method="GET" class="wiki-search">
+            <input type="text" name="q" placeholder="Cerca nella Wiki..." required>
+        </form>
+    </nav>
+</header>
+
+<main class="wiki-layout">
+
+    <aside class="sidebar">
+        <h3>Ricerca</h3>
+        <a href="../wiki.html">Pagina Principale</a>
+        <p>Termine cercato:</p>
+        <strong id="termine"></strong>
+    </aside>
+
+    <article class="content">
+        <h1>Risultati</h1>
+        <div id="risultati"></div>
+    </article>
+
+</main>
+
+<footer>
+    <small>&copy; D&D Campaign Manager</small>
+</footer>
+
+<script>
+// --- 1. Legge il termine dalla URL ---
+const params = new URLSearchParams(window.location.search);
+const termine = (params.get("q") || "").trim().toLowerCase();
+
+document.getElementById("termine").textContent = termine || "—";
+
+if (!termine) {
+    document.getElementById("risultati").innerHTML = "<p>Nessun termine inserito.</p>";
+    throw new Error("Termine di ricerca mancante");
+}
+
+// --- 2. Sezioni da cercare ---
+const sezioni = ["persone", "creature", "luoghi", "lore", "gruppi", "geografia", "divinita"];
+
+const risultatiContainer = document.getElementById("risultati");
+
+// --- 3. Cerca in tutti i JSON ---
+Promise.all(
+    sezioni.map(sezione =>
+        fetch(`../data/${sezione}.json`)
+            .then(r => r.json())
+            .then(data => ({ sezione, data }))
+    )
+).then(allData => {
+    let trovati = 0;
+
+    allData.forEach(({ sezione, data }) => {
+        data.forEach(item => {
+            const nome = item.nome.toLowerCase();
+            const contenuto = item.contenuto.toLowerCase();
+
+            if (nome.includes(termine) || contenuto.includes(termine)) {
+                trovati++;
+
+                const p = document.createElement("p");
+                p.innerHTML = `
+                    <a href="pagina.html?file=${sezione}&slug=${item.slug}">
+                        ${item.nome}
+                    </a>
+                    <span class="muted"> (${sezione.charAt(0).toUpperCase() + sezione.slice(1)})</span>
+                `;
+                risultatiContainer.appendChild(p);
+            }
+        });
+    });
+
+    if (trovati === 0) {
+        risultatiContainer.innerHTML = "<p>Nessun risultato trovato.</p>";
+    }
+});
+</script>
+
+</body>
+</html>

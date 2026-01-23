@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title id="page-title">Wiki</title>
+    <link rel="stylesheet" href="../styles/wiki_style.css" />
+    <link rel="website icon" type="png" href="../images/Chronicles_logo.png"/>
+</head>
+
+<body>
+
+<header>
+    <div class="title">Chronicles Of Glom</div>
+    <div class="subtitle" id="subtitle">Wiki</div>
+
+</header>
+
+<main class="wiki-layout">
+
+    <aside class="sidebar">
+        <h3>Indice</h3>
+        <ul>
+            <li><a href="../wiki.html">Pagina Principale</a></li>
+            <li><a id="back-category" href="#">Torna alla categoria</a></li>
+        </ul>
+    </aside>
+
+    <article class="content">
+
+        <div id="infobox"></div>
+
+        <h1 id="nome"></h1>
+
+        <div class="lore-text" id="contenuto"></div>
+
+    </article>
+
+</main>
+
+<footer>
+    <small>&copy; D&D Campaign Manager</small>
+</footer>
+
+<script>
+// --- 1. Legge parametri dalla URL ---
+const params = new URLSearchParams(window.location.search);
+const file = params.get("file");
+const slug = params.get("slug");
+
+// Link "torna alla categoria"
+document.getElementById("back-category").href = `${file}.html`;
+
+// --- 2. Carica il JSON corretto ---
+fetch(`../data/${file}.json`)
+    .then(r => r.json())
+    .then(data => {
+        const pagina = data.find(item => item.slug === slug);
+
+        if (!pagina) {
+            document.querySelector(".content").innerHTML = "<p>Pagina non trovata.</p>";
+            return;
+        }
+
+        // --- 3. Popola la pagina ---
+        document.getElementById("page-title").textContent = `${pagina.nome} - Wiki`;
+        document.getElementById("subtitle").textContent = `Wiki – ${pagina.nome}`;
+        document.getElementById("nome").textContent = pagina.nome;
+        document.getElementById("contenuto").innerHTML = pagina.contenuto;
+
+        // Immagine (se presente)
+        if (pagina.immagine && pagina.immagine.trim() !== "") {
+            document.getElementById("infobox").innerHTML = `
+                <div class="infobox">
+                    <img src="../images/${pagina.immagine}" alt="">
+                </div>
+            `;
+        }
+    })
+    .catch(err => {
+        console.error("Errore nel caricamento:", err);
+        document.querySelector(".content").innerHTML = "<p>Errore nel caricamento della pagina.</p>";
+    });
+</script>
+
+</body>
+</html>

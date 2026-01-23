@@ -1,0 +1,539 @@
+/* -------------------------------------------------------------
+   WIKI STYLE – Chronicles of Glom (Fantasy Unified Theme)
+-------------------------------------------------------------- */
+
+/* -------------------------------------------------------------
+   PALETTE
+-------------------------------------------------------------- */
+:root {
+  --bg: #0d1220;
+  --panel: #151b2a;
+  --accent: #6c8cff;
+  --text: #e7eaf3;
+  --muted: #b7c0d9;
+  --border: #2a3246;
+  --panel-light: #1c2438;
+  --prova_colore: #ff6cb0;
+}
+
+/* -------------------------------------------------------------
+   GLOBAL
+-------------------------------------------------------------- */
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background: linear-gradient(180deg, #0d1220, #10172b 40%, #0d1220);
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  text-shadow: 0 0 8px var(--accent);
+}
+
+/* -------------------------------------------------------------
+   HEADER + TOPBAR
+------------------------------------------------------------- */
+header {
+    padding: 0 0 16px 0;
+    border-bottom: 1px solid var(--border);
+    background: rgba(21,27,42,0.7);
+    backdrop-filter: blur(6px);
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+
+@font-face {
+    font-family: "Lucida Handwriting";
+    src: url("./font/LucidaHandwritingStd-Light.woff") format("woff"),
+         url("./font/LucidaHandwritingStd-Light.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Barra superiore unica */
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 20px;
+    position: relative;
+}
+
+/* Titolo centrato */
+.topbar, .title {
+    flex: 1;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Lucida Handwriting", cursive;
+    margin: 0;
+    z-index: 1;
+}
+
+/* Logout a destra */
+.topbar .logout-box {
+    position: relative;
+    z-index: 3;
+}
+
+/* Hamburger a sinistra */
+.topbar .hamburger {
+    display: none;
+    width: 35px;
+    height: 28px;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.topbar .hamburger span {
+    display: block;
+    height: 4px;
+    background: var(--text);
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+/* Animazione hamburger → X */
+.hamburger.active span:nth-child(1) {
+    transform: translateY(12px) rotate(45deg);
+}
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+    transform: translateY(-12px) rotate(-45deg);
+}
+
+/* Sottotitolo */
+.subtitle {
+    color: var(--muted);
+    margin-top: 6px;
+    font-size: 25px;
+}
+
+/* -------------------------------------------------------------
+   NAV MOBILE
+------------------------------------------------------------- */
+@media (max-width: 900px) {
+
+    nav {
+        display: none !important;
+        flex-direction: column;
+        gap: 14px;
+
+        position: fixed;
+        top: 90px;
+        right: 20px;
+
+        width: 260px;
+        padding: 20px;
+
+        background: rgba(21,27,42,0.95);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        box-shadow: 0 0 12px rgba(108,140,255,0.4);
+
+        z-index: 9999;
+        animation: fadeDown 0.25s ease;
+    }
+
+    nav.show {
+        display: flex !important;
+    }
+
+    .topbar .hamburger {
+        display: flex;
+    }
+
+    /* Improve mobile nav spacing */
+    nav a {
+        padding: 12px 16px;
+        font-size: 16px;
+    }
+}
+
+/* Extra small mobile screens */
+@media (max-width: 480px) {
+    nav {
+        width: 240px;
+        right: 10px;
+        top: 80px;
+    }
+
+    .topbar {
+        padding: 0 15px;
+        height: 60px;
+    }
+}
+
+@keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* -------------------------------------------------------------
+   NAVBAR DESKTOP
+------------------------------------------------------------- */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: var(--muted);
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: 0.2s;
+}
+
+nav a.active,
+nav a:hover {
+    color: var(--text);
+    border-color: var(--border);
+    background: #610286ff;
+}
+
+/* -------------------------------------------------------------
+   LOGOUT BUTTON
+------------------------------------------------------------- */
+.btn.logout {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: width 0.3s ease, border-radius 0.3s ease, transform 0.15s ease;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    background-color: rgb(255, 65, 65);
+}
+
+.logout-sign {
+    width: 50px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.logout-sign svg {
+    width: 18px;
+}
+
+.logout-sign svg path {
+    fill: var(--text);
+}
+
+.logout-text {
+    position: absolute;
+    left: 55px;
+    opacity: 0;
+    white-space: nowrap;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: var(--text);
+    transition: opacity 0.3s ease;
+}
+
+.btn.logout:hover {
+    width: 130px;
+    border-radius: 40px;
+}
+
+.btn.logout:hover .logout-text {
+    opacity: 1;
+}
+
+.btn.logout:hover .logout-sign {
+    transform: translateX(3px);
+}
+
+/* -------------------------------------------------------------
+   LAYOUT A DUE COLONNE (Wiki style)
+-------------------------------------------------------------- */
+.wiki-layout {
+  display: flex;
+  max-width: 1300px;
+  margin: 40px auto;
+  padding: 0 20px;
+  gap: 24px;
+}
+
+/* -------------------------------------------------------------
+   SIDEBAR (Fantasy Card)
+-------------------------------------------------------------- */
+.sidebar {
+  width: 260px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px;
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+  box-shadow: 0 0 18px rgba(108,140,255,0.35);
+  backdrop-filter: blur(4px);
+}
+
+/* Responsive sidebar */
+@media (max-width: 900px) {
+  .wiki-layout {
+    flex-direction: column;
+    padding: 0 16px;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: static;
+    margin-bottom: 20px;
+  }
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+  color: var(--accent);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+  color: var(--muted);
+}
+
+/* -------------------------------------------------------------
+   MAIN CONTENT (Fantasy Scroll)
+-------------------------------------------------------------- */
+.content {
+  flex: 1;
+  background: var(--panel-light);
+  padding: 28px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 18px rgba(108,140,255,0.35);
+  backdrop-filter: blur(4px);
+}
+
+.content h1 {
+  margin-top: 0;
+  font-size: 2.2rem;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--accent);
+  color: var(--accent);
+}
+
+.content h2 {
+  margin-top: 30px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+}
+
+/* -------------------------------------------------------------
+   INFOBOX (Fantasy Creature Box)
+-------------------------------------------------------------- */
+.infobox {
+  float: right;
+  width: 300px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  padding: 14px;
+  margin: 0 0 20px 20px;
+  border-radius: 14px;
+  box-shadow: 0 0 18px rgba(108,140,255,0.35);
+  font-size: 0.95rem;
+}
+
+.infobox img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.infobox table {
+  width: 100%;
+  border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.infobox td {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--muted);
+}
+
+/* Responsive infobox */
+@media (max-width: 768px) {
+  .infobox {
+    float: none;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .infobox table {
+    font-size: 14px;
+  }
+}
+
+/* -------------------------------------------------------------
+   SEARCH BAR
+-------------------------------------------------------------- */
+
+.wiki-search {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.wiki-search input {
+    background: var(--panel-light);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    transition: 0.2s;
+    width: 180px;
+}
+
+.wiki-search input::placeholder {
+    color: var(--muted);
+}
+
+.wiki-search input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 10px rgba(108,140,255,0.5);
+}
+
+/* -------------------------------------------------------------
+   FOOTER
+-------------------------------------------------------------- */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background: rgba(21,27,42,0.7);
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+}
+
+/* -------------------------------------------------------------
+   RESPONSIVE TYPOGRAPHY
+-------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .topbar .title {
+        font-size: 48px;
+    }
+
+    .subtitle {
+        font-size: 22px;
+    }
+
+    /* General responsive typography */
+    body {
+        font-size: 15px;
+    }
+
+    .content h1 {
+        font-size: 1.8rem;
+    }
+
+    .content h2 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .topbar .title {
+        font-size: 38px;
+        font-family: "Lucida Handwriting", cursive;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    /* General responsive typography */
+    body {
+        font-size: 14px;
+    }
+
+    .content h1 {
+        font-size: 1.6rem;
+    }
+
+    .content h2 {
+        font-size: 1.3rem;
+    }
+
+    .wiki-search input {
+        width: 150px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .topbar .title {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    /* General responsive typography */
+    body {
+        font-size: 13px;
+    }
+
+    .content h1 {
+        font-size: 1.4rem;
+    }
+
+    .content h2 {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 12px 16px;
+    }
+
+    .wiki-search {
+        margin-left: 10px;
+    }
+
+    .wiki-search input {
+        width: 120px;
+        font-size: 12px;
+    }
+}
