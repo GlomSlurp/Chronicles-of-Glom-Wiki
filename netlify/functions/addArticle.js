@@ -21,7 +21,7 @@ exports.handler = async (event) => {
       };
     }
 
-    const filePath = path.resolve(__dirname, `../../../data/${file}.json`);
+    const filePath = path.resolve(process.cwd(), `data/${file}.json`);
 
     let data = [];
     if (fs.existsSync(filePath)) {
