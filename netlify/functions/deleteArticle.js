@@ -1,29 +1,22 @@
-const fs = require("fs");
-const path = require("path");
+import { get, set } from "@netlify/blobs";
 
-exports.handler = async (event) => {
+export async function handler(event) {
     if (event.httpMethod !== "POST") {
-        return {
-            statusCode: 405,
-            body: "Metodo non consentito"
-        };
+        return { statusCode: 405, body: "Metodo non consentito" };
     }
 
     try {
-        const body = JSON.parse(event.body);
-        const { file, slug } = body;
+        const { file, slug } = JSON.parse(event.body);
 
-        if (!file || !slug) {
+        const blob = await get(`${file}.json`);
+        if (!blob) {
             return {
-                statusCode: 400,
-                body: JSON.stringify({ error: "Dati mancanti" })
+                statusCode: 404,
+                body: JSON.stringify({ error: "File JSON non trovato" })
             };
         }
 
-        const filePath = path.resolve(process.cwd(), `data/${file}.json`);
-
-        let data = JSON.parse(fs.readFileSync(filePath, "utf8"));
-
+        let data = JSON.parse(await blob.text());
         const newData = data.filter(a => a.slug !== slug);
 
         if (newData.length === data.length) {
@@ -33,7 +26,7 @@ exports.handler = async (event) => {
             };
         }
 
-        fs.writeFileSync(filePath, JSON.stringify(newData, null, 2));
+        await set(`${file}.json`, JSON.stringify(newData, null, 2));
 
         return {
             statusCode: 200,
@@ -46,4 +39,4 @@ exports.handler = async (event) => {
             body: JSON.stringify({ error: err.message })
         };
     }
-};
+}

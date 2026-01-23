@@ -1,56 +1,37 @@
-// netlify/functions/addArticle.js
-const fs = require("fs");
-const path = require("path");
+import { get, set } from "@netlify/blobs";
 
-exports.handler = async (event) => {
-  if (event.httpMethod !== "POST") {
-    return {
-      statusCode: 405,
-      body: "Metodo non consentito"
-    };
-  }
-
-  try {
-    const body = JSON.parse(event.body);
-    const { file, nome, slug, immagine, contenuto } = body;
-
-    if (!file || !nome || !slug || !contenuto) {
-      return {
-        statusCode: 400,
-        body: JSON.stringify({ error: "Dati mancanti" })
-      };
+export async function handler(event) {
+    if (event.httpMethod !== "POST") {
+        return { statusCode: 405, body: "Metodo non consentito" };
     }
 
-    const filePath = path.resolve(process.cwd(), `data/${file}.json`);
+    try {
+        const { file, nome, slug, immagine, contenuto } = JSON.parse(event.body);
 
-    let data = [];
-    if (fs.existsSync(filePath)) {
-      data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+        const blob = await get(`${file}.json`);
+        let data = blob ? JSON.parse(await blob.text()) : [];
+
+        if (data.some(a => a.slug === slug)) {
+            return {
+                statusCode: 400,
+                body: JSON.stringify({ error: "Slug già esistente" })
+            };
+        }
+
+        const nuovoArticolo = { nome, slug, immagine, contenuto };
+        data.push(nuovoArticolo);
+
+        await set(`${file}.json`, JSON.stringify(data, null, 2));
+
+        return {
+            statusCode: 200,
+            body: JSON.stringify({ success: true })
+        };
+
+    } catch (err) {
+        return {
+            statusCode: 500,
+            body: JSON.stringify({ error: err.message })
+        };
     }
-
-    // 🔥 Controllo slug univoco
-    const exists = data.some(item => item.slug === slug);
-    if (exists) {
-      return {
-        statusCode: 409,
-        body: JSON.stringify({ error: "Slug già esistente" })
-      };
-    }
-
-    // 🔥 Aggiunta articolo
-    data.push({ nome, slug, immagine, contenuto });
-
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-
-    return {
-      statusCode: 200,
-      body: JSON.stringify({ success: true })
-    };
-
-  } catch (err) {
-    return {
-      statusCode: 500,
-      body: JSON.stringify({ error: err.message })
-    };
-  }
-};
+}

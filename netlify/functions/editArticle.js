@@ -1,30 +1,24 @@
-const fs = require("fs");
-const path = require("path");
+import { get, set } from "@netlify/blobs";
 
-exports.handler = async (event) => {
+export async function handler(event) {
     if (event.httpMethod !== "POST") {
-        return {
-            statusCode: 405,
-            body: "Metodo non consentito"
-        };
+        return { statusCode: 405, body: "Metodo non consentito" };
     }
 
     try {
-        const body = JSON.parse(event.body);
-        const { file, oldSlug, nome, slug, immagine, contenuto } = body;
+        const { file, slug, nome, immagine, contenuto } = JSON.parse(event.body);
 
-        if (!file || !oldSlug || !nome || !slug || !contenuto) {
+        const blob = await get(`${file}.json`);
+        if (!blob) {
             return {
-                statusCode: 400,
-                body: JSON.stringify({ error: "Dati mancanti" })
+                statusCode: 404,
+                body: JSON.stringify({ error: "File JSON non trovato" })
             };
         }
 
-        const filePath = path.resolve(process.cwd(), `data/${file}.json`);
+        let data = JSON.parse(await blob.text());
+        const index = data.findIndex(a => a.slug === slug);
 
-        let data = JSON.parse(fs.readFileSync(filePath, "utf8"));
-
-        const index = data.findIndex(a => a.slug === oldSlug);
         if (index === -1) {
             return {
                 statusCode: 404,
@@ -32,21 +26,9 @@ exports.handler = async (event) => {
             };
         }
 
-        // 🔥 Controllo slug univoco (solo se cambiato)
-        if (slug !== oldSlug) {
-            const exists = data.some(a => a.slug === slug);
-            if (exists) {
-                return {
-                    statusCode: 409,
-                    body: JSON.stringify({ error: "Slug già esistente" })
-                };
-            }
-        }
-
-        // 🔥 Aggiorna articolo
         data[index] = { nome, slug, immagine, contenuto };
 
-        fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+        await set(`${file}.json`, JSON.stringify(data, null, 2));
 
         return {
             statusCode: 200,
@@ -59,4 +41,4 @@ exports.handler = async (event) => {
             body: JSON.stringify({ error: err.message })
         };
     }
-};
+}
