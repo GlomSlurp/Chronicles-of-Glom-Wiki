@@ -20,7 +20,7 @@ exports.handler = async (event) => {
             };
         }
 
-        const filePath = path.join(__dirname, `/data/${file}.json`);
+        const filePath = path.resolve(__dirname, `../../../data/${file}.json`);
 
         let data = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
