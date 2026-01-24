@@ -38,7 +38,9 @@ async function carica() {
     const file = document.getElementById("fileSelect").value;
     const res = await fetch("../data/" + file);
     articoli = await res.json();
+    indiceModifica = null;
     mostraLista();
+    document.getElementById("output").value = JSON.stringify(articoli, null, 2);
 }
 
 function mostraLista() {
@@ -63,13 +65,9 @@ function mostraLista() {
             <button onclick="elimina(${i})" style="margin-left:10px; color:red;">Elimina</button>
         `;
 
-        lista.appendChild(div); // ⭐ fondamentale
+        lista.appendChild(div);
     });
-
-    // Aggiorna il JSON finale ogni volta che la lista cambia
-    document.getElementById("output").value = JSON.stringify(articoli, null, 2);
 }
-
 
 function modifica(i) {
     indiceModifica = i;
@@ -79,7 +77,6 @@ function modifica(i) {
     document.getElementById("slug").value = a.slug || a.id || "";
     document.getElementById("immagine").value = a.immagine || a.img || "";
     tinymce.get("contenuto").setContent(a.contenuto || a.testo || a.descrizione || "");
-
 }
 
 function salvaArticolo() {
@@ -90,35 +87,39 @@ function salvaArticolo() {
         contenuto: document.getElementById("contenuto").value
     };
 
+    // MODIFICA
     if (indiceModifica !== null) {
         articoli[indiceModifica] = nuovo;
-    } else {
+    }
+    // AGGIUNTA
+    else {
         articoli.push(nuovo);
     }
 
-    indiceModifica = null;
-    mostraLista();
+    // Aggiorna JSON finale
     document.getElementById("output").value = JSON.stringify(articoli, null, 2);
+
+    // Reset
+    indiceModifica = null;
+
+    // Aggiorna lista
+    mostraLista();
 }
 
 function elimina(i) {
     if (!confirm("Sei sicuro di voler eliminare questo articolo?")) return;
 
-    articoli.splice(i, 1); // rimuove l’articolo dall’array
+    articoli.splice(i, 1);
 
     indiceModifica = null;
     mostraLista();
-
-    // aggiorna il JSON finale
     document.getElementById("output").value = JSON.stringify(articoli, null, 2);
 
-    // pulisce i campi se stavi modificando qualcosa
     document.getElementById("nome").value = "";
     document.getElementById("slug").value = "";
     document.getElementById("immagine").value = "";
     tinymce.get("contenuto").setContent("");
 }
-
 </script>
 
 </head>
@@ -140,7 +141,7 @@ function elimina(i) {
 <button onclick="carica()">Carica file</button>
 
 <h2>Articoli nel file</h2>
-<div id="lista" style="color: var(--panel);"></div>
+<div id="lista"></div>
 
 <h2>Modifica / Aggiungi Articolo</h2>
 
@@ -162,16 +163,12 @@ function elimina(i) {
 <textarea id="output"></textarea>
 
 <footer>
-
     <a href="../index.html">Back</a> |
-
     <small><span id="currentYear"></span> &copy; D&D Campaign Manager</small>
 
     <script>
-    // Imposta l'anno corrente nel footer
-    document.getElementById('currentYear').textContent = new Date().getFullYear();
-</script>
-
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
 </footer>
 
 </body>
