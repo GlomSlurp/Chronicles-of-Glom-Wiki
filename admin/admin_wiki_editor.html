@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Editor Wiki Statico</title>
+<link rel="stylesheet" href="../styles/wiki_style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/tinymce@6.8.3/tinymce.min.js"></script>
+
+<style>
+    body { max-width: 900px; margin: 40px auto; font-family: Arial; }
+    select, input, button { width: 100%; padding: 10px; margin: 10px 0; }
+    textarea { width: 100%; height: 200px; }
+    .list-item { padding: 10px; background: #f0f0f0; margin: 5px 0; }
+</style>
+
+<script>
+let articoli = [];
+let indiceModifica = null;
+
+function initTiny() {
+    tinymce.init({
+        skin: 'oxide-dark',
+        content_css: 'dark',
+        selector: '#contenuto',
+        height: 400,
+        plugins: 'formatpainter link image lists table code accordion',
+        toolbar: 'undo redo | copy paste formatpainter | bold italic underline | bullist numlist | link image | table | code | accordion',
+        setup: function (editor) {
+            editor.on('change keyup', function () {
+                editor.save();
+            });
+        }
+    });
+}
+
+async function carica() {
+    const file = document.getElementById("fileSelect").value;
+    const res = await fetch("../data/" + file);
+    articoli = await res.json();
+    mostraLista();
+}
+
+function mostraLista() {
+    const lista = document.getElementById("lista");
+    lista.innerHTML = "";
+
+    articoli.forEach((a, i) => {
+        const div = document.createElement("div");
+        div.className = "list-item";
+        div.innerHTML = `
+    <strong>${a.nome}</strong> (${a.slug})
+    <button onclick="modifica(${i})">Modifica</button>
+    <button onclick="elimina(${i})" style="margin-left:10px; color:red;">Elimina</button>`;
+        lista.appendChild(div);
+    });
+}
+
+function modifica(i) {
+    indiceModifica = i;
+    const a = articoli[i];
+
+    document.getElementById("nome").value = a.nome;
+    document.getElementById("slug").value = a.slug;
+    document.getElementById("immagine").value = a.immagine;
+    tinymce.get("contenuto").setContent(a.contenuto);
+}
+
+function salvaArticolo() {
+    const nuovo = {
+        nome: document.getElementById("nome").value,
+        slug: document.getElementById("slug").value,
+        immagine: document.getElementById("immagine").value,
+        contenuto: document.getElementById("contenuto").value
+    };
+
+    if (indiceModifica !== null) {
+        articoli[indiceModifica] = nuovo;
+    } else {
+        articoli.push(nuovo);
+    }
+
+    indiceModifica = null;
+    mostraLista();
+    document.getElementById("output").value = JSON.stringify(articoli, null, 2);
+}
+
+function elimina(i) {
+    if (!confirm("Sei sicuro di voler eliminare questo articolo?")) return;
+
+    articoli.splice(i, 1); // rimuove l’articolo dall’array
+
+    indiceModifica = null;
+    mostraLista();
+
+    // aggiorna il JSON finale
+    document.getElementById("output").value = JSON.stringify(articoli, null, 2);
+
+    // pulisce i campi se stavi modificando qualcosa
+    document.getElementById("nome").value = "";
+    document.getElementById("slug").value = "";
+    document.getElementById("immagine").value = "";
+    tinymce.get("contenuto").setContent("");
+}
+
+</script>
+
+</head>
+<body onload="initTiny()">
+
+<h1>Editor Statico della Wiki</h1>
+
+<label>Seleziona il file JSON</label>
+<select id="fileSelect">
+    <option value="persone.json">persone.json</option>
+    <option value="creature.json">creature.json</option>
+    <option value="luoghi.json">luoghi.json</option>
+    <option value="lore.json">lore.json</option>
+    <option value="gruppi.json">gruppi.json</option>
+    <option value="geografia.json">geografia.json</option>
+    <option value="divinita.json">divinita.json</option>
+</select>
+
+<button onclick="carica()">Carica file</button>
+
+<h2>Articoli nel file</h2>
+<div id="lista"></div>
+
+<h2>Modifica / Aggiungi Articolo</h2>
+
+<label>Nome</label>
+<input id="nome">
+
+<label>Slug</label>
+<input id="slug">
+
+<label>Immagine</label>
+<input id="immagine">
+
+<label>Contenuto</label>
+<textarea id="contenuto"></textarea>
+
+<button onclick="salvaArticolo()">Aggiorna JSON</button>
+
+<h2>JSON finale da incollare nel file</h2>
+<textarea id="output"></textarea>
+
+</body>
+</html>
