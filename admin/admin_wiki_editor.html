@@ -48,22 +48,28 @@ function mostraLista() {
     articoli.forEach((a, i) => {
         const div = document.createElement("div");
         div.className = "list-item";
-        const label =
-    a.nome ||
-    a.titolo ||
-    a.title ||
-    a.slug ||
-    a.id ||
-    "(senza nome)";
 
-div.innerHTML = `
-    <strong>${label}</strong>
-    <button onclick="modifica(${i})">Modifica</button>
-    <button onclick="elimina(${i})" style="margin-left:10px; color:red;">Elimina</button>
-`;
-        lista.appendChild(div);
-});
+        const label =
+            a.nome ||
+            a.titolo ||
+            a.title ||
+            a.slug ||
+            a.id ||
+            "(senza nome)";
+
+        div.innerHTML = `
+            <strong>${label}</strong>
+            <button onclick="modifica(${i})">Modifica</button>
+            <button onclick="elimina(${i})" style="margin-left:10px; color:red;">Elimina</button>
+        `;
+
+        lista.appendChild(div); // ⭐ fondamentale
+    });
+
+    // Aggiorna il JSON finale ogni volta che la lista cambia
+    document.getElementById("output").value = JSON.stringify(articoli, null, 2);
 }
+
 
 function modifica(i) {
     indiceModifica = i;
