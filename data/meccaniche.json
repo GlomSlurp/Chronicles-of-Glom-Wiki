@@ -4,5 +4,29 @@
         "slug": "concentrazione",
         "immagine": "",
         "contenuto": "<p>La concentrazione è come si usa una spell ad area in questa campagna, non si può usare più di una spell che richiede concentrazione per volta, altrimenti l'effetto della spell precedente termina.<\/p>"
+    },
+    {
+        "nome": "Riposo Lungo",
+        "slug": "riposo-lungo",
+        "immagine": "",
+        "contenuto": "<p>Durante un riposo lungo, un personaggio recupera tutti i propri punti ferita ed incantesimi.<\/p>"
+    },
+    {
+        "nome": "Riposo Breve",
+        "slug": "riposo-breve",
+        "immagine": "",
+        "contenuto": "<p>Durante un riposo breve, un personaggio può spendere fino a metà dei propri dadi vita per recuperare punti ferita. Inoltre recupera metà dei propri incantesimi.<\/p>"
+    },
+    {
+        "nome": "Morte e Morire",
+        "slug": "morte-e-morire",
+        "immagine": "",
+        "contenuto": "<p>Quando un personaggio scende a 0 punti ferita, deve effettuare dei tiri salvezza per stabilire se si rialza o meno. Un personaggio muore automaticamente se subisce danni pari o superiori ai suoi punti ferita massimi in un singolo attacco o subisce effetti che determinano morte istantanea.<\/p>\n<p>Una volta a 0 punti ferita, il personaggio deve effettuare un tiro salvezza su Costituzione per stabilire se si rialza o meno con 1 punto ferita.<\/p>"
+    },
+    {
+        "nome":"Nature in Chronicles of Glom",
+        "slug":"nature-in-chronicles-of-glom",
+        "immagine":"nature_chronicles.png",
+        "contenuto":"<p>In Chronicles of Glom esistono tre nature principali: il Glom, lo Slurp e la Fame. Queste nature influenzano le abilità, le capacità e le difficoltà che le creature possono ottenere.<\/p>"
     }
 ]
