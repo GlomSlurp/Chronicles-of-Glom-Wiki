@@ -1,5 +1,3 @@
-import { get, set } from "@netlify/blobs";
-
 export async function handler(event) {
     if (event.httpMethod !== "POST") {
         return { statusCode: 405, body: "Metodo non consentito" };
