@@ -109,6 +109,24 @@ function salvaArticolo() {
     mostraLista();
 }
 
+function scaricaJSON() {
+    const file = document.getElementById("fileSelect").value;
+
+    const blob = new Blob(
+        [JSON.stringify(articoli, null, 2)],
+        { type: "application/json" }
+    );
+
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = file; // scarica con lo stesso nome del file originale
+    a.click();
+
+    URL.revokeObjectURL(url);
+}
+
 function elimina(i) {
     if (!confirm("Sei sicuro di voler eliminare questo articolo?")) return;
 
@@ -161,6 +179,7 @@ function elimina(i) {
 <textarea id="contenuto"></textarea>
 
 <button onclick="salvaArticolo()">Aggiorna JSON</button>
+<button onclick="scaricaJSON()">Scarica JSON aggiornato</button>
 
 <h2>JSON finale da incollare nel file</h2>
 <textarea id="output"></textarea>

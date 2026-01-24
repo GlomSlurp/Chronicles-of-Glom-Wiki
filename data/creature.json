@@ -1,14 +1,14 @@
 [
-    {
-        "nome": "Purifier",
-        "slug": "purifier",
-        "immagine": "Purifier.png",
-        "contenuto": "<p>Un cavaliere dalla grande forza agli ordini di <a href=\"pagina.php?file=creature&amp;slug=glomhella\">Glom'Hella<\/a>.<\/p>"
-    },
-    {
-        "nome": "Glom'Hella",
-        "slug": "glomhella",
-        "immagine": "Glom_Hella.png",
-        "contenuto": "<p>.<\/p>"
-    }
+  {
+    "nome": "Purifier",
+    "slug": "purifier",
+    "immagine": "Purifier.png",
+    "contenuto": "<p>Un cavaliere dalla grande forza agli ordini di <a href=\"../pagine/pagina.html?file=creature&amp;slug=glomhella\">Glom'Hella</a>.</p>"
+  },
+  {
+    "nome": "Glom'Hella",
+    "slug": "glomhella",
+    "immagine": "Glom_Hella.png",
+    "contenuto": "<p>.</p>"
+  }
 ]
