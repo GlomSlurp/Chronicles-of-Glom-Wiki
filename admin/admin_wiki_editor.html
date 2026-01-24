@@ -80,6 +80,9 @@ function modifica(i) {
 }
 
 function salvaArticolo() {
+    // 🔥 sincronizza TinyMCE con la textarea
+    tinymce.triggerSave();
+
     const nuovo = {
         nome: document.getElementById("nome").value,
         slug: document.getElementById("slug").value,
