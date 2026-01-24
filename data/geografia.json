@@ -1,14 +1,14 @@
 [
-    {
-        "nome": "Isola di Tromboli",
-        "slug": "isola-di-tromboli",
-        "immagine": "",
-        "contenuto": "<p>L'isola di Tromboli si trova ad est di Glomran, all'interno dei territori del clan Karuso.<\/p>\r\n<p>La capitale &egrave; la citt&agrave; di Baris<\/p>"
-    },
-    {
-        "nome": "Glomran",
-        "slug": "glomran",
-        "immagine": "Glomran.png",
-        "contenuto": "<p>L'isola di Glomran &egrave; il luogo in cui avvengono le vicende di Chronicles of Glom.<\/p>"
-    }
+  {
+    "nome": "Isola di Tromboli",
+    "slug": "isola-di-tromboli",
+    "immagine": "",
+    "contenuto": "<p>L'isola di Tromboli si trova ad est di <a href=\"../pagine/pagina.html?file=geografia&amp;slug=glomran\">Glomran</a>, all'interno dei territori del clan <a href=\"../pagine/pagina.html?file=gruppi&amp;slug=karuso\">Karuso</a>.</p>\n<p>La capitale &egrave; la citt&agrave; di Baris</p>"
+  },
+  {
+    "nome": "Glomran",
+    "slug": "glomran",
+    "immagine": "Glomran.png",
+    "contenuto": "<p>L'isola di Glomran &egrave; il luogo in cui avvengono le vicende di Chronicles of Glom.</p>"
+  }
 ]
