@@ -3,7 +3,7 @@
     "nome": "Il Fucking",
     "slug": "il-fucking",
     "immagine": "ilFucking.png",
-    "contenuto": "<p>Il Fucking era un fabbro e un ministro dell'Impero.</p>"
+    "contenuto": "<p>Il Fucking era un fabbro.</p>"
   },
   {
     "nome": "Randomauro",
@@ -15,7 +15,7 @@
     "nome": "Kalu",
     "slug": "kalu",
     "immagine": "Kalu.jpg",
-    "contenuto": "<p>Kalu &egrave; una smoking monk che si &egrave; ritrovata sulle rive di una spiaggia sull'isola di Tromboli.</p>"
+    "contenuto": "<p>Kalu &egrave; una smoking monk che si &egrave; ritrovata sulle rive di una spiaggia sull'<a href=\"../pagine/pagina.html?file=geografia&amp;slug=isola-di-tromboli\">isola di Tromboli</a>.</p>"
   },
   {
     "nome": "Tasarau",
