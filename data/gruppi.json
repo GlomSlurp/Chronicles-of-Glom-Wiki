@@ -1,14 +1,44 @@
 [
   {
-    "nome": "Karuso",
-    "slug": "karuso",
+    "nome": "Glommatori",
+    "slug": "glommatori",
     "immagine": "",
-    "contenuto": "<p>Famiglia che controlla le due isole ad ovest di <a href=\"pagina.php?file=geografia&amp;slug=glomran\">Glomran</a>.</p>"
+    "contenuto": "<p>I Glommatori sono individui che possiedono il Glom nelle loro vene, donando loro forza, resistenza e capacit&agrave; fuori dal comune.</p>"
+  },
+  {
+    "nome":"Slurpatori",
+    "slug":"slurpatori",
+    "immagine":"",
+    "contenuto":"<p>Per ora gli unici Slurpatori conosciuti sono Gokudo, Glomphar e Randomauro</p>"
   },
   {
     "nome": "Affamati",
     "slug": "affamati",
     "immagine": "",
     "contenuto": "<p>Glommatori affetti dalla Fame.</p>"
+  },
+    {
+    "nome": "Karuso",
+    "slug": "karuso",
+    "immagine": "",
+    "contenuto": "<p>Famiglia che controlla le due isole ad ovest di <a href=\"pagina.php?file=geografia&amp;slug=glomran\">Glomran</a>.</p>"
+  },
+  {
+    "nome":"Zelop",
+    "slug":"zelop",
+    "immagine":"",
+    "contenuto":"<p>Famiglia che sembra opporsi ai Karuso</p>"
+  },
+  {
+    "nome":"Carnaria",
+    "slug":"carnaria",
+    "immagine":"",
+    "contenuto":"<p>.</p>"
+  },
+  {
+    "nome":"Zar'Glom",
+    "slug":"zarglom",
+    "immagine":"",
+    "contenuto":"<p>.</p>"
   }
 ]

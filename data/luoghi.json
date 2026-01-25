@@ -1,8 +1,38 @@
 [
     {
+        "nome": "Baris",
+        "slug": "baris",
+        "immagine": "",
+        "contenuto": "<p>La città principale dell'Isola di Tromboli<\/p>"
+    },
+    {
         "nome": "La Prigione di Baris",
         "slug": "la-prigione-di-baris",
         "immagine": "",
         "contenuto": "<p>Una prigione vicino la citt&agrave; di Baris.<\/p>"
+    },
+    {
+        "nome": "Mola di Baris",
+        "slug": "mola-di-baris",
+        "immagine": "",
+        "contenuto": "<p>Una città con un grande negozio situata a Baris.<\/p>"
+    },
+    {
+        "nome":"Bari Blues",
+        "slug":"bari-blues",
+        "immagine":"",
+        "contenuto":"<p>Alla periferia di Baris si trova questo quartiere chiamato Bari Blues in cui si è stabilito il Fresh con il suo Chiringuitos.<\/p>"
+    },
+    {
+        "nome":"Chiringuitos",
+        "slug":"chiringuitos",
+        "immagine":"",
+        "contenuto":"<p>Il Chiringuitos del Fresh è un locale situato nel quartiere Bari Blues a Baris, gestito dal Fresh.<\/p>"
+    },
+    {
+        "nome":"Tomba di Glom'Hella",
+        "slug":"tomba-di-glomhella",
+        "immagine":"",
+        "contenuto":"<p>La tomba di Glom'Hella si trova in una zona remota a nord dell'isola di Tromboli.<\/p>"
     }
 ]

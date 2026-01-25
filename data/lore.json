@@ -1,14 +1,26 @@
 [
   {
-    "nome": "The Baris Incident",
-    "slug": "the-baris-incident",
-    "immagine": "baris_distrutta.png",
-    "contenuto": "<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"color: rgb(185, 106, 217); font-size: 18pt;\"><strong>L'inizio del disastr</strong><strong>o</strong></span></summary>\n<p>A seguito della fuga di un <a href=\"../pagine/pagina.html?file=creature&amp;slug=purifier\">Purifier </a>dalla <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=la-prigione-di-baris\">Prigione di Baris</a>, la Fame si espanse in tutta la citt&agrave; mietendo vittime ovunque. Questo port&ograve; i comandandi dell'esercito dei Karuso, Nas e Vas, a rendere Baris una zona off limits.</p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"color: rgb(185, 106, 217); font-size: 18pt;\"><strong>L'arrivo a Baris</strong></span></summary>\n<p>Una volta arrivati in citt&agrave; grazie al lasciapassare di Nas,&nbsp;<a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, Sarcophaga Carnaria, Glomphar, Sir Romedio &amp; Guglielmo, <a href=\"../pagine/pagina.html?file=persone&amp;slug=randomauro\">Randomauro</a>, Gokudo, Trallalero Trallal&agrave; e Liril&igrave; Laril&agrave;, trovarono la citt&agrave; totalmente distrutta con tutte le abitazioni in fiamme e ridotte a ruderi. In tutto questo, per&ograve;, trovarono un gruppo di persone capeggiate da <a href=\"../pagine/pagina.html?file=persone&amp;slug=mr-niceman\">Mr. Niceman</a> che resisteva alle continue ondate di Affamati.</p>\n</details>"
+    "nome": "Glom",
+    "slug": "glom",
+    "immagine": "",
+    "contenuto": "<p>Il Glom &egrave; una sostanza color oro che scorre nelle vene dei Glommatori, donando loro forza, resistenza e capacit&agrave; fuori dal comune.</p>"
+  },
+  {
+    "nome":"Slurp",
+    "slug":"slurp",
+    "immagine":"",
+    "contenuto":"<p>Lo Slurp &egrave; una sostanza viscida di colore viola e che sembra opporsi al Glom.</p>"
   },
   {
     "nome": "La Fame",
     "slug": "la-fame",
     "immagine": "",
     "contenuto": "<p>Quando un Glommatore &egrave; privato del Glom per molto tempo, soccombe ad una furia omicida che viene trasmessa su contatto come se fosse un'epidemia.</p>"
+  },
+    {
+    "nome": "The Baris Incident",
+    "slug": "the-baris-incident",
+    "immagine": "baris_distrutta.png",
+    "contenuto": "<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"color: rgb(185, 106, 217); font-size: 18pt;\"><strong>L'inizio del disastr</strong><strong>o</strong></span></summary>\n<p>A seguito della fuga di un <a href=\"../pagine/pagina.html?file=creature&amp;slug=purifier\">Purifier </a>dalla <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=la-prigione-di-baris\">Prigione di Baris</a>, la Fame si espanse in tutta la citt&agrave; mietendo vittime ovunque. Questo port&ograve; i comandandi dell'esercito dei Karuso, Nas e Vas, a rendere Baris una zona off limits.</p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"color: rgb(185, 106, 217); font-size: 18pt;\"><strong>L'arrivo a Baris</strong></span></summary>\n<p>Una volta arrivati in citt&agrave; grazie al lasciapassare di Nas,&nbsp;<a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, Sarcophaga Carnaria, Glomphar, Sir Romedio &amp; Guglielmo, <a href=\"../pagine/pagina.html?file=persone&amp;slug=randomauro\">Randomauro</a>, Gokudo, Trallalero Trallal&agrave; e Liril&igrave; Laril&agrave;, trovarono la citt&agrave; totalmente distrutta con tutte le abitazioni in fiamme e ridotte a ruderi. In tutto questo, per&ograve;, trovarono un gruppo di persone capeggiate da <a href=\"../pagine/pagina.html?file=persone&amp;slug=mr-niceman\">Mr. Niceman</a> che resisteva alle continue ondate di Affamati.</p>\n</details>"
   }
 ]
