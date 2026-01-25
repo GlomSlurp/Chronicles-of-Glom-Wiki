@@ -1,38 +1,38 @@
 [
-    {
-        "nome": "Baris",
-        "slug": "baris",
-        "immagine": "",
-        "contenuto": "<p>La città principale dell'Isola di Tromboli<\/p>"
-    },
-    {
-        "nome": "La Prigione di Baris",
-        "slug": "la-prigione-di-baris",
-        "immagine": "",
-        "contenuto": "<p>Una prigione vicino la citt&agrave; di <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a>.<\/p>"
-    },
-    {
-        "nome": "Mola di Baris",
-        "slug": "mola-di-baris",
-        "immagine": "",
-        "contenuto": "<p>Una città con un grande negozio situata a <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a>.<\/p>"
-    },
-    {
-        "nome":"Bari Blues",
-        "slug":"bari-blues",
-        "immagine":"",
-        "contenuto":"<p>Alla periferia di <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a> si trova questo quartiere chiamato <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=bari-blues\">Bari Blues</a> in cui si è stabilito il Fresh con il suo <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=chiringuitos\">Chiringuitos</a>.<\/p>"
-    },
-    {
-        "nome":"Chiringuitos",
-        "slug":"chiringuitos",
-        "immagine":"",
-        "contenuto":"<p>Il Chiringuitos del Fresh è un locale situato nel quartiere <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=bari-blues\">Bari Blues</a> a <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a>, gestito dal Fresh.<\/p>"
-    },
-    {
-        "nome":"Tomba di Glom'Hella",
-        "slug":"tomba-di-glomhella",
-        "immagine":"",
-        "contenuto":"<p>La tomba di Glom'Hella si trova in una zona remota a nord dell'<a href=\"../pagine/pagina.html?file=geografia&amp;slug=isola-di-tromboli\">Isola di Tromboli</a>.<\/p>"
-    }
+  {
+    "nome": "Baris",
+    "slug": "baris",
+    "immagine": "baris.png",
+    "contenuto": "<p>La citt&agrave; principale dell'<a href=\"../pagine/pagina.html?file=geografia&amp;slug=isola-di-tromboli\">Isola di Tromboli</a>.</p>"
+  },
+  {
+    "nome": "La Prigione di Baris",
+    "slug": "la-prigione-di-baris",
+    "immagine": "",
+    "contenuto": "<p>Una prigione vicino la citt&agrave; di <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a>.</p>"
+  },
+  {
+    "nome": "Mola di Baris",
+    "slug": "mola-di-baris",
+    "immagine": "",
+    "contenuto": "<p>Una città con un grande negozio situata a <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a>.</p>"
+  },
+  {
+    "nome": "Bari Blues",
+    "slug": "bari-blues",
+    "immagine": "",
+    "contenuto": "<p>Alla periferia di <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a> si trova questo quartiere chiamato <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=bari-blues\">Bari Blues</a> in cui si è stabilito il Fresh con il suo <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=chiringuitos\">Chiringuitos</a>.</p>"
+  },
+  {
+    "nome": "Chiringuitos",
+    "slug": "chiringuitos",
+    "immagine": "",
+    "contenuto": "<p>Il Chiringuitos del <a href=\"../pagine/pagina.html?file=persone&amp;slug=il-fresh\">Fresh </a>&egrave; un locale situato nel quartiere <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=bari-blues\">Bari Blues</a> a <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a>.</p>"
+  },
+  {
+    "nome": "Tomba di Glom'Hella",
+    "slug": "tomba-di-glomhella",
+    "immagine": "",
+    "contenuto": "<p>La tomba di <a href=\"../pagine/pagina.html?file=creature&amp;slug=glomhella\">Glom'Hella</a> si trova in una zona remota a nord dell'<a href=\"../pagine/pagina.html?file=geografia&amp;slug=isola-di-tromboli\">Isola di Tromboli</a>.</p>"
+  }
 ]
