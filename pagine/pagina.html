@@ -85,34 +85,82 @@ fetch(`../data/${file}.json`)
         document.querySelector(".content").innerHTML = "<p>Errore nel caricamento della pagina.</p>";
     });
 
-// Anteprima immagine al passaggio del mouse per i link interni
-document.addEventListener("mouseover", function(event) {
-    if (event.target.tagName === "A" && event.target.href.includes("file=")) {
-        const urlParams = new URLSearchParams(event.target.search);
-        const linkFile = urlParams.get("file");
-        const linkSlug = urlParams.get("slug");
+// ===============================
+// PREVIEW IMMAGINE PER LINK WIKI
+// ===============================
 
+let activeLinkRect = null;
+const HIDE_DISTANCE = 25; // distanza massima dal link (px)
+const previewCache = {};
+
+// --- Mouse over su link ---
+document.addEventListener("mouseover", function (event) {
+    const link = event.target;
+
+    if (link.tagName !== "A" || !link.href || !link.href.includes("file=")) return;
+
+    const urlParams = new URLSearchParams(link.search);
+    const linkFile = urlParams.get("file");
+    const linkSlug = urlParams.get("slug");
+
+    if (!linkFile || !linkSlug) return;
+
+    // Salva la posizione del link
+    activeLinkRect = link.getBoundingClientRect();
+
+    // Funzione che mostra la preview
+    function showPreview(img) {
+        let preview = document.getElementById("image-preview");
+
+        if (!preview) {
+            preview = document.createElement("img");
+            preview.id = "image-preview";
+            preview.style.position = "absolute";
+            preview.style.display = "none";
+            document.body.appendChild(preview);
+        }
+
+        preview.src = `../images/${img}`;
+        preview.style.top = (event.pageY + 12) + "px";
+        preview.style.left = (event.pageX + 12) + "px";
+        preview.style.opacity = "1";
+        preview.style.display = "block";
+    }
+
+    // Usa cache se possibile
+    if (previewCache[linkSlug]) {
+        showPreview(previewCache[linkSlug]);
+    } else {
         fetch(`../data/${linkFile}.json`)
-            .then(response => response.json())
+            .then(r => r.json())
             .then(data => {
                 const item = data.find(i => i.slug === linkSlug);
                 if (item && item.immagine) {
-                    let preview = document.getElementById("image-preview");
-                    if (!preview) {
-                        preview = document.createElement("img");
-                        preview.id = "image-preview";
-                        preview.style.position = "absolute";
-                        preview.style.border = "1px solid #ccc";
-                        preview.style.background = "#fff";
-                        preview.style.padding = "5px";
-                        document.body.appendChild(preview);
-                    }
-                    preview.src = `../images/${item.immagine}`;
-                    preview.style.top = (event.pageY + 10) + "px";
-                    preview.style.left = (event.pageX + 10) + "px";
-                    preview.style.display = "block";
+                    previewCache[linkSlug] = item.immagine;
+                    showPreview(item.immagine);
                 }
             });
+    }
+});
+
+// --- Nasconde la preview se il mouse si allontana dal link ---
+document.addEventListener("mousemove", function (event) {
+    const preview = document.getElementById("image-preview");
+    if (!preview || preview.style.display !== "block" || !activeLinkRect) return;
+
+    const linkCenterX = activeLinkRect.left + activeLinkRect.width / 2;
+    const linkCenterY = activeLinkRect.top + activeLinkRect.height / 2;
+
+    const dx = event.clientX - linkCenterX;
+    const dy = event.clientY - linkCenterY;
+    const distance = Math.sqrt(dx * dx + dy * dy);
+
+    if (distance > HIDE_DISTANCE) {
+        preview.style.opacity = "0";
+        setTimeout(() => {
+            preview.style.display = "none";
+            activeLinkRect = null;
+        }, 150);
     }
 });
 </script>
