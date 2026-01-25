@@ -362,6 +362,60 @@ nav a:hover {
 }
 
 /* -------------------------------------------------------------
+    LINK WITH IMAGE PREVIEW
+-------------------------------------------------------------- */
+.link-with-preview {
+  position: relative;
+  cursor: pointer;
+}
+
+.link-with-preview .preview-image {
+  object-fit: contain;
+  background: #111;
+  padding: 6px;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+}
+.link-with-preview .preview-image {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  max-width: 50px;     /* 🔴 QUI controlli la dimensione */
+  max-height: 50px;
+  width: auto;
+  height: auto;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  transform: scale(0.95);
+
+  z-index: 1000;
+}
+
+.link-with-preview:hover .preview-image {
+  opacity: 1;
+  transform: scale(1);
+}
+#image-preview {
+    max-width: 280px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+
+    object-fit: contain;
+
+    border-radius: 6px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+
+    pointer-events: none;
+    z-index: 9999;
+}
+
+
+/* -------------------------------------------------------------
    INFOBOX (Fantasy Creature Box)
 -------------------------------------------------------------- */
 .infobox {

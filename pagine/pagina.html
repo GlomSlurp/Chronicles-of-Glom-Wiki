@@ -84,6 +84,37 @@ fetch(`../data/${file}.json`)
         console.error("Errore nel caricamento:", err);
         document.querySelector(".content").innerHTML = "<p>Errore nel caricamento della pagina.</p>";
     });
+
+// Anteprima immagine al passaggio del mouse per i link interni
+document.addEventListener("mouseover", function(event) {
+    if (event.target.tagName === "A" && event.target.href.includes("file=")) {
+        const urlParams = new URLSearchParams(event.target.search);
+        const linkFile = urlParams.get("file");
+        const linkSlug = urlParams.get("slug");
+
+        fetch(`../data/${linkFile}.json`)
+            .then(response => response.json())
+            .then(data => {
+                const item = data.find(i => i.slug === linkSlug);
+                if (item && item.immagine) {
+                    let preview = document.getElementById("image-preview");
+                    if (!preview) {
+                        preview = document.createElement("img");
+                        preview.id = "image-preview";
+                        preview.style.position = "absolute";
+                        preview.style.border = "1px solid #ccc";
+                        preview.style.background = "#fff";
+                        preview.style.padding = "5px";
+                        document.body.appendChild(preview);
+                    }
+                    preview.src = `../images/${item.immagine}`;
+                    preview.style.top = (event.pageY + 10) + "px";
+                    preview.style.left = (event.pageX + 10) + "px";
+                    preview.style.display = "block";
+                }
+            });
+    }
+});
 </script>
 
 </body>

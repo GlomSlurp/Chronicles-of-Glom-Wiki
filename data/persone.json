@@ -27,7 +27,7 @@
     "nome": "Sarcofaga Carnaria",
     "slug": "sarcophaga-carnaria",
     "immagine": "Sarco.png",
-    "contenuto": "<p>Sarcophaga Carnaria ha aiutato Tasarau, Kalu, Moroboshi, Hellius e Gokudo a liberarsi dalla Prigione di Baris.</p>"
+    "contenuto": "<p>Sarcophaga Carnaria ha aiutato <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, Kalu, Moroboshi, Hellius e Gokudo a liberarsi dalla Prigione di Baris.</p>"
   },
   {
     "nome": "Sir Romedio & Guglielmo",

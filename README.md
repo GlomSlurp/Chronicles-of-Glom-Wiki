@@ -1,175 +1,107 @@
-📘 Chronicles of Glom – Wiki System
-Sistema di gestione wiki per campagne D&D
-(HTML + JavaScript + JSON + Netlify Functions)
+# 🧙‍♂️ D&D Campaign Wiki
 
-🧱 Panoramica
-La wiki è un sistema completamente statico lato frontend, con contenuti dinamici gestiti tramite Netlify Functions.
-Gli articoli sono salvati in file JSON nella cartella /data, mentre le immagini risiedono nella cartella /images.
+Benvenuto nella wiki ufficiale della campagna di Dungeons & Dragons creata da Paolo.  
+Il sito è ospitato tramite **GitHub Pages** ed è completamente statico: ogni pagina è generata da file HTML, CSS, JavaScript e JSON.
 
-Il pannello Master permette di:
+🌐 **Wiki online:**  
+👉 https://glomslurp.github.io/Chronicles-of-Glom-Wiki/index.html
 
-aggiungere articoli
+---
 
-modificare articoli
+## 📚 Contenuti della Wiki
 
-eliminare articoli
+La wiki raccoglie tutte le informazioni del mondo di gioco, organizzate in categorie:
 
-Il tutto senza PHP o database.
+- **Personaggi**
+- **Creature**
+- **Luoghi**
+- **Geografia**
+- **Gruppi e Fazioni**
+- **Divinità**
+- **Lore generale**
+- **Meccaniche**
 
-📂 Struttura del progetto
-Codice
-/data
-    persone.json
-    creature.json
-    luoghi.json
-    lore.json
-    gruppi.json
-    geografia.json
-    divinita.json
+Ogni categoria è alimentata da un file JSON nella cartella `/data`, mentre le pagine HTML nella cartella `/pagine` mostrano i contenuti in modo navigabile.
 
-/images
-    (immagini statiche degli articoli)
+---
 
-/wiki_management
-    wiki_admin.html
-    wiki_add.html
-    wiki_edit.html
+## 🛠️ Editor Statico (per modificare la wiki)
 
-/netlify/functions
-    addArticle.js
-    editArticle.js
-    deleteArticle.js
+Questo repository include un editor statico che permette di modificare facilmente i file JSON della wiki.
 
-/styles
-    wiki_style.css
-🧩 Come funziona
-🔹 Frontend
-Il frontend è composto da pagine HTML statiche che:
+📍 **Percorso:**  
+`/admin/admin_wiki_editor.html`
 
-leggono i file JSON tramite fetch()
+### Funzionalità dell’editor
 
-mostrano gli articoli
+- Caricamento di un file JSON dalla cartella `/data`
+- Visualizzazione degli articoli contenuti nel file
+- Modifica di articoli esistenti
+- Aggiunta di nuovi articoli
+- Eliminazione di articoli
+- Generazione del JSON aggiornato
+- **Download del JSON aggiornato** pronto per essere sostituito nel repository
 
-usano TinyMCE per l’editing del contenuto
+L’editor funziona interamente nel browser e non richiede backend.
 
-inviano i dati alle Netlify Functions tramite fetch() POST
+### Come usarlo
 
-🔹 Backend (Netlify Functions)
-Le funzioni serverless gestiscono:
+1. Apri `admin/admin_wiki_editor.html` nel browser  
+2. Seleziona il file JSON da modificare  
+3. Clicca **Carica file**  
+4. Modifica o aggiungi articoli  
+5. Clicca **Aggiorna JSON**  
+6. Clicca **Scarica JSON aggiornato**  
+7. Sostituisci il file nella cartella `/data` del repository  
+8. Commit + push  
+9. GitHub Pages aggiornerà automaticamente il sito
 
-aggiunta articoli → addArticle.js
+---
 
-modifica articoli → editArticle.js
+## 📁 Struttura del Repository
 
-eliminazione articoli → deleteArticle.js
-
-Ogni funzione:
-
-legge il file JSON corretto
-
-modifica l’array degli articoli
-
-riscrive il file aggiornato
-
-garantisce che lo slug sia univoco
-
-📝 Formato degli articoli
-Ogni articolo è un oggetto JSON con questa struttura:
-
-json
-{
-    "nome": "Il Fucking",
-    "slug": "il-fucking",
-    "immagine": "ilFucking.png",
-    "contenuto": "<p>Testo HTML generato da TinyMCE</p>"
-}
-🖼️ Gestione delle immagini
-✔ Immagini statiche
-Le immagini degli articoli sono salvate nella cartella:
+/
+├── index.html                                # Home della wiki
+├── pagine/                   # Pagine HTML della wiki
+│   ├── persone/
+│   ├── creature/
+│   ├── luoghi/
+│   ├── geografia/
+│   ├── gruppi/
+│   ├── divinita/
+│   ├── lore/
+|   └──meccaniche/
+├── data/                     # Database statico in formato JSON
+│   ├── persone.json
+│   ├── creature.json
+│   ├── luoghi.json
+│   ├── geografia.json
+│   ├── gruppi.json
+│   ├── divinita.json
+│   ├── lore.json
+|   └── meccaniche.json
+├── styles/                   # Fogli di stile
+├── images/                   # Immagini
+└── admin/                    # Editor statico
+    └── admin_wiki_editor.html
 
 Codice
-/images
-Queste immagini:
 
-vengono caricate manualmente nella repo
+---
 
-non vengono modificate dagli utenti
+## 🔗 Collegamenti Interni
 
-non vengono cancellate dai deploy Netlify
+Per collegare una pagina della wiki a un’altra, usa percorsi relativi tramite tinyMCE copiando il link pulito
 
-❗ Importante
-Se un articolo fa riferimento a Kalu.png, l’immagine deve essere presente nella repo.
+🌐 Hosting su GitHub Pages
+Il sito è pubblicato tramite GitHub Pages:
 
-🛠️ Aggiungere un articolo
-Apri wiki_add.html
+Nessun backend
 
-Compila:
+Nessun limite di traffico
 
-sezione
+Aggiornamento automatico dopo ogni commit
 
-nome
-
-slug
-
-immagine (es. Kalu.png)
-
-contenuto (TinyMCE)
-
-Premi Salva
-
-La funzione addArticle.js aggiorna il JSON corretto
-
-🛠️ Modificare un articolo
-Apri wiki_admin.html
-
-Seleziona l’articolo
-
-Modifica i campi
-
-Premi Salva modifiche
-
-La funzione editArticle.js aggiorna il JSON
-
-🛠️ Eliminare un articolo
-Apri wiki_admin.html
-
-Clicca “Elimina”
-
-Conferma
-
-La funzione deleteArticle.js rimuove l’articolo dal JSON
-
-🧪 Sviluppo in locale
-Puoi aprire i file HTML direttamente oppure usare un server locale (es. Live Server).
-
-Attenzione
-Le Netlify Functions non funzionano in locale senza Netlify CLI.
-
-Se vuoi testarle localmente:
-
-Codice
-npm install -g netlify-cli
-netlify dev
-Questo simula l’ambiente Netlify e permette alle funzioni di funzionare.
-
-🚀 Deploy su Netlify
-Collega la repo a Netlify
-
-Netlify pubblica automaticamente il sito statico
-
-Le funzioni in /netlify/functions vengono deployate come API serverless
-
-I JSON modificati dalle funzioni vengono salvati nel deploy corrente
-
-🔒 Autenticazione
-Il sistema attuale non richiede autenticazione.
-Chiunque conosca l’URL del pannello può modificare la wiki.
-
-📌 Note finali
-Gli slug devono essere univoci
-
-Le immagini devono essere presenti nella repo
-
-I JSON vengono modificati direttamente dalle funzioni
-
-Il sistema è pensato per essere semplice, veloce e completamente statico lato frontend
+📜 Licenza
+Questo progetto è destinato all’uso personale e non commerciale.
+Tutti i contenuti narrativi appartengono al creatore della campagna.
