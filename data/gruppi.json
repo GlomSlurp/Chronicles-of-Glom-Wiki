@@ -40,5 +40,11 @@
     "slug": "zarglom",
     "immagine": "",
     "contenuto": "<p>.</p>"
+  },
+  {
+    "nome":"Glommiti",
+    "slug":"glommiti",
+    "immagine":"",
+    "contenuto":"<p>I Glommiti sono un popolo molto antico che oggi vive sull'<a href=\"../pagine/pagina.html?file=geografia&amp;slug=isola-di-glorm\">isola di Glorm</a>.</p>"
   }
 ]

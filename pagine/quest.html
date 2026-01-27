@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Geografia - Wiki</title>
+    <title>Quest - Wiki</title>
     <link rel="stylesheet" href="../styles/wiki_style.css" />
     <link rel="website icon" type="png" href="../images/Chronicles_logo.png"/>
 </head>
@@ -11,7 +11,7 @@
 
 <header>
     <div class="title">Chronicles Of Glom</div>
-    <div class="subtitle">Wiki – Geografia</div>
+    <div class="subtitle">Wiki – Quest</div>
 </header>
 
 <main class="wiki-layout">
@@ -20,22 +20,22 @@
         <h3>Sezioni</h3>
         <ul>
             <li><a href="../index.html">Pagina Principale</a></li>
-            <li><a href="quest.html">Quest</a></li>
+            <li><a href="quest.html"><strong>Quest</strong></a></li>
             <li><a href="persone.html">Persone</a></li>
             <li><a href="creature.html">Creature</a></li>
             <li><a href="luoghi.html">Luoghi Importanti</a></li>
             <li><a href="lore.html">Lore</a></li>
             <li><a href="gruppi.html">Gruppi</a></li>
-            <li><a href="geografia.html"><strong>Geografia</strong></a></li>
+            <li><a href="geografia.html">Geografia</a></li>
             <li><a href="divinita.html">Divinità</a></li>
             <li><a href="meccaniche.html">Meccaniche</a></li>
         </ul>
     </aside>
 
     <article class="content">
-        <h1>Geografia</h1>
+        <h1>Quest</h1>
 
-        <div id="lista-geografia"></div>
+        <div id="lista-quest"></div>
 
     </article>
 
@@ -50,19 +50,17 @@
 </footer>
 
 <script>
-// Carica il JSON della geografia
-fetch("../data/geografia.json")
+// Carica il JSON e genera la lista
+fetch("../data/quest.json")
     .then(response => response.json())
     .then(data => {
-        const container = document.getElementById("lista-geografia");
+        const container = document.getElementById("lista-quest");
 
         data.forEach(item => {
             const p = document.createElement("p");
-            p.innerHTML = `
-                <a href="pagina.html?file=geografia&slug=${item.slug}">
-                    ${item.nome}
-                </a>
-            `;
+            p.innerHTML = `<a href="pagina.html?file=quest&slug=${item.slug}">
+                ${item.nome}
+            </a>`;
             container.appendChild(p);
         });
     })

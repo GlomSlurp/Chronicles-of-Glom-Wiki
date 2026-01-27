@@ -34,5 +34,11 @@
     "slug": "tomba-di-glomhella",
     "immagine": "",
     "contenuto": "<p>La tomba di <a href=\"../pagine/pagina.html?file=creature&amp;slug=glomhella\">Glom'Hella</a> si trova in una zona remota a nord dell'<a href=\"../pagine/pagina.html?file=geografia&amp;slug=isola-di-tromboli\">Isola di Tromboli</a>.</p>"
+  },
+  {
+    "nome": "Torre di Baris",
+    "slug": "torre-di-baris",
+    "immagine": "",
+    "contenuto": "<p>La Torre di <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a> è una struttura situata vicino alla città di <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a>. Qui era situata la macchina che, a quanto dice <a href=\"../pagine/pagina.html?file=persone&amp;slug=nas\">Nas</a>, è capace di rimuovere <a href=\"../pagine/pagina.html?file=lore&amp;slug=la-fame\">la Fame</a> da <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a>.</p>"
   }
 ]

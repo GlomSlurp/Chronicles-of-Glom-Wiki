@@ -1,0 +1,38 @@
+[
+    {
+        "nome":"Vox",
+        "slug":"vox",
+        "immagine":"",
+        "contenuto":"Cosa è Vox?"
+    },
+    {
+        "nome":"Alex Zelop",
+        "slug":"alex-zelop",
+        "immagine":"",
+        "contenuto":"Per chi lavorava <a href=\"pagina.html?file=persone&amp;slug=alex-zelop\" data-image=\"No_ordinary_man.png\">Alex Zelop</a>?"
+    },
+    {
+        "nome":"Il Frammento di Glom",
+        "slug":"il-frammento-di-glom",
+        "immagine":"",
+        "contenuto":"Perchè <a href=\"pagina.html?file=persone&amp;slug=alex-zelop\">Alex Zelop</a> e <a href=\"pagina.html?file=persone&amp;slug=l-albanese\" data-image=\"\">l'Albanese</a> volevano il frammento di <a href=\"pagina.html?file=lore&amp;slug=glom\" data-image=\"\">Glom</a>?"
+    },
+    {
+        "nome":"Il Ruolo di Glom'Hella",
+        "slug":"il-ruolo-di-glomhella",
+        "immagine":"",
+        "contenuto":"Cosa centra <a href=\"pagina.html?file=creature&amp;slug=glomhella\">Glom'Hella</a> con ciò che è successo a <a href=\"pagina.html?file=luoghi&amp;slug=baris\">Baris</a> e alla <a href=\"pagina.html?file=luoghi&amp;slug=torre-di-baris\">Torre di Baris</a>?"
+    },
+    {
+        "nome":"Il Diario di Moroboshi",
+        "slug":"il-diario-di-moroboshi",
+        "immagine":"",
+        "contenuto":"Il diario di <a href=\"pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> avrá delle risposte finalmente?"
+    },
+    {
+        "nome":"Tu sai chi",
+        "slug":"tu-sai-chi",
+        "immagine":"",
+        "contenuto":"Cosa è successo a tu sai chi?"
+    }
+]
