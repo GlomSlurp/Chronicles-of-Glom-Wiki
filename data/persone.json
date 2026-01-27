@@ -117,7 +117,7 @@
     "nome": "Azbaken",
     "slug": "azbaken",
     "immagine": "Azbaken.png",
-    "contenuto": "<p>Azbaken &egrave; un apprendista dell'<a href=\"../pagine/pagina.html?file=persone&amp;slug=l-albanese\">Albanese</a> che ha aiutato <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> e gli altri a combattere contro i <a href=\"../pagine/pagina.html?file=creature&amp;slug=cozzali\">cozzali</a>.</p>"
+    "contenuto": "<p>Azbaken &egrave; un apprendista dell'<a href=\"../pagine/pagina.html?file=persone&amp;slug=l-albanese\">Albanese</a> che ha aiutato <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> e gli altri a combattere contro i <a href=\"../pagine/pagina.html?file=gruppi&amp;slug=cozzali\">cozzali</a>.</p>"
   },
   {
     "nome": "Nas",
@@ -140,7 +140,7 @@
   {
     "nome":"Divino Lucas Karuso",
     "slug":"divino-lucas-karuso",
-    "immagine":"Divino_Lucas_Karuso.png",
+    "immagine":"Divino_Karuso.png",
     "contenuto":"<p>Lucas Karuso è il figlio di Gennarus Karuso, capo dei <a href=\"../pagine/pagina.html?file=gruppi&amp;slug=karuso\">Karuso</a>.</p>\n<p>Ha affrontato il party composto da <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> e gli altri a <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a>, dopo lo scontro ha aiutato il party a raggiungere la <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=tomba-di-glomhella\">Tomba di Glom'Hella</a>.</p>"
   },
   {
@@ -153,7 +153,7 @@
     "nome": "Pg Luca",
     "slug": "pg-luca",
     "immagine": "",
-    "contenuto": "<p>Pg Luca &egrave; un apprendista dell'<a href=\"../pagine/pagina.html?file=persone&amp;slug=l-albanese\">Albanese</a> che ha aiutato <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> e gli altri a combattere contro i <a href=\"../pagine/pagina.html?file=creature&amp;slug=cozzali\">cozzali</a>.</p>"
+    "contenuto": "<p>Pg Luca &egrave; un apprendista dell'<a href=\"../pagine/pagina.html?file=persone&amp;slug=l-albanese\">Albanese</a> che ha aiutato <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> e gli altri a combattere contro i <a href=\"../pagine/pagina.html?file=gruppi&amp;slug=cozzali\">cozzali</a>.</p>"
   },
   {
     "nome": "Morbrush",
