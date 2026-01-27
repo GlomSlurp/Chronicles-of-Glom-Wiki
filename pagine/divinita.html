@@ -51,7 +51,7 @@
 
 <script>
 // Carica il JSON delle divinità
-fetch("../data/divinità.json")
+fetch("../data/divinita.json")
     .then(response => response.json())
     .then(data => {
         const container = document.getElementById("lista-divinita");
@@ -59,7 +59,7 @@ fetch("../data/divinità.json")
         data.forEach(item => {
             const p = document.createElement("p");
             p.innerHTML = `
-                <a href="pagina.html?file=divinità&slug=${item.slug}">
+                <a href="pagina.html?file=divinita&slug=${item.slug}">
                     ${item.nome}
                 </a>
             `;

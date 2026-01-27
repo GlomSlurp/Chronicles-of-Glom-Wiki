@@ -21,7 +21,7 @@
       "nome":"Ducato Karuso",
       "slug":"ducato-karuso",
       "immagine":"",
-      "contenuto":"<p>Il Ducato Karuso si trova a est nell'isola di <a href=\"../pagine/pagina.html?file=geografia&amp;slug=glomran\">Glomran</a> e comprende anche l'isola di <a href=\"../pagine/pagina.html?file=geografia&amp;slug=isola-di-tromboli\">Tromboli</a>.</p>"
+      "contenuto":"<p>Il Ducato Karuso si trova a est nell'isola di <a href=\"../pagine/pagina.html?file=geografia&amp;slug=glomran\">Glomran</a> e comprende anche l'isola di <a href=\"../pagine/pagina.html?file=geografia&amp;slug=isola-di-tromboli\">Tromboli</a>.</p>\\n<p>Il ducato &egrave; governato dal clan <a href=\"../pagine/pagina.html?file=gruppi&amp;slug=karuso\">Karuso</a> e <a href=\"../pagine/pagina.html?file=persone&amp;slug=gennarus-karuso\">Gennarus Karuso</a> ne è il capo.</p>"
     },
     {
       "nome":"Isola di Glorm",

@@ -21,7 +21,7 @@
     "nome": "Bari Blues",
     "slug": "bari-blues",
     "immagine": "",
-    "contenuto": "<p>Alla periferia di <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a> si trova questo quartiere chiamato <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=bari-blues\">Bari Blues</a> in cui si è stabilito il Fresh con il suo <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=chiringuitos\">Chiringuitos</a>.</p>"
+    "contenuto": "<p>Alla periferia di <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a> si trova questo quartiere chiamato <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=bari-blues\">Bari Blues</a> in cui si è stabilito il <a href=\"../pagine/pagina.html?file=persone&amp;slug=il-fresh\">Fresh</a> con il suo <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=chiringuitos\">Chiringuitos</a>.</p>"
   },
   {
     "nome": "Chiringuitos",

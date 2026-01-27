@@ -9,12 +9,12 @@
     "nome": "Slurpatori",
     "slug": "slurpatori",
     "immagine": "",
-    "contenuto": "<p>Per ora gli unici Slurpatori conosciuti sono <a href=\"../pagine/pagina.html?file=persone&amp;slug=gokudo\">Gokudo</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=glomphar\">Glomphar </a>e <a href=\"../pagine/pagina.html?file=persone&amp;slug=randomauro\">Randomauro</a>.</p>"
+    "contenuto": "<p>Gli Slurpatori sembrano utilizzare lo <a href=\"../pagine/pagina.html?file=lore&amp;slug=slurp\">Slurp</a> come fonte di energia.</p>\n<p>Gli unici Slurpatori conosciuti sono <a href=\"../pagine/pagina.html?file=persone&amp;slug=gokudo\">Gokudo</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=glomphar\">Glomphar </a>e <a href=\"../pagine/pagina.html?file=persone&amp;slug=randomauro\">Randomauro</a>.</p>"
   },
   {
     "nome": "Affamati",
     "slug": "affamati",
-    "immagine": "",
+    "immagine": "affamati.png",
     "contenuto": "<p><a href=\"../pagine/pagina.html?file=gruppi&amp;slug=glommatori\">Glommatori </a>affetti dalla <a href=\"../pagine/pagina.html?file=lore&amp;slug=la-fame\">Fame</a>.</p>"
   },
   {
@@ -27,7 +27,7 @@
     "nome": "Zelop",
     "slug": "zelop",
     "immagine": "",
-    "contenuto": "<p>Famiglia che sembra opporsi ai Karuso</p>"
+    "contenuto": "<p>Famiglia che sembra opporsi ai <a href=\"../pagine/pagina.html?file=gruppi&amp;slug=karuso\">Karuso</a></p>"
   },
   {
     "nome": "Carnaria",
@@ -46,5 +46,11 @@
     "slug":"glommiti",
     "immagine":"",
     "contenuto":"<p>I Glommiti sono un popolo molto antico che oggi vive sull'<a href=\"../pagine/pagina.html?file=geografia&amp;slug=isola-di-glorm\">isola di Glorm</a>.</p>"
+  },
+  {
+    "nome":"Cozzali",
+    "slug":"cozzali",
+    "immagine":"cozzali.png",
+    "contenuto":"<p>I Cozzali sono una razza di creature ostili che vivono sull'<a href=\"../pagine/pagina.html?file=geografia&amp;slug=isola-di-tromboli\">isola di Tromboli</a> e che fanno parte della mafia di <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a>.</p>"
   }
 ]
