@@ -34,5 +34,11 @@
         "slug":"tu-sai-chi",
         "immagine":"",
         "contenuto":"Cosa è successo a tu sai chi?"
+    },
+    {
+        "nome":"The Italian Brainrot",
+        "slug":"the-italian-brainrot",
+        "immagine":"",
+        "contenuto":"<p>Cosa volevano <a href=\"pagina.html?file=creature&amp;slug=trallalero-trallala\">Trallalero Trallalà</a>, <a href=\"pagina.html?file=creature&amp;slug=lirili-larila\">Lirilì Larilà</a> e <a href=\"pagina.html?file=creature&amp;slug=brr-brr-patapim\">Brr Brr Patapim</a>?</p>"
     }
 ]
