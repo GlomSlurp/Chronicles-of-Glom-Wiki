@@ -46,5 +46,11 @@
     "slug":"drake",
     "immagine":"drake.png",
     "contenuto":"<p>Il Drake è la creatura che accompagna <a href=\"../pagine/pagina.html?file=persone&amp;slug=adrian\">Adrian</a> nei suoi viaggi come cacciatore di taglie.</p>"
+  },
+  {
+    "nome":"Altaris",
+    "slug":"altaris",
+    "immagine":"altaris.png",
+    "contenuto":"<p>Si è manifestato come un essere misterioso e potente dopo che <a href=\"../pagine/pagina.html?file=persone&amp;slug=alex-zelop\">Alex Zelop</a> e l'<a href=\"../pagine/pagina.html?file=persone&amp;slug=albanese\">Albanese</a> hanno utilizzato un <a href=\"../pagine/pagina.html?file=lore&amp;slug=frammento-del-glom\">Frammento del Glom</a>, che sembra essere un'entità del passato legata alla storia di <a href=\"../pagine/pagina.html?file=lore&amp;slug=glom\">Glom</a>.</p>"
   }
 ]

@@ -52,5 +52,11 @@
     "slug":"cozzali",
     "immagine":"cozzali.png",
     "contenuto":"<p>I Cozzali sono una razza di creature ostili che vivono sull'<a href=\"../pagine/pagina.html?file=geografia&amp;slug=isola-di-tromboli\">isola di Tromboli</a> e che fanno parte della mafia di <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a>.</p>"
+  },
+  {
+    "nome":"Vox",
+    "slug":"vox",
+    "immagine":"",
+    "contenuto":"<p>Vox è un'organizzazione misteriosa che sembra operare in segreto.</p>"
   }
 ]

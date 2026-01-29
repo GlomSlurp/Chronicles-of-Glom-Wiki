@@ -130,7 +130,7 @@ header {
 /* -------------------------------------------------------------
    NAV MOBILE
 ------------------------------------------------------------- */
-@media (max-width: 900px) {
+@media (max-width: 575.98px) and (max-width: 480px) {
 
     nav {
         display: none !important;
@@ -169,7 +169,7 @@ header {
 }
 
 /* Extra small mobile screens */
-@media (max-width: 480px) {
+@media (max-width:575.98px) and (max-width: 480px) {
     nav {
         width: 240px;
         right: 10px;
@@ -290,7 +290,7 @@ nav a:hover {
    SIDEBAR (Fantasy Card)
 -------------------------------------------------------------- */
 .sidebar {
-  width: 260px;
+  width: 200px;
   background: var(--panel);
   border: 1px solid var(--border);
   border-radius: 14px;
@@ -303,7 +303,7 @@ nav a:hover {
 }
 
 /* Responsive sidebar */
-@media (max-width: 900px) {
+@media (max-width: 992px) and (max-width: 575.98px) {
   .wiki-layout {
     flex-direction: column;
     padding: 0 16px;
@@ -419,7 +419,7 @@ nav a:hover {
 }
 
 /* Responsive infobox */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (max-width: 575.98px) {
   .infobox {
     float: none;
     width: 100%;

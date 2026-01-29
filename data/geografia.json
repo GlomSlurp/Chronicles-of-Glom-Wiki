@@ -28,5 +28,11 @@
       "slug":"isola-di-glorm",
       "immagine":"",
       "contenuto":"<p>L'isola di Glorm si trova a sud-est di <a href=\"../pagine/pagina.html?file=geografia&amp;slug=glomran\">Glomran</a> ed &egrave; abitata dai popoli dei <a href=\"../pagine/pagina.html?file=gruppi&amp;slug=glommiti\">Glommiti</a>.</p>"
+    },
+    {
+      "nome":"Autumnia",
+      "slug":"autumnia",
+      "immagine":"",
+      "contenuto":"<p>Autumnia è una regione situata a sud dell'<a href=\"../pagine/pagina.html?file=geografia&amp;slug=impero\">Impero</a>, conosciuta per i suoi paesaggi autunnali e il clima caldo.</p>"
     }
 ]

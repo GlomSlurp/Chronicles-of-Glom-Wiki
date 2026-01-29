@@ -135,7 +135,19 @@
     "nome": "Philip Turrets",
     "slug": "philip-turrets",
     "immagine": "Philip_Turret.png",
-    "contenuto": "<p>Philip Turrets &egrave; un mercenario che lavora per conto di Max.</p>"
+    "contenuto": "<p>Philip Turrets &egrave; un mercenario che lavora per conto di <a href=\"../pagine/pagina.html?file=persone&amp;slug=max\">Max</a>.</p>"
+  },
+  {
+    "nome": "Max",
+    "slug": "max",
+    "immagine": "",
+    "contenuto": "<p>.</p>"
+  },
+  {
+    "nome":"Peter Pack",
+    "slug":"peter-pack",
+    "immagine":"Peter_Pack.png",
+    "contenuto":"<p>Peter Pack è un mercenario che lavora per conto di <a href=\"../pagine/pagina.html?file=persone&amp;slug=max\">Max</a>.</p>"
   },
   {
     "nome": "Divino Lucas Karuso",

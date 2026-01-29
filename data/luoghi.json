@@ -40,5 +40,11 @@
     "slug": "torre-di-baris",
     "immagine": "",
     "contenuto": "<p>La Torre di <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a> è una struttura situata vicino alla città di <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a>. Qui era situata la macchina che, a quanto dice <a href=\"../pagine/pagina.html?file=persone&amp;slug=nas\">Nas</a>, è capace di rimuovere <a href=\"../pagine/pagina.html?file=lore&amp;slug=la-fame\">la Fame</a> da <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a>.</p>"
+  },
+  {
+    "nome":"Portus Novia",
+    "slug": "portus-novia",
+    "immagine": "Portus_Novia.jpg",
+    "contenuto": "<p>Portus Novia è una città situata a sud dell'<a href=\"../pagine/pagina.html?file=geografia&amp;slug=impero\">Impero</a>, nella regione di <a href=\"../pagine/pagina.html?file=geografia&amp;slug=autumnia\">Autumnia</a>.</p>"
   }
 ]
