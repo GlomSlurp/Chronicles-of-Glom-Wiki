@@ -52,11 +52,5 @@
     "slug": "altaris",
     "immagine": "altaris.gif",
     "contenuto": "<p>Si è manifestato come un essere misterioso e potente dopo che <a href=\"../pagine/pagina.html?file=persone&amp;slug=alex-zelop\">Alex Zelop</a> e l'<a href=\"../pagine/pagina.html?file=persone&amp;slug=albanese\">Albanese</a> hanno utilizzato un <a href=\"../pagine/pagina.html?file=lore&amp;slug=frammento-del-glom\">Frammento del Glom</a>, che sembra essere un'entità del passato legata alla storia di <a href=\"../pagine/pagina.html?file=lore&amp;slug=glom\">Glom</a>.</p>"
-  },
-  {
-    "nome": "Purifier",
-    "slug": "purifier",
-    "immagine": "Purifier.png",
-    "contenuto": "<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"color: rgb(185, 106, 217); font-size: 18pt;\"><strong>Il Purifier</strong></span></summary>\n<p>Un cavaliere dalla grande forza agli ordini di <a href=\"../../pagine/pagina.html?file=creature&amp;slug=glomhella\">Glom'Hella</a>.</p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"color: rgb(185, 106, 217); font-size: 18pt;\"><strong>Il Purifier Affamato</strong></span></summary>\n<p>Una volta entrato in contatto con la <a href=\"../pagine/pagina.html?file=lore&amp;slug=la-fame\">Fame</a>, il Purifier entra in uno stato di frenesia e perde totalmente il controllo di s&eacute;.</p>\n<p><img src=\"..\\images\\Frenzie-Purifier.png\" alt=\"\" width=\"234\" height=\"241\"></p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"color: rgb(185, 106, 217); font-size: 18pt;\"><strong>La Torre di Baris</strong></span></summary>\n<p>Davanti alla <a href=\"../../pagine/pagina.html?file=luoghi&amp;slug=torre-di-baris\">Torre di Bari</a> si staglia una figura gigantesca: un Purifier che ha assorbito una quantit&agrave; indefinita di <a href=\"../../pagine/pagina.html?file=gruppi&amp;slug=affamati\">Affamati</a>.</p>\n<p><img src=\"..\\images\\giant-purifier.png\" alt=\"\" width=\"257\" height=\"270\"></p>\n</details>"
   }
 ]
