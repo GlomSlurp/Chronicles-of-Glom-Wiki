@@ -2,13 +2,13 @@
   {
     "nome": "Glom",
     "slug": "glom",
-    "immagine": "",
+    "immagine": "glom.png",
     "contenuto": "<p>Il Glom &egrave; una sostanza color oro che scorre nelle vene dei <a href=\"../pagine/pagina.html?file=gruppi&amp;slug=glommatori\">Glommatori</a>, donando loro forza, resistenza e capacit&agrave; fuori dal comune.</p>"
   },
   {
     "nome": "Slurp",
     "slug": "slurp",
-    "immagine": "",
+    "immagine": "slurp.png",
     "contenuto": "<p>Lo Slurp &egrave; una sostanza viscida di colore viola e che sembra opporsi al <a href=\"../pagine/pagina.html?file=lore&amp;slug=glom\">Glom</a>.</p>"
   },
   {
@@ -26,7 +26,7 @@
   {
     "nome": "Frammento del Glom",
     "slug": "frammento-del-glom",
-    "immagine": "",
+    "immagine": "frammento_del_glom.png",
     "contenuto": "<p>il Frammento del Glom sembra un cristallo di <a href=\"../pagine/pagina.html?file=lore&amp;slug=glom\">Glom</a> che sembra avere poteri speciali.</p>"
   }
 ]
