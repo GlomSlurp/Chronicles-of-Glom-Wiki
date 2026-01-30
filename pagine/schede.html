@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Meccaniche - Wiki</title>
+    <title>Schede Personaggi - Wiki</title>
     <link rel="stylesheet" href="../styles/wiki_style.css" />
     <link rel="website icon" type="png" href="../images/Chronicles_logo.png"/>
 </head>
@@ -11,7 +11,7 @@
 
 <header>
     <div class="title">Chronicles Of Glom</div>
-    <div class="subtitle">Wiki – Meccaniche</div>
+    <div class="subtitle">Wiki – Schede Personaggi</div>
 </header>
 
 <main class="wiki-layout">
@@ -28,15 +28,15 @@
             <li><a href="gruppi.html">Gruppi</a></li>
             <li><a href="geografia.html">Geografia</a></li>
             <li><a href="divinita.html">Divinità</a></li>
-            <li><a href="meccaniche.html"><strong>Meccaniche</strong></a></li>
-            <li><a href="schede.html">Schede Personaggi</a></li>
+            <li><a href="meccaniche.html">Meccaniche</a></li>
+            <li><a href="schede.html"><strong>Schede Personaggi</strong></a></li>
         </ul>
     </aside>
 
     <article class="content">
-        <h1>Meccaniche</h1>
+        <h1>Schede Personaggi</h1>
 
-        <div id="lista-meccaniche"></div>
+        <div id="lista-schede"></div>
 
     </article>
 
@@ -45,22 +45,21 @@
 <footer>
     <small><span id="currentYear"></span> &copy; D&D Campaign Manager</small>
     <script>
-    // Imposta l'anno corrente nel footer
-    document.getElementById('currentYear').textContent = new Date().getFullYear();
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
     </script>
 </footer>
 
 <script>
-// Carica il JSON delle meccaniche
-fetch("../data/meccaniche.json")
+// Carica il JSON e genera la lista
+fetch("../data/schede.json")
     .then(response => response.json())
     .then(data => {
-        const container = document.getElementById("lista-meccaniche");
+        const container = document.getElementById("lista-schede");
 
         data.forEach(item => {
             const p = document.createElement("p");
-            p.innerHTML = `
-                <a href="pagina.html?file=meccaniche&slug=${item.slug}">
+p.innerHTML = `
+                <a href="pagina.html?file=schede&slug=${item.slug}">
                     ${item.nome}
                 </a>
             `;

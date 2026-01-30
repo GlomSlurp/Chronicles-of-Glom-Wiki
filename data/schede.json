@@ -1,0 +1,390 @@
+[
+    {
+        "nome":"Kalu",
+        "slug":"kalu",
+        "classe":"Monaco - Way of the Smoking Lung",
+        "livello":6,
+        "razza":"Umano",
+        "background":"&lt;REDACTED&gt;",
+        "immagine":"Kalu.jpg",
+        "forza":10,
+        "destrezza":24,
+        "costituzione":16,
+        "intelligenza":10,
+        "saggezza":20,
+        "carisma":8,
+        "punti_ferita":47,
+        "velocita":"45 ft",
+        "ki": "6",
+        "tiri_salvezza":[
+            "Destrezza +6",
+            "Saggezza +4"
+        ],
+        "abilità":[
+            "Acrobazia +14",
+            "Furtività +8",
+            "Intuizione +0",
+            "Percezione +0",
+            "Rapidità di Mano +7"
+        ],
+        "equipaggiamento":[
+            "Pacchetto di Sigarette",
+            "Bastone da Combattimento",
+            "Bende dell'Aria",
+            "Bende del Fulmine",
+            "Bende del Fuoco",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=bracers-of-the-flow\">Bracers of the Flow</a>"
+        ],
+        "abilità_speciali":[
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=cig-master\">Cig Master</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=spallata\">Spallata</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=illusione-minore\">Illusione Minore</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=way-of-the-smoking-lung-catch\">Way of the smoking lung: Catch</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=quickened-healing\">Quickened Healing</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=lingering-smoke\">Lingering Smoke</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=deflect\">Deflect (Reaction)</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=skyfall\">Skyfall (Reaction)</a>"
+        ],
+        "azioni":[
+            "Attacco con Bastone da Combattimento",
+            "I Pungi nelle Mani",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=i-pugni-nelle-mani-elettrici\">I Pungi nelle Mani (elettrici)</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=i-pugni-nelle-mani-infuocati\">I Pungi nelle Mani (infuocati)</a>"
+        ]
+    },
+    {
+        "nome": "Tasarau",
+        "slug": "tasarau",
+        "classe": "Druido - Circle of the Primordial Forest",
+        "livello": 6,
+        "razza": "Glommita",
+        "background": "Saggio",
+        "immagine": "Tasarau.png",
+        "forza": 12,
+        "destrezza": 16,
+        "costituzione": 12,
+        "intelligenza": 16,
+        "saggezza": 22,
+        "carisma": 10,
+        "punti_ferita": 44,
+        "velocita": "30 ft",
+        "slot_incantesimi": "8",
+        "tiri_salvezza": [
+            "Destrezza +2",
+            "Costituzione +1",
+            "Intelligenza +2",
+            "Saggezza +3"
+        ],
+        "abilità": [
+            "Intuizione +6",
+            "Natura +6",
+            "Percezione +6"
+        ],
+        "trucchetti": [
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=light\">Light</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=resistence\">Resistence (Reaction)</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=gust\">Gust</a>"
+        ],
+        "incantesimi_conosciuti": [
+            "Aura Glommitica",
+            "Benedizione della Natura",
+            "Cura Ferite",
+            "Entangle",
+            "Sfera Glommitica",
+            "Crescita Vigorosa",
+            "Lesser Restoration",
+            "Enhance Ability",
+            "Call Lightning",
+            "Glomming Ray",
+            "Liana Gay (Azione Bonus)",
+            "Radici del Santuario (Azione Bonus)",
+            "Corazza Protettiva (Reaction)",
+            "Occhio della Foresta (Reaction)",
+            "Assorbi Elemento (Reaction)"
+            
+        ],
+        "tratti_speciali": [
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=scurovisione\">Scurovisione</a>"
+        ],
+        "equipaggiamento": [
+            "Witch Glaive",
+            "Rellana's Medallion",
+            "Amuleto Ammazzafiamme"
+        ],
+        "abilità_speciali": [
+            "Mimetismo Glommitico",
+            "Mazzone",
+            "Poison Gas",
+            "Vile Blast",
+            "Kamehameha Glommitica",
+            "Liana Super Gay"
+        ],
+        "azioni": [
+            "Attacco con Witch Glaive",
+            "Attacco con Mazzone",
+            "Lancio Incantesimi"
+        ]
+    },
+    {
+        "nome":"Glomphar",
+        "slug":"glomphar",
+        "classe":"Chierico - Twilight Domain",
+        "livello":6,
+        "razza":"Umano?",
+        "background":"Faraone",
+        "immagine":"glomphar.png",
+        "forza":10,
+        "destrezza":14,
+        "costituzione":12,
+        "intelligenza":10,
+        "saggezza":20,
+        "carisma":20,
+        "punti_ferita":34,
+        "velocita":"30 ft",
+        "slot_incantesimi":"7",
+        "tiri_salvezza":[
+            "Costituzione +1",
+            "Saggezza +3",
+            "Carisma +3"
+        ],
+        "abilità":[
+            "Intuizione +5",
+            "Percezione +5",
+            "Religione +2"
+        ],
+        "trucchetti":[
+            "Guidance",
+            "Slurp the Dying"
+        ],
+        "incantesimi_conosciuti":[
+            "Bless",
+            "Primal Slurp Surge",
+            "AIDS",
+            "Pharaonic Guardian",
+            "Glomphar's Tiny Hut",
+            "Aura Faraonica",
+            "See Invisibility",
+            "Sonno",
+            "Comando",
+            "Scudo di Slurp",
+            "Jacob's Ladder"
+        ],
+        "tratti_speciali":[
+            "Scurovisione"
+        ],
+        "equipaggiamento":[
+            "Armatura del Geco Notturno",
+            "Cloak of Moth",
+            "Bag of Holding"
+        ],
+        "abilità_speciali":[
+            "Divinità dello Slurp: A me gli Occhi",
+            "Divinità dello Slurp: Pharaonic Sanctuary",
+            "Eye of Doom",
+            "Channel Divinity: Harness Slurping Power"
+        ],
+        "azioni":[
+            "Bende del Faraone",
+            "Jacob's Ladder",
+            "Lancio Incantesimi",
+            "Slurp the Dead"
+        ]
+
+    },
+    {
+        "nome":"Sarcophaga Carnaria",
+        "slug":"sarcophaga-carnaria",
+        "classe":"Druido - Entomancer",
+        "livello":6,
+        "razza":"Umano?",
+        "background":"?",
+        "immagine":"Sarco.png",
+        "forza":12,
+        "destrezza":14,
+        "costituzione":24,
+        "intelligenza":10,
+        "saggezza":16,
+        "carisma":12,
+        "punti_ferita":44,
+        "velocita":"30 ft",
+        "popolazione":6,
+        "slot_incantesimi":"8",
+        "tiri_salvezza":[
+            "Destrezza +1",
+            "Costituzione +4",
+            "Saggezza +1",
+            "Carisma +2"
+        ],
+        "abilità":[
+            "Addestrare Animali +3",
+            "Atletica +2",
+            "Natura +3",
+            "Percezione +3",
+            "Sopravvivenza +6"
+        ],
+        "trucchetti":[
+            "Thunderclap",
+            "Pietra Magica",
+            "Infestation"
+        ],
+        "incantesimi_conosciuti":[
+            "Cura Ferite",
+            "Healing Word",
+            "Water Breathing",
+            "Brutalità Insetta",
+            "Harmonic Repopulation",
+            "Boom Boom Boom",
+            "Sciame Reale",
+            "Kachow",
+            "Assorbi Elemento (Reaction)"
+        ],
+        "tratti_speciali":[
+            "Parlare con gli Animali"
+        ],
+        "equipaggiamento":[
+            "Tiny Bug Spear",
+            "Ring of Wild Shape",
+            "Tarocchi Caotici"
+        ],
+        "abilità_speciali":[
+            "Forma Insetta",
+            "Crawling Sensation",
+            "Forza Insetta",
+            "Sono Jean-Henri Fabre",
+            "Decompositore",
+            "Dodge (Reaction - Solo in Forma Riccardo)",
+            "Parry (Reaction - Solo in Forma Birillo)"
+        ],
+        "azioni":[
+            "Attacco con Tiny Bug Spear",
+            "Richiamo Insetti",
+            "Lancio Incantesimi"
+        ]
+    },
+    {
+        "nome":"Sir Romedio e Guglielmo",
+        "slug":"sir-romedio-e-guglielmo",
+        "classe":"Bardo - College of Lore",
+        "livello":6,
+        "razza":"?",
+        "background":"?",
+        "immagine":"Romedio.png",
+        "forza":12,
+        "destrezza":12,
+        "costituzione":16,
+        "intelligenza":16,
+        "saggezza":14,
+        "carisma":18,
+        "punti_ferita":43,
+        "velocita":"40 ft, 45ft in volo",
+        "slot_incantesimi":4,
+        "tiri_salvezza": [
+            "Destrezza +3",
+            "Carisma +3"
+        ],
+        "abilità": [
+            "Addestrare Animali +2",
+            "Atletica +4",
+            "Ingannare +5",
+            "Intrattenere +5",
+            "Intuizione +4",
+            "Persuadere +5"
+        ],
+        "trucchetti": [
+            "Mano Spettrale",
+            "Sacred Flame",
+            "Mending"
+        ],
+        "incantesimi_conosciuti": [
+            "Comprehend Languages",
+            "Knock",
+            "Speak with the Dead",
+            "Locate Object",
+            "Spirit Guardians",
+            "Shatter",
+            "Fiori d'Argento"
+        ],
+        "tratti_speciali": [
+            "Percezione del magico"
+        ],
+        "equipaggiamento": [
+            "Armatura Pesante",
+            "Boots of Bounding",
+            "Ocarina of Minor Charm"
+        ],
+        "abilità_speciali": [
+            "Eroi, combattenti di Mordor!",
+            "Cavallo di Battaglia",
+            "Song of Glom",
+            "Hogwarts Avademy",
+            "I Believe I can Fly",
+            "Unlimited...?",
+            "Cutting Glom (Reaction)"
+        ],
+        "azioni": [
+            "Attacco con Weapon Conjured",
+            "Lancio incantesimi"
+        ]
+    },
+    {
+        "nome": "Randomauro",
+        "slug": "randomauro",
+        "classe": "Stregone - Wild Magic",
+        "livello": 6,
+        "razza": "Umano",
+        "background": "Militare",
+        "immagine": "randomauro.png",
+        "forza": 8,
+        "destrezza": 17,
+        "costituzione": 10,
+        "intelligenza": 10,
+        "saggezza": 22,
+        "carisma": 23,
+        "punti_ferita": 29,
+        "velocita": "30 ft",
+        "slot_incantesimi": "8",
+        "tiri_salvezza": [
+            "Destrezza +2",
+            "Saggezza +3",
+            "Carisma +3"
+        ],
+        "abilità": [
+            "Intimidire +6",
+            "Intuizione +6",
+            "Medicina +6",
+            "Percezione +6"
+        ],
+        "trucchetti": [
+            "Firebolt",
+            "Blade Ward",
+            "Colpo Tuonante"
+        ],
+        "incantesimi_conosciuti": [
+            "Mani brucianti",
+            "Tempesta di Glom",
+            "Palla di fuoco",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=alter-self\">Alter Self</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=annulla-magia\">Annulla Magia</a>"
+        ],
+        "tratti_speciali": [
+            "Percezione del magico"
+        ],
+        "equipaggiamento": [
+            "Wand of Wonder",
+            "Wand of Minor Chaos"
+        ],
+        "abilità_speciali": [
+            "Wild Glom Surge",
+            "Non Gioco a Dadi col Destino",
+            "Bluff",
+            "Benedizione di Miscelius (Reaction)",
+            "Baro al Tavolo (Reaction)",
+            "Tiro Fortunato (Reaction)"
+        ],
+        "azioni": [
+            "Attacco con Wand of Wonder",
+            "Abilità Wand of Minor Chaos",
+            "Lancio incantesimi"
+        ]
+    }
+]

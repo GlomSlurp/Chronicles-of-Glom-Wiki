@@ -14,7 +14,7 @@
   {
     "nome": "La Fame",
     "slug": "la-fame",
-    "immagine": "",
+    "immagine": "fame.png",
     "contenuto": "<p>Quando un <a href=\"../pagine/pagina.html?file=gruppi&amp;slug=glommatori\">Glommatore </a>&egrave; privato del <a href=\"../pagine/pagina.html?file=lore&amp;slug=glom\">Glom </a>per molto tempo, soccombe ad una furia omicida che viene trasmessa su contatto come se fosse un'epidemia.</p>"
   },
   {

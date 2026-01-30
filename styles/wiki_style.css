@@ -216,66 +216,6 @@ nav a:hover {
 }
 
 /* -------------------------------------------------------------
-   LOGOUT BUTTON
-------------------------------------------------------------- */
-.btn.logout {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 45px;
-    height: 45px;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition: width 0.3s ease, border-radius 0.3s ease, transform 0.15s ease;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
-    background-color: rgb(255, 65, 65);
-}
-
-.logout-sign {
-    width: 50px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.3s ease;
-}
-
-.logout-sign svg {
-    width: 18px;
-}
-
-.logout-sign svg path {
-    fill: var(--text);
-}
-
-.logout-text {
-    position: absolute;
-    left: 55px;
-    opacity: 0;
-    white-space: nowrap;
-    font-size: 1.1em;
-    font-weight: 600;
-    color: var(--text);
-    transition: opacity 0.3s ease;
-}
-
-.btn.logout:hover {
-    width: 130px;
-    border-radius: 40px;
-}
-
-.btn.logout:hover .logout-text {
-    opacity: 1;
-}
-
-.btn.logout:hover .logout-sign {
-    transform: translateX(3px);
-}
-
-/* -------------------------------------------------------------
    LAYOUT A DUE COLONNE (Wiki style)
 -------------------------------------------------------------- */
 .wiki-layout {
@@ -462,6 +402,35 @@ nav a:hover {
 }
 
 /* -------------------------------------------------------------
+   ALLINEAMENTO MODIFICATORI
+-------------------------------------------------------------- */
+.stat-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stat-list li {
+    display: flex;
+    gap: 20px; /* distanza costante tra le colonne */
+    margin: 2px 0;
+}
+
+.stat-list .label {
+    width: 120px; /* colonna nomi */
+}
+
+.stat-list .value {
+    width: 30px; /* colonna valori */
+    text-align: right;
+}
+
+.stat-list .mod {
+    width: 30px; /* colonna modificatori */
+    text-align: right;
+}
+
+/* -------------------------------------------------------------
    FOOTER
 -------------------------------------------------------------- */
 footer {
@@ -471,6 +440,18 @@ footer {
   background: rgba(21,27,42,0.7);
   border-top: 1px solid var(--border);
   color: var(--muted);
+}
+
+.back{
+display: block;
+    align-items: left;
+margin-top: 20px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    background: var(--panel);
+    box-shadow: 0 0 18px rgba(108,140,255,0.35);
+max-width: fit-content;
 }
 
 /* -------------------------------------------------------------

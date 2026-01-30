@@ -1,0 +1,96 @@
+[
+    {
+        "nome":"Alter Self",
+        "slug":"alter-self",
+        "durata":"1 ora",
+        "contenuto":"Cambi forma scegliendo tra queste:<p>-Adattamento acquatico: respiri sott'acqua e non sei rallentato in ambienti acquatici.</p>\n<p>-Cambio aspetto: puoi cambiare una o più caratteristiche per renderle uguali a quelle di un altro umanoide che hai visto.</p>\n<p>-Armi naturali: Cambi parti del tuo corpo con armi del mondo naturale ricevendo +1 ad attaccare e facendo [[1d6]] danni contundenti.</p>"
+    },
+    {
+        "nome":"Annulla Magia",
+        "slug":"annulla-magia",
+        "durata":"istantaneo",
+        "contenuto":"Scegli una creatura, oggetto o effetto magico in vista. qualsiasi incantesimo di lvl 2 o inferiore è interrotto. Altrimenti tira WIS con DC 10 + lvl incantesimo, se ha successo l'incantesimo termina."
+    },
+    {
+        "nome":"Cig Master",
+        "slug":"cig-master",
+        "contenuto":"<p>Può usare tre effetti bonus fumando una sigaretta</p>\n<p>1)Tira altri 1 colpo</p>\n<p>2)Può Usare Dodge come reaction</p>\n<p>3)Può usare Dash o Dodge</p>"
+    },
+    {
+        "nome":"Spallata",
+        "slug":"spallata",
+        "contenuto":"Puoi caricare un nemico a 10ft da te, in questo modo aggiungi 5 danni al tuo attacco. Se l'attacco è andato a buon fine il nemico è spinto di 10ft indietro."
+    },
+    {
+        "nome":"Illusione Minore",
+        "slug":"illusione-minore",
+        "durata":"1 minuto",
+        "contenuto":"<p>Crea un suono o un'immagine di un oggetto entro 30ft che permane per la durata dell'incantesimo. L'illusione termina anche se l'incantatore la interrompe con un'azione o se lancia questo incantesimo di nuovo.</p>\n<p>Se l'incantatore crea l'immagine di un oggetto, quell'oggetto non deve essere più grande di un cubo di 5ft.</p>\n<p>L'immagine non può emettere suoni, luci, odori o qualsiasi altro effetto sensoriale. Un'interazione fisica con l'immagine rivela che si tratta di un'illusione, in quanto gli oggetti la attraversano. Se una creatura usa la sua azione per esaminare il suono o l'immagine, può determinare che si tratta di un'illusione se effettua con successo una prova di Intelligenza (Indagare) contro la CD del tiro salvezza dell'incantesimo.</p>\n<p>Se una creatura discerne l'illusione per ciò che è, l'illusione si attenua per quella creatura.</p>"
+    },
+    {
+        "nome":"Way of the smoking lung: Catch",
+        "slug":"way-of-the-smoking-lung-catch",
+        "contenuto":"<p>Crei una nuvola di fumo usando 2 punti ki intorno a te. Puoi scegliere allora uno dei seguenti effetti:</p>\n<p>Lingering energy: La nuvola infligge danno pari a 1d4 ogni turno ad ogni creatura tranne te</p>\n<p>Purple Haze: La nuvola diventa terreno difficile per ogni creatura entro 15 ft da te tranne te.</p>\n<p>Puoi creare un illusione maggiore come Silent Image nella nuvola, ma ogni nemico che ci interagisce fisicamente capisce che è falsa.</p>"
+    },
+    {
+        "nome":"Quickened Healing",
+        "slug":"quickened-healing",
+        "contenuto":"Puoi usare 2 punti ki per curare te stessa di 1d4+6 hp."
+    },
+    {
+        "nome":"Lingering Smoke",
+        "slug":"lingering-smoke",
+        "contenuto":"<p>La tua capacità di manipolare il fumo migliora, permettendoti di colpire nemici a distanza. Durante il tuo turno, puoi spendere 1 punto Ki (senza usare un'azione) per conferire ai tuoi pugni la proprietà Reach (5 ft di reach in più sui colpi) fino all'inizio del tuo turno successivo. Vale anche come proprietà quando fumi una sigaretta per flurry of blows.</p>\n<p> Quando colpisci una creatura, puoi costringerla a superare un tiro salvezza di Forza DC 18 o essere attratta fino a 10ft verso di te.</p>\n<p> Inoltre, durante questo periodo puoi effettuare colpi a mani nude da una nube di fumo creata con Mystic Smoke. Questi attacchi possono colpire qualsiasi creatura entro 5 ft. dalla nube. Se usi questa capacità per attrarre il bersaglio dalla nube, viene spostato verso il centro della nube invece che verso di te.</p>"
+    },
+    {
+        "nome":"Deflect",
+        "slug":"deflect",
+        "reaction":1,
+        "contenuto":"Puoi ridurre il danno ricevuto da un proiettile di 1d10+DEX+6, se il danno è ridotto a 0 puoi rilanciare il proiettile al mittente."
+    },
+    {
+        "nome":"Skyfall",
+        "slug":"skyfall",
+        "reaction":1,
+        "contenuto":"Puoi ridurre il danno da caduta di 5*lvl da monaco."
+    },
+    {
+        "nome":"I Pugni nelle Mani (elettrici)",
+        "slug":"i-pugni-nelle-mani-elettrici",
+        "contenuto":"In caso di hit, se un altro target è entro 5 ft, puoi infliggere 1d8 danni elettrici extra oltre quelli che infliggi già (solo sul primo hit)"
+    },
+    {
+        "nome":"I Pugni nelle Mani (infuocati)",
+        "slug":"i-pugni-nelle-mani-infuocati",
+        "contenuto":"<p>Guanti che prendono fuoco utilizzando la mente di chi li usa.</p>\n<p> Boostano ogni colpo consecutivo e si resettano dopo ogni turno. Al primo colpo aggiungo zero, al secondo [[1d8]] terzo [[2d8]] quarto [[3d8]].</p>"
+    },
+    {
+        "nome":"Bracers of the Flow",
+        "slug":"bracers-of-the-flow",
+        "contenuto":"+1 ac difesa, restora 1d4 ki per charge, ha 5 charge al giorno"
+    },
+    {
+        "nome":"Scurovisione",
+        "slug":"scurovisione",
+        "contenuto":"Può vedere nell'oscurità non magica per 30ft. La visione è in bianco e nero."
+    },
+    {
+        "nome":"Light",
+        "slug":"light",
+        "durata":"1 ora",
+        "contenuto":"Tocca un oggetto non più grande di un cubo di 10ft: questo emana luce intesa per 20ft e luce fioca per altri 20ft. "
+    },
+    {
+        "nome":"Resistence",
+        "slug":"resistence",
+        "durata":"Concentrazione fino a 1 minuto",
+        "reaction":1,
+        "contenuto":"Può aggiungere 1d4 al save throw di una creatura che può toccare."
+    },
+    {
+        "nome":"Gust",
+        "slug":"gust",
+        "durata":"istantaneo",
+        "contenuto":"<p>Entro 30ft puoi creare uno di questi effetti:</p>\n<p>-Una creatura grande quanto te o più piccola deve superare un FOR save DC 10+INT per non essere spostata di 5ft.</p>\n<p>-Sposti un oggetto di massimo 2Kg di 10ft.</p>\n<p>-Crei una brezza che muove le foglie o i vestiti.</p>"
+    }
+]

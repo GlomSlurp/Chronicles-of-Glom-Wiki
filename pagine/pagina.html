@@ -12,7 +12,6 @@
 <header>
     <div class="title">Chronicles Of Glom</div>
     <div class="subtitle" id="subtitle">Wiki</div>
-
 </header>
 
 <main class="wiki-layout">
@@ -26,13 +25,9 @@
     </aside>
 
     <article class="content">
-
         <div id="infobox"></div>
-
         <h1 id="nome"></h1>
-
         <div class="lore-text" id="contenuto"></div>
-
     </article>
 
 </main>
@@ -40,8 +35,7 @@
 <footer>
     <small><span id="currentYear"></span> &copy; D&D Campaign Manager</small>
     <script>
-    // Imposta l'anno corrente nel footer
-    document.getElementById('currentYear').textContent = new Date().getFullYear();
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
     </script>
 </footer>
 
@@ -52,7 +46,7 @@ const file = params.get("file");
 const slug = params.get("slug");
 
 // Link "torna alla categoria"
-document.getElementById("back-category").href = `${file}.html`;
+document.getElementById("back-category").href = file === "descrizioni" ? "schede.html" : `${file}.html`;
 
 // --- 2. Carica il JSON corretto ---
 fetch(`../data/${file}.json`)
@@ -65,26 +59,107 @@ fetch(`../data/${file}.json`)
             return;
         }
 
-        // --- 3. Popola la pagina ---
         document.getElementById("page-title").textContent = `${pagina.nome} - Wiki`;
         document.getElementById("subtitle").textContent = `Wiki – ${pagina.nome}`;
         document.getElementById("nome").textContent = pagina.nome;
-        document.getElementById("contenuto").innerHTML = pagina.contenuto;
 
-        // Immagine (se presente)
+if (pagina.contenuto) {
+    let extra = "";
+
+    if(pagina.reaction){
+        extra += `<p><strong>Reaction</strong></p>`;
+    }
+    if (pagina.durata) {
+        extra += `<p><strong>Durata:</strong> ${pagina.durata}</p>`;
+    }
+
+    document.getElementById("contenuto").innerHTML = extra + pagina.contenuto;
+}
+
+
+        // --- 3. Scheda personaggio (usa campi delle schede) ---
+        else if (pagina.classe || pagina.livello || pagina.forza) {
+            let html = `
+            <div class="scheda-personaggio">
+                <h2>${pagina.nome}${pagina.classe ? " – " + pagina.classe : ""}</h2>
+                ${pagina.livello ? "<p><strong>Livello:</strong> " + pagina.livello + "</p>" : ""}
+                
+                ${pagina.razza ? `<p><strong>Razza:</strong> ${pagina.razza}</p>` : ""}
+                ${pagina.background ? `<p><strong>Background:</strong> ${pagina.background}</p>` : ""}
+                ${pagina.punti_ferita ? `<p><strong>Punti Ferita:</strong> ${pagina.punti_ferita}</p>` : ""}
+                ${pagina.velocita ? `<p><strong>Velocità:</strong> ${pagina.velocita}</p>` : ""}
+                ${pagina.slot_incantesimi ? `<p><strong>Slot Incantesimi:</strong> ${pagina.slot_incantesimi}</p>` : ""}
+                ${pagina.ki ? `<p><strong>Ki:</strong> ${pagina.ki}</p>` : ""}
+                ${pagina.popolazione ? `<p><strong>Popolazione:</strong> ${pagina.popolazione}</p>` : ""}
+
+                ${pagina.forza ? `
+                <h3>Statistiche</h3>
+                    <ul class="stat-list">
+                        <li><span class="label">Forza</span><span class="value">${pagina.forza}</span><span class="mod">${pagina.forza >= 10 ? "+" + Math.floor((pagina.forza - 10) / 2) : "-" + Math.abs(Math.floor((pagina.forza - 10) / 2))}</span></li>
+                        <li><span class="label">Destrezza</span><span class="value">${pagina.destrezza}</span><span class="mod">${pagina.destrezza >= 10 ? "+" + Math.floor((pagina.destrezza - 10) / 2) : "-" + Math.abs(Math.floor((pagina.destrezza - 10) / 2))}</span></li>
+                        <li><span class="label">Costituzione</span><span class="value">${pagina.costituzione}</span><span class="mod">${pagina.costituzione >= 10 ? "+" + Math.floor((pagina.costituzione - 10) / 2) : "-" + Math.abs(Math.floor((pagina.costituzione - 10) / 2))}</span></li>
+                        <li><span class="label">Intelligenza</span><span class="value">${pagina.intelligenza}</span><span class="mod">${pagina.intelligenza >= 10 ? "+" + Math.floor((pagina.intelligenza - 10) / 2) : "-" + Math.abs(Math.floor((pagina.intelligenza - 10) / 2))}</span></li>
+                        <li><span class="label">Saggezza</span><span class="value">${pagina.saggezza}</span><span class="mod">${pagina.saggezza >= 10 ? "+" + Math.floor((pagina.saggezza - 10) / 2) : "-" + Math.abs(Math.floor((pagina.saggezza - 10) / 2))}</span></li>
+                        <li><span class="label">Carisma</span><span class="value">${pagina.carisma}</span><span class="mod">${pagina.carisma >= 10 ? "+" + Math.floor((pagina.carisma - 10) / 2) : "-" + Math.abs(Math.floor((pagina.carisma - 10) / 2))}</span></li>
+                    </ul>
+` : ""}
+
+                ${Array.isArray(pagina.tiri_salvezza) ? `
+                <h3>Tiri Salvezza</h3>
+                <ul>${pagina.tiri_salvezza.map(t => `<li>${t}</li>`).join("")}</ul>` : ""}
+
+                ${Array.isArray(pagina.abilità) ? `
+                <h3>Abilità</h3>
+                <ul>${pagina.abilità.map(a => `<li>${a}</li>`).join("")}</ul>` : ""}
+
+                ${Array.isArray(pagina.tratti_speciali) ? `
+                <h3>Tratti Speciali</h3>
+                <ul>${pagina.tratti_speciali.map(t => `<li>${t}</li>`).join("")}</ul>` : ""}
+
+                ${Array.isArray(pagina.equipaggiamento) ? `
+                <h3>Equipaggiamento</h3>
+                <ul>${pagina.equipaggiamento.map(e => `<li>${e}</li>`).join("")}</ul>` : ""}
+
+                ${Array.isArray(pagina.abilità_speciali) ? `
+                <h3>Abilità Speciali</h3>
+                <ul>${pagina.abilità_speciali.map(s => `<li>${s}</li>`).join("")}</ul>` : ""}
+
+                ${Array.isArray(pagina.trucchetti) ? `
+                <h3>Trucchetti</h3>
+                <ul>${pagina.trucchetti.map(t => `<li>${t}</li>`).join("")}</ul>` : ""}
+
+                ${Array.isArray(pagina.incantesimi_conosciuti) ? `
+                <h3>Incantesimi Conosciuti</h3>
+                <ul>${pagina.incantesimi_conosciuti.map(i => `<li>${i}</li>`).join("")}</ul>` : ""}
+
+                ${Array.isArray(pagina.azioni) ? `
+                <h3>Azioni</h3>
+                <ul>${pagina.azioni.map(a => `<li>${a}</li>`).join("")}</ul>` : ""}
+            </div>
+            `;
+
+            document.getElementById("contenuto").innerHTML = html;
+        }
+
+
+        // --- 4. Immagine (se presente) ---
         if (pagina.immagine && pagina.immagine.trim() !== "") {
             document.getElementById("infobox").innerHTML = `
                 <div class="infobox">
-                    <img src="../images/${pagina.immagine}" alt="">
+                    <img src="../images/${pagina.immagine}" alt="${pagina.nome}">
                 </div>
             `;
         }
-    })
+})
     .catch(err => {
         console.error("Errore nel caricamento:", err);
         document.querySelector(".content").innerHTML = "<p>Errore nel caricamento della pagina.</p>";
     });
+</script>
 
+
+
+<script>
 // ===============================
 // PREVIEW IMMAGINE PER LINK WIKI
 // ===============================
