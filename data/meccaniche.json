@@ -1,5 +1,10 @@
 [
     {
+        "nome":"Difesa",
+        "slug":"difesa",
+        "contenuto":"<p>Quando si è attaccati bisogna fare un tiro su Difesa contrapposto, in caso di parità l'attacco ha successo.</p>\n<p>Difesa scala con l'attributo DESTREZZA, aggiungendo il modificatore al d20.</p>\n<p>Per chi utilizza incantesimi Difesa scala con l'attributo SAGGEZZA, aggiungendo il modificatore al d20. Questa però può essere annullata nel caso in cui si sia in una zona anti-magia.</p>"
+    },
+    {
         "nome": "Concentrazione",
         "slug": "concentrazione",
         "immagine": "",
@@ -28,5 +33,15 @@
         "slug":"nature-in-chronicles-of-glom",
         "immagine":"nature_chronicles.png",
         "contenuto":"<p>In Chronicles of Glom esistono tre nature principali: il Glom, lo Slurp e la Fame. Queste nature influenzano le abilità, le capacità e le difficoltà che le creature possono ottenere.<\/p>"
+    },
+    {
+        "nome":"Equipaggiamento",
+        "slug":"equipaggiamento",
+        "contenuto":"<p>Quando si equipaggia un oggetto magico è necessario fare <a href=\"../pagine/pagina.html?file=meccaniche&slug=attunement\">Attunement</a> se l'oggetto lo richiede.</p>\n<p>È possibile equipaggiare al massimo 3 oggetti magici per volta.</p>"
+    },
+    {
+        "nome":"Attunement",
+        "slug":"attunement",
+        "contenuto":"<p>Per ottenere un livello di Attunement successivo è necessario superare la DC del livello che si vuole raggiungere. È necessario tirare:</p>\n<p>1d20 + Livello del personaggio + Modificatore caratteristica principale + (Numero di battaglie vinte * 4)</p>"
     }
 ]

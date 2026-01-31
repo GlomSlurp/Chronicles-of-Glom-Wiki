@@ -86,38 +86,40 @@
             "<a href=\"../pagine/pagina.html?file=descrizioni&slug=gust\">Gust</a>"
         ],
         "incantesimi_conosciuti": [
-            "Aura Glommitica",
-            "Benedizione della Natura",
-            "Cura Ferite",
-            "Entangle",
-            "Sfera Glommitica",
-            "Crescita Vigorosa",
-            "Lesser Restoration",
-            "Enhance Ability",
-            "Call Lightning",
-            "Glomming Ray",
-            "Liana Gay (Azione Bonus)",
-            "Radici del Santuario (Azione Bonus)",
-            "Corazza Protettiva (Reaction)",
-            "Occhio della Foresta (Reaction)",
-            "Assorbi Elemento (Reaction)"
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=aura-glommitica\">Aura Glommitica</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=benedizione-della-natura\">Benedizione della Natura</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=cura-ferite\">Cura Ferite</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=entangle\">Entangle</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=sfera-glommitica\">Sfera Glommitica</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=crescita-vigorosa\">Crescita Vigorosa</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=lesser-restoration\">Lesser Restoration</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=enhance-ability\">Enhance Ability</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=call-lightning\">Call Lightning</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=glomming-ray\">Glomming Ray</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=liana-gay\">Liana Gay (Azione Bonus)</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=radici-del-santuario\">Radice del Santuario (Azione Bonus)</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=corazza-protettiva\">Corazza Protettiva (Reaction)</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=occhio-della-foresta\">Occhio della Foresta (Reaction)</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=assorbi-elemento\">Assorbi Elemento (Reaction)</a>"
             
         ],
         "tratti_speciali": [
             "<a href=\"../pagine/pagina.html?file=descrizioni&slug=scurovisione\">Scurovisione</a>"
         ],
         "equipaggiamento": [
-            "Witch Glaive",
-            "Rellana's Medallion",
-            "Amuleto Ammazzafiamme"
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=witch-glaive\">Witch Glaive</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=rellanas-medallion\">Rellana's Medallion</a>",
+            "Anello Scacciafame",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=amuleto-ammazzafiamme\">Amuleto Ammazzafiamme</a>"
         ],
         "abilità_speciali": [
-            "Mimetismo Glommitico",
-            "Mazzone",
-            "Poison Gas",
-            "Vile Blast",
-            "Kamehameha Glommitica",
-            "Liana Super Gay"
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=mimetismo-glommitico\">Mimetismo Glommitico",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=occhi-della-foresta\">Occhi della Foresta</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=mazzone\">Mazzone</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=poison-gas-witchglaive\">Poison Gas</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=vile-blast-witchglaive\">Vile Blast</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=kamehameha-glommitica\">Kamehameha Glommitica</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=liana-super-gay\">Liana Super Gay</a>"
         ],
         "azioni": [
             "Attacco con Witch Glaive",
@@ -153,27 +155,27 @@
             "Religione +2"
         ],
         "trucchetti":[
-            "Guidance",
-            "Slurp the Dying"
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=guidance\">Guidance</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=spare-the-dying\">Slurp the Dying</a>"
         ],
         "incantesimi_conosciuti":[
-            "Bless",
-            "Primal Slurp Surge",
-            "AIDS",
-            "Pharaonic Guardian",
-            "Glomphar's Tiny Hut",
-            "Aura Faraonica",
-            "See Invisibility",
-            "Sonno",
-            "Comando",
-            "Scudo di Slurp",
-            "Jacob's Ladder"
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=bless\">Bless</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=primal-slurp-surge\">Primal Slurp Surge</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=aid\">AIDS</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=spirit-guardian\">Pharaonic Guardian</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=tiny-hut&pg=Glomphar\">Glomphar's Tiny Hut</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=aura-faraonica\">Aura Faraonica</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=see-invisibility\">See Invisibility</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=sonno\">Sonno</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=comando\">Comando</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=jacobs-ladder\">Jacob's Ladder</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=scudo-di-slurp\">Scudo di Slurp (Azione Bonus)</a>"
         ],
         "tratti_speciali":[
-            "Scurovisione"
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=scurovisione\">Scurovisione</a>"
         ],
         "equipaggiamento":[
-            "Armatura del Geco Notturno",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=armatura-del-geco-notturno\">Armatura del Geco Notturno</a>",
             "Cloak of Moth",
             "Bag of Holding"
         ],
@@ -181,7 +183,10 @@
             "Divinità dello Slurp: A me gli Occhi",
             "Divinità dello Slurp: Pharaonic Sanctuary",
             "Eye of Doom",
-            "Channel Divinity: Harness Slurping Power"
+            "Channel Divinity: Harness Slurping Power",
+            "History of Glomphar",
+            "Aura dei Caduti",
+            "Vendetta Sepolta"
         ],
         "azioni":[
             "Bende del Faraone",

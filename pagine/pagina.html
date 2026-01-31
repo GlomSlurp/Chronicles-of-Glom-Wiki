@@ -40,6 +40,18 @@
 </footer>
 
 <script>
+// --- 0. Funzione per aggiornare il titolo ---
+const params2 = new URLSearchParams(window.location.search);
+const personaggio = params2.get("pg");
+function aggiornaTitolo(nomeIncantesimo) {
+    const titolo = document.getElementById("nome");
+    if (personaggio) {
+        titolo.textContent = personaggio + "'s " + nomeIncantesimo;
+    } else {
+        titolo.textContent = nomeIncantesimo;
+    }
+}
+
 // --- 1. Legge parametri dalla URL ---
 const params = new URLSearchParams(window.location.search);
 const file = params.get("file");
@@ -61,11 +73,14 @@ fetch(`../data/${file}.json`)
 
         document.getElementById("page-title").textContent = `${pagina.nome} - Wiki`;
         document.getElementById("subtitle").textContent = `Wiki – ${pagina.nome}`;
-        document.getElementById("nome").textContent = pagina.nome;
+        aggiornaTitolo(pagina.nome);
 
 if (pagina.contenuto) {
     let extra = "";
 
+    if(pagina.azione_bonus){
+        extra += `<p><strong>Azione Bonus</strong></p>`;
+    }
     if(pagina.reaction){
         extra += `<p><strong>Reaction</strong></p>`;
     }
@@ -75,7 +90,6 @@ if (pagina.contenuto) {
 
     document.getElementById("contenuto").innerHTML = extra + pagina.contenuto;
 }
-
 
         // --- 3. Scheda personaggio (usa campi delle schede) ---
         else if (pagina.classe || pagina.livello || pagina.forza) {
@@ -140,7 +154,6 @@ if (pagina.contenuto) {
 
             document.getElementById("contenuto").innerHTML = html;
         }
-
 
         // --- 4. Immagine (se presente) ---
         if (pagina.immagine && pagina.immagine.trim() !== "") {
