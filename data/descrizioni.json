@@ -317,8 +317,59 @@
         "contenuto":"Uno scudo protettivo appare intorno a una creatura che scegli, +2 a Difesa."
     },
     {
+        "nome":"Cloak of the Moth",
+        "slug":"cloak-of-the-moth",
+        "contenuto":"Hai +1 alle prove di Furtività e se rimani fermo hai +1 a Difesa."
+    },
+    {
         "nome":"Armatura del Geco Notturno",
         "slug":"armatura-del-geco-notturno",
-        "contenuto":"Hai +1 alle prove di Furtività e se rimani fermo hai +1 a Difesa."
+        "contenuto":"Hai +1 a Difesa e vantaggio sulle prove di Furtività se in oscurità o penombra."
+    },
+    {
+        "nome":"A me gli Occhi",
+        "slug":"a-me-gli-occhi",
+        "durata":"1 minuto",
+        "contenuto":"Puoi incutere timore nei non morti. Questi devono superare un WIS save DC 10 + Modificatore Spellcaster oppure usare un turno per scappare il più possibile da te"
+    },
+    {
+        "nome":"Pharaonic Sanctuary",
+        "slug":"pharaonic-sanctuary",
+        "durata":"1 minuto",
+        "contenuto":"<p>Crei una piramide che ha un aura con raggio 30 ft e può grantare uno di questi due effetti a ogni creatura (incluso te)</p>\n<p>1)Ogni creatura viene curata da fear/charm.</p>\n<p>2)Ogni creatura guadagna 1d6 + Modificatore Spellcaster HP temporanei fino quando è nella zona interessata</p>"
+    },
+    {
+        "nome":"Harness Slurping Power",
+        "slug":"harness-slurping-power",
+        "azione_bonus":1,
+        "durata":"10 minuti",
+        "contenuto":"Puoi ottenere un numero di Slot Incantesimi pari a metà del tuo Proficiency Bonus (approssimato per eccesso)."
+    },
+    {
+        "nome":"Eyes of Doom",
+        "slug":"eyes-of-doom",
+        "durata":"10 minuti",
+        "contenuto":"Ottieni Scurovisione per 300 ft. Come azione, puoi donare la scurovisione condividendola fino ad un massimo di 3 creature consenzienti."
+    },
+    {
+        "nome":"Aura dei Caduti",
+        "slug":"aura-dei-caduti",
+        "contenuto":"<p>Quando scendi sotto i 13 HP, le tue bende iniziano a cadere, rivelando un cadavere ormai mummificato; queste iniziano a sembrare delle ombre, espandendosi fino a 15ft da te. A quel punto:</p>\n<p>-I tuoi alleati entro 15ft ottengono vantaggio sui DEX save.</p>\n<p>- IL raggio di Pharaonic Sanctuary viene aumentato di 5ft.</p>"
+    },
+    {
+        "nome":"Vendetta Sepolta",
+        "slug":"vendetta-sepolta",
+        "contenuto":"Mentre è attivo <a href=\"../pagine/pagina.html?file=descrizioni&slug=aura-dei-caduti\">Aura dei Caduti</a> ed un alleato entro 15ft colpisce un nemico di media dimensione, puoi usare le bende per farlo cadere prono."
+    },
+    {
+        "nome":"Bende del Faraone",
+        "slug":"bende-del-faraone",
+        "contenuto":"Le tue bende possono raggiungere fino a 20ft di distanza e provare ad intrappolare un nemico, questo deve fare un FOR save DC 10 + Modificatore Spellcaster. Se si libera le bende si rompono fino a quando non vengono sostituite."
+    },
+    {
+        "nome":"Slurp the Dead",
+        "slug":"slurp-the-dead",
+        "durata":"istantaneo",
+        "contenuto":"Una creatura entro 60ft deve superare un CAR save DC 10 + Modificatore Spellcaster oppure:</p>\n<p>Subisce 1d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a> se ha tutti gli HP</p>\n<p>Subisce 1d12 danni da <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a> se ha meno HP del suo massimo.</p>"
     }
 ]

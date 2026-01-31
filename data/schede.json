@@ -16,6 +16,7 @@
         "punti_ferita":47,
         "velocita":"45 ft",
         "ki": "6",
+        "proficiency_bonus": 3,
         "tiri_salvezza":[
             "Destrezza +6",
             "Saggezza +4"
@@ -69,6 +70,7 @@
         "punti_ferita": 44,
         "velocita": "30 ft",
         "slot_incantesimi": "8",
+        "proficiency_bonus": 3,
         "tiri_salvezza": [
             "Destrezza +2",
             "Costituzione +1",
@@ -144,6 +146,7 @@
         "punti_ferita":34,
         "velocita":"30 ft",
         "slot_incantesimi":"7",
+        "proficiency_bonus": 3,
         "tiri_salvezza":[
             "Costituzione +1",
             "Saggezza +3",
@@ -176,23 +179,23 @@
         ],
         "equipaggiamento":[
             "<a href=\"../pagine/pagina.html?file=descrizioni&slug=armatura-del-geco-notturno\">Armatura del Geco Notturno</a>",
-            "Cloak of Moth",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=cloak-of-the-moth\">Cloak of the Moth</a>",
             "Bag of Holding"
         ],
         "abilità_speciali":[
-            "Divinità dello Slurp: A me gli Occhi",
-            "Divinità dello Slurp: Pharaonic Sanctuary",
-            "Eye of Doom",
-            "Channel Divinity: Harness Slurping Power",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=a-me-gli-occhi\">Divinità dello Slurp: A me gli Occhi</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=pharaonic-sanctuary\">Divinità dello Slurp: Pharaonic Sanctuary</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=harness-slurping-power\">Channel Divinity: Harness Slurping Power</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=eyes-of-doom\">Eyes of Doom</a>",
             "History of Glomphar",
-            "Aura dei Caduti",
-            "Vendetta Sepolta"
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=aura-dei-caduti\">Aura dei Caduti</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=vendetta-sepolta\">Vendetta Sepolta</a>"
         ],
         "azioni":[
-            "Bende del Faraone",
-            "Jacob's Ladder",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=bende-del-faraone\">Bende del Faraone</a>",
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=jacobs-ladder\">Jacob's Ladder</a>",
             "Lancio Incantesimi",
-            "Slurp the Dead"
+            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=slurp-the-dead\">Slurp the Dead</a>"
         ]
 
     },
@@ -214,6 +217,7 @@
         "velocita":"30 ft",
         "popolazione":6,
         "slot_incantesimi":"8",
+        "proficiency_bonus": 3,
         "tiri_salvezza":[
             "Destrezza +1",
             "Costituzione +4",
@@ -283,6 +287,7 @@
         "punti_ferita":43,
         "velocita":"40 ft, 45ft in volo",
         "slot_incantesimi":4,
+        "proficiency_bonus": 3,
         "tiri_salvezza": [
             "Destrezza +3",
             "Carisma +3"
@@ -348,6 +353,7 @@
         "punti_ferita": 29,
         "velocita": "30 ft",
         "slot_incantesimi": "8",
+        "proficiency_bonus": 3,
         "tiri_salvezza": [
             "Destrezza +2",
             "Saggezza +3",
