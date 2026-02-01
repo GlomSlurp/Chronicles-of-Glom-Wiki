@@ -1,5 +1,9 @@
 [
-    
+    {
+        "nome":"Percezione del Magico",
+        "slug":"percezione-del-magico",
+        "contenuto":"Puoi percepire la magia, la visione è come una vista termica."
+    },
     {
         "nome":"Alter Self",
         "slug":"alter-self",
@@ -371,5 +375,147 @@
         "slug":"slurp-the-dead",
         "durata":"istantaneo",
         "contenuto":"Una creatura entro 60ft deve superare un CAR save DC 10 + Modificatore Spellcaster oppure:</p>\n<p>Subisce 1d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a> se ha tutti gli HP</p>\n<p>Subisce 1d12 danni da <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a> se ha meno HP del suo massimo.</p>"
+    },
+    {
+        "nome":"Thunderclap",
+        "slug":"thunderclap",
+        "durata":"istantaneo",
+        "contenuto":"Una creatura colipita deve superare un COS save DC 10 + Modificatore Spellcaster o subire 2d6 danni elettrici, vale per qualsiasi creatura entro 5ft."
+    },
+    {
+        "nome":"Pietra Magica",
+        "slug":"pietra-magica",
+        "durata":"1 minuto",
+        "contenuto":"Tocchi fino a 3 sassolini infondendoli di magia, tu o un'altra creatura può lanciarli provocando 1d6 + WIS danni contundenti."
+    },
+    {
+        "nome":"Infestation",
+        "slug":"infestation",
+        "durata":"istantaneo",
+        "contenuto":"<p>Il bersaglio è circondato da parassiti e deve passare un COS save DC 10 + Modificatore Spellcaster o subisce 1d6 danni da veleno.</p>\n<p>Si muove di 5ft in una direzione e non subisce attacchi di opportunità. 1d4 per la direzione: 1 Nord; 2 Sud; 3 Est; 4 Ovest.</p>"
+    },
+    {
+        "nome":"Healing Word",
+        "slug":"healing-word",
+        "durata":"istantaneo",
+        "contenuto":"una creatura a tua scelta viene curata di 1d4 + Modificatore Spellcaster HP.</p>\n<p>aggiungi 1d4 per ogni livello oltre il primo.</p>"
+    },
+    {
+        "nome":"Water Breathing",
+        "slug":"water-breathing",
+        "durata":"24 ore",
+        "contenuto":"Tu ed altre 10 creature potete respirare sott'acqua."
+    },
+    {
+        "nome":"Brutalità Insetta",
+        "slug":"brutalita-insetta",
+        "durata":"1 turno",
+        "contenuto":"Muti le tue appendici in quelle di un insetto e colpisci una creatura entro 5ft. Al termine torni normale."
+    },
+    {
+        "nome":"Harmonic Repopulation",
+        "slug":"harmonic-repopulation",
+        "contenuto":"Quando colpisci puoi usare <a href=\"../pagine/pagina.html?file=lore&slug=infestation\">Infestation</a> come azione bonus, ma invece di far muovere il bersaglio puoi aggiungere gli insetti vicini a te alla tua popolazione: Guadagni 1d6 punti popolazione. Non può eccedere il limite massimo."
+    },
+    {
+        "nome":"Boom Boom Boom",
+        "slug":"boom-boom-boom",
+        "durata":"Concentrazione, fino a 1 minuto",
+        "contenuto":"Usando la Tiny Bug Spear puoi dirigere i tuoi insetti per farli cantare. Infliggi danni psichici pari a: WIS + COS + 4 ad ogni nemico che ti può sentire entro 30 ft. Il bersaglio può dimezzare il danno se supera un COS save DC 10 + Modificatore Spellcaster."
+    },
+    {
+        "nome":"Sciame Reale",
+        "slug":"sciame-reale",
+        "durata":"Concentrazione, fino a 10 minuti",
+        "contenuto":"<p>un nugolo di locuste assedia un'area di 20ft, all'inizio di ogni turno ogni creatura nell'area subisce 4d8 danni perforanti e 1d6 + Modificatore Spellcaster danni velenosi.</p>\n<p>Il bersaglio può dimezzare il danno se supera un COS save DC 10 + Modificatore Spellcaster. Chi fallisce il save è avvelenato (1d6 danni per 1d4 turni).</p>"
+    },
+    {
+        "nome":"Kachow",
+        "slug":"kachow",
+        "durata":"Concentrazione, fino a 1 minuto",
+        "contenuto":"Una creatura entro 90ft deve superare un COS save DC 10 + Modificatore Spellcaster. Se fallisce subisce 2d6 danni a scelta tra acido, freddo, fuoco o elettrico, inoltre perde ogni resistenza al tipo di danno subito."
+    },
+    {
+        "nome":"Ring of Wild Shape",
+        "slug":"ring-of-wild-shape",
+        "contenuto":"+ 1 trasformazione."
+    },
+    {
+        "nome":"Popolazione",
+        "slug":"popolazione",
+        "contenuto":"<p>Puoi usare i tuoi insetti per compiere queste azioni:</p>\n<p>-Pestilenza (1 punto): una creatura entro 30ft deve superare un DEX save DC 10 + Modificatore Spellcaster per non subire 1d4 danni psichici ed avere svantaggio ad Attacco e <a href=\"../pagine/pagina.html?file=meccaniche&slug=difesa\">Difesa</a> fino al suo prossimo turno;</p>\n<p>-Sciamata (2 punti): una creatura entro 30ft deve superare un COS save DC 10 + Modificatore Spellcaster per dimezzare 2d12+7 danni psichici;</p>\n<p>-Armatura di insetti (3 punti): guadagni 5 * modificatore COS HP temporanei.</p>\n<p>-Forza Mostruosa (2 punti): quando fai un attacco melee puoi aggiungere 2 al tiro per attaccare e al danno.</p>"
+    },
+    {
+        "nome":"Richiamo degli Insetti",
+        "slug":"richiamo-degli-insetti",
+        "contenuto":"<p>Puoi chiamare a te 1 tra le seguenti creature che agiranno subito dopo di te:</p>\n<p>- 1 Ankheg;</p>\n<p>- 2 Giant Spider;</p>\n<p>- 3 Giant Wasps;</p>\n<p>- 4 Giant Centipede.</p>"
+    },
+    {
+        "nome":"Forma Insetta",
+        "slug":"forma-insetta",
+        "contenuto":"<p>Sviluppi un legame profondo con i suoi insetti e puoi usare questo legame per fonderti ed ottenere 4 nuove forme:<li></p>\n<p><a href=\"../pagine/pagina.html?file=descrizioni&slug=modalita-riccardo\">Modalità Riccardo</a> (3 volte per settimana)</p>\n<p><li><a href=\"../pagine/pagina.html?file=descrizioni&slug=modalita-birillo\">Modalità Birillo</a> (1 volta per settimana)</p>\n<p><li>Modalità Ragno (2 volte per settimana)</p>\n<p><li>Modalità Elton (4 volte a settimana)</p>\n<p>Una voltà fusa con l'insetto scelto esso non potrà essere richiamato per una settimana.</p>\n<p>Serve 1 punto insetto per fondersi e la forma può finire una volta che:</p>\n<p>1) Si finiscono i punti insetto</p>\n<p>2) Si scende a 0 HP</p>\n<p>3) Si cade sotto un controllo mentale</p>\n<p>4) Discrezione dei master.</p></li>"
+    },
+    {
+        "nome":"Modalità Birillo",
+        "slug":"modalita-birillo",
+        "contenuto":"<p>Una volta che entri in forma <a href=\"../pagine/pagina.html?file=creature&slug=birillo\">Birillo</a>:</p>\n<li><p>Aumenti i tuoi HP di 20 punti</p>\n<li><p>Diventi immune al veleno</p>\n<li><p>Ottieni la reaction: Parry</p>\n<li><p>Sblocchi morso e acid spray</p>\n<li><p>Ottieni +2 a <a href=\"../pagine/pagina.html?file=meccaniche&slug=difesa\">Difesa</a> e +2 ai COS save</p>\n<li><p>Dimezzi la tua velocità di movimento</p>\n<li><p> -3 ad attaccare</p>"
+    },
+    {
+        "nome":"Modalità Riccardo",
+        "slug":"modalita-riccardo",
+        "contenuto":"<p>Una volta che entri in forma Riccardo ottieni:</p>\n<li><p>Aumenti la propriatua velocità di 40ft per movimento</p>\n<li><p>Ottieni +2 ad inziativa</p>\n<li><p>Ottieni dodge</p>\n<li><p>Puoi volare per brevi distanze</p>\n<li><p>Ottieni dei pungiglioni velenosi</p>\n<li><p> -2 su FOR save, <a href=\"../pagine/pagina.html?file=meccaniche&slug=difesa\">Difesa</a> e perdi 1d6 HP</p>\n<li><p>Perdi <a href=\"../pagine/pagina.html?file=descrizioni&slug=brutalita-insetta\">Brutalità Insetta</a> ed <a href=\"../pagine/pagina.html?file=descrizioni&slug=infestation\">Infestation</a>."
+    },
+    {
+        "nome":"Crawling Sensation",
+        "slug":"crawling-sensation",
+        "durata":"1 turno per modificatore WIS",
+        "contenuto":"Puoi spendere da 1 a 5 Punti Popolazione durante un attacco. Il bersaglio deve superare un COS save DC 10 + Modificatore Spellcaster o essere infestato. Se il bersaglio è infestato, subisce 1d8 danni perforanti per Punto Popolazione, ha svantaggio su COS save, COS check e attacco."
+    },
+    {
+        "nome":"Forza Insetta",
+        "slug":"forza-insetta",
+        "contenuto":"<p>Usando 1 Punto Popolazione puoi raddoppiare la tua velocità.</p>\n<p>Usando 2 Punti Popolazione puoi aggiungere 2 al prossimo tiro per attaccare e al danno.</p>"
+    },
+    {
+        "nome":"Decompositore",
+        "slug":"decompositore",
+        "contenuto":"Sei resistente ai danni psichici ed ogni creatura colpita da un tuo incantesimo che fa danni psichici subisce 1d4 danni aggiuntivi per ogni dado di danno."
+    },
+    {
+        "nome":"Dodge",
+        "slug":"dodge",
+        "reaction":1,
+        "contenuto":"Puoi toglieri di mezzo velocemente e dimezzare il danno subito."
+    },
+    {
+        "nome":"Parry",
+        "slug":"parry",
+        "reaction":1,
+        "contenuto":"Puoi parare un attacco e dimezzare il danno subito per te e per chiunque entro 5ft."
+    },
+    {
+        "nome":"Mano Spettrale",
+        "slug":"mano-spettrale",
+        "durata":"1 minuto",
+        "azione_bonus":1,
+        "contenuto":"Puoi castare una mano spettrale che compie azioni per te. La mano può allontanarsi fino a 30ft."
+    },
+    {
+        "nome":"Sacred Flame",
+        "slug":"sacred-flame",
+        "durata":"istantaneo",
+        "contenuto":"Una creatura colpita è avvolta dalle fiamme sacre. Se il bersaglio non supera un DEX save DC 10 + Modificatore Spellcaster subisce 2d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a>."
+    },
+    {
+        "nome":"Comprehend Languages",
+        "slug":"comprehend-languages",
+        "durata":"1 ora",
+        "contenuto":"Puoi parlare e leggere qualsiasi lingua."
+    },
+    {
+        "nome":"Knock",
+        "slug":"knock",
+        "durata":"istantaneo",
+        "contenuto":"Puoi sbloccare un meccanismo a tua scelta, questo però emetterà un suono udibile per 300ft."
     }
 ]
