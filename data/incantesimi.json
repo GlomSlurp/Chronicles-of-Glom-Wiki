@@ -1,0 +1,396 @@
+[
+
+    {
+        "nome":"Alter Self",
+        "slug":"alter-self",
+        "durata":"1 ora",
+        "livello":"2",
+        "contenuto":"<p>Cambi forma scegliendo tra queste:</p>\n<li><p>Adattamento acquatico: respiri sott'acqua e non sei rallentato in ambienti acquatici.</p>\n<li><p>Cambio aspetto: puoi cambiare una o più caratteristiche per renderle uguali a quelle di un altro umanoide che hai visto.</p>\n<li><p>Armi naturali: Cambi parti del tuo corpo con armi del mondo naturale ricevendo + 1 ad attaccare e facendo 1d6 danni contundenti.</p>"
+    },
+    {
+        "nome":"Annulla Magia",
+        "slug":"annulla-magia",
+        "durata":"istantaneo",
+        "livello":"3",
+        "contenuto":"Scegli una creatura, oggetto o effetto magico in vista. Qualsiasi incantesimo di livello 2 o inferiore è interrotto. Altrimenti tira WIS con DC 10 + lvl incantesimo, se ha successo l'incantesimo termina."
+    },
+    {
+        "nome":"Illusione Minore",
+        "slug":"illusione-minore",
+        "durata":"1 minuto",
+        "livello":"Cantrip",
+        "contenuto":"<p>Crei un suono o un'immagine di un oggetto entro 30ft che permane per la durata dell'incantesimo. L'illusione termina anche se la interrompi con un'azione o se lanci questo incantesimo di nuovo.</p>\n<p>Se crei l'immagine di un oggetto, quell'oggetto non deve essere più grande di un cubo di 5ft.</p>\n<p>L'immagine non può emettere suoni, luci, odori o qualsiasi altro effetto sensoriale. Un'interazione fisica con l'immagine rivela che si tratta di un'illusione, in quanto gli oggetti la attraversano. Se una creatura usa la sua azione per esaminare il suono o l'immagine, può determinare che si tratta di un'illusione se effettua con successo una prova di Intelligenza (Indagare) contro la tua DC.</p>\n<p>Se una creatura discerne l'illusione per ciò che è, l'illusione si attenua per quella creatura.</p>"
+    },
+    {
+        "nome":"Light",
+        "slug":"light",
+        "durata":"1 ora",
+        "livello":"Cantrip",
+        "contenuto":"Tocchi un oggetto non più grande di un cubo di 10ft: questo emana luce intesa per 20ft e luce fioca per altri 20ft."
+    },
+    {
+        "nome":"Resistence",
+        "slug":"resistence",
+        "durata":"Concentrazione, fino a 1 minuto",
+        "livello":"Cantrip",
+        "reaction":1,
+        "contenuto":"Tocchi una creatura, questa può aggiungere 1d4 ad un tiro salvezza."
+    },
+    {
+        "nome":"Gust",
+        "slug":"gust",
+        "durata":"istantaneo",
+        "livello":"Cantrip",
+        "contenuto":"<p>Entro 30ft puoi creare uno di questi effetti:</p>\n<li><p>Una creatura grande quanto te o più piccola deve superare un FOR save DC 10 + Modificatore Spellcaster per non essere spostata di 5ft.</p>\n<li><p>Sposti un oggetto di massimo 2Kg di 10ft.</p>\n<li><p>Crei una brezza che muove le foglie o i vestiti.</p>"
+    },
+    {
+        "nome":"Aura Faraonica",
+        "slug":"aura-faraonica",
+        "durata":"Concentrazione, fino a  5 turni",
+        "livello":"3",
+        "contenuto":"<p>Crei un'area di 30ft attorno a te stesso che ti segue.</p>\n<p>Come azione bonus puoi scegliere 1 creatura nell'area e curarla di 2d6 + Modificatore Spellcaster HP.</p>"
+    },
+    {
+        "nome":"Aura Glommitica",
+        "slug":"aura-glommitica",
+        "durata":"Concentrazione, fino a  5 turni",
+        "livello":"3",
+        "contenuto":"<p>Crei un'area di 30ft attorno a te stesso che ti segue.</p>\n<p>Come azione bonus puoi scegliere 1 creatura nell'area e curarla di 2d6 + Modificatore Spellcaster HP. A fine aura glommitica tutte le creature in aura guadagnano 2d4 + Modificatore Spellcaster HP e puoi incanalare l'energia per la <a href=\"../pagine/pagina.html?file=abilita&slug=kamehameha-glommitica\">Kamehameha Glommitica</a>.</p>"
+    },
+    {
+        "nome":"Benedizione della Natura",
+        "slug":"benedizione-della-natura",
+        "durata":"1 ora",
+        "livello":"1",
+        "contenuto":"Tocchi una creatura, questa aumenta la propria velocità di 10ft."
+    },
+    {
+        "nome":"Cura Ferite",
+        "slug":"cura-ferite",
+        "durata":"istantaneo",
+        "livello":"1",
+        "contenuto":"Tocchi una creatura, questa guadagna 1d8 + Modificatore Spellcaster HP. Non funziona sui costrutti."
+    },
+    {
+        "nome":"Entangle",
+        "slug":"entangle",
+        "durata":"Concentrazione, fino a 1 minuto",
+        "livello":"1",
+        "contenuto":"Entro 90ft liane crescono dal terreno in un' area di 20ft considerata come terreno difficile. Una creatura che si trova nell'area mentre appare deve superare un FOR save DC 10 + Modificatore Spellcaster o essere bloccata."
+    },
+    {
+        "nome":"Sfera Glommitica",
+        "slug":"sfera-glommitica",
+        "livello":"2",
+        "contenuto":"<p>Crei una sfera di energia attingendo ai poteri glommitici, può annullare il fuoco.</p>\n<p>Può essere utilizzata un numero di volte pari al Modificatore WIS</p>\n<p>Mentre è disponibile almeno 1 utilizzo hai vantaggio su WIS check che coinvolgono la vista ed emani una fioca luce verdastra.</p>"
+    },
+    {
+        "nome":"Crescita Vigorosa",
+        "slug":"crescita-vigorosa",
+        "durata":"istantaneo",
+        "livello":"3",
+        "contenuto":"<p>2 possibili utilizzi:</p>\n<li><p>Come azione: tutte le piante in un'area di 100ft crescono e si ingrandiscono, ogni 4ft di movimento valgono come 1ft.</p>\n<li><p>Come rituale in 8 ore: ogni pianta entro 1/2 miglio crescono rigogliose e producono il doppio rispetto al normale.</p>"
+    },
+    {
+        "nome":"Lesser Restoration",
+        "slug":"lesser-restoration",
+        "durata":"istantaneo",
+        "livello":"2",
+        "contenuto":"<p>Tocchi una creatura e puoi porre fine a una malattia o a una condizione che la affligge.</p>\n<p>La condizione può essere accecata, assordata, paralizzata o avvelenata.</p>"
+    },
+    {
+        "nome":"Enhance Ability",
+        "slug":"enhance-ability",
+        "durata":"Concentrazione, fino a 1 ora",
+        "livello":"2",
+        "contenuto":"<p>Tocchi 2 creature e le conferisci un potenziamento magico. Scegli uno dei seguenti effetti, il bersaglio ottiene l'effetto fino al termine dell'incantesimo.</p>\n<li><p>RESISTENZA DI BARBAMAGLIO IL POSSENTE: Il bersaglio ha vantaggio alle prove di Costituzione. Inoltre, ottiene 2d6 punti ferita temporanei, che vengono persi quando l'incantesimo termina.</p>\n<li><p>FORZA DI MAZZABOSCIDE IL MAZZOLATORE: Il bersaglio ha vantaggio alle prove di Forza e la sua capacità di carico raddoppia.</p>\n<li><p>AGILITA' DI MIMETICUS IL VELOCE: Il bersaglio ha vantaggio alle prove di Destrezza. Inoltre, non subisce danni da caduta fino a 20ft se non è incapacitato.</p>\n<li><p>SLENDORE DI TRONCANNORE: Il bersaglio ha vantaggio alle prove di Carisma.SCALTREZZA DI QUERCUS IL GIUDIZIOSO. Il bersaglio ha vantaggio alle prove di Intelligenza.</p>\n<li><p>SAGGEZZA DEL SAGGIO DISTRUTTORE: Il bersaglio ha vantaggio alle prove di Saggezza.</p>"
+    },
+    {
+        "nome":"Call Lightning",
+        "slug":"call-lightning",
+        "durata":"Concentrazione, fino a 10 minuti",
+        "livello":"3",
+        "contenuto":"Concentrazione, 10 minuti.Crei una nuvola di 60ft e alta 10ft ad un'altezza di 100ft. Tutte le creature entro 5ft dal bersaglio che puoi vedere devono superare un DEX sve DC 10 + Modificatore Spellcaster per dimezzare 3d10 danni da fulmine.Ad ogni turno puoi scegliere di attaccare lo stesso bersaglio o un altro.Se castata all'aperto aumenta la propria forza aggiungendo 1d10 danni da fulmine."
+    },
+    {
+        "nome":"Glomming Ray",
+        "slug":"glomming-ray",
+        "durata":"istantaneo",
+        "livello":"2",
+        "contenuto":"Crei 4 raggi, possono colpire 1 o più bersagli che subiscono 2d6 danni da <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a> ciascuno."
+    },
+    {
+        "nome":"Liana Super Gay",
+        "slug":"liana-super-gay",
+        "livello":"Cantrip",
+        "contenuto":"Se l'attacco va a buon fine e la creatura è grande quanto te o più piccola è tirata di 10ft verso di te."
+    },
+    {
+        "nome":"Corazza Protettiva",
+        "slug":"corazza-protettiva",
+        "durata":"Concentrazione, fino a 1 ora",
+        "livello":"2",
+        "reaction":1,
+        "contenuto":"Crei una corazza momentanea che dimezza il danno per te ed i tuoi alleati entro 5 ft."
+    },
+    {
+        "nome":"Assorbi Elemento",
+        "slug":"assorbi-elemento",
+        "durata":"1 turno",
+        "livello":"1",
+        "reaction":1,
+        "contenuto":"<p>Puoi assorbire pare dell'energia di un colpo dimezzandone il danno.</p>\n<p>Inoltre al tuo prossimo attacco aggiungi 3d6 danni del tipo assorbito. (non funziona con danno <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a>, <ahref=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a>, psichico o da forza)</p>"
+    },
+    {
+        "nome":"Guidance",
+        "slug":"guidance",
+        "durata":"Concentrazione, fino a 1 minuto",
+        "livello":"Cantrip",
+        "contenuto":"Tocchi una creatura, per 10 turni la creatura può aggiungere o sottrarre 1d4 ad un ability check a scelta"
+    },
+    {
+        "nome":"Spare the Dying",
+        "slug":"spare-the-dying",
+        "durata":"istantaneo",
+        "livello":"Cantrip",
+        "contenuto":"Tocchi una creatura, questa ritorna cosciente con 1 HP."
+    },
+    {
+        "nome":"Bless",
+        "slug":"bless",
+        "durata":"Concentrazione, fino a 1 minuto",
+        "livello":"1",
+        "contenuto":"Scegli fino a 3 creature, entro 30 ft possono aggiungere o sottrarre 1d4 ad un save throw o un attacco."
+    },
+    {
+        "nome":"Primal Slurp Surge",
+        "slug":"primal-slurp-surge",
+        "durata":"istantaneo",
+        "contenuto":"<p>Su un area di un quadrato 20x20ft casti una luce purpurea: Qualsiasi creatura che fallisca un DEX save viene illuminata.</p>\n<p>Ogni creatura che subisce questa condizione ha automaticamente il vantaggio del nemico ad essere colpita.</p>"
+    },
+    {
+        "nome":"Aid",
+        "slug":"aid",
+        "durata":"8 ore",
+        "livello":"2",
+        "contenuto":"Puoi assegnare a 3 tuoi alleati (anche te stesso) 15 HP temporanei."
+    },
+    {
+        "nome":"Spirit Guardian",
+        "slug":"spirit-guardian",
+        "durata":"Concentrazione, fino a 10 minuti",
+        "livello":"3",
+        "contenuto":"Chiami dei guardiani attorno a te, scegli delle creature entro 15ft da te. Queste creature subiscono l'effetto di Terreno Difficile e devono superare un WIS save DC 10 + Modificatore Spellcaster per dimezzare 3d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a> o <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a>."
+    },
+    {
+        "nome":"Tiny Hut",
+        "slug":"tiny-hut",
+        "durata":"8 ore",
+        "livello":"3",
+        "contenuto":"<p>Crei una piccola piramide di 10 ft di raggio attorno a te che si disintegra una volta che lasci l'area e nessuna spell può passarvi attraverso.</p>\n<p>Fino a 9 creature di media dimensione possono entrarvi ma se una creatura non autorizzata entra, la spell finisce.</p>\n<p>Servono 1d3 + Modificatore Spellcaster round per evocare questa piramide</p>"
+    },
+    {
+        "nome":"See Invisibility",
+        "slug":"see-invisibility",
+        "durata":"1 ora",
+        "livello":"2",
+        "contenuto":"Puoi vedere creature invisibili e che appartengono al piano etereo."
+    },
+    {
+        "nome":"Sonno",
+        "slug":"sonno",
+        "durata":"1 minuto",
+        "livello":"1",
+        "contenuto":"<p>Questo incantesimo fa in modo che le creature siano vittime di un sonno magico.</p>\n<p>Tira 5d8; il totale ottenuto è l'ammontare di creature in punti ferita che questo incantesimo può influenzare. Le creature entro 20ft da un punto a tua scelta situato entro la gittata sono influenzate in ordine crescente dei loro punti ferita (ignorando le creature prive di sensi). A partire dalla creatura che possiede meno punti ferita attuali, ogni creatura influenzata da questo incantesimo cade priva di sensi finché l'incantesimo non termina o il dormiente subisce danni o qualcuno usa un'azione per scuotere o schiaffeggiare il dormiente per svegliarlo.</p>\n<p>Si sottraggono i punti ferita di ogni creatura dal totale prima di passare alla creatura con l'ammontare immediatamente superiore di punti ferita. I punti ferita di una creatura devono essere pari o inferiori al totale rimanente affinché quella creatura possa essere influenzata. Le creature non morte e quelle immuni all'essere affascinate non sono influenzate da questo incantesimo.</p>"
+    },
+    {
+        "nome":"Comando",
+        "slug":"comando",
+        "durata":"1 turno",
+        "livello":"1",
+        "contenuto":"Una creatura a tua scelta deve superare un WIS save DC 10 + Modificatore Spellcaster per non ubbidire a una parola (un comando) che dici, il comando non deve recare danno alla creatura. Se non può ubbidire, l'incantesimo finisce"
+    },
+    {
+        "nome":"Jacob's Ladder",
+        "slug":"jacobs-ladder",
+        "durata":"Concentrazione, fino a 1 minuto",
+        "livello":"2",
+        "contenuto":"Puoi castare un cilindro di <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a> alto 40 ft e largo 5x5 ft su una zona. Chiunque sia in quella zona deve fare DEX save DC 10 + Modificatore Spellcaster per dimezzare o subire 2d10 + Modificatore Spellcaster danni da <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a>. Se uno shapechanger viene colpito da questo raggio deve fare un ulteriore WIS save DC 10 + Modificatore Spellcaster per non tornare alla sua forma originale."
+    },
+    {
+        "nome":"Scudo di Slurp",
+        "slug":"scudo-di-slurp",
+        "durata":"10 turni",
+        "livello":"1",
+        "azione_bonus":1,
+        "contenuto":"Uno scudo protettivo appare intorno a una creatura che scegli, +2 a Difesa."
+    },
+    {
+        "nome":"Bende del Faraone",
+        "slug":"bende-del-faraone",
+        "contenuto":"Le tue bende possono raggiungere fino a 20ft di distanza e provare ad intrappolare un nemico, questo deve fare un FOR save DC 10 + Modificatore Spellcaster. Se si libera le bende si rompono fino a quando non vengono sostituite."
+    },
+    {
+        "nome":"Slurp the Dead",
+        "slug":"slurp-the-dead",
+        "durata":"istantaneo",
+        "livello":"Cantrip",
+        "contenuto":"Una creatura entro 60ft deve superare un CAR save DC 10 + Modificatore Spellcaster oppure:</p>\n<p>Subisce 1d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a> se ha tutti gli HP</p>\n<p>Subisce 1d12 danni da <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a> se ha meno HP del suo massimo.</p>"
+    },
+    {
+        "nome":"Thunderclap",
+        "slug":"thunderclap",
+        "durata":"istantaneo",
+        "livello":"Cantrip",
+        "contenuto":"Una creatura colipita deve superare un COS save DC 10 + Modificatore Spellcaster o subire 2d6 danni elettrici, vale per qualsiasi creatura entro 5ft."
+    },
+    {
+        "nome":"Pietra Magica",
+        "slug":"pietra-magica",
+        "durata":"1 minuto",
+        "livello":"Cantrip",
+        "contenuto":"Tocchi fino a 3 sassolini infondendoli di magia, tu o un'altra creatura può lanciarli provocando 1d6 + WIS danni contundenti."
+    },
+    {
+        "nome":"Infestation",
+        "slug":"infestation",
+        "durata":"istantaneo",
+        "livello":"Cantrip",
+        "contenuto":"<p>Il bersaglio è circondato da parassiti e deve passare un COS save DC 10 + Modificatore Spellcaster o subisce 1d6 danni da veleno.</p>\n<p>Si muove di 5ft in una direzione e non subisce attacchi di opportunità. 1d4 per la direzione:<p>\n<li><p>1 Nord<p>\n<li><p>2 Sud<p>\n<li><p>3 Est<p>\n<li><p>4 Ovest.</p>"
+    },
+    {
+        "nome":"Healing Word",
+        "slug":"healing-word",
+        "durata":"istantaneo",
+        "livello":"1",
+        "contenuto":"una creatura a tua scelta viene curata di 1d4 + Modificatore Spellcaster HP.</p>\n<p>aggiungi 1d4 per ogni livello oltre il primo.</p>"
+    },
+    {
+        "nome":"Water Breathing",
+        "slug":"water-breathing",
+        "durata":"24 ore",
+        "livello":"3",
+        "contenuto":"Tu ed altre 10 creature potete respirare sott'acqua."
+    },
+    {
+        "nome":"Sciame Reale",
+        "slug":"sciame-reale",
+        "durata":"Concentrazione, fino a 10 minuti",
+        "livello":"3",
+        "contenuto":"<p>un nugolo di locuste assedia un'area di 20ft, all'inizio di ogni turno ogni creatura nell'area subisce 4d8 danni perforanti e 1d6 + Modificatore Spellcaster danni velenosi.</p>\n<p>Il bersaglio può dimezzare il danno se supera un COS save DC 10 + Modificatore Spellcaster. Chi fallisce il save è avvelenato (1d6 danni per 1d4 turni).</p>"
+    },
+    {
+        "nome":"Kachow",
+        "slug":"kachow",
+        "livello":"4",
+        "durata":"Concentrazione, fino a 1 minuto",
+        "contenuto":"Una creatura entro 90ft deve superare un COS save DC 10 + Modificatore Spellcaster. Se fallisce subisce 2d6 danni a scelta tra acido, freddo, fuoco o elettrico, inoltre perde ogni resistenza al tipo di danno subito."
+    },
+    {
+        "nome":"Mano Spettrale",
+        "slug":"mano-spettrale",
+        "durata":"1 minuto",
+        "livello":"Cantrip",
+        "azione_bonus":1,
+        "contenuto":"Puoi castare una mano spettrale che compie azioni per te. La mano può allontanarsi fino a 30ft."
+    },
+    {
+        "nome":"Sacred Flame",
+        "slug":"sacred-flame",
+        "durata":"istantaneo",
+        "livello":"Cantrip",
+        "contenuto":"Una creatura colpita è avvolta dalle fiamme sacre. Se il bersaglio non supera un DEX save DC 10 + Modificatore Spellcaster subisce 2d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a>."
+    },
+    {
+        "nome":"Comprehend Languages",
+        "slug":"comprehend-languages",
+        "durata":"1 ora",
+        "livello":"1",
+        "contenuto":"Puoi parlare e leggere qualsiasi lingua."
+    },
+    {
+        "nome":"Knock",
+        "slug":"knock",
+        "durata":"istantaneo",
+        "livello":"2",
+        "contenuto":"Puoi sbloccare un meccanismo a tua scelta, questo però emetterà un suono udibile per 300ft."
+    },
+    {
+        "nome":"Speak with the Dead",
+        "slug":"speak-with-the-dead",
+        "durata":"1 minuto",
+        "livello":"3",
+        "contenuto":"Puoi parlare con qualsiasi creatura morta, puoi effettuare 5 domande al massimo."
+    },
+    {
+        "nome":"Locate Object",
+        "slug":"locate-object",
+        "durata":"Concentrazione, fino a 10 minuti",
+        "livello":"2",
+        "contenuto":"<p>Descrivi un oggetto che ti sia familiare, che tu abbia visto da vicino (entro 30 ft) o una tipologia di oggetto.</p>\n<p>Puoi localizzarlo entro 1000 ft, anche se in movimento, ma se ha attorno a se del piombo la spell fallisce."
+    },
+    {
+        "nome":"Shatter",
+        "slug":"shatter",
+        "durata":"istantaneo",
+        "livello":"2",
+        "contenuto":"<p>Crei un rumore assordante che parte da un punto entro 60ft da te.</p>\n<p>Ogni creatura in un raggio di 10ft deve superare un COS save DC 10 + Modificatore Spellcaster o subire 3d8 danni elettrici.</p>\n<p>Se il bersaglio è composto da materiale inorganico ha svantaggio al save.</p>"
+    },
+    {
+        "nome":"Fiori d'Argento",
+        "slug":"fiori-dargento",
+        "durata":"istantaneo",
+        "livello":"1",
+        "reaction":1,
+        "contenuto":"<p>Un alleato (anche te stesso) ottiene Vantaggio mentre un nemico ottiene Svantaggio.</p>\n<p>Funziona solo su attacco, ability check e save throw.</p>"
+    },
+    {
+        "nome":"Charm Person",
+        "slug":"charm-person",
+        "durata":"1 ora",
+        "livello":"1",
+        "contenuto":"<p>Una creatura entro 30ft deve superare un WIS save DC 10 + Modificatore Spellcaster o credere di essere tuo amico (se il bersaglio sta combattendo ha Vantaggio al save).</p>\n<p>L'effetto dura fino al termine dell'Incantesimo o se il bersaglio subisce dei danni. Una volta che l'effetto termina, il bersaglio è a conoscenza di essere caduto sotto l'effetto di Charm Person.</p>"
+    },
+    {
+        "nome":"Firebolt",
+        "slug":"firebolt",
+        "durata":"istantaneo",
+        "livello":"Cantrip",
+        "contenuto":"Evochi una freccia di fuoco che colpisce entro 120ft."
+    },
+    {
+        "nome":"Blade Ward",
+        "slug":"blade-ward",
+        "durata":"1 turno",
+        "livello":"Cantrip",
+        "contenuto":"Hai resistenza a danni contundenti, taglienti, perforanti non magici."
+    },
+    {
+        "nome":"Colpo Tuonante",
+        "slug":"colpo-tuonante",
+        "durata":"1 turno",
+        "livello":"Cantrip",
+        "contenuto":"Se il bersaglio è colpito dall'arma, al prossimo movimento subirà 2d8 + Modificatore Spellcaster danni eletrici."
+    },
+    {
+        "nome":"Mani Brucianti",
+        "slug":"mani-brucianti",
+        "durata":"istantaneo",
+        "livello":"1",
+        "contenuto":"Tutte le creature in un cono di 15ft davanti a te devono fare un DEX save DC 10 + Modificatore Spellcaster per dimezzare i danni."
+    },
+    {
+        "nome":"Tempesta di Glom",
+        "slug":"tempesta-di-glom",
+        "durata":"istantaneo",
+        "livello":"1",
+        "contenuto":"Crei un cubo di 15ft di fulmini. Tutte le creature nell'area devono fare un COS save DC 10 + Modificatore Spellcaster per dimezzare o subiscono 3d8 + Modificatore Spellcaster danni elettrici e sono spinti di 10ft"
+    },
+    {
+        "nome":"Palla di Fuoco",
+        "slug":"palla-di-fuoco",
+        "durata":"istantaneo",
+        "livello":"3",
+        "contenuto":"Evochi una palla di fuoco che colpisce entro 150ft. Tutte le creature nell'area devono fare un DEX save DC 10 + Modificatore Spellcaster per dimezzare o subiscono 8d6 + Modificatore Spellcaster danni da fuoco."
+    }
+]

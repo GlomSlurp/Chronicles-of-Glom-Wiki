@@ -34,23 +34,23 @@
             "Bende dell'Aria",
             "Bende del Fulmine",
             "Bende del Fuoco",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=bracers-of-the-flow\">Bracers of the Flow</a>"
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=bracers-of-the-flow\">Bracers of the Flow</a>"
         ],
         "abilità_speciali":[
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=cig-master\">Cig Master</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=spallata\">Spallata</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=illusione-minore\">Illusione Minore</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=way-of-the-smoking-lung-catch\">Way of the smoking lung: Catch</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=quickened-healing\">Quickened Healing</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=lingering-smoke\">Lingering Smoke</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=deflect\">Deflect (Reaction)</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=skyfall\">Skyfall (Reaction)</a>"
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=cig-master\">Cig Master</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=spallata\">Spallata</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=illusione-minore\">Illusione Minore</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=way-of-the-smoking-lung-catch\">Way of the smoking lung: Catch</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=quickened-healing\">Quickened Healing</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=lingering-smoke\">Lingering Smoke</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=deflect\">Deflect (Reaction)</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=skyfall\">Skyfall (Reaction)</a>"
         ],
         "azioni":[
             "Attacco con Bastone da Combattimento",
             "I Pungi nelle Mani",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=i-pugni-nelle-mani-elettrici\">I Pungi nelle Mani (elettrici)</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=i-pugni-nelle-mani-infuocati\">I Pungi nelle Mani (infuocati)</a>"
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=i-pugni-nelle-mani-elettrici\">I Pungi nelle Mani (elettrici)</a>",
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=i-pugni-nelle-mani-infuocati\">I Pungi nelle Mani (infuocati)</a>"
         ]
     },
     {
@@ -83,49 +83,49 @@
             "Percezione +6"
         ],
         "trucchetti": [
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=light\">Light</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=resistence\">Resistence (Reaction)</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=gust\">Gust</a>"
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=light\">Light</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=resistence\">Resistence (Reaction)</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=gust\">Gust</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=liana-super-gay\">Liana Super Gay</a>"
         ],
         "incantesimi_conosciuti": [
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=aura-glommitica\">Aura Glommitica</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=benedizione-della-natura\">Benedizione della Natura</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=cura-ferite\">Cura Ferite</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=entangle\">Entangle</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=sfera-glommitica\">Sfera Glommitica</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=crescita-vigorosa\">Crescita Vigorosa</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=lesser-restoration\">Lesser Restoration</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=enhance-ability\">Enhance Ability</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=call-lightning\">Call Lightning</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=glomming-ray\">Glomming Ray</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=liana-gay\">Liana Gay (Azione Bonus)</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=radici-del-santuario\">Radice del Santuario (Azione Bonus)</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=corazza-protettiva\">Corazza Protettiva (Reaction)</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=occhio-della-foresta\">Occhio della Foresta (Reaction)</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=assorbi-elemento\">Assorbi Elemento (Reaction)</a>"
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=aura-glommitica\">Aura Glommitica</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=benedizione-della-natura\">Benedizione della Natura</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=cura-ferite\">Cura Ferite</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=entangle\">Entangle</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=sfera-glommitica\">Sfera Glommitica</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=crescita-vigorosa\">Crescita Vigorosa</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=lesser-restoration\">Lesser Restoration</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=enhance-ability\">Enhance Ability</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=call-lightning\">Call Lightning</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=glomming-ray\">Glomming Ray</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=liana-gay\">Liana Gay (Azione Bonus)</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=radici-del-santuario\">Radice del Santuario (Azione Bonus)</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=corazza-protettiva\">Corazza Protettiva (Reaction)</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=occhio-della-foresta\">Occhio della Foresta (Reaction)</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=assorbi-elemento\">Assorbi Elemento (Reaction)</a>"
             
         ],
         "tratti_speciali": [
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=scurovisione\">Scurovisione</a>"
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=scurovisione\">Scurovisione</a>"
         ],
         "equipaggiamento": [
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=witch-glaive\">Witch Glaive</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=rellanas-medallion\">Rellana's Medallion</a>",
-            "Anello Scacciafame",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=amuleto-ammazzafiamme\">Amuleto Ammazzafiamme</a>"
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=witch-glaive\">Witch Glaive</a>",
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=rellanas-medallion\">Rellana's Medallion</a>",
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=anello-scacciafame\">Anello Scacciafame</a>",
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=amuleto-ammazzafiamme\">Amuleto Ammazzafiamme</a>"
         ],
         "abilità_speciali": [
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=mimetismo-glommitico\">Mimetismo Glommitico",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=occhi-della-foresta\">Occhi della Foresta</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=mazzone\">Mazzone</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=poison-gas-witchglaive\">Poison Gas</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=vile-blast-witchglaive\">Vile Blast</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=kamehameha-glommitica\">Kamehameha Glommitica</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=liana-super-gay\">Liana Super Gay</a>"
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=mimetismo-glommitico\">Mimetismo Glommitico",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=occhi-della-foresta\">Occhi della Foresta</a>",
+            "<a href=\"../pagine/pagina.html?file=ablita&slug=mazzone\">Mazzone</a>",
+            "<a href=\"../pagine/pagina.html?file=ablita&slug=poison-gas-witchglaive\">Poison Gas</a>",
+            "<a href=\"../pagine/pagina.html?file=ablita&slug=vile-blast-witchglaive\">Vile Blast</a>",
+            "<a href=\"../pagine/pagina.html?file=ablita&slug=kamehameha-glommitica\">Kamehameha Glommitica</a>"
         ],
         "azioni": [
-            "Attacco con Witch Glaive",
-            "Attacco con Mazzone",
+            "Attacco con <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=witch-glaive\">Witch Glaive</a>",
+            "Attacco con <a href=\"../pagine/pagina.html?file=ablita&slug=mazzone\">Mazzone</a>",
             "Lancio Incantesimi"
         ]
     },
@@ -158,44 +158,44 @@
             "Religione +2"
         ],
         "trucchetti":[
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=guidance\">Guidance</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=spare-the-dying\">Slurp the Dying</a>"
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=guidance\">Guidance</a>",
+            "<a href=\"../pagine/pagina.html?file=ablita&slug=spare-the-dying\">Slurp the Dying</a>"
         ],
         "incantesimi_conosciuti":[
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=bless\">Bless</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=primal-slurp-surge\">Primal Slurp Surge</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=aid\">AIDS</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=spirit-guardian\">Pharaonic Guardian</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=tiny-hut&pg=Glomphar\">Glomphar's Tiny Hut</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=aura-faraonica\">Aura Faraonica</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=see-invisibility\">See Invisibility</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=sonno\">Sonno</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=comando\">Comando</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=jacobs-ladder\">Jacob's Ladder</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=scudo-di-slurp\">Scudo di Slurp (Azione Bonus)</a>"
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=bless\">Bless</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=primal-slurp-surge\">Primal Slurp Surge</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=aid\">AIDS</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=spirit-guardian\">Pharaonic Guardian</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=tiny-hut&pg=Glomphar\">Glomphar's Tiny Hut</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=aura-faraonica\">Aura Faraonica</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=see-invisibility\">See Invisibility</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=sonno\">Sonno</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=comando\">Comando</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=jacobs-ladder\">Jacob's Ladder</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=scudo-di-slurp\">Scudo di Slurp (Azione Bonus)</a>"
         ],
         "tratti_speciali":[
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=scurovisione\">Scurovisione</a>"
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=scurovisione\">Scurovisione</a>"
         ],
         "equipaggiamento":[
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=armatura-del-geco-notturno\">Armatura del Geco Notturno</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=cloak-of-the-moth\">Cloak of the Moth</a>",
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=armatura-del-geco-notturno\">Armatura del Geco Notturno</a>",
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=cloak-of-the-moth\">Cloak of the Moth</a>",
             "Bag of Holding"
         ],
         "abilità_speciali":[
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=a-me-gli-occhi\">Divinità dello Slurp: A me gli Occhi</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=pharaonic-sanctuary\">Divinità dello Slurp: Pharaonic Sanctuary</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=harness-slurping-power\">Channel Divinity: Harness Slurping Power</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=eyes-of-doom\">Eyes of Doom</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=a-me-gli-occhi\">Divinità dello Slurp: A me gli Occhi</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=pharaonic-sanctuary\">Divinità dello Slurp: Pharaonic Sanctuary</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=harness-slurping-power\">Channel Divinity: Harness Slurping Power</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=eyes-of-doom\">Eyes of Doom</a>",
             "History of Glomphar",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=aura-dei-caduti\">Aura dei Caduti</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=vendetta-sepolta\">Vendetta Sepolta</a>"
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=aura-dei-caduti\">Aura dei Caduti</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=vendetta-sepolta\">Vendetta Sepolta</a>"
         ],
         "azioni":[
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=bende-del-faraone\">Bende del Faraone</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=jacobs-ladder\">Jacob's Ladder</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=bende-del-faraone\">Bende del Faraone</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=jacobs-ladder\">Jacob's Ladder</a>",
             "Lancio Incantesimi",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=slurp-the-dead\">Slurp the Dead</a>"
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=slurp-the-dead\">Slurp the Dead</a>"
         ]
 
     },
@@ -232,43 +232,43 @@
             "Sopravvivenza +6"
         ],
         "trucchetti":[
-            "<a href=\"../pagine/pagina.html?file=decrizioni&slug=thunderclap\">Thunderclap</a>",
-            "<a href=\"../pagine/pagina.html?file=decrizioni&slug=pietra-magica\">Pietra Magica</a>",
-            "<a href=\"../pagine/pagina.html?file=decrizioni&slug=infestation\">Infestation</a>"
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=thunderclap\">Thunderclap</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=pietra-magica\">Pietra Magica</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=infestation\">Infestation</a>"
         ],
         "incantesimi_conosciuti":[
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=cura-ferite\">Cura Ferite</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=healing-word\">Healing Word</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=water-breathing\">Water Breathing</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=brutalita-insetta\">Brutalità Insetta</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=harmonic-repopulation\">Harmonic Repopulation</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=boom-boom-boom\">Boom Boom Boom</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=sciame-reale\">Sciame Reale</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=kachow\">Kachow</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=assorbi-elemento\">Assorbi Elemento (Reaction)</a>"
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=cura-ferite\">Cura Ferite</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=healing-word\">Healing Word</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=water-breathing\">Water Breathing</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=brutalita-insetta\">Brutalità Insetta</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=harmonic-repopulation\">Harmonic Repopulation</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=boom-boom-boom\">Boom Boom Boom</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=sciame-reale\">Sciame Reale</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=kachow\">Kachow</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=assorbi-elemento\">Assorbi Elemento (Reaction)</a>"
         ],
         "tratti_speciali":[
             "Parlare con gli Animali"
         ],
         "equipaggiamento":[
             "Tiny Bug Spear",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=ring-of-wild-shape\">Ring of Wild Shape</a>",
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=ring-of-wild-shape\">Ring of Wild Shape</a>",
             "Tarocchi Caotici"
         ],
         "abilità_speciali":[
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=popolazione\">Popolazione</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=richiamo-degli-insetti\">Richiamo degli Insetti</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=forma-insetta\">Forma Insetta</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=crawling-sensation\">Crawling Sensation</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=forza-insetta\">Forza Insetta</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=popolazione\">Popolazione</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=richiamo-degli-insetti\">Richiamo degli Insetti</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=forma-insetta\">Forma Insetta</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=crawling-sensation\">Crawling Sensation</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=forza-insetta\">Forza Insetta</a>",
             "Sono Jean-Henri Fabre",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=decompositore\">Decompositore</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=dodge\">Dodge</a> (Reaction - Solo in Forma Riccardo)",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=parry\">Parry</a> (Reaction - Solo in Forma Birillo)"
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=decompositore\">Decompositore</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a> (Reaction - Solo in Forma Riccardo)",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=parry\">Parry</a> (Reaction - Solo in Forma Birillo)"
         ],
         "azioni":[
-            "Attacco con Tiny Bug Spear",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=richiamo-degli-insetti\">Richiamo degli Insetti</a>",
+            "Attacco con <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=tiny-bug-spear\">Tiny Bug Spear</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=richiamo-degli-insetti\">Richiamo degli Insetti</a>",
             "Lancio Incantesimi"
         ]
     },
@@ -303,38 +303,38 @@
             "Persuadere +5"
         ],
         "trucchetti": [
-            "<a href=\"../pagine/pagina.html?file=decrizioni&slug=mano-spettrale\">Mano Spettrale</a>",
-            "<a href=\"../pagine/pagina.html?file=decrizioni&slug=sacred-flame\">Sacred Flame</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=mano-spettrale\">Mano Spettrale</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=sacred-flame\">Sacred Flame</a>",
             "Mending"
         ],
         "incantesimi_conosciuti": [
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=comprehend-languages\">Comprehend Languages</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=knock\">Knock</a>",
-            "Speak with the Dead",
-            "Locate Object",
-            "Spirit Guardians",
-            "Shatter",
-            "Fiori d'Argento"
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=comprehend-languages\">Comprehend Languages</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=knock\">Knock</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=speak-with-the-dead\">Speak with the Dead</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=locate-object\">Locate Object</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=spirit-guardians\">Spirit Guardians</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=shatter\">Shatter</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=fiori-dargento\">Fiori d'Argento</a> (Reazione)"
         ],
         "tratti_speciali": [
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=percezione-del-magico\">Percezione del magico</a>"
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=percezione-del-magico\">Percezione del magico</a>"
         ],
         "equipaggiamento": [
-            "Armatura Pesante",
-            "Boots of Bounding",
-            "Ocarina of Minor Charm"
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=armatura-pesante\">Armatura Pesante</a>",
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug==boots-of-bounding\">Boots of Bounding</a>",
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=ocarina-of-minor-charm\">Ocarina of Minor Charm</a>"
         ],
         "abilità_speciali": [
-            "Eroi, combattenti di Mordor!",
-            "Cavallo di Battaglia",
-            "Song of Glom",
-            "Hogwarts Avademy",
-            "I Believe I can Fly",
-            "Unlimited...?",
-            "Cutting Glom (Reaction)"
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=eroi-combattenti-di-mordor\">Eroi, combattenti di Mordor!</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=cavallo-di-battaglia\">Cavallo di Battaglia</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=song-of-glom\">Song of Glom</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=hogwarts-academy\">Hogwarts Academy</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=i-believe-i-can-fly\">I Believe I can Fly</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=unlimited\">Unlimited...?</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=cutting-glom\">Cutting Glom</a> (Reaction)"
         ],
         "azioni": [
-            "Attacco con Weapon Conjured",
+            "Attacco con <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=weapon-conjured\">Weapon Conjured</a>",
             "Lancio incantesimi"
         ]
     },
@@ -368,35 +368,37 @@
             "Percezione +6"
         ],
         "trucchetti": [
-            "Firebolt",
-            "Blade Ward",
-            "Colpo Tuonante"
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=firebolt\">Firebolt</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=blade-ward\">Blade Ward</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=colpo-tuonante\">Colpo Tuonante</a>"
         ],
         "incantesimi_conosciuti": [
-            "Mani brucianti",
-            "Tempesta di Glom",
-            "Palla di fuoco",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=mani-brucianti\">Mani brucianti</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=tempesta-di-glom\">Tempesta di Glom</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=palla-di-fuoco\">Palla di fuoco</a>",
             "<a href=\"../pagine/pagina.html?file=descrizioni&slug=alter-self\">Alter Self</a>",
             "<a href=\"../pagine/pagina.html?file=descrizioni&slug=annulla-magia\">Annulla Magia</a>"
         ],
         "tratti_speciali": [
-            "Percezione del magico"
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=percezione-del-magico\">Percezione del Magico</a>"
         ],
         "equipaggiamento": [
-            "Wand of Wonder",
-            "Wand of Minor Chaos"
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=wand-of-wonder\">Wand of Wonder</a>",
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=wand-of-minor-chaos\">Wand of Minor Chaos</a>"
         ],
         "abilità_speciali": [
-            "Wild Glom Surge",
-            "Non Gioco a Dadi col Destino",
-            "Bluff",
-            "Benedizione di Miscelius (Reaction)",
-            "Baro al Tavolo (Reaction)",
-            "Tiro Fortunato (Reaction)"
+            "<a href=\"../pagine/pagine.html?file=abilita&slug=wild-glom-surge\">Wild Glom Surge</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=sovraccarico-di-slurp\">Sovraccarico di Slurp</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=non-gioco-a-dadi-col-destino\">Non Gioco a Dadi col Destino</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=guida-di-glomphar\">Guida di Glomphar</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=bluff\">Bluff</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=benedizione-di-miscelius\">Benedizione di Miscelius</a> (Reaction)",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=baro-al-tavolo\">Baro al Tavolo</a> (Reaction)",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=tiro-fortunato\">Tiro Fortunato</a> (Reaction)"
         ],
         "azioni": [
-            "Attacco con Wand of Wonder",
-            "Abilità Wand of Minor Chaos",
+            "Attacco con <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=wand-of-wonder\">Wand of Wonder</a>",
+            "Abilità <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=wand-of-minor-chaos\">Wand of Minor Chaos</a>",
             "Lancio incantesimi"
         ]
     }

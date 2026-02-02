@@ -1,0 +1,87 @@
+[
+    {
+        "nome":"I Pugni nelle Mani (elettrici)",
+        "slug":"i-pugni-nelle-mani-elettrici",
+        "contenuto":"In caso di hit, se un altro target è entro 5 ft, puoi infliggere 1d8 danni elettrici extra oltre quelli che infliggi già (solo sul primo hit)"
+    },
+    {
+        "nome":"I Pugni nelle Mani (infuocati)",
+        "slug":"i-pugni-nelle-mani-infuocati",
+        "contenuto":"<p>Guanti che prendono fuoco utilizzando la mente di chi li usa.</p>\n<p> Boostano ogni colpo consecutivo e si resettano dopo ogni turno. Al primo colpo aggiungo zero, al secondo 1d8, al terzo 2d8 e al quarto 3d8.</p>"
+    },
+    {
+        "nome":"Rellana's Medallion",
+        "slug":"rellanas-medallion",
+        "contenuto":"Permette l'uso di <a href=\"../pagine/pagina.html?file=incantesimi&slug=light\">Light</a> e aggiunge +1d8 alle cure"
+    },
+    {
+        "nome":"Amuleto Ammazzafiamme",
+        "slug":"amuleto-ammazzafiamme",
+        "contenuto":"Amuleto lasciato da un <a href=\"../pagine/pagina.html?file=creature&slug=purifier\">Purifier</a> nella <a href=\"../pagine/pagina.html?file=luoghi&slug=la-prigione-di-baris\">Prigione di Baris</a>. Sembra che riesca a proteggere il portatore dal fuoco."
+    },
+    {
+        "nome":"Anello Scacciafame",
+        "slug":"anello-scacciafame",
+        "contenuto":""
+    },
+    {
+        "nome":"Witch Glaive",
+        "slug":"witch-glaive",
+        "contenuto":"<p>Glaive appartenuta alla leggenda vivente di Barbataus. Permette l'uso di <a href=\"../pagine/pagina.html?file=abilita&slug=vile-blast\">Vile Blast</a>, <a href=\"../pagine/pagina.html?file=abilita&slug=poison-gas\">Poison Gas</a> e <a href=\"../pagine/pagina.html?file=incantesimi&slug=resistance\">Resistance</a>.</p>\n<p>Attunement necessario:</p>\n<p><a href=\"../pagine/pagina.html?file=incantesimi&slug=resistance\">Resistance</a>: livello 1</p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=poison-gas\">Poison Gas</a>: livello 2</p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=vile-blast\">Vile blast</a>: livello 3</p>"
+    },
+    {
+        "nome":"Bracers of the Flow",
+        "slug":"bracers-of-the-flow",
+        "contenuto":" + 1 ac difesa, restora 1d4 ki per charge, ha 5 charge al giorno"
+    },
+    {
+        "nome":"Cloak of the Moth",
+        "slug":"cloak-of-the-moth",
+        "contenuto":"Hai +1 alle prove di Furtività e se rimani fermo hai +1 a Difesa."
+    },
+    {
+        "nome":"Armatura del Geco Notturno",
+        "slug":"armatura-del-geco-notturno",
+        "contenuto":"Hai +1 a Difesa e vantaggio sulle prove di Furtività se in oscurità o penombra."
+    },
+    {
+        "nome":"Tiny Bug Spear",
+        "slug":"tiny-bug-spear",
+        "contenuto":"<p>Una lancia che assomiglia ad un pungiglione.</p>\n<p>Attunement necessario:</p>\n<li><a href=\"../pagine/pagina.html?file=abilita&slug=harmonic-repopulation\">Harmonic Repopulation</a>: livello 2</li>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=boom-boom-boom\">Boom Boom Boom</a>: livello 3</p>"
+    },
+    {
+        "nome":"Ring of Wild Shape",
+        "slug":"ring-of-wild-shape",
+        "contenuto":"+ 1 trasformazione."
+    },
+    {
+        "nome":"Armatura Pesante",
+        "slug":"armatura-pesante",
+        "contenuto":"+2 a <a href=\"../pagine/pagina.html?file=meccaniche&slug=difesa\">Difesa</a>."
+    },
+    {
+        "nome":"Boots of Bounding",
+        "slug":"boots-of-bounding",
+        "contenuto":"Raddoppiano la distanza massima di salto, sia in avanti sia in alto."
+    },
+    {
+        "nome":"Ocarina of Minor Charm",
+        "slug":"ocarina-of-minor-charm",
+        "contenuto":"Se è utilizzata da un Bardo, garantisce l'uso di 1 <a href=\"../pagine/pagina.html?file=incantesimi&slug=charm-person\">Charm Person</a> al giorno."
+    },
+    {
+        "nome":"Weapon Conjured",
+        "slug":"weapon-conjured",
+        "contenuto":"Ricrea una spada illusoria basata su una spada leggendaria che un tempo vedesti."
+    },
+    {
+        "nome":"Wand of Wonder",
+        "slug":"wand-of-wonder",
+        "contenuto":"<p>Puoi usare 1 carica per scegliere una creatura entro 120ft. Tira 1d100 e vedi la Wonder Table. La creatura è il bersaglio dell'effetto (DC 10 + Modificatore Spellcaster).</p>\n<p>La Wand of Wonder ha 7 cariche, ricarica 1d6 + 1 cariche al tramonto. "
+    },
+    {
+        "nome":"Wand of Minor Chaos",
+        "slug":"wand-of-minor-chaos",
+        "contenuto":"<p>Puoi usare 1 carica per scegliere una creatura entro 120ft, questa è il bersaglio dell'effetto del <a href=\"../pagine/pagina.html?file=abilita&slug=wild-glom-surge\">Wild Glom Surge</a>.</p>\n<p>La Wand of Minor Chaos ha 4 cariche, ricarica 1d4 cariche al tramonto.</p>"
+    }
+]

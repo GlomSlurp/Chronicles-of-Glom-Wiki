@@ -58,7 +58,10 @@ const file = params.get("file");
 const slug = params.get("slug");
 
 // Link "torna alla categoria"
-document.getElementById("back-category").href = file === "descrizioni" ? "schede.html" : `${file}.html`;
+const categorieSchede = ["incantesimi", "abilita", "equipaggiamento"];
+
+document.getElementById("back-category").href =
+    categorieSchede.includes(file) ? "schede.html" : `${file}.html`;
 
 // --- 2. Carica il JSON corretto ---
 fetch(`../data/${file}.json`)
@@ -87,6 +90,12 @@ if (pagina.contenuto) {
     if (pagina.durata) {
         extra += `<p><strong>Durata:</strong> ${pagina.durata}</p>`;
     }
+    if (pagina.descrizione) {
+        extra += `<p>${pagina.descrizione}</p>`;
+    }
+    if (pagina.livello !== undefined && pagina.livello !== null) {
+    extra += `<p><strong>Livello:</strong> ${pagina.livello}</p>`;
+}
 
     document.getElementById("contenuto").innerHTML = extra + pagina.contenuto;
 }

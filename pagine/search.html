@@ -58,7 +58,7 @@ if (!termine) {
 }
 
 // --- 2. Sezioni da cercare ---
-const sezioni = ["persone", "creature", "luoghi", "lore", "gruppi", "geografia", "divinita", "meccaniche"];
+const sezioni = ["abilita", "creature", "divinita","equipaggiamento", "geografia", "gruppi", "incantesimi", "lore", "luoghi", "meccaniche", "persone", "quest", "schede"];
 
 const risultatiContainer = document.getElementById("risultati");
 
@@ -75,7 +75,7 @@ Promise.all(
     allData.forEach(({ sezione, data }) => {
         data.forEach(item => {
             const nome = item.nome.toLowerCase();
-            const contenuto = item.contenuto.toLowerCase();
+            const contenuto = (item.contenuto || "").toLowerCase();
 
             if (nome.includes(termine) || contenuto.includes(termine)) {
                 trovati++;
