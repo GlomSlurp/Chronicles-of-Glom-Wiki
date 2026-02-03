@@ -41,21 +41,21 @@
         "slug":"gust",
         "durata":"istantaneo",
         "livello":"Cantrip",
-        "contenuto":"<p>Entro 30ft puoi creare uno di questi effetti:</p>\n<li><p>Una creatura grande quanto te o più piccola deve superare un FOR save DC 10 + Modificatore Spellcaster per non essere spostata di 5ft.</p>\n<li><p>Sposti un oggetto di massimo 2Kg di 10ft.</p>\n<li><p>Crei una brezza che muove le foglie o i vestiti.</p>"
+        "contenuto":"<p>Entro 30ft puoi creare uno di questi effetti:</p>\n<li><p>Una creatura grande quanto te o più piccola deve superare un FOR save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per non essere spostata di 5ft.</p>\n<li><p>Sposti un oggetto di massimo 2Kg di 10ft.</p>\n<li><p>Crei una brezza che muove le foglie o i vestiti.</p>"
     },
     {
         "nome":"Aura Faraonica",
         "slug":"aura-faraonica",
         "durata":"Concentrazione, fino a  5 turni",
         "livello":"3",
-        "contenuto":"<p>Crei un'area di 30ft attorno a te stesso che ti segue.</p>\n<p>Come azione bonus puoi scegliere 1 creatura nell'area e curarla di 2d6 + Modificatore Spellcaster HP.</p>"
+        "contenuto":"<p>Crei un'area di 30ft attorno a te stesso che ti segue.</p>\n<p>Come azione bonus puoi scegliere 1 creatura nell'area e curarla di 2d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita.</p>"
     },
     {
         "nome":"Aura Glommitica",
         "slug":"aura-glommitica",
         "durata":"Concentrazione, fino a  5 turni",
         "livello":"3",
-        "contenuto":"<p>Crei un'area di 30ft attorno a te stesso che ti segue.</p>\n<p>Come azione bonus puoi scegliere 1 creatura nell'area e curarla di 2d6 + Modificatore Spellcaster HP. A fine aura glommitica tutte le creature in aura guadagnano 2d4 + Modificatore Spellcaster HP e puoi incanalare l'energia per la <a href=\"../pagine/pagina.html?file=abilita&slug=kamehameha-glommitica\">Kamehameha Glommitica</a>.</p>"
+        "contenuto":"<p>Crei un'area di 30ft attorno a te stesso che ti segue.</p>\n<p>Come azione bonus puoi scegliere 1 creatura nell'area e curarla di 2d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita. A fine aura glommitica tutte le creature in aura guadagnano 2d4 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita e puoi incanalare l'energia per la <a href=\"../pagine/pagina.html?file=abilita&slug=kamehameha-glommitica\">Kamehameha Glommitica</a>.</p>"
     },
     {
         "nome":"Benedizione della Natura",
@@ -69,14 +69,14 @@
         "slug":"cura-ferite",
         "durata":"istantaneo",
         "livello":"1",
-        "contenuto":"Tocchi una creatura, questa guadagna 1d8 + Modificatore Spellcaster HP. Non funziona sui costrutti."
+        "contenuto":"Tocchi una creatura, questa guadagna 1d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita. Non funziona sui costrutti."
     },
     {
         "nome":"Entangle",
         "slug":"entangle",
         "durata":"Concentrazione, fino a 1 minuto",
         "livello":"1",
-        "contenuto":"Entro 90ft liane crescono dal terreno in un' area di 20ft considerata come terreno difficile. Una creatura che si trova nell'area mentre appare deve superare un FOR save DC 10 + Modificatore Spellcaster o essere bloccata."
+        "contenuto":"Entro 90ft liane crescono dal terreno in un' area di 20ft considerata come terreno difficile. Una creatura che si trova nell'area mentre appare deve superare un FOR save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o essere bloccata."
     },
     {
         "nome":"Sfera Glommitica",
@@ -110,7 +110,7 @@
         "slug":"call-lightning",
         "durata":"Concentrazione, fino a 10 minuti",
         "livello":"3",
-        "contenuto":"Concentrazione, 10 minuti.Crei una nuvola di 60ft e alta 10ft ad un'altezza di 100ft. Tutte le creature entro 5ft dal bersaglio che puoi vedere devono superare un DEX sve DC 10 + Modificatore Spellcaster per dimezzare 3d10 danni da fulmine.Ad ogni turno puoi scegliere di attaccare lo stesso bersaglio o un altro.Se castata all'aperto aumenta la propria forza aggiungendo 1d10 danni da fulmine."
+        "contenuto":"Concentrazione, 10 minuti.Crei una nuvola di 60ft e alta 10ft ad un'altezza di 100ft. Tutte le creature entro 5ft dal bersaglio che puoi vedere devono superare un DEX sve DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare 3d10 danni da fulmine.Ad ogni turno puoi scegliere di attaccare lo stesso bersaglio o un altro.Se castata all'aperto aumenta la propria forza aggiungendo 1d10 danni da fulmine."
     },
     {
         "nome":"Glomming Ray",
@@ -153,7 +153,7 @@
         "slug":"spare-the-dying",
         "durata":"istantaneo",
         "livello":"Cantrip",
-        "contenuto":"Tocchi una creatura, questa ritorna cosciente con 1 HP."
+        "contenuto":"Tocchi una creatura, questa ritorna cosciente con 1 punti ferita."
     },
     {
         "nome":"Bless",
@@ -173,21 +173,21 @@
         "slug":"aid",
         "durata":"8 ore",
         "livello":"2",
-        "contenuto":"Puoi assegnare a 3 tuoi alleati (anche te stesso) 15 HP temporanei."
+        "contenuto":"Puoi assegnare a 3 tuoi alleati (anche te stesso) 15 punti ferita temporanei."
     },
     {
         "nome":"Spirit Guardian",
         "slug":"spirit-guardian",
         "durata":"Concentrazione, fino a 10 minuti",
         "livello":"3",
-        "contenuto":"Chiami dei guardiani attorno a te, scegli delle creature entro 15ft da te. Queste creature subiscono l'effetto di Terreno Difficile e devono superare un WIS save DC 10 + Modificatore Spellcaster per dimezzare 3d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a> o <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a>."
+        "contenuto":"Chiami dei guardiani attorno a te, scegli delle creature entro 15ft da te. Queste creature subiscono l'effetto di Terreno Difficile e devono superare un WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare 3d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a> o <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a>."
     },
     {
         "nome":"Tiny Hut",
         "slug":"tiny-hut",
         "durata":"8 ore",
         "livello":"3",
-        "contenuto":"<p>Crei una piccola piramide di 10 ft di raggio attorno a te che si disintegra una volta che lasci l'area e nessuna spell può passarvi attraverso.</p>\n<p>Fino a 9 creature di media dimensione possono entrarvi ma se una creatura non autorizzata entra, la spell finisce.</p>\n<p>Servono 1d3 + Modificatore Spellcaster round per evocare questa piramide</p>"
+        "contenuto":"<p>Crei una piccola piramide di 10 ft di raggio attorno a te che si disintegra una volta che lasci l'area e nessuna spell può passarvi attraverso.</p>\n<p>Fino a 9 creature di media dimensione possono entrarvi ma se una creatura non autorizzata entra, la spell finisce.</p>\n<p>Servono 1d3 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> round per evocare questa piramide</p>"
     },
     {
         "nome":"See Invisibility",
@@ -208,14 +208,14 @@
         "slug":"comando",
         "durata":"1 turno",
         "livello":"1",
-        "contenuto":"Una creatura a tua scelta deve superare un WIS save DC 10 + Modificatore Spellcaster per non ubbidire a una parola (un comando) che dici, il comando non deve recare danno alla creatura. Se non può ubbidire, l'incantesimo finisce"
+        "contenuto":"Una creatura a tua scelta deve superare un WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per non ubbidire a una parola (un comando) che dici, il comando non deve recare danno alla creatura. Se non può ubbidire, l'incantesimo finisce"
     },
     {
         "nome":"Jacob's Ladder",
         "slug":"jacobs-ladder",
         "durata":"Concentrazione, fino a 1 minuto",
         "livello":"2",
-        "contenuto":"Puoi castare un cilindro di <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a> alto 40 ft e largo 5x5 ft su una zona. Chiunque sia in quella zona deve fare DEX save DC 10 + Modificatore Spellcaster per dimezzare o subire 2d10 + Modificatore Spellcaster danni da <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a>. Se uno shapechanger viene colpito da questo raggio deve fare un ulteriore WIS save DC 10 + Modificatore Spellcaster per non tornare alla sua forma originale."
+        "contenuto":"Puoi castare un cilindro di <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a> alto 40 ft e largo 5x5 ft su una zona. Chiunque sia in quella zona deve fare DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare o subire 2d10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni da <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a>. Se uno shapechanger viene colpito da questo raggio deve fare un ulteriore WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per non tornare alla sua forma originale."
     },
     {
         "nome":"Scudo di Slurp",
@@ -228,21 +228,21 @@
     {
         "nome":"Bende del Faraone",
         "slug":"bende-del-faraone",
-        "contenuto":"Le tue bende possono raggiungere fino a 20ft di distanza e provare ad intrappolare un nemico, questo deve fare un FOR save DC 10 + Modificatore Spellcaster. Se si libera le bende si rompono fino a quando non vengono sostituite."
+        "contenuto":"Le tue bende possono raggiungere fino a 20ft di distanza e provare ad intrappolare un nemico, questo deve fare un FOR save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>. Se si libera le bende si rompono fino a quando non vengono sostituite."
     },
     {
         "nome":"Slurp the Dead",
         "slug":"slurp-the-dead",
         "durata":"istantaneo",
         "livello":"Cantrip",
-        "contenuto":"Una creatura entro 60ft deve superare un CAR save DC 10 + Modificatore Spellcaster oppure:</p>\n<p>Subisce 1d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a> se ha tutti gli HP</p>\n<p>Subisce 1d12 danni da <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a> se ha meno HP del suo massimo.</p>"
+        "contenuto":"Una creatura entro 60ft deve superare un CAR save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> oppure:</p>\n<p>Subisce 1d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a> se ha tutti gli punti ferita</p>\n<p>Subisce 1d12 danni da <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a> se ha meno punti ferita del suo massimo.</p>"
     },
     {
         "nome":"Thunderclap",
         "slug":"thunderclap",
         "durata":"istantaneo",
         "livello":"Cantrip",
-        "contenuto":"Una creatura colipita deve superare un COS save DC 10 + Modificatore Spellcaster o subire 2d6 danni elettrici, vale per qualsiasi creatura entro 5ft."
+        "contenuto":"Una creatura colipita deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o subire 2d6 danni elettrici, vale per qualsiasi creatura entro 5ft."
     },
     {
         "nome":"Pietra Magica",
@@ -256,14 +256,14 @@
         "slug":"infestation",
         "durata":"istantaneo",
         "livello":"Cantrip",
-        "contenuto":"<p>Il bersaglio è circondato da parassiti e deve passare un COS save DC 10 + Modificatore Spellcaster o subisce 1d6 danni da veleno.</p>\n<p>Si muove di 5ft in una direzione e non subisce attacchi di opportunità. 1d4 per la direzione:<p>\n<li><p>1 Nord<p>\n<li><p>2 Sud<p>\n<li><p>3 Est<p>\n<li><p>4 Ovest.</p>"
+        "contenuto":"<p>Il bersaglio è circondato da parassiti e deve passare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o subisce 1d6 danni da veleno.</p>\n<p>Si muove di 5ft in una direzione e non subisce attacchi di opportunità. 1d4 per la direzione:<p>\n<li><p>1 Nord<p>\n<li><p>2 Sud<p>\n<li><p>3 Est<p>\n<li><p>4 Ovest.</p>"
     },
     {
         "nome":"Healing Word",
         "slug":"healing-word",
         "durata":"istantaneo",
         "livello":"1",
-        "contenuto":"una creatura a tua scelta viene curata di 1d4 + Modificatore Spellcaster HP.</p>\n<p>aggiungi 1d4 per ogni livello oltre il primo.</p>"
+        "contenuto":"una creatura a tua scelta viene curata di 1d4 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita.</p>\n<p>aggiungi 1d4 per ogni livello oltre il primo.</p>"
     },
     {
         "nome":"Water Breathing",
@@ -277,14 +277,14 @@
         "slug":"sciame-reale",
         "durata":"Concentrazione, fino a 10 minuti",
         "livello":"3",
-        "contenuto":"<p>un nugolo di locuste assedia un'area di 20ft, all'inizio di ogni turno ogni creatura nell'area subisce 4d8 danni perforanti e 1d6 + Modificatore Spellcaster danni velenosi.</p>\n<p>Il bersaglio può dimezzare il danno se supera un COS save DC 10 + Modificatore Spellcaster. Chi fallisce il save è avvelenato (1d6 danni per 1d4 turni).</p>"
+        "contenuto":"<p>un nugolo di locuste assedia un'area di 20ft, all'inizio di ogni turno ogni creatura nell'area subisce 4d8 danni perforanti e 1d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni velenosi.</p>\n<p>Il bersaglio può dimezzare il danno se supera un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>. Chi fallisce il save è avvelenato (1d6 danni per 1d4 turni).</p>"
     },
     {
         "nome":"Kachow",
         "slug":"kachow",
         "livello":"4",
         "durata":"Concentrazione, fino a 1 minuto",
-        "contenuto":"Una creatura entro 90ft deve superare un COS save DC 10 + Modificatore Spellcaster. Se fallisce subisce 2d6 danni a scelta tra acido, freddo, fuoco o elettrico, inoltre perde ogni resistenza al tipo di danno subito."
+        "contenuto":"Una creatura entro 90ft deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>. Se fallisce subisce 2d6 danni a scelta tra acido, freddo, fuoco o elettrico, inoltre perde ogni resistenza al tipo di danno subito."
     },
     {
         "nome":"Mano Spettrale",
@@ -299,7 +299,7 @@
         "slug":"sacred-flame",
         "durata":"istantaneo",
         "livello":"Cantrip",
-        "contenuto":"Una creatura colpita è avvolta dalle fiamme sacre. Se il bersaglio non supera un DEX save DC 10 + Modificatore Spellcaster subisce 2d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a>."
+        "contenuto":"Una creatura colpita è avvolta dalle fiamme sacre. Se il bersaglio non supera un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> subisce 2d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a>."
     },
     {
         "nome":"Comprehend Languages",
@@ -334,7 +334,7 @@
         "slug":"shatter",
         "durata":"istantaneo",
         "livello":"2",
-        "contenuto":"<p>Crei un rumore assordante che parte da un punto entro 60ft da te.</p>\n<p>Ogni creatura in un raggio di 10ft deve superare un COS save DC 10 + Modificatore Spellcaster o subire 3d8 danni elettrici.</p>\n<p>Se il bersaglio è composto da materiale inorganico ha svantaggio al save.</p>"
+        "contenuto":"<p>Crei un rumore assordante che parte da un punto entro 60ft da te.</p>\n<p>Ogni creatura in un raggio di 10ft deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o subire 3d8 danni elettrici.</p>\n<p>Se il bersaglio è composto da materiale inorganico ha svantaggio al save.</p>"
     },
     {
         "nome":"Fiori d'Argento",
@@ -349,7 +349,7 @@
         "slug":"charm-person",
         "durata":"1 ora",
         "livello":"1",
-        "contenuto":"<p>Una creatura entro 30ft deve superare un WIS save DC 10 + Modificatore Spellcaster o credere di essere tuo amico (se il bersaglio sta combattendo ha Vantaggio al save).</p>\n<p>L'effetto dura fino al termine dell'Incantesimo o se il bersaglio subisce dei danni. Una volta che l'effetto termina, il bersaglio è a conoscenza di essere caduto sotto l'effetto di Charm Person.</p>"
+        "contenuto":"<p>Una creatura entro 30ft deve superare un WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o credere di essere tuo amico (se il bersaglio sta combattendo ha Vantaggio al save).</p>\n<p>L'effetto dura fino al termine dell'Incantesimo o se il bersaglio subisce dei danni. Una volta che l'effetto termina, il bersaglio è a conoscenza di essere caduto sotto l'effetto di Charm Person.</p>"
     },
     {
         "nome":"Firebolt",
@@ -370,27 +370,27 @@
         "slug":"colpo-tuonante",
         "durata":"1 turno",
         "livello":"Cantrip",
-        "contenuto":"Se il bersaglio è colpito dall'arma, al prossimo movimento subirà 2d8 + Modificatore Spellcaster danni eletrici."
+        "contenuto":"Se il bersaglio è colpito dall'arma, al prossimo movimento subirà 2d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni eletrici."
     },
     {
         "nome":"Mani Brucianti",
         "slug":"mani-brucianti",
         "durata":"istantaneo",
         "livello":"1",
-        "contenuto":"Tutte le creature in un cono di 15ft davanti a te devono fare un DEX save DC 10 + Modificatore Spellcaster per dimezzare i danni."
+        "contenuto":"Tutte le creature in un cono di 15ft davanti a te devono fare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare i danni."
     },
     {
         "nome":"Tempesta di Glom",
         "slug":"tempesta-di-glom",
         "durata":"istantaneo",
         "livello":"1",
-        "contenuto":"Crei un cubo di 15ft di fulmini. Tutte le creature nell'area devono fare un COS save DC 10 + Modificatore Spellcaster per dimezzare o subiscono 3d8 + Modificatore Spellcaster danni elettrici e sono spinti di 10ft"
+        "contenuto":"Crei un cubo di 15ft di fulmini. Tutte le creature nell'area devono fare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare o subiscono 3d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni elettrici e sono spinti di 10ft"
     },
     {
         "nome":"Palla di Fuoco",
         "slug":"palla-di-fuoco",
         "durata":"istantaneo",
         "livello":"3",
-        "contenuto":"Evochi una palla di fuoco che colpisce entro 150ft. Tutte le creature nell'area devono fare un DEX save DC 10 + Modificatore Spellcaster per dimezzare o subiscono 8d6 + Modificatore Spellcaster danni da fuoco."
+        "contenuto":"Evochi una palla di fuoco che colpisce entro 150ft. Tutte le creature nell'area devono fare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare o subiscono 8d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni da fuoco."
     }
 ]

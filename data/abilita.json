@@ -22,12 +22,12 @@
     {
         "nome":"Quickened Healing",
         "slug":"quickened-healing",
-        "contenuto":"Puoi usare 2 punti ki per curare te stessa di 1d4 + DEX HP."
+        "contenuto":"Puoi usare 2 punti ki per curare te stessa di 1d4 + DEX punti ferita."
     },
     {
         "nome":"Lingering Smoke",
         "slug":"lingering-smoke",
-        "contenuto":"<p>La tua capacità di manipolare il fumo migliora, permettendoti di colpire nemici a distanza. Durante il tuo turno, puoi spendere 1 punto Ki (senza usare un'azione) per conferire ai tuoi pugni la proprietà Reach (5 ft di reach in più sui colpi) fino all'inizio del tuo turno successivo. Vale anche come proprietà quando fumi una sigaretta per flurry of blows.</p>\n<p> Quando colpisci una creatura, puoi costringerla a superare un tiro salvezza di Forza DC 10 + Modificatore Spellcaster o essere attratta fino a 10ft verso di te.</p>\n<p> Inoltre, durante questo periodo puoi effettuare colpi a mani nude da una nube di fumo creata con Mystic Smoke. Questi attacchi possono colpire qualsiasi creatura entro 5 ft. dalla nube. Se usi questa capacità per attrarre il bersaglio dalla nube, viene spostato verso il centro della nube invece che verso di te.</p>"
+        "contenuto":"<p>La tua capacità di manipolare il fumo migliora, permettendoti di colpire nemici a distanza. Durante il tuo turno, puoi spendere 1 punto Ki (senza usare un'azione) per conferire ai tuoi pugni la proprietà Reach (5 ft di reach in più sui colpi) fino all'inizio del tuo turno successivo. Vale anche come proprietà quando fumi una sigaretta per flurry of blows.</p>\n<p> Quando colpisci una creatura, puoi costringerla a superare un tiro salvezza di Forza DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o essere attratta fino a 10ft verso di te.</p>\n<p> Inoltre, durante questo periodo puoi effettuare colpi a mani nude da una nube di fumo creata con Mystic Smoke. Questi attacchi possono colpire qualsiasi creatura entro 5 ft. dalla nube. Se usi questa capacità per attrarre il bersaglio dalla nube, viene spostato verso il centro della nube invece che verso di te.</p>"
     },
     {
         "nome":"Deflect",
@@ -50,14 +50,14 @@
         "nome":"Kamehameha Glommitica",
         "slug":"kamehameha-glommitica",
         "durata":"Full Round Action",
-        "contenuto":"<p>Incanala tutta l'energia assorbita da <a href=\"../pagine/pagina.html?file=incantesimi&slug=aura-glommitica\">Aura Glommitica</a> per creare un onda energetica.</p>\n<p>Per ogni persona curata aggiunge 1d6+ Modificatore Spellcaster al danno della kamehameha, il danno è danno da forza. DEX save DC 10 + Modificatore Spellcaster per dimezzare.</p>"
+        "contenuto":"<p>Incanala tutta l'energia assorbita da <a href=\"../pagine/pagina.html?file=incantesimi&slug=aura-glommitica\">Aura Glommitica</a> per creare un onda energetica.</p>\n<p>Per ogni persona curata aggiunge 1d6+ <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> al danno della kamehameha, il danno è danno da forza. DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare.</p>"
     },
         {
         "nome":"Liana Gay",
         "slug":"liana-gay",
         "durata":"1 minuto",
         "azione_bonus":1,
-        "contenuto":"Una creatura entro 20ft deve superare un FOR save DC 10 + Modificatore Spellcaster, altrimenti è intrappolata. Mentre la creatura è intrappolata puoi usare un'azione per infliggere 1d8 danni contundenti. L'effetto termina se il bersaglio subisce danni da fuoco."
+        "contenuto":"Una creatura entro 20ft deve superare un FOR save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>, altrimenti è intrappolata. Mentre la creatura è intrappolata puoi usare un'azione per infliggere 1d8 danni contundenti. L'effetto termina se il bersaglio subisce danni da fuoco."
     },
         {
         "nome":"Radici del Santuario",
@@ -90,24 +90,24 @@
         "nome":"Poison Gas",
         "slug":"poison-gas-witchglaive",
         "durata":"Concentrazione, fino a 10 minuti",
-        "contenuto":"La <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=witch-glaive\">Witch Glaive</a> genera un'area di 15ft attorno a te che causa 1d6 danni velenosi ogni turno. La <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=witch-glaive\">Witch Glaive</a> genera delle bombe su di se che puoi staccare per lanciare addosso all'avversario. Ogni 24 ore puoi tirare un 1d6 per la quantità di bombe da usare 1 per fight. Le bombe generano un'area di 15 ft che si espande ad ogni turno per 4 turni, e causa 1d6 danni velenosi per turno se non si supera un COS save DC 10 + Modificatore Spellcaster."
+        "contenuto":"La <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=witch-glaive\">Witch Glaive</a> genera un'area di 15ft attorno a te che causa 1d6 danni velenosi ogni turno. La <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=witch-glaive\">Witch Glaive</a> genera delle bombe su di se che puoi staccare per lanciare addosso all'avversario. Ogni 24 ore puoi tirare un 1d6 per la quantità di bombe da usare 1 per fight. Le bombe generano un'area di 15 ft che si espande ad ogni turno per 4 turni, e causa 1d6 danni velenosi per turno se non si supera un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>."
     },
     {
         "nome":"Vile Blast",
         "slug":"vile-blast-witchglaive",
-        "contenuto":"<p>Quando attacchi con la <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=witch-glaive\">Witch Glaive</a> puoi far uscire dell'acido da tutte le bombe, il bersaglio deve fare un COS save DC 10 + Modificatore Spellcaster.</p>\n<p>Non passato: subisce 6d6 danni da acido e tolgono 1 al tiro <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e al COS save per tutto il prossimo turno.</p>\n<p> Passato: subisce 3d4 danni da acido</p>"
+        "contenuto":"<p>Quando attacchi con la <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=witch-glaive\">Witch Glaive</a> puoi far uscire dell'acido da tutte le bombe, il bersaglio deve fare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>.</p>\n<p>Non passato: subisce 6d6 danni da acido e tolgono 1 al tiro <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e al COS save per tutto il prossimo turno.</p>\n<p> Passato: subisce 3d4 danni da acido</p>"
     },
     {
         "nome":"A me gli Occhi",
         "slug":"a-me-gli-occhi",
         "durata":"1 minuto",
-        "contenuto":"Puoi incutere timore nei non morti. Questi devono superare un WIS save DC 10 + Modificatore Spellcaster oppure usare un turno per scappare il più possibile da te"
+        "contenuto":"Puoi incutere timore nei non morti. Questi devono superare un WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> oppure usare un turno per scappare il più possibile da te"
     },
     {
         "nome":"Pharaonic Sanctuary",
         "slug":"pharaonic-sanctuary",
         "durata":"1 minuto",
-        "contenuto":"<p>Crei una piramide che ha un aura con raggio 30 ft e può grantare uno di questi due effetti a ogni creatura (incluso te)</p>\n<p>1)Ogni creatura viene curata da fear/charm.</p>\n<p>2)Ogni creatura guadagna 1d6 + Modificatore Spellcaster HP temporanei fino quando è nella zona interessata</p>"
+        "contenuto":"<p>Crei una piramide che ha un aura con raggio 30 ft e può grantare uno di questi due effetti a ogni creatura (incluso te)</p>\n<p>1)Ogni creatura viene curata da fear/charm.</p>\n<p>2)Ogni creatura guadagna 1d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita temporanei fino quando è nella zona interessata</p>"
     },
     {
         "nome":"Harness Slurping Power",
@@ -125,7 +125,7 @@
     {
         "nome":"Aura dei Caduti",
         "slug":"aura-dei-caduti",
-        "contenuto":"<p>Quando scendi sotto i 13 HP, le tue bende iniziano a cadere, rivelando un cadavere ormai mummificato; queste iniziano a sembrare delle ombre, espandendosi fino a 15ft da te. A quel punto:</p>\n<p>-I tuoi alleati entro 15ft ottengono vantaggio sui DEX save.</p>\n<p>- IL raggio di Pharaonic Sanctuary viene aumentato di 5ft.</p>"
+        "contenuto":"<p>Quando scendi sotto i 13 punti ferita, le tue bende iniziano a cadere, rivelando un cadavere ormai mummificato; queste iniziano a sembrare delle ombre, espandendosi fino a 15ft da te. A quel punto:</p>\n<p>-I tuoi alleati entro 15ft ottengono vantaggio sui DEX save.</p>\n<p>- IL raggio di Pharaonic Sanctuary viene aumentato di 5ft.</p>"
     },
     {
         "nome":"Vendetta Sepolta",
@@ -148,12 +148,12 @@
         "nome":"Boom Boom Boom",
         "slug":"boom-boom-boom",
         "durata":"Concentrazione, fino a 1 minuto",
-        "contenuto":"Usando la Tiny Bug Spear puoi dirigere i tuoi insetti per farli cantare. Infliggi danni psichici pari a: WIS + COS + 4 ad ogni nemico che ti può sentire entro 30 ft. Il bersaglio può dimezzare il danno se supera un COS save DC 10 + Modificatore Spellcaster."
+        "contenuto":"Usando la Tiny Bug Spear puoi dirigere i tuoi insetti per farli cantare. Infliggi danni psichici pari a: WIS + COS + 4 ad ogni nemico che ti può sentire entro 30 ft. Il bersaglio può dimezzare il danno se supera un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>."
     },
     {
         "nome":"Popolazione",
         "slug":"popolazione",
-        "contenuto":"<p>Puoi usare i tuoi insetti per compiere queste azioni:</p>\n<p>-Pestilenza (1 punto): una creatura entro 30ft deve superare un DEX save DC 10 + Modificatore Spellcaster per non subire 1d4 danni psichici ed avere svantaggio ad Attacco e <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> fino al suo prossimo turno;</p>\n<p>-Sciamata (2 punti): una creatura entro 30ft deve superare un COS save DC 10 + Modificatore Spellcaster per dimezzare 2d12+7 danni psichici;</p>\n<p>-Armatura di insetti (3 punti): guadagni 5 * modificatore COS HP temporanei.</p>\n<p>-Forza Mostruosa (2 punti): quando fai un attacco melee puoi aggiungere 2 al tiro per attaccare e al danno.</p>"
+        "contenuto":"<p>Puoi usare i tuoi insetti per compiere queste azioni:</p>\n<p>-Pestilenza (1 punto): una creatura entro 30ft deve superare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per non subire 1d4 danni psichici ed avere svantaggio ad Attacco e <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> fino al suo prossimo turno;</p>\n<p>-Sciamata (2 punti): una creatura entro 30ft deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare 2d12+7 danni psichici;</p>\n<p>-Armatura di insetti (3 punti): guadagni 5 * modificatore COS punti ferita temporanei.</p>\n<p>-Forza Mostruosa (2 punti): quando fai un attacco melee puoi aggiungere 2 al tiro per attaccare e al danno.</p>"
     },
     {
         "nome":"Richiamo degli Insetti",
@@ -163,23 +163,23 @@
     {
         "nome":"Forma Insetta",
         "slug":"forma-insetta",
-        "contenuto":"<p>Sviluppi un legame profondo con i suoi insetti e puoi usare questo legame per fonderti ed ottenere 4 nuove forme:<li></p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=modalita-riccardo\">Modalità Riccardo</a> (3 volte per settimana)</p>\n<p><li><a href=\"../pagine/pagina.html?file=abilita&slug=modalita-birillo\">Modalità Birillo</a> (1 volta per settimana)</p>\n<p><li>Modalità Ragno (2 volte per settimana)</p>\n<p><li>Modalità Elton (4 volte a settimana)</p>\n<p>Una voltà fusa con l'insetto scelto esso non potrà essere richiamato per una settimana.</p>\n<p>Serve 1 punto insetto per fondersi e la forma può finire una volta che:</p>\n<p>1) Si finiscono i punti insetto</p>\n<p>2) Si scende a 0 HP</p>\n<p>3) Si cade sotto un controllo mentale</p>\n<p>4) Discrezione dei master.</p></li>"
+        "contenuto":"<p>Sviluppi un legame profondo con i suoi insetti e puoi usare questo legame per fonderti ed ottenere 4 nuove forme:<li></p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=modalita-riccardo\">Modalità Riccardo</a> (3 volte per settimana)</p>\n<p><li><a href=\"../pagine/pagina.html?file=abilita&slug=modalita-birillo\">Modalità Birillo</a> (1 volta per settimana)</p>\n<p><li>Modalità Ragno (2 volte per settimana)</p>\n<p><li>Modalità Elton (4 volte a settimana)</p>\n<p>Una voltà fusa con l'insetto scelto esso non potrà essere richiamato per una settimana.</p>\n<p>Serve 1 punto insetto per fondersi e la forma può finire una volta che:</p>\n<p>1) Si finiscono i punti insetto</p>\n<p>2) Si scende a 0 punti ferita</p>\n<p>3) Si cade sotto un controllo mentale</p>\n<p>4) Discrezione dei master.</p></li>"
     },
     {
         "nome":"Modalità Birillo",
         "slug":"modalita-birillo",
-        "contenuto":"<p>Una volta che entri in forma <a href=\"../pagine/pagina.html?file=creature&slug=birillo\">Birillo</a>:</p>\n<li><p>Aumenti i tuoi HP di 20 punti</p>\n<li><p>Diventi immune al veleno</p>\n<li><p>Ottieni la reaction: Parry</p>\n<li><p>Sblocchi morso e acid spray</p>\n<li><p>Ottieni +2 a <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e +2 ai COS save</p>\n<li><p>Dimezzi la tua velocità di movimento</p>\n<li><p> -3 ad attaccare</p>"
+        "contenuto":"<p>Una volta che entri in forma <a href=\"../pagine/pagina.html?file=creature&slug=birillo\">Birillo</a>:</p>\n<li><p>Aumenti i tuoi punti ferita di 20 punti</p>\n<li><p>Diventi immune al veleno</p>\n<li><p>Ottieni la reaction: Parry</p>\n<li><p>Sblocchi morso e acid spray</p>\n<li><p>Ottieni +2 a <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e +2 ai COS save</p>\n<li><p>Dimezzi la tua velocità di movimento</p>\n<li><p> -3 ad attaccare</p>"
     },
     {
         "nome":"Modalità Riccardo",
         "slug":"modalita-riccardo",
-        "contenuto":"<p>Una volta che entri in forma Riccardo ottieni:</p>\n<li><p>Aumenti la propriatua velocità di 40ft per movimento</p>\n<li><p>Ottieni +2 ad inziativa</p>\n<li><p>Ottieni <a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a></p>\n<li><p>Puoi volare per brevi distanze</p>\n<li><p>Ottieni dei pungiglioni velenosi</p>\n<li><p> -2 su FOR save, <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e perdi 1d6 HP</p>\n<li><p>Perdi <a href=\"../pagine/pagina.html?file=abilita&slug=brutalita-insetta\">Brutalità Insetta</a> ed <a href=\"../pagine/pagina.html?file=incantesimi&slug=infestation\">Infestation</a>."
+        "contenuto":"<p>Una volta che entri in forma Riccardo ottieni:</p>\n<li><p>Aumenti la propriatua velocità di 40ft per movimento</p>\n<li><p>Ottieni +2 ad inziativa</p>\n<li><p>Ottieni <a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a></p>\n<li><p>Puoi volare per brevi distanze</p>\n<li><p>Ottieni dei pungiglioni velenosi</p>\n<li><p> -2 su FOR save, <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e perdi 1d6 punti ferita</p>\n<li><p>Perdi <a href=\"../pagine/pagina.html?file=abilita&slug=brutalita-insetta\">Brutalità Insetta</a> ed <a href=\"../pagine/pagina.html?file=incantesimi&slug=infestation\">Infestation</a>."
     },
     {
         "nome":"Crawling Sensation",
         "slug":"crawling-sensation",
         "durata":"1 turno per modificatore WIS",
-        "contenuto":"Puoi spendere da 1 a 5 Punti Popolazione durante un attacco. Il bersaglio deve superare un COS save DC 10 + Modificatore Spellcaster o essere infestato. Se il bersaglio è infestato, subisce 1d8 danni perforanti per Punto Popolazione, ha svantaggio su COS save, COS check e attacco."
+        "contenuto":"Puoi spendere da 1 a 5 Punti Popolazione durante un attacco. Il bersaglio deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o essere infestato. Se il bersaglio è infestato, subisce 1d8 danni perforanti per Punto Popolazione, ha svantaggio su COS save, COS check e attacco."
     },
     {
         "nome":"Forza Insetta",
@@ -222,7 +222,7 @@
     {
         "nome":"Song of Glom",
         "slug":"song-of-glom",
-        "contenuto":"Usando le tue doti canore, puoi far guadagnare a qualsiasi alleato (o te stesso) che possa sentire la tua performance un extra 1d6 HP."
+        "contenuto":"Usando le tue doti canore, puoi far guadagnare a qualsiasi alleato (o te stesso) che possa sentire la tua performance un extra 1d6 punti ferita."
     },
     {
         "nome":"Hogwarts Academy",
@@ -270,7 +270,7 @@
     {
         "nome":"Bluff",
         "slug":"bluff",
-        "contenuto":"<p>Quando cadi a 0 HP guadagni 1d4 + Modificatore Spellcaster HP temporanei.</p>\n<p>Ha un utilizzo per <a href=\"../pagine/pagina.html?file=regole&slug=long-rest\">Long Rest</a>.</p>"
+        "contenuto":"<p>Quando cadi a 0 punti ferita guadagni 1d4 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita temporanei.</p>\n<p>Ha un utilizzo per <a href=\"../pagine/pagina.html?file=regole&slug=long-rest\">Long Rest</a>.</p>"
     },
     {
         "nome":"Benedizione di Miscelius",

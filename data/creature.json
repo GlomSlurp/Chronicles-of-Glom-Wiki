@@ -12,6 +12,12 @@
     "contenuto": "<p>.</p>"
   },
   {
+    "nome":"Lis - Il Cane di Baris",
+    "slug":"lis-il-cane-di-baris",
+    "immagine":"lis.png",
+    "contenuto":"Il fedele cane di Glom'Hella."
+  },
+  {
     "nome": "Trallalero Trallalà",
     "slug": "trallalero-trallala",
     "immagine": "trallalero.jpg",

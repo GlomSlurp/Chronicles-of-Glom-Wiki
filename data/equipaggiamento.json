@@ -77,7 +77,7 @@
     {
         "nome":"Wand of Wonder",
         "slug":"wand-of-wonder",
-        "contenuto":"<p>Puoi usare 1 carica per scegliere una creatura entro 120ft. Tira 1d100 e vedi la Wonder Table. La creatura è il bersaglio dell'effetto (DC 10 + Modificatore Spellcaster).</p>\n<p>La Wand of Wonder ha 7 cariche, ricarica 1d6 + 1 cariche al tramonto. "
+        "contenuto":"<p>Puoi usare 1 carica per scegliere una creatura entro 120ft. Tira 1d100 e vedi la Wonder Table. La creatura è il bersaglio dell'effetto (DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>).</p>\n<p>La Wand of Wonder ha 7 cariche, ricarica 1d6 + 1 cariche al tramonto. "
     },
     {
         "nome":"Wand of Minor Chaos",
