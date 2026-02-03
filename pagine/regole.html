@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Meccaniche - Wiki</title>
+    <title>regole - Wiki</title>
     <link rel="stylesheet" href="../styles/wiki_style.css" />
     <link rel="website icon" type="png" href="../images/Chronicles_logo.png"/>
 </head>
@@ -11,7 +11,7 @@
 
 <header>
     <div class="title">Chronicles Of Glom</div>
-    <div class="subtitle">Wiki – Meccaniche</div>
+    <div class="subtitle">Wiki – regole</div>
 </header>
 
 <main class="wiki-layout">
@@ -29,14 +29,14 @@
             <li><a href="gruppi.html">Gruppi</a></li>
             <li><a href="geografia.html">Geografia</a></li>
             <li><a href="divinita.html">Divinità</a></li>
-            <li><a href="meccaniche.html"><strong>Meccaniche</strong></a></li>
+            <li><a href="regole.html"><strong>regole</strong></a></li>
         </ul>
     </aside>
 
     <article class="content">
-        <h1>Meccaniche</h1>
+        <h1>regole</h1>
 
-        <div id="lista-meccaniche"></div>
+        <div id="lista-regole"></div>
 
     </article>
 
@@ -51,16 +51,16 @@
 </footer>
 
 <script>
-// Carica il JSON delle meccaniche
-fetch("../data/meccaniche.json")
+// Carica il JSON delle regole
+fetch("../data/regole.json")
     .then(response => response.json())
     .then(data => {
-        const container = document.getElementById("lista-meccaniche");
+        const container = document.getElementById("lista-regole");
 
         data.forEach(item => {
             const p = document.createElement("p");
             p.innerHTML = `
-                <a href="pagina.html?file=meccaniche&slug=${item.slug}">
+                <a href="pagina.html?file=regole&slug=${item.slug}">
                     ${item.nome}
                 </a>
             `;

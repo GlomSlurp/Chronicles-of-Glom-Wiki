@@ -57,7 +57,7 @@
     {
         "nome":"Armatura Pesante",
         "slug":"armatura-pesante",
-        "contenuto":"+2 a <a href=\"../pagine/pagina.html?file=meccaniche&slug=difesa\">Difesa</a>."
+        "contenuto":"+2 a <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a>."
     },
     {
         "nome":"Boots of Bounding",

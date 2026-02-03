@@ -19,7 +19,7 @@ La wiki raccoglie tutte le informazioni del mondo di gioco, organizzate in categ
 - **Gruppi e Fazioni**
 - **Divinità**
 - **Lore generale**
-- **Meccaniche**
+- **regole**
 
 Ogni categoria è alimentata da un file JSON nella cartella `/data`, mentre le pagine HTML nella cartella `/pagine` mostrano i contenuti in modo navigabile.
 
@@ -70,7 +70,7 @@ L’editor funziona interamente nel browser e non richiede backend.
 │   ├── gruppi/
 │   ├── divinita/
 │   ├── lore/
-|   └──meccaniche/
+|   └──regole/
 ├── data/                     # Database statico in formato JSON
 │   ├── persone.json
 │   ├── creature.json
@@ -79,7 +79,7 @@ L’editor funziona interamente nel browser e non richiede backend.
 │   ├── gruppi.json
 │   ├── divinita.json
 │   ├── lore.json
-|   └── meccaniche.json
+|   └── regole.json
 ├── styles/                   # Fogli di stile
 ├── images/                   # Immagini
 └── admin/                    # Editor statico

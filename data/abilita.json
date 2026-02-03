@@ -95,7 +95,7 @@
     {
         "nome":"Vile Blast",
         "slug":"vile-blast-witchglaive",
-        "contenuto":"<p>Quando attacchi con la <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=witch-glaive\">Witch Glaive</a> puoi far uscire dell'acido da tutte le bombe, il bersaglio deve fare un COS save DC 10 + Modificatore Spellcaster.</p>\n<p>Non passato: subisce 6d6 danni da acido e tolgono 1 al tiro <a href=\"../pagine/pagina.html?file=meccaniche&slug=difesa\">Difesa</a> e al COS save per tutto il prossimo turno.</p>\n<p> Passato: subisce 3d4 danni da acido</p>"
+        "contenuto":"<p>Quando attacchi con la <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=witch-glaive\">Witch Glaive</a> puoi far uscire dell'acido da tutte le bombe, il bersaglio deve fare un COS save DC 10 + Modificatore Spellcaster.</p>\n<p>Non passato: subisce 6d6 danni da acido e tolgono 1 al tiro <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e al COS save per tutto il prossimo turno.</p>\n<p> Passato: subisce 3d4 danni da acido</p>"
     },
     {
         "nome":"A me gli Occhi",
@@ -153,7 +153,7 @@
     {
         "nome":"Popolazione",
         "slug":"popolazione",
-        "contenuto":"<p>Puoi usare i tuoi insetti per compiere queste azioni:</p>\n<p>-Pestilenza (1 punto): una creatura entro 30ft deve superare un DEX save DC 10 + Modificatore Spellcaster per non subire 1d4 danni psichici ed avere svantaggio ad Attacco e <a href=\"../pagine/pagina.html?file=meccaniche&slug=difesa\">Difesa</a> fino al suo prossimo turno;</p>\n<p>-Sciamata (2 punti): una creatura entro 30ft deve superare un COS save DC 10 + Modificatore Spellcaster per dimezzare 2d12+7 danni psichici;</p>\n<p>-Armatura di insetti (3 punti): guadagni 5 * modificatore COS HP temporanei.</p>\n<p>-Forza Mostruosa (2 punti): quando fai un attacco melee puoi aggiungere 2 al tiro per attaccare e al danno.</p>"
+        "contenuto":"<p>Puoi usare i tuoi insetti per compiere queste azioni:</p>\n<p>-Pestilenza (1 punto): una creatura entro 30ft deve superare un DEX save DC 10 + Modificatore Spellcaster per non subire 1d4 danni psichici ed avere svantaggio ad Attacco e <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> fino al suo prossimo turno;</p>\n<p>-Sciamata (2 punti): una creatura entro 30ft deve superare un COS save DC 10 + Modificatore Spellcaster per dimezzare 2d12+7 danni psichici;</p>\n<p>-Armatura di insetti (3 punti): guadagni 5 * modificatore COS HP temporanei.</p>\n<p>-Forza Mostruosa (2 punti): quando fai un attacco melee puoi aggiungere 2 al tiro per attaccare e al danno.</p>"
     },
     {
         "nome":"Richiamo degli Insetti",
@@ -168,12 +168,12 @@
     {
         "nome":"Modalità Birillo",
         "slug":"modalita-birillo",
-        "contenuto":"<p>Una volta che entri in forma <a href=\"../pagine/pagina.html?file=creature&slug=birillo\">Birillo</a>:</p>\n<li><p>Aumenti i tuoi HP di 20 punti</p>\n<li><p>Diventi immune al veleno</p>\n<li><p>Ottieni la reaction: Parry</p>\n<li><p>Sblocchi morso e acid spray</p>\n<li><p>Ottieni +2 a <a href=\"../pagine/pagina.html?file=meccaniche&slug=difesa\">Difesa</a> e +2 ai COS save</p>\n<li><p>Dimezzi la tua velocità di movimento</p>\n<li><p> -3 ad attaccare</p>"
+        "contenuto":"<p>Una volta che entri in forma <a href=\"../pagine/pagina.html?file=creature&slug=birillo\">Birillo</a>:</p>\n<li><p>Aumenti i tuoi HP di 20 punti</p>\n<li><p>Diventi immune al veleno</p>\n<li><p>Ottieni la reaction: Parry</p>\n<li><p>Sblocchi morso e acid spray</p>\n<li><p>Ottieni +2 a <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e +2 ai COS save</p>\n<li><p>Dimezzi la tua velocità di movimento</p>\n<li><p> -3 ad attaccare</p>"
     },
     {
         "nome":"Modalità Riccardo",
         "slug":"modalita-riccardo",
-        "contenuto":"<p>Una volta che entri in forma Riccardo ottieni:</p>\n<li><p>Aumenti la propriatua velocità di 40ft per movimento</p>\n<li><p>Ottieni +2 ad inziativa</p>\n<li><p>Ottieni <a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a></p>\n<li><p>Puoi volare per brevi distanze</p>\n<li><p>Ottieni dei pungiglioni velenosi</p>\n<li><p> -2 su FOR save, <a href=\"../pagine/pagina.html?file=meccaniche&slug=difesa\">Difesa</a> e perdi 1d6 HP</p>\n<li><p>Perdi <a href=\"../pagine/pagina.html?file=abilita&slug=brutalita-insetta\">Brutalità Insetta</a> ed <a href=\"../pagine/pagina.html?file=incantesimi&slug=infestation\">Infestation</a>."
+        "contenuto":"<p>Una volta che entri in forma Riccardo ottieni:</p>\n<li><p>Aumenti la propriatua velocità di 40ft per movimento</p>\n<li><p>Ottieni +2 ad inziativa</p>\n<li><p>Ottieni <a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a></p>\n<li><p>Puoi volare per brevi distanze</p>\n<li><p>Ottieni dei pungiglioni velenosi</p>\n<li><p> -2 su FOR save, <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e perdi 1d6 HP</p>\n<li><p>Perdi <a href=\"../pagine/pagina.html?file=abilita&slug=brutalita-insetta\">Brutalità Insetta</a> ed <a href=\"../pagine/pagina.html?file=incantesimi&slug=infestation\">Infestation</a>."
     },
     {
         "nome":"Crawling Sensation",
@@ -270,7 +270,7 @@
     {
         "nome":"Bluff",
         "slug":"bluff",
-        "contenuto":"<p>Quando cadi a 0 HP guadagni 1d4 + Modificatore Spellcaster HP temporanei.</p>\n<p>Ha un utilizzo per <a href=\"../pagine/pagina.html?file=meccaniche&slug=long-rest\">Long Rest</a>.</p>"
+        "contenuto":"<p>Quando cadi a 0 HP guadagni 1d4 + Modificatore Spellcaster HP temporanei.</p>\n<p>Ha un utilizzo per <a href=\"../pagine/pagina.html?file=regole&slug=long-rest\">Long Rest</a>.</p>"
     },
     {
         "nome":"Benedizione di Miscelius",

@@ -37,7 +37,7 @@
     {
         "nome":"Equipaggiamento",
         "slug":"equipaggiamento",
-        "contenuto":"<p>Quando si equipaggia un oggetto magico è necessario fare <a href=\"../pagine/pagina.html?file=meccaniche&slug=attunement\">Attunement</a> se l'oggetto lo richiede.</p>\n<p>È possibile equipaggiare al massimo 3 oggetti magici per volta.</p>"
+        "contenuto":"<p>Quando si equipaggia un oggetto magico è necessario fare <a href=\"../pagine/pagina.html?file=regole&slug=attunement\">Attunement</a> se l'oggetto lo richiede.</p>\n<p>È possibile equipaggiare al massimo 3 oggetti magici per volta.</p>"
     },
     {
         "nome":"Attunement",
