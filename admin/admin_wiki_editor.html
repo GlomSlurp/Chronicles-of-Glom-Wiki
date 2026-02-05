@@ -24,8 +24,9 @@ function initTiny() {
         content_css: 'dark',
         selector: '#contenuto',
         height: 400,
-        plugins: 'link image lists table code accordion',
-        toolbar: 'undo redo | copy paste | bold italic underline | bullist numlist | link image | table | code | accordion',
+        plugins: 'formatpainter link image lists table code accordion',
+        toolbar: 'undo redo | formatpainter copy paste | bold italic underline | bullist numlist | link image | table | code | accordion',
+        details_initial_state: 'collapsed',
         setup: function (editor) {
             editor.on('change keyup', function () {
                 editor.save();

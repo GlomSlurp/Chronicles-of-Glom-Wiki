@@ -98,6 +98,10 @@ if (pagina.contenuto) {
 }
 
     document.getElementById("contenuto").innerHTML = extra + pagina.contenuto;
+    document.querySelectorAll("#contenuto details").forEach(details => {
+    details.removeAttribute("open");
+});
+
 }
 
         // --- 3. Scheda personaggio (usa campi delle schede) ---

@@ -45,8 +45,6 @@ a:hover {
 ------------------------------------------------------------- */
 header {
     padding: 0 0 16px 0;
-    border-bottom: 1px solid var(--border);
-    background: rgba(21,27,42,0.7);
     backdrop-filter: blur(6px);
     text-align: center;
     position: relative;
@@ -236,8 +234,8 @@ nav a:hover {
   border-radius: 14px;
   padding: 20px;
   height: fit-content;
-  position: sticky;
-  top: 20px;
+  position: static;
+  top: auto;
   box-shadow: 0 0 18px rgba(108,140,255,0.35);
   backdrop-filter: blur(4px);
 }
@@ -250,7 +248,7 @@ nav a:hover {
   }
 
   .sidebar {
-    width: 100%;
+    width: auto;
     position: static;
     margin-bottom: 20px;
   }
@@ -319,9 +317,20 @@ nav a:hover {
 
     pointer-events: none;
     z-index: 9999;
-    transition: opacity 0.15s ease;
+    transition: opacity 0.20s ease;
 }
 
+/* -------------------------------------------------------------
+   ANIMAZIONE ACCORDION
+-------------------------------------------------------------- */
+details > summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+details[open] > summary {
+    margin-bottom: 0.5em;
+}
 
 /* -------------------------------------------------------------
    INFOBOX (Fantasy Creature Box)
