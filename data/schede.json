@@ -180,7 +180,8 @@
         "equipaggiamento":[
             "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=armatura-del-geco-notturno\">Armatura del Geco Notturno</a>",
             "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=cloak-of-the-moth\">Cloak of the Moth</a>",
-            "Bag of Holding"
+            "Bag of Holding",
+            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=l-orologio\">L'Orologio</a>"
         ],
         "abilità_speciali":[
             "<a href=\"../pagine/pagina.html?file=abilita&slug=a-me-gli-occhi\">Divinità dello Slurp: A me gli Occhi</a>",
