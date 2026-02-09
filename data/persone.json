@@ -92,7 +92,7 @@
   {
     "nome": "Elandor",
     "slug": "elandor",
-    "immagine": "",
+    "immagine": "elandor.png",
     "contenuto": "<p>Elandor &egrave; un mercenario che ha aiutato <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a> e gli altri a raggiungere <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a>. È rimasto alla torre dell'<a href=\"../pagine/pagina.html?file=persone&amp;slug=l-albanese\">Albanese</a>.</p>"
   },
   {
@@ -190,5 +190,23 @@
     "slug": "calogero-lacadrega",
     "immagine": "",
     "contenuto": "<p>Calogero / Lacadrega &egrave; un goblin che ha incontrato <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> e gli altri nella <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=tomba-di-glomhella\">Tomba di Glom'Hella</a>.</p>"
+  },
+  {
+    "nome":"Jova",
+    "slug":"jova",
+    "immagine":"jova.png",
+    "contenuto":"Componente del <a href=\"../pagine/pagina.html?file=gruppi&slug=team-fuma\">Team FUMA</a>."
+  },
+  {
+    "nome":"Nikolaus",
+    "slug":"nikolaus",
+    "immagine":"nikolaus.png",
+    "contenuto":"Componente del <a href=\"../pagine/pagina.html?file=gruppi&slug=team-fuma\">Team FUMA</a>."
+  },
+  {
+    "nome":"Franziskus",
+    "slug":"franziskus",
+    "immagine":"franziskus.png",
+    "contenuto":"Componente del <a href=\"../pagine/pagina.html?file=gruppi&slug=team-fuma\">Team FUMA</a>."
   }
 ]

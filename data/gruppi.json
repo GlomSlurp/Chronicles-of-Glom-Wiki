@@ -58,5 +58,10 @@
     "slug":"vox",
     "immagine":"",
     "contenuto":"<p>Vox è un'organizzazione misteriosa che sembra operare in segreto.</p>"
+  },
+  {
+    "nome":"Team S.U.C.A.",
+    "slug":"team-suca",
+    "contenuto":"<p>Il Team SUCA è formato da <a href=\"../pagine/pagina.html?file=persone&amp;slug=jova\">Jova</a>, <a href=\"../pagine/pagina.html?file=persone&slug=nikolaus\">Nikolaus</a> e <a href=\"../pagine/pagina.html?file=persone&amp;slug=franziskus\">Franziskus</a>.</p>\n<p>Il loro compito è proteggere e aiutare il <a href=\"../pagine/pagina.html?file=persone&amp;slug=divino-lucas-karuso\">Divino Lucas Karuso</a>.</p>"
   }
 ]
