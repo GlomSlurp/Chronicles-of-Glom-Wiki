@@ -1,62 +1,62 @@
 [
-  {
-    "nome": "Purifier",
-    "slug": "purifier",
-    "immagine": "Purifier.png",
-    "contenuto": "<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"color: rgb(185, 106, 217); font-size: 18pt;\"><strong>Il Purifier</strong></span></summary>\n<p>Un cavaliere dalla grande forza agli ordini di <a href=\"../pagine/pagina.html?file=creature&amp;slug=glomhella\">Glom'Hella</a>.</p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"color: rgb(185, 106, 217); font-size: 18pt;\"><strong>Il Purifier Affamato</strong></span></summary>\n<p>Una volta entrato in contatto con la <a href=\"../pagine/pagina.html?file=lore&slug=la-fame\">Fame</a>, il Purifier entra in uno stato di frenesia e perde totalmente il controllo di s&eacute;.</p>\n<p><img src=\"..\\images\\Frenzie-Purifier.png\" alt=\"\" width=\"234\" height=\"241\"></p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"color: rgb(185, 106, 217); font-size: 18pt;\"><strong>La Torre di Baris</strong></span></summary>\n<p>Davanti alla Torre di Bari si staglia una figura gigantesca: un Purifier che ha assorbito una quantit&agrave; indefinita di <a href=\"../pagine/pagina.html?file=lore&slug=la-fame\">Affamati</a>.</p>\n<p><img src=\"..\\images\\giant-purifier.png\" alt=\"\" width=\"257\" height=\"270\"></p>\n</details>"
-  },
-  {
-    "nome": "Glom'Hella",
-    "slug": "glomhella",
-    "immagine": "Glom_Hella.png",
-    "contenuto": "<p>.</p>"
-  },
-  {
-    "nome": "Lis - Il Cane di Baris",
-    "slug": "lis-il-cane-di-baris",
-    "immagine": "lis.png",
-    "contenuto": "Il fedele cane di Glom'Hella."
-  },
-  {
-    "nome": "Trallalero Trallalà",
-    "slug": "trallalero-trallala",
-    "immagine": "trallalero.jpg",
-    "contenuto": "<p>Tralalero Tralala, porco &lt;REDACTED&gt; e porco &lt;REDACTED&gt;. Ero con il mio &lt;REDACTED&gt; figlio merdardo a giocare a Fortnite...</p>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"font-size: 14pt; color: rgb(185, 106, 217);\"><strong>Chi &egrave;</strong></span></summary>\n<p>Insieme a <a href=\"../pagine/pagina.html?file=creature&amp;slug=lirili-larila\">Liril&igrave; Laril&agrave;</a> e <a href=\"../pagine/pagina.html?file=creature&amp;slug=brr-brr-patapim\">Brr Brr Patapim</a> &egrave; uno dei tre brainrot che hanno approciato il party di <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=sarcophaga-carnaria\">Sarcophaga Carnaria</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=sir-romedio-e-guglielmo\">Sir Romedio e Guglielmo</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=gokudo\">Gokudo</a> e <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> a <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=mola-di-baris\">Mola di Baris</a>.</p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"font-size: 14pt; color: rgb(185, 106, 217);\"><strong>Aspetto</strong></span></summary>\n<p>Si presenta come uno squalo che indossa delle stilosissime &lt;COPYRIGHT&gt; azzurre.</p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"font-size: 14pt; color: rgb(185, 106, 217);\"><strong>The Baris Incident</strong></span></summary>\n<p>Una volta arrivati a Baris, il party regala a Trallallero Trallal&agrave; un paio di Newer &lt;COPYRIGHT&gt; shoes. Non appena indossate, per&ograve;, Trallalero si illumina e cambia aspetto in qualcosa che all'apparenza sembra una forma evoluta.</p>\n<p><img src=\"../images/trallalero_2.png\" alt=\"\" width=\"194\" height=\"194\"></p>\n</details>\n<p>&nbsp;</p>"
-  },
-  {
-    "nome": "Lirili Larilà",
-    "slug": "lirili-larila",
-    "immagine": "lirili.jpg",
-    "contenuto": "<p>Liril&igrave; Laril&agrave;, elefante nel deserto che cammina qua e l&agrave;. Con la sua conchiglia e un orologio che fa tic tac, le spine del cactus mi fanno un attacco flashback...</p>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"font-size: 14pt; color: rgb(185, 106, 217);\"><strong>Chi &egrave;</strong></span></summary>\n<p>Insieme a <a href=\"../pagine/pagina.html?file=creature&amp;slug=trallalero-trallala\">Trallalero Trallal&agrave;</a> e <a href=\"../pagine/pagina.html?file=creature&amp;slug=brr-brr-patapim\">Brr Brr Patapim</a> &egrave; uno dei tre brainrot che hanno approciato il party di <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=sarcophaga-carnaria\">Sarcophaga Carnaria</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=sir-romedio-e-guglielmo\">Sir Romedio e Guglielmo</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=gokudo\">Gokudo</a> e <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> a <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=mola-di-baris\">Mola di Baris</a>.</p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"font-size: 14pt; color: rgb(185, 106, 217);\"><strong>Aspetto</strong></span></summary>\n<p>Si presenta come un elefante con la pelle da cactus che indossa dei sandali. Sembra portare con s&egrave; un misterioso orologio.</p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"font-size: 14pt; color: rgb(185, 106, 217);\"><strong>The Baris Incident&nbsp;</strong></span></summary>\n<p><img src=\"../images/lirili_2.png\" alt=\"\" width=\"378\" height=\"305\"></p>\n</details>\n<p>&nbsp;</p>"
-  },
-  {
-    "nome": "Brr Brr Patapim",
-    "slug": "brr-brr-patapim",
-    "immagine": "brrbrr.jpg",
-    "contenuto": "<p>Brr Brr Patapim, il mio cappello è pieno di Slim!</p>\n<details class=\"mce-accordion\">\n<summary><span style=\"font-size: 14pt; color: rgb(185, 106, 217);\"><strong>Chi è</strong></span></summary>\n<p>Insieme a <a href=\"../pagine/pagina.html?file=creature&amp;slug=trallalero-trallala\">Trallalero Trallalà</a> e <a href=\"../pagine/pagina.html?file=creature&amp;slug=lirili-larila\">Lirilì Larilà</a> è uno dei tre brainrot che hanno approciato il party di <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=sarcophaga-carnaria\">Sarcophaga Carnaria</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=sir-romedio-e-guglielmo\">Sir Romedio e Guglielmo</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=gokudo\">Gokudo</a> e <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> a <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=mola-di-baris\">Mola di Baris</a>.</p>"
-  },
-  {
-    "nome": "Birillo",
-    "slug": "birillo",
-    "immagine": "birillo.jpg",
-    "contenuto": "<p>Birillo è un &#34;piccolo&#34; insetto che <a href=\"../pagine/pagina.html?file=persone&amp;slug=sarcophaga-carnaria\">Sarcophaga Carnaria</a> può richiamare e considera suo figlio.</p>"
-  },
-  {
-    "nome": "Balena Giuseppina",
-    "slug": "balena-giuseppina",
-    "immagine": "BalenaGiuseppina.png",
-    "contenuto": "<p>La Balena Giuseppina è una gigantesca balena ritrovata nella <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=tomba-di-glomhella\">Tomba di Glom'Hella</a>. Durante la battaglia contro di lei, il party, ha trovato un nuovo membro: <a href=\"../pagine/pagina.html?file=persone&amp;slug=randomauro\">Randomauro</a>, sputato durante la battaglia.</p>"
-  },
-  {
-    "nome": "Drake",
-    "slug": "drake",
-    "immagine": "drake.png",
-    "contenuto": "<p>Il Drake è la creatura che accompagna <a href=\"../pagine/pagina.html?file=persone&amp;slug=adrian\">Adrian</a> nei suoi viaggi come cacciatore di taglie.</p>"
-  },
-  {
-    "nome": "Altaris",
-    "slug": "altaris",
-    "immagine": "altaris.gif",
-    "contenuto": "<p>Si è manifestato come un essere misterioso e potente dopo che <a href=\"../pagine/pagina.html?file=persone&amp;slug=alex-zelop\">Alex Zelop</a> e l'<a href=\"../pagine/pagina.html?file=persone&amp;slug=albanese\">Albanese</a> hanno utilizzato un <a href=\"../pagine/pagina.html?file=lore&amp;slug=frammento-del-glom\">Frammento del Glom</a>, che sembra essere un'entità del passato legata alla storia di <a href=\"../pagine/pagina.html?file=lore&amp;slug=glom\">Glom</a>.</p>"
-  }
+    {
+        "nome": "Purifier",
+        "slug": "purifier",
+        "immagine": "Purifier.png",
+        "contenuto": "<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"color: rgb(185, 106, 217); font-size: 18pt;\"><strong>Il Purifier</strong></span></summary>\n<p>Un cavaliere dalla grande forza agli ordini di <a href=\"../pagine/pagina.html?file=creature&amp;slug=glomhella\">Glom'Hella</a>.</p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"color: rgb(185, 106, 217); font-size: 18pt;\"><strong>Il Purifier Affamato</strong></span></summary>\n<p>Una volta entrato in contatto con la <a href=\"../pagine/pagina.html?file=lore&slug=la-fame\">Fame</a>, il Purifier entra in uno stato di frenesia e perde totalmente il controllo di s&eacute;.</p>\n<p><img src=\"..\\images\\Frenzie-Purifier.png\" alt=\"\" width=\"234\" height=\"241\"></p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"color: rgb(185, 106, 217); font-size: 18pt;\"><strong>La Torre di Baris</strong></span></summary>\n<p>Davanti alla Torre di Bari si staglia una figura gigantesca: un Purifier che ha assorbito una quantit&agrave; indefinita di <a href=\"../pagine/pagina.html?file=lore&slug=la-fame\">Affamati</a>.</p>\n<p><img src=\"..\\images\\giant-purifier.png\" alt=\"\" width=\"257\" height=\"270\"></p>\n</details>"
+    },
+    {
+        "nome": "Glom'Hella",
+        "slug": "glomhella",
+        "immagine": "Glom_Hella.png",
+        "contenuto": "<p>.</p>"
+    },
+    {
+        "nome": "Lis - Il Cane di Baris",
+        "slug": "lis-il-cane-di-baris",
+        "immagine": "lis.png",
+        "contenuto": "Il fedele cane di <a href=\\\"../pagine/pagina.html?file=creature&slug=glomhella\\\">Glom'Hella</a>."
+    },
+    {
+        "nome": "Trallalero Trallalà",
+        "slug": "trallalero-trallala",
+        "immagine": "trallalero.jpg",
+        "contenuto": "<p>Tralalero Tralala, porco &lt;REDACTED&gt; e porco &lt;REDACTED&gt;. Ero con il mio &lt;REDACTED&gt; figlio merdardo a giocare a Fortnite...</p>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"font-size: 14pt; color: rgb(185, 106, 217);\"><strong>Chi &egrave;</strong></span></summary>\n<p>Insieme a <a href=\"../pagine/pagina.html?file=creature&amp;slug=lirili-larila\">Liril&igrave; Laril&agrave;</a> e <a href=\"../pagine/pagina.html?file=creature&amp;slug=brr-brr-patapim\">Brr Brr Patapim</a> &egrave; uno dei tre brainrot che hanno approciato il party di <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=sarcophaga-carnaria\">Sarcophaga Carnaria</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=sir-romedio-e-guglielmo\">Sir Romedio e Guglielmo</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=gokudo\">Gokudo</a> e <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> a <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=mola-di-baris\">Mola di Baris</a>.</p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"font-size: 14pt; color: rgb(185, 106, 217);\"><strong>Aspetto</strong></span></summary>\n<p>Si presenta come uno squalo che indossa delle stilosissime &lt;COPYRIGHT&gt; azzurre.</p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"font-size: 14pt; color: rgb(185, 106, 217);\"><strong>The Baris Incident</strong></span></summary>\n<p>Una volta arrivati a Baris, il party regala a Trallallero Trallal&agrave; un paio di Newer &lt;COPYRIGHT&gt; shoes. Non appena indossate, per&ograve;, Trallalero si illumina e cambia aspetto in qualcosa che all'apparenza sembra una forma evoluta.</p>\n<p><img src=\"../images/trallalero_2.png\" alt=\"\" width=\"194\" height=\"194\"></p>\n</details>\n<p>&nbsp;</p>"
+    },
+    {
+        "nome": "Lirili Larilà",
+        "slug": "lirili-larila",
+        "immagine": "lirili.jpg",
+        "contenuto": "<p>Liril&igrave; Laril&agrave;, elefante nel deserto che cammina qua e l&agrave;. Con la sua conchiglia e un orologio che fa tic tac, le spine del cactus mi fanno un attacco flashback...</p>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"font-size: 14pt; color: rgb(185, 106, 217);\"><strong>Chi &egrave;</strong></span></summary>\n<p>Insieme a <a href=\"../pagine/pagina.html?file=creature&amp;slug=trallalero-trallala\">Trallalero Trallal&agrave;</a> e <a href=\"../pagine/pagina.html?file=creature&amp;slug=brr-brr-patapim\">Brr Brr Patapim</a> &egrave; uno dei tre brainrot che hanno approciato il party di <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=sarcophaga-carnaria\">Sarcophaga Carnaria</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=sir-romedio-e-guglielmo\">Sir Romedio e Guglielmo</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=gokudo\">Gokudo</a> e <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> a <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=mola-di-baris\">Mola di Baris</a>.</p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"font-size: 14pt; color: rgb(185, 106, 217);\"><strong>Aspetto</strong></span></summary>\n<p>Si presenta come un elefante con la pelle da cactus che indossa dei sandali. Sembra portare con s&egrave; un misterioso orologio.</p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"font-size: 14pt; color: rgb(185, 106, 217);\"><strong>The Baris Incident&nbsp;</strong></span></summary>\n<p><img src=\"../images/lirili_2.png\" alt=\"\" width=\"378\" height=\"305\"></p>\n</details>\n<p>&nbsp;</p>"
+    },
+    {
+        "nome": "Brr Brr Patapim",
+        "slug": "brr-brr-patapim",
+        "immagine": "brrbrr.jpg",
+        "contenuto": "<p>Brr Brr Patapim, il mio cappello è pieno di Slim!</p>\n<details class=\"mce-accordion\">\n<summary><span style=\"font-size: 14pt; color: rgb(185, 106, 217);\"><strong>Chi è</strong></span></summary>\n<p>Insieme a <a href=\"../pagine/pagina.html?file=creature&amp;slug=trallalero-trallala\">Trallalero Trallalà</a> e <a href=\"../pagine/pagina.html?file=creature&amp;slug=lirili-larila\">Lirilì Larilà</a> è uno dei tre brainrot che hanno approciato il party di <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=sarcophaga-carnaria\">Sarcophaga Carnaria</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=sir-romedio-e-guglielmo\">Sir Romedio e Guglielmo</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=gokudo\">Gokudo</a> e <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> a <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=mola-di-baris\">Mola di Baris</a>.</p>"
+    },
+    {
+        "nome": "Birillo",
+        "slug": "birillo",
+        "immagine": "birillo.jpg",
+        "contenuto": "<p>Birillo è un &#34;piccolo&#34; insetto che <a href=\"../pagine/pagina.html?file=persone&amp;slug=sarcophaga-carnaria\">Sarcophaga Carnaria</a> può richiamare e considera suo figlio.</p>"
+    },
+    {
+        "nome": "Balena Giuseppina",
+        "slug": "balena-giuseppina",
+        "immagine": "BalenaGiuseppina.png",
+        "contenuto": "<p>La Balena Giuseppina è una gigantesca balena ritrovata nella <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=tomba-di-glomhella\">Tomba di Glom'Hella</a>. Durante la battaglia contro di lei, il party, ha trovato un nuovo membro: <a href=\"../pagine/pagina.html?file=persone&amp;slug=randomauro\">Randomauro</a>, sputato durante la battaglia.</p>"
+    },
+    {
+        "nome": "Drake",
+        "slug": "drake",
+        "immagine": "drake.png",
+        "contenuto": "<p>Il Drake è la creatura che accompagna <a href=\"../pagine/pagina.html?file=persone&amp;slug=adrian\">Adrian</a> nei suoi viaggi come cacciatore di taglie.</p>"
+    },
+    {
+        "nome": "Altaris",
+        "slug": "altaris",
+        "immagine": "altaris.gif",
+        "contenuto": "<p>Si è manifestato come un essere misterioso e potente dopo che <a href=\"../pagine/pagina.html?file=persone&amp;slug=alex-zelop\">Alex Zelop</a> e l'<a href=\"../pagine/pagina.html?file=persone&amp;slug=albanese\">Albanese</a> hanno utilizzato un <a href=\"../pagine/pagina.html?file=lore&amp;slug=frammento-del-glom\">Frammento del Glom</a>, che sembra essere un'entità del passato legata alla storia di <a href=\"../pagine/pagina.html?file=lore&amp;slug=glom\">Glom</a>.</p>"
+    }
 ]
