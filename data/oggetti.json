@@ -32,31 +32,36 @@
     {
         "nome":"Amuleto Ammazzafiamme",
         "slug":"amuleto-ammazzafiamme",
+        "immagine":"amuleto-ammazzafiamme.png",
         "contenuto":"Amuleto lasciato da un <a href=\"../pagine/pagina.html?file=creature&slug=purifier\">Purifier</a> nella <a href=\"../pagine/pagina.html?file=luoghi&slug=la-prigione-di-baris\">Prigione di Baris</a>. Sembra che riesca a proteggere il portatore dal fuoco."
     },
     {
         "nome":"Anello Scacciafame",
         "slug":"anello-scacciafame",
+        "immagine":"anello-scacciafame.png",
         "contenuto":""
     },
     {
         "nome":"Witch Glaive",
         "slug":"witch-glaive",
-        "contenuto":"<p>Glaive appartenuta alla leggenda vivente di Barbataus. Permette l'uso di <a href=\"../pagine/pagina.html?file=abilita&slug=vile-blast\">Vile Blast</a>, <a href=\"../pagine/pagina.html?file=abilita&slug=poison-gas\">Poison Gas</a> e <a href=\"../pagine/pagina.html?file=incantesimi&slug=resistance\">Resistance</a>.</p>\n<p>Attunement necessario:</p>\n<p><a href=\"../pagine/pagina.html?file=incantesimi&slug=resistance\">Resistance</a>: livello 1</p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=poison-gas\">Poison Gas</a>: livello 2</p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=vile-blast\">Vile blast</a>: livello 3</p>"
+        "contenuto":"<p>Glaive appartenuta alla leggenda vivente di Barbataus. Permette l'uso di <a href=\"../pagine/pagina.html?file=abilita&slug=vile-blast-witchglaive\">Vile Blast</a>, <a href=\"../pagine/pagina.html?file=abilita&slug=poison-gas-witchglaive\">Poison Gas</a> e <a href=\"../pagine/pagina.html?file=incantesimi&slug=resistence\">Resistance</a>.</p>\n<p>Attunement necessario:</p>\n<p><a href=\"../pagine/pagina.html?file=incantesimi&slug=resistence\">Resistance</a>: livello 1</p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=poison-gas-witchglaive\">Poison Gas</a>: livello 2</p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=vile-blast-witchglaive\">Vile blast</a>: livello 3</p>"
     },
     {
         "nome":"Bracers of the Flow",
         "slug":"bracers-of-the-flow",
+        "immagine":"bracers-of-flow.png",
         "contenuto":" + 1 ac difesa, restora 1d4 ki per charge, ha 5 charge al giorno"
     },
     {
         "nome":"Cloak of the Moth",
         "slug":"cloak-of-the-moth",
+        "immagine":"cloak-of-the-moth.png",
         "contenuto":"Hai +1 alle prove di Furtività e se rimani fermo hai +1 a Difesa."
     },
     {
         "nome":"Armatura del Geco Notturno",
         "slug":"armatura-del-geco-notturno",
+        "immagine":"armatura-geco-notturno.png",
         "contenuto":"Hai +1 a Difesa e vantaggio sulle prove di Furtività se in oscurità o penombra."
     },
     {
@@ -68,26 +73,31 @@
     {
         "nome":"Tiny Bug Spear",
         "slug":"tiny-bug-spear",
+        "immagine":"tiny-bug-spear.png",
         "contenuto":"<p>Una lancia che assomiglia ad un pungiglione.</p>\n<p>Attunement necessario:</p>\n<li><a href=\"../pagine/pagina.html?file=abilita&slug=harmonic-repopulation\">Harmonic Repopulation</a>: livello 2</li>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=boom-boom-boom\">Boom Boom Boom</a>: livello 3</p>"
     },
     {
         "nome":"Ring of Wild Shape",
         "slug":"ring-of-wild-shape",
+        "immagine":"ring-of-wild-shape.png",
         "contenuto":"+ 1 trasformazione."
     },
     {
         "nome":"Armatura Pesante",
         "slug":"armatura-pesante",
+        "immagine":"armatura-pesante.png",
         "contenuto":"+2 a <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a>."
     },
     {
         "nome":"Boots of Bounding",
         "slug":"boots-of-bounding",
+        "immagine":"boots-of-bounding.png",
         "contenuto":"Raddoppiano la distanza massima di salto, sia in avanti sia in alto."
     },
     {
         "nome":"Ocarina of Minor Charm",
         "slug":"ocarina-of-minor-charm",
+        "immagine":"ocarina-minor-charm.png",
         "contenuto":"Se è utilizzata da un Bardo, garantisce l'uso di 1 <a href=\"../pagine/pagina.html?file=incantesimi&slug=charm-person\">Charm Person</a> al giorno."
     },
     {
