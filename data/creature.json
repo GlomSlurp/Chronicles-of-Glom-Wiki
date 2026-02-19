@@ -9,13 +9,13 @@
         "nome": "Glom'Hella",
         "slug": "glomhella",
         "immagine": "Glom_Hella.png",
-        "contenuto": "<p>.</p>"
+        "contenuto": "<p>..</p>"
     },
     {
         "nome": "Lis - Il Cane di Baris",
         "slug": "lis-il-cane-di-baris",
         "immagine": "lis.png",
-        "contenuto": "Il fedele cane di <a href=\\\"../pagine/pagina.html?file=creature&slug=glomhella\\\">Glom'Hella</a>."
+        "contenuto": "Il fedele cane di <a href=\"../pagine/pagina.html?file=creature&slug=glomhella\">Glom'Hella</a>."
     },
     {
         "nome": "Trallalero Trallalà",

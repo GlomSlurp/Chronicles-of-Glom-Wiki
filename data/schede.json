@@ -28,13 +28,13 @@
             "Percezione +0",
             "Rapidità di Mano +7"
         ],
-        "equipaggiamento":[
+        "oggetti":[
             "Pacchetto di Sigarette",
             "Bastone da Combattimento",
-            "Bende dell'Aria",
-            "Bende del Fulmine",
-            "Bende del Fuoco",
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=bracers-of-the-flow\">Bracers of the Flow</a>"
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=bende-dell-aria\">Bende dell'Aria</a>",
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=bende-del-fulmine\">Bende del Fulmine</a>",
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=bende-del-fuoco\">Bende del Fuoco</a>",
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=bracers-of-the-flow\">Bracers of the Flow</a>"
         ],
         "abilità_speciali":[
             "<a href=\"../pagine/pagina.html?file=abilita&slug=cig-master\">Cig Master</a>",
@@ -49,8 +49,8 @@
         "azioni":[
             "Attacco con Bastone da Combattimento",
             "I Pungi nelle Mani",
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=i-pugni-nelle-mani-elettrici\">I Pungi nelle Mani (elettrici)</a>",
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=i-pugni-nelle-mani-infuocati\">I Pungi nelle Mani (infuocati)</a>"
+            "I Pungi nelle Mani (elettrici)",
+            "I Pungi nelle Mani (infuocati"
         ]
     },
     {
@@ -109,11 +109,11 @@
         "tratti_speciali": [
             "<a href=\"../pagine/pagina.html?file=abilita&slug=scurovisione\">Scurovisione</a>"
         ],
-        "equipaggiamento": [
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=witch-glaive\">Witch Glaive</a>",
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=rellanas-medallion\">Rellana's Medallion</a>",
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=anello-scacciafame\">Anello Scacciafame</a>",
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=amuleto-ammazzafiamme\">Amuleto Ammazzafiamme</a>"
+        "oggetti": [
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=witch-glaive\">Witch Glaive</a>",
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=rellanas-medallion\">Rellana's Medallion</a>",
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=anello-scacciafame\">Anello Scacciafame</a>",
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=amuleto-ammazzafiamme\">Amuleto Ammazzafiamme</a>"
         ],
         "abilità_speciali": [
             "<a href=\"../pagine/pagina.html?file=abilita&slug=mimetismo-glommitico\">Mimetismo Glommitico",
@@ -124,7 +124,7 @@
             "<a href=\"../pagine/pagina.html?file=ablita&slug=kamehameha-glommitica\">Kamehameha Glommitica</a>"
         ],
         "azioni": [
-            "Attacco con <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=witch-glaive\">Witch Glaive</a>",
+            "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=witch-glaive\">Witch Glaive</a>",
             "Attacco con <a href=\"../pagine/pagina.html?file=ablita&slug=mazzone\">Mazzone</a>",
             "Lancio Incantesimi"
         ]
@@ -177,11 +177,11 @@
         "tratti_speciali":[
             "<a href=\"../pagine/pagina.html?file=abilita&slug=scurovisione\">Scurovisione</a>"
         ],
-        "equipaggiamento":[
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=armatura-del-geco-notturno\">Armatura del Geco Notturno</a>",
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=cloak-of-the-moth\">Cloak of the Moth</a>",
+        "oggetti":[
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=armatura-del-geco-notturno\">Armatura del Geco Notturno</a>",
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=cloak-of-the-moth\">Cloak of the Moth</a>",
             "Bag of Holding",
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=l-orologio\">L'Orologio</a>"
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=l-orologio\">L'Orologio</a>"
         ],
         "abilità_speciali":[
             "<a href=\"../pagine/pagina.html?file=abilita&slug=a-me-gli-occhi\">Divinità dello Slurp: A me gli Occhi</a>",
@@ -251,9 +251,9 @@
         "tratti_speciali":[
             "Parlare con gli Animali"
         ],
-        "equipaggiamento":[
+        "oggetti":[
             "Tiny Bug Spear",
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=ring-of-wild-shape\">Ring of Wild Shape</a>",
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=ring-of-wild-shape\">Ring of Wild Shape</a>",
             "Tarocchi Caotici"
         ],
         "abilità_speciali":[
@@ -268,7 +268,7 @@
             "<a href=\"../pagine/pagina.html?file=abilita&slug=parry\">Parry</a> (Reaction - Solo in Forma Birillo)"
         ],
         "azioni":[
-            "Attacco con <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=tiny-bug-spear\">Tiny Bug Spear</a>",
+            "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=tiny-bug-spear\">Tiny Bug Spear</a>",
             "<a href=\"../pagine/pagina.html?file=abilita&slug=richiamo-degli-insetti\">Richiamo degli Insetti</a>",
             "Lancio Incantesimi"
         ]
@@ -320,10 +320,10 @@
         "tratti_speciali": [
             "<a href=\"../pagine/pagina.html?file=abilita&slug=percezione-del-magico\">Percezione del magico</a>"
         ],
-        "equipaggiamento": [
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=armatura-pesante\">Armatura Pesante</a>",
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug==boots-of-bounding\">Boots of Bounding</a>",
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=ocarina-of-minor-charm\">Ocarina of Minor Charm</a>"
+        "oggetti": [
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=armatura-pesante\">Armatura Pesante</a>",
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug==boots-of-bounding\">Boots of Bounding</a>",
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=ocarina-of-minor-charm\">Ocarina of Minor Charm</a>"
         ],
         "abilità_speciali": [
             "<a href=\"../pagine/pagina.html?file=abilita&slug=eroi-combattenti-di-mordor\">Eroi, combattenti di Mordor!</a>",
@@ -335,7 +335,7 @@
             "<a href=\"../pagine/pagina.html?file=abilita&slug=cutting-glom\">Cutting Glom</a> (Reaction)"
         ],
         "azioni": [
-            "Attacco con <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=weapon-conjured\">Weapon Conjured</a>",
+            "Attacco con <a href=\"../pagine/pagina.html?file=abilita&slug=weapon-conjured\">Weapon Conjured</a>",
             "Lancio incantesimi"
         ]
     },
@@ -383,9 +383,9 @@
         "tratti_speciali": [
             "<a href=\"../pagine/pagina.html?file=abilita&slug=percezione-del-magico\">Percezione del Magico</a>"
         ],
-        "equipaggiamento": [
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=wand-of-wonder\">Wand of Wonder</a>",
-            "<a href=\"../pagine/pagina.html?file=equipaggiamento&slug=wand-of-minor-chaos\">Wand of Minor Chaos</a>"
+        "oggetti": [
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=wand-of-wonder\">Wand of Wonder</a>",
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=wand-of-minor-chaos\">Wand of Minor Chaos</a>"
         ],
         "abilità_speciali": [
             "<a href=\"../pagine/pagine.html?file=abilita&slug=wild-glom-surge\">Wild Glom Surge</a>",
@@ -398,8 +398,8 @@
             "<a href=\"../pagine/pagina.html?file=abilita&slug=tiro-fortunato\">Tiro Fortunato</a> (Reaction)"
         ],
         "azioni": [
-            "Attacco con <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=wand-of-wonder\">Wand of Wonder</a>",
-            "Abilità <a href=\"../pagine/pagina.html?file=equipaggiamento&slug=wand-of-minor-chaos\">Wand of Minor Chaos</a>",
+            "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=wand-of-wonder\">Wand of Wonder</a>",
+            "Abilità <a href=\"../pagine/pagina.html?file=oggetti&slug=wand-of-minor-chaos\">Wand of Minor Chaos</a>",
             "Lancio incantesimi"
         ]
     }

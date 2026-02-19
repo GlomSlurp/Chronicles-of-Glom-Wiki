@@ -62,8 +62,8 @@
     "contenuto": "<p>In Chronicles of Glom esistono tre nature principali: il <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a>, lo <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a> e <a href=\"../pagine/pagina.html?file=lore&slug=la-fame\">la Fame</a>. Queste nature influenzano le abilità, le capacità e le difficoltà che le creature possono ottenere.</p>"
   },
   {
-    "nome": "Equipaggiamento",
-    "slug": "equipaggiamento",
+    "nome": "oggetti",
+    "slug": "oggetti",
     "contenuto": "<p>Quando si equipaggia un oggetto magico è necessario fare <a href=\"../pagine/pagina.html?file=regole&slug=attunement\">Attunement</a> se l'oggetto lo richiede.</p>\n<p>È possibile equipaggiare al massimo 3 oggetti magici per volta.</p>"
   },
   {

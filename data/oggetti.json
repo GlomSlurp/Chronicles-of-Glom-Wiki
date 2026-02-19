@@ -1,17 +1,32 @@
 [
     {
-        "nome":"I Pugni nelle Mani (elettrici)",
-        "slug":"i-pugni-nelle-mani-elettrici",
+        "nome":"Bende dell'Aria",
+        "slug":"bende-dell-aria",
+        "immagine":"bende-aria.png",
+        "contenuto":"Incanali il potere del vento e in caso di hit puoi infliggere 2d66 danni taglienti extra oltre quelli che infliggi."
+    },
+    {
+        "nome":"Bende del Fulmine",
+        "slug":"bende-del-fulmine",
+        "immagine":"bende-fulmine.png",
         "contenuto":"In caso di hit, se un altro target è entro 5 ft, puoi infliggere 1d8 danni elettrici extra oltre quelli che infliggi già (solo sul primo hit)"
     },
     {
-        "nome":"I Pugni nelle Mani (infuocati)",
-        "slug":"i-pugni-nelle-mani-infuocati",
+        "nome":"Bende del Fuoco",
+        "slug":"bende-del-fuoco",
+        "immagine":"bende-fuoco.png",
         "contenuto":"<p>Guanti che prendono fuoco utilizzando la mente di chi li usa.</p>\n<p> Boostano ogni colpo consecutivo e si resettano dopo ogni turno. Al primo colpo aggiungo zero, al secondo 1d8, al terzo 2d8 e al quarto 3d8.</p>"
+    },
+    {
+        "nome":"Pacchetto di Sigarette",
+        "slug":"pacchetto-di-sigarette",
+        "immagine":"pacchetto-sigarette.png",
+        "contenuto":"Un pacchetto che contiene 12 sigarette, donato da <a href=\"../pagine/pagina.html?file=persone&slug=hellius\">Hellius</a> a <a href=\"../pagine/pagina.html?file=persone&slug=kalu\">Kalu</a>."
     },
     {
         "nome":"Rellana's Medallion",
         "slug":"rellanas-medallion",
+        "immagine":"rellana-medallion.png",
         "contenuto":"Permette l'uso di <a href=\"../pagine/pagina.html?file=incantesimi&slug=light\">Light</a> e aggiunge +1d8 alle cure"
     },
     {
@@ -74,11 +89,6 @@
         "nome":"Ocarina of Minor Charm",
         "slug":"ocarina-of-minor-charm",
         "contenuto":"Se è utilizzata da un Bardo, garantisce l'uso di 1 <a href=\"../pagine/pagina.html?file=incantesimi&slug=charm-person\">Charm Person</a> al giorno."
-    },
-    {
-        "nome":"Weapon Conjured",
-        "slug":"weapon-conjured",
-        "contenuto":"Ricrea una spada illusoria basata su una spada leggendaria che un tempo vedesti."
     },
     {
         "nome":"Wand of Wonder",

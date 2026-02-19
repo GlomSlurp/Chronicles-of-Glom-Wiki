@@ -58,7 +58,7 @@ const file = params.get("file");
 const slug = params.get("slug");
 
 // Link "torna alla categoria"
-const categorieSchede = ["incantesimi", "abilita", "equipaggiamento"];
+const categorieSchede = ["incantesimi", "abilita"];
 
 document.getElementById("back-category").href =
     categorieSchede.includes(file) ? "schede.html" : `${file}.html`;
@@ -144,9 +144,9 @@ if (pagina.contenuto) {
                 <h3>Tratti Speciali</h3>
                 <ul>${pagina.tratti_speciali.map(t => `<li>${t}</li>`).join("")}</ul>` : ""}
 
-                ${Array.isArray(pagina.equipaggiamento) ? `
-                <h3>Equipaggiamento</h3>
-                <ul>${pagina.equipaggiamento.map(e => `<li>${e}</li>`).join("")}</ul>` : ""}
+                ${Array.isArray(pagina.oggetti) ? `
+                <h3>oggetti</h3>
+                <ul>${pagina.oggetti.map(e => `<li>${e}</li>`).join("")}</ul>` : ""}
 
                 ${Array.isArray(pagina.abilità_speciali) ? `
                 <h3>Abilità Speciali</h3>
