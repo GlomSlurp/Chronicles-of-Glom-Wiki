@@ -283,12 +283,12 @@ details > summary::-ms-bullet {
 -------------------------------------------------------------- */
 .infobox {
   float: right;
-  width: 300px;
+  width: 250px;
   background: var(--panel);
   border: 1px solid var(--border);
   padding: 14px;
-  margin: 0 0 20px 20px;
-  border-radius: 14px;
+  margin: 0 0 10px 10px;
+  border-radius: 10px;
   box-shadow: 0 0 18px rgba(108,140,255,0.35);
   font-size: 0.95rem;
 }

@@ -103,11 +103,13 @@
     {
         "nome":"Wand of Wonder",
         "slug":"wand-of-wonder",
+        "immagine":"wand-of-wonder.png",
         "contenuto":"<p>Puoi usare 1 carica per scegliere una creatura entro 120ft. Tira 1d100 e vedi la Wonder Table. La creatura è il bersaglio dell'effetto (DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>).</p>\n<p>La Wand of Wonder ha 7 cariche, ricarica 1d6 + 1 cariche al tramonto. "
     },
     {
         "nome":"Wand of Minor Chaos",
         "slug":"wand-of-minor-chaos",
+        "immagine":"wand-minor-chaos.png",
         "contenuto":"<p>Puoi usare 1 carica per scegliere una creatura entro 120ft, questa è il bersaglio dell'effetto del <a href=\"../pagine/pagina.html?file=abilita&slug=wild-glom-surge\">Wild Glom Surge</a>.</p>\n<p>La Wand of Minor Chaos ha 4 cariche, ricarica 1d4 cariche al tramonto.</p>"
     }
 ]

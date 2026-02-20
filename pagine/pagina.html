@@ -40,33 +40,49 @@
 </footer>
 
 <script>
-// --- 0. Funzione per aggiornare il titolo ---
-const params2 = new URLSearchParams(window.location.search);
-const personaggio = params2.get("pg");
-function aggiornaTitolo(nomeIncantesimo) {
-    const titolo = document.getElementById("nome");
-    if (personaggio) {
-        titolo.textContent = personaggio + "'s " + nomeIncantesimo;
-    } else {
-        titolo.textContent = nomeIncantesimo;
-    }
-}
-
-// --- 1. Legge parametri dalla URL ---
+// ===============================
+// PARAMETRI URL
+// ===============================
 const params = new URLSearchParams(window.location.search);
 const file = params.get("file");
 const slug = params.get("slug");
+const from = params.get("from");
+const personaggio = params.get("pg");
 
-// Link "torna alla categoria"
-const categorieSchede = ["incantesimi", "abilita"];
+// ===============================
+// FUNZIONE TITOLO
+// ===============================
+function aggiornaTitolo(nomePagina) {
+    const titolo = document.getElementById("nome");
+    if (personaggio) {
+        titolo.textContent = personaggio + "'s " + nomePagina;
+    } else {
+        titolo.textContent = nomePagina;
+    }
+}
 
-document.getElementById("back-category").href =
-    categorieSchede.includes(file) ? "schede.html" : `${file}.html`;
+// ===============================
+// LINK TORNA ALLA CATEGORIA
+// ===============================
+const backLink = document.getElementById("back-category");
 
-// --- 2. Carica il JSON corretto ---
+if (from) {
+    backLink.href = `pagina.html?file=schede&slug=${from}`;
+} else {
+    const categorieSchede = ["abilita"];
+    backLink.href =
+        categorieSchede.includes(file)
+            ? "schede.html"
+            : `${file}.html`;
+}
+
+// ===============================
+// CARICAMENTO DATI
+// ===============================
 fetch(`../data/${file}.json`)
     .then(r => r.json())
     .then(data => {
+
         const pagina = data.find(item => item.slug === slug);
 
         if (!pagina) {
@@ -78,39 +94,49 @@ fetch(`../data/${file}.json`)
         document.getElementById("subtitle").textContent = `Wiki – ${pagina.nome}`;
         aggiornaTitolo(pagina.nome);
 
-if (pagina.contenuto) {
-    let extra = "";
+        // ===============================
+        // PAGINA CONTENUTO (incantesimi ecc.)
+        // ===============================
+        if (pagina.contenuto) {
 
-    if(pagina.azione_bonus){
-        extra += `<p><strong>Azione Bonus</strong></p>`;
-    }
-    if(pagina.reaction){
-        extra += `<p><strong>Reaction</strong></p>`;
-    }
-    if (pagina.durata) {
-        extra += `<p><strong>Durata:</strong> ${pagina.durata}</p>`;
-    }
-    if (pagina.descrizione) {
-        extra += `<p>${pagina.descrizione}</p>`;
-    }
-    if (pagina.livello !== undefined && pagina.livello !== null) {
-    extra += `<p><strong>Livello:</strong> ${pagina.livello}</p>`;
-}
+            let extra = "";
 
-    document.getElementById("contenuto").innerHTML = extra + pagina.contenuto;
-    document.querySelectorAll("#contenuto details").forEach(details => {
-    details.removeAttribute("open");
-});
+            if (pagina.azione_bonus) {
+                extra += `<p><strong>Azione Bonus</strong></p>`;
+            }
 
-}
+            if (pagina.reaction) {
+                extra += `<p><strong>Reaction</strong></p>`;
+            }
 
-        // --- 3. Scheda personaggio (usa campi delle schede) ---
+            if (pagina.durata) {
+                extra += `<p><strong>Durata:</strong> ${pagina.durata}</p>`;
+            }
+
+            if (pagina.descrizione) {
+                extra += `<p>${pagina.descrizione}</p>`;
+            }
+
+            if (pagina.livello !== undefined && pagina.livello !== null) {
+                extra += `<p><strong>Livello:</strong> ${pagina.livello}</p>`;
+            }
+
+            document.getElementById("contenuto").innerHTML = extra + pagina.contenuto;
+
+            document.querySelectorAll("#contenuto details").forEach(details => {
+                details.removeAttribute("open");
+            });
+        }
+
+        // ===============================
+        // SCHEDA PERSONAGGIO
+        // ===============================
         else if (pagina.classe || pagina.livello || pagina.forza) {
+
             let html = `
             <div class="scheda-personaggio">
                 <h2>${pagina.nome}${pagina.classe ? " – " + pagina.classe : ""}</h2>
                 ${pagina.livello ? "<p><strong>Livello:</strong> " + pagina.livello + "</p>" : ""}
-                
                 ${pagina.razza ? `<p><strong>Razza:</strong> ${pagina.razza}</p>` : ""}
                 ${pagina.background ? `<p><strong>Background:</strong> ${pagina.background}</p>` : ""}
                 ${pagina.punti_ferita ? `<p><strong>Punti Ferita:</strong> ${pagina.punti_ferita}</p>` : ""}
@@ -119,83 +145,100 @@ if (pagina.contenuto) {
                 ${pagina.ki ? `<p><strong>Ki:</strong> ${pagina.ki}</p>` : ""}
                 ${pagina.popolazione ? `<p><strong>Popolazione:</strong> ${pagina.popolazione}</p>` : ""}
                 ${pagina.proficiency_bonus ? `<p><strong>Proficiency Bonus:</strong> ${pagina.proficiency_bonus}</p>` : ""}
-
-                ${pagina.forza ? `
-                <h3>Statistiche</h3>
-                    <ul class="stat-list">
-                        <li><span class="label">Forza</span><span class="value">${pagina.forza}</span><span class="mod">${pagina.forza >= 10 ? "+" + Math.floor((pagina.forza - 10) / 2) : "-" + Math.abs(Math.floor((pagina.forza - 10) / 2))}</span></li>
-                        <li><span class="label">Destrezza</span><span class="value">${pagina.destrezza}</span><span class="mod">${pagina.destrezza >= 10 ? "+" + Math.floor((pagina.destrezza - 10) / 2) : "-" + Math.abs(Math.floor((pagina.destrezza - 10) / 2))}</span></li>
-                        <li><span class="label">Costituzione</span><span class="value">${pagina.costituzione}</span><span class="mod">${pagina.costituzione >= 10 ? "+" + Math.floor((pagina.costituzione - 10) / 2) : "-" + Math.abs(Math.floor((pagina.costituzione - 10) / 2))}</span></li>
-                        <li><span class="label">Intelligenza</span><span class="value">${pagina.intelligenza}</span><span class="mod">${pagina.intelligenza >= 10 ? "+" + Math.floor((pagina.intelligenza - 10) / 2) : "-" + Math.abs(Math.floor((pagina.intelligenza - 10) / 2))}</span></li>
-                        <li><span class="label">Saggezza</span><span class="value">${pagina.saggezza}</span><span class="mod">${pagina.saggezza >= 10 ? "+" + Math.floor((pagina.saggezza - 10) / 2) : "-" + Math.abs(Math.floor((pagina.saggezza - 10) / 2))}</span></li>
-                        <li><span class="label">Carisma</span><span class="value">${pagina.carisma}</span><span class="mod">${pagina.carisma >= 10 ? "+" + Math.floor((pagina.carisma - 10) / 2) : "-" + Math.abs(Math.floor((pagina.carisma - 10) / 2))}</span></li>
-                    </ul>
-` : ""}
-
-                ${Array.isArray(pagina.tiri_salvezza) ? `
-                <h3>Tiri Salvezza</h3>
-                <ul>${pagina.tiri_salvezza.map(t => `<li>${t}</li>`).join("")}</ul>` : ""}
-
-                ${Array.isArray(pagina.abilità) ? `
-                <h3>Abilità</h3>
-                <ul>${pagina.abilità.map(a => `<li>${a}</li>`).join("")}</ul>` : ""}
-
-                ${Array.isArray(pagina.tratti_speciali) ? `
-                <h3>Tratti Speciali</h3>
-                <ul>${pagina.tratti_speciali.map(t => `<li>${t}</li>`).join("")}</ul>` : ""}
-
-                ${Array.isArray(pagina.oggetti) ? `
-                <h3>oggetti</h3>
-                <ul>${pagina.oggetti.map(e => `<li>${e}</li>`).join("")}</ul>` : ""}
-
-                ${Array.isArray(pagina.abilità_speciali) ? `
-                <h3>Abilità Speciali</h3>
-                <ul>${pagina.abilità_speciali.map(s => `<li>${s}</li>`).join("")}</ul>` : ""}
-
-                ${Array.isArray(pagina.trucchetti) ? `
-                <h3>Trucchetti</h3>
-                <ul>${pagina.trucchetti.map(t => `<li>${t}</li>`).join("")}</ul>` : ""}
-
-                ${Array.isArray(pagina.incantesimi_conosciuti) ? `
-                <h3>Incantesimi Conosciuti</h3>
-                <ul>${pagina.incantesimi_conosciuti.map(i => `<li>${i}</li>`).join("")}</ul>` : ""}
-
-                ${Array.isArray(pagina.azioni) ? `
-                <h3>Azioni</h3>
-                <ul>${pagina.azioni.map(a => `<li>${a}</li>`).join("")}</ul>` : ""}
-            </div>
             `;
 
+            if (pagina.forza) {
+                html += `
+                <h3>Statistiche</h3>
+                <ul class="stat-list">
+                    ${["forza","destrezza","costituzione","intelligenza","saggezza","carisma"].map(stat => {
+                        const valore = pagina[stat];
+                        const mod = Math.floor((valore - 10) / 2);
+                        const modStr = mod >= 0 ? "+" + mod : mod;
+                        return `
+                            <li>
+                                <span class="label">${stat.charAt(0).toUpperCase() + stat.slice(1)}</span>
+                                <span class="value">${valore}</span>
+                                <span class="mod">${modStr}</span>
+                            </li>`;
+                    }).join("")}
+                </ul>`;
+            }
+
+            if (Array.isArray(pagina.tiri_salvezza)) {
+                html += `<h3>Tiri Salvezza</h3><ul>${pagina.tiri_salvezza.map(t => `<li>${t}</li>`).join("")}</ul>`;
+            }
+
+            if (Array.isArray(pagina.abilità)) {
+                html += `<h3>Abilità</h3><ul>${pagina.abilità.map(a => `<li>${a}</li>`).join("")}</ul>`;
+            }
+
+            if (Array.isArray(pagina.tratti_speciali)) {
+                html += `<h3>Tratti Speciali</h3><ul>${pagina.tratti_speciali.map(t => `<li>${t}</li>`).join("")}</ul>`;
+            }
+
+            if (Array.isArray(pagina.oggetti)) {
+                html += `<h3>Oggetti</h3><ul>${pagina.oggetti.map(e => `<li>${e}</li>`).join("")}</ul>`;
+            }
+
+            if (Array.isArray(pagina.abilità_speciali)) {
+                html += `<h3>Abilità Speciali</h3><ul>${pagina.abilità_speciali.map(s => `<li>${s}</li>`).join("")}</ul>`;
+            }
+
+            if (Array.isArray(pagina.trucchetti)) {
+                html += `<h3>Trucchetti</h3><ul>${pagina.trucchetti.map(t => `<li>${t}</li>`).join("")}</ul>`;
+            }
+
+            if (Array.isArray(pagina.incantesimi_conosciuti)) {
+                html += `<h3>Incantesimi Conosciuti</h3><ul>${pagina.incantesimi_conosciuti.map(i => `<li>${i}</li>`).join("")}</ul>`;
+            }
+
+            if (Array.isArray(pagina.azioni)) {
+                html += `<h3>Azioni</h3><ul>${pagina.azioni.map(a => `<li>${a}</li>`).join("")}</ul>`;
+            }
+
+            html += `</div>`;
             document.getElementById("contenuto").innerHTML = html;
+
+            // AUTO-AGGIUNGE &from=slug A TUTTI I LINK INTERNI
+            const links = document.querySelectorAll("#contenuto a");
+
+            links.forEach(link => {
+                if (!link.href.includes("file=")) return;
+
+                const url = new URL(link.href);
+                const paramsLink = url.searchParams;
+
+                if (!paramsLink.has("from")) {
+                    paramsLink.set("from", slug);
+                    link.href = url.pathname + "?" + paramsLink.toString();
+                }
+            });
         }
 
-        // --- 4. Immagine (se presente) ---
         if (pagina.immagine && pagina.immagine.trim() !== "") {
             document.getElementById("infobox").innerHTML = `
                 <div class="infobox">
                     <img src="../images/${pagina.immagine}" alt="${pagina.nome}">
-                </div>
-            `;
+                </div>`;
         }
-})
+
+    })
     .catch(err => {
         console.error("Errore nel caricamento:", err);
         document.querySelector(".content").innerHTML = "<p>Errore nel caricamento della pagina.</p>";
     });
 </script>
 
-
-
 <script>
 // ===============================
-// PREVIEW IMMAGINE PER LINK WIKI
+// PREVIEW IMMAGINE LINK WIKI
 // ===============================
 
 let activeLinkRect = null;
-const HIDE_DISTANCE = 50; // distanza massima dal link (px)
+const HIDE_DISTANCE = 50;
 const previewCache = {};
 
-// --- Mouse over su link ---
 document.addEventListener("mouseover", function (event) {
     const link = event.target;
 
@@ -207,10 +250,8 @@ document.addEventListener("mouseover", function (event) {
 
     if (!linkFile || !linkSlug) return;
 
-    // Salva la posizione del link
     activeLinkRect = link.getBoundingClientRect();
 
-    // Funzione che mostra la preview
     function showPreview(img) {
         let preview = document.getElementById("image-preview");
 
@@ -229,7 +270,6 @@ document.addEventListener("mouseover", function (event) {
         preview.style.display = "block";
     }
 
-    // Usa cache se possibile
     if (previewCache[linkSlug]) {
         showPreview(previewCache[linkSlug]);
     } else {
@@ -245,7 +285,6 @@ document.addEventListener("mouseover", function (event) {
     }
 });
 
-// --- Nasconde la preview se il mouse si allontana dal link ---
 document.addEventListener("mousemove", function (event) {
     const preview = document.getElementById("image-preview");
     if (!preview || preview.style.display !== "block" || !activeLinkRect) return;

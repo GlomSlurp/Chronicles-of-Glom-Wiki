@@ -377,8 +377,8 @@
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=mani-brucianti\">Mani brucianti</a>",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=tempesta-di-glom\">Tempesta di Glom</a>",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=palla-di-fuoco\">Palla di fuoco</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=alter-self\">Alter Self</a>",
-            "<a href=\"../pagine/pagina.html?file=descrizioni&slug=annulla-magia\">Annulla Magia</a>"
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=alter-self\">Alter Self</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=annulla-magia\">Annulla Magia</a>"
         ],
         "tratti_speciali": [
             "<a href=\"../pagine/pagina.html?file=abilita&slug=percezione-del-magico\">Percezione del Magico</a>"

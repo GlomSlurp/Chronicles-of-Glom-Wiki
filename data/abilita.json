@@ -248,9 +248,9 @@
         "contenuto": "Quando una creatura visibile entro 60 ft da te fa un Attacco o un Ability check puoi decidere di rimuovere 1d6 dal danno, dal tiro di Attacco o dal Check."
     },
     {
-        "nome": "wild Glom Surge",
+        "nome": "Wild Glom Surge",
         "slug": "wild-glom-surge",
-        "contenuto": "Tira 1d20, se esce da 1 a 5, tira 1d100 su Wild Glom Table per scoprire l'effetto."
+        "contenuto": "Tira 1d20, se esce da 1 a 5, tira 1d20 e 1d100 su Wild Glom Table per scoprire l'effetto."
     },
     {
         "nome": "Sovraccarico di Slurp",

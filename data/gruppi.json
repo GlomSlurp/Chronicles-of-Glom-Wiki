@@ -21,7 +21,7 @@
     "nome": "Karuso",
     "slug": "karuso",
     "immagine": "",
-    "contenuto": "<p>Famiglia che controlla le due isole ad ovest di <a href=\"pagina.php?file=geografia&amp;slug=glomran\">Glomran</a>.</p>"
+    "contenuto": "<p>Famiglia che controlla le due isole ad ovest di <a href=\"pagina.html?file=geografia&amp;slug=glomran\">Glomran</a>.</p>"
   },
   {
     "nome": "Zelop",
