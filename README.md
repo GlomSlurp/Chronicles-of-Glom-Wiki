@@ -125,7 +125,7 @@ Salva il file
 
 Commit to main
 
-Push
+Push origin
 
 GitHub Pages aggiornerà automaticamente la wiki
 
