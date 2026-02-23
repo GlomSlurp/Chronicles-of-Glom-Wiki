@@ -40,7 +40,6 @@
 <footer>
     <small><span id="currentYear"></span> &copy; D&D Campaign Manager</small>
     <script>
-    // Imposta l'anno corrente nel footer
     document.getElementById('currentYear').textContent = new Date().getFullYear();
     </script>
 </footer>
@@ -62,6 +61,58 @@ const sezioni = ["creature", "divinita", "geografia", "gruppi", "incantesimi", "
 
 const risultatiContainer = document.getElementById("risultati");
 
+
+// --- FUNZIONI DI SUPPORTO ---
+
+// Distanza di Levenshtein (per fuzzy search)
+function levenshtein(a, b) {
+    const matrix = Array.from({ length: a.length + 1 }, (_, i) =>
+        Array.from({ length: b.length + 1 }, (_, j) =>
+            i === 0 ? j : j === 0 ? i : 0
+        )
+    );
+
+    for (let i = 1; i <= a.length; i++) {
+        for (let j = 1; j <= b.length; j++) {
+            const costo = a[i - 1] === b[j - 1] ? 0 : 1;
+            matrix[i][j] = Math.min(
+                matrix[i - 1][j] + 1,
+                matrix[i][j - 1] + 1,
+                matrix[i - 1][j - 1] + costo
+            );
+        }
+    }
+
+    return matrix[a.length][b.length];
+}
+
+// Similarità fuzzy (0–1)
+function fuzzySimilarity(a, b) {
+    const dist = levenshtein(a, b);
+    const maxLen = Math.max(a.length, b.length);
+    return 1 - dist / maxLen;
+}
+
+// Ranking dei risultati
+function calcolaPunteggio(item, termine) {
+    const nome = item.nome.toLowerCase();
+    const testo = JSON.stringify(item).toLowerCase();
+
+    let score = 0;
+
+    if (nome === termine) score += 100;
+    else if (nome.includes(termine)) score += 60;
+
+    if (testo.includes(termine)) score += 20;
+
+    if (nome.startsWith(termine)) score += 10;
+
+    score += fuzzySimilarity(nome, termine) * 40;
+
+    return score;
+}
+
+
 // --- 3. Cerca in tutti i JSON ---
 Promise.all(
     sezioni.map(sezione =>
@@ -70,33 +121,55 @@ Promise.all(
             .then(data => ({ sezione, data }))
     )
 ).then(allData => {
-    let trovati = 0;
+
+    let risultati = [];
 
     allData.forEach(({ sezione, data }) => {
         data.forEach(item => {
+
+            const testoCompleto = JSON.stringify(item).toLowerCase();
             const nome = item.nome.toLowerCase();
-            const contenuto = (item.contenuto || "").toLowerCase();
 
-            if (nome.includes(termine) || contenuto.includes(termine)) {
-                trovati++;
+            const fuzzy = fuzzySimilarity(nome, termine);
 
-                const p = document.createElement("p");
-                p.innerHTML = `
-                    <a href="pagina.html?file=${sezione}&slug=${item.slug}">
-                        ${item.nome}
-                    </a>
-                    <span class="muted"> (${sezione.charAt(0).toUpperCase() + sezione.slice(1)})</span>
-                `;
-                risultatiContainer.appendChild(p);
+            if (testoCompleto.includes(termine) || fuzzy > 0.55) {
+
+                const score = calcolaPunteggio(item, termine);
+
+                risultati.push({
+                    item,
+                    sezione,
+                    score
+                });
             }
         });
     });
 
-    if (trovati === 0) {
+    // Ordina per punteggio
+    risultati.sort((a, b) => b.score - a.score);
+
+    // Mostra i risultati
+    if (risultati.length === 0) {
         risultatiContainer.innerHTML = "<p>Nessun risultato trovato.</p>";
+        return;
     }
+
+    risultati.forEach(({ item, sezione }) => {
+        const p = document.createElement("p");
+
+        p.innerHTML = `
+            <a href="pagina.html?file=${sezione}&slug=${item.slug}">
+                ${item.nome}
+            </a>
+            <span class="muted"> (${sezione.charAt(0).toUpperCase() + sezione.slice(1)})</span>
+        `;
+
+        risultatiContainer.appendChild(p);
+    });
+
 });
 </script>
+
 
 </body>
 </html>

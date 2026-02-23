@@ -2,7 +2,7 @@
   {
     "nome": "Baris",
     "slug": "baris",
-    "immagine": "baris.png",
+    "immagine": "luoghi_importanti/baris.png",
     "contenuto": "<p>La citt&agrave; principale dell'<a href=\"../pagine/pagina.html?file=geografia&amp;slug=isola-di-tromboli\">Isola di Tromboli</a>.</p>"
   },
   {
@@ -44,7 +44,7 @@
   {
     "nome":"Portus Novia",
     "slug": "portus-novia",
-    "immagine": "Portus_Novia.jpg",
+    "immagine": "luoghi_importanti/Portus_Novia.jpg",
     "contenuto": "<p>Portus Novia è una città situata a sud dell'<a href=\"../pagine/pagina.html?file=geografia&amp;slug=impero\">Impero</a>, nella regione di <a href=\"../pagine/pagina.html?file=geografia&amp;slug=autumnia\">Autumnia</a>.</p>"
   }
 ]

@@ -2,13 +2,13 @@
   {
     "nome": "Glomran",
     "slug": "glomran",
-    "immagine": "Glomran.png",
+    "immagine": "geografia/Glomran.png",
     "contenuto": "<p>L'isola di Glomran &egrave; il luogo in cui avvengono le vicende di Chronicles of Glom.</p>"
   },
     {
     "nome": "Isola di Tromboli",
     "slug": "isola-di-tromboli",
-    "immagine": "Isola_di_Tromboli.png",
+    "immagine": "geografia/Isola_di_Tromboli.png",
     "contenuto": "<p>L'isola di Tromboli si trova ad est di <a href=\"../pagine/pagina.html?file=geografia&amp;slug=glomran\">Glomran</a>, all'interno dei territori del clan <a href=\"../pagine/pagina.html?file=gruppi&amp;slug=karuso\">Karuso</a>.</p>\n<p>La capitale &egrave; la citt&agrave; di <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a></p>"
   },
     {
@@ -20,7 +20,7 @@
     {
       "nome":"Ducato Karuso",
       "slug":"ducato-karuso",
-      "immagine":"Ducato_Karuso.png",
+      "immagine":"geografia/Ducato_Karuso.png",
       "contenuto":"<p>Il Ducato Karuso si trova a est nell'isola di <a href=\"../pagine/pagina.html?file=geografia&amp;slug=glomran\">Glomran</a> e comprende anche l'isola di <a href=\"../pagine/pagina.html?file=geografia&amp;slug=isola-di-tromboli\">Tromboli</a>.</p>\\n<p>Il ducato &egrave; governato dal clan <a href=\"../pagine/pagina.html?file=gruppi&amp;slug=karuso\">Karuso</a> e <a href=\"../pagine/pagina.html?file=persone&amp;slug=gennarus-karuso\">Gennarus Karuso</a> ne è il capo.</p>"
     },
     {

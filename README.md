@@ -1,107 +1,184 @@
-# 🧙‍♂️ D&D Campaign Wiki
+# Chronicles of Glom – Wiki
 
-Benvenuto nella wiki ufficiale della campagna di Dungeons & Dragons creata da Paolo.  
-Il sito è ospitato tramite **GitHub Pages** ed è completamente statico: ogni pagina è generata da file HTML, CSS, JavaScript e JSON.
+Benvenuto nella **Wiki ufficiale di Chronicles of Glom**, un archivio digitale dedicato al mondo, alla storia, ai personaggi e agli elementi narrativi dell’ambientazione utilizzata nella campagna D&D.
 
-🌐 **Wiki online:**  
-👉 https://glomslurp.github.io/Chronicles-of-Glom-Wiki/index.html
+Questa wiki è pensata per essere:
+- una risorsa rapida per i giocatori,
+- un archivio ordinato per il Dungeon Master,
+- un riferimento sempre aggiornato per tutto ciò che riguarda il mondo di Glom.
 
----
+👉 **Wiki online:**  
+https://glomslurp.github.io/Chronicles-of-Glom-Wiki/
 
-## 📚 Contenuti della Wiki
-
-La wiki raccoglie tutte le informazioni del mondo di gioco, organizzate in categorie:
-
-- **Personaggi**
-- **Creature**
-- **Luoghi**
-- **Geografia**
-- **Gruppi e Fazioni**
-- **Divinità**
-- **Lore generale**
-- **regole**
-
-Ogni categoria è alimentata da un file JSON nella cartella `/data`, mentre le pagine HTML nella cartella `/pagine` mostrano i contenuti in modo navigabile.
 
 ---
 
-## 🛠️ Editor Statico (per modificare la wiki)
+## 📚 Struttura del progetto
 
-Questo repository include un editor statico che permette di modificare facilmente i file JSON della wiki.
+La wiki è completamente statica e funziona tramite:
 
-📍 **Percorso:**  
-`/admin/admin_wiki_editor.html`
+- **HTML** per la struttura delle pagine  
+- **CSS** per lo stile  
+- **JavaScript** per la ricerca e il caricamento dinamico dei contenuti  
+- **JSON** per i dati delle varie sezioni
 
-### Funzionalità dell’editor
+La struttura principale è:
 
-- Caricamento di un file JSON dalla cartella `/data`
-- Visualizzazione degli articoli contenuti nel file
-- Modifica di articoli esistenti
-- Aggiunta di nuovi articoli
-- Eliminazione di articoli
-- Generazione del JSON aggiornato
-- **Download del JSON aggiornato** pronto per essere sostituito nel repository
+/Chronicles-of-Glom-Wiki
+    /admin
+    admin_wiki_editor.html
+    /data
+        creature.json
+        divinita.json
+        geografia.json
+        gruppi.json
+        incantesimi.json
+        lore.json
+        luoghi.json
+        oggetti.json
+        persone.json
+        quest.json
+        regole.json
+        schede.json
+    /images
+        /creature
+        /geografia
+        /gruppi
+        /lore
+        /luoghi_importanti
+        /oggetti
+        /persone
+        /regole
+    /pagine
+        pagina.html
+        search.html
+    /styles
+        wiki_style.css
+    index.html
 
-L’editor funziona interamente nel browser e non richiede backend.
+Ogni file JSON rappresenta una categoria della wiki e contiene una lista di voci, ognuna con:
 
-### Come usarlo
+```json
+{
+    "nome": "Nome della voce",
+    "slug": "nome-della-voce",
+    "immagine":"immagine-della-voce.png",
+    "contenuto": "Testo della pagina",
+    "durata":"durata incantesimo",
+    "livello":"livello incantesimo",
+    "reazione":1 "oppure" 0,
+    "azione_bonus":1 "oppure" 0
+}
 
-1. Apri `admin/admin_wiki_editor.html` nel browser  
-2. Seleziona il file JSON da modificare  
-3. Clicca **Carica file**  
-4. Modifica o aggiungi articoli  
-5. Clicca **Aggiorna JSON**  
-6. Clicca **Scarica JSON aggiornato**  
-7. Sostituisci il file nella cartella `/data` del repository  
-8. Commit + push  
-9. GitHub Pages aggiornerà automaticamente il sito
+🔍 Sistema di ricerca avanzato
+La pagina search.html include un motore di ricerca client‑side che funziona interamente in JavaScript e supporta:
 
----
+✔ Ricerca su tutti i campi
+Il sistema analizza l’intero contenuto dei JSON, inclusi:
 
-## 📁 Struttura del Repository
+nome
 
-/
-├── index.html                                # Home della wiki
-├── pagine/                   # Pagine HTML della wiki
-│   ├── persone/
-│   ├── creature/
-│   ├── luoghi/
-│   ├── geografia/
-│   ├── gruppi/
-│   ├── divinita/
-│   ├── lore/
-|   └──regole/
-├── data/                     # Database statico in formato JSON
-│   ├── persone.json
-│   ├── creature.json
-│   ├── luoghi.json
-│   ├── geografia.json
-│   ├── gruppi.json
-│   ├── divinita.json
-│   ├── lore.json
-|   └── regole.json
-├── styles/                   # Fogli di stile
-├── images/                   # Immagini
-└── admin/                    # Editor statico
-    └── admin_wiki_editor.html
+contenuto
 
-Codice
+liste di oggetti, incantesimi, abilità
 
----
+campi aggiuntivi
 
-## 🔗 Collegamenti Interni
+✔ Ranking dei risultati
+I risultati vengono ordinati per pertinenza in base a:
 
-Per collegare una pagina della wiki a un’altra, usa percorsi relativi tramite tinyMCE copiando il link pulito
+match esatto nel nome
 
-🌐 Hosting su GitHub Pages
-Il sito è pubblicato tramite GitHub Pages:
+match parziale
 
-Nessun backend
+match nel contenuto
 
-Nessun limite di traffico
+inizio del nome
 
-Aggiornamento automatico dopo ogni commit
+similarità fuzzy
 
-📜 Licenza
-Questo progetto è destinato all’uso personale e non commerciale.
-Tutti i contenuti narrativi appartengono al creatore della campagna.
+✔ Fuzzy search
+La ricerca tollera errori di digitazione:
+
+“spadda”
+
+“spda”
+
+“spada lngua”
+
+✔ Compatibile al 100% con GitHub Pages
+Nessun backend, nessuna libreria esterna: tutto funziona lato client.
+
+✏️ Come aggiungere nuove voci alla wiki
+Per aggiungere una nuova voce:
+
+Apri il file JSON della categoria corretta (es. oggetti.json)
+
+Aggiungi un nuovo oggetto seguendo la struttura:
+{
+    "nome": "Nuovo Oggetto",
+    "slug": "nuovo-oggetto",
+    "immagine":"nuova immagine.png",
+    "contenuto": "Descrizione completa dell'oggetto."
+}
+Salva il file
+
+Commit to main
+
+Push
+
+GitHub Pages aggiornerà automaticamente la wiki
+
+Suggerimenti
+Lo slug deve essere unico e senza spazi
+
+Il campo contenuto può contenere HTML
+
+🧭 Navigazione della wiki
+La wiki è organizzata in categorie principali:
+
+Schede personaggi
+
+Quest
+
+Persone
+
+Creature
+
+Luoghi
+
+Lore
+
+Gruppi
+
+Geografia
+
+Divinità
+
+Incantesimi
+
+Oggetti
+
+Regole
+
+
+Ogni voce è accessibile tramite:
+
+la pagina principale
+
+la barra di ricerca
+
+i link interni tra le pagine
+
+🛠 Tecnologie utilizzate
+HTML5
+
+CSS3
+
+JavaScript vanilla
+
+GitHub Pages per l’hosting
+
+JSON come database statico
+
+Buona esplorazione nel mondo di Chronicles of Glom!

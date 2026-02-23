@@ -7,7 +7,7 @@
     {
         "nome": "Cig Master",
         "slug": "cig-master",
-        "contenuto": "<p>Puoi usare tre effetti bonus fumando una sigaretta</p>\n<p>1)Tira altri 1 colpo</p>\n<p>2)Può Usare <a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a> come reaction</p>\n<p>3)Può usare <a href=\"../pagine/pagina.html?file=abilita&slug=dash\">Dash</a> o <a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a></p>"
+        "contenuto": "<p>Puoi usare tre effetti bonus fumando una sigaretta</p>\n<p>1)Tira altri 1 colpo</p>\n<p>2)Può Usare <a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a> come reazione</p>\n<p>3)Può usare <a href=\"../pagine/pagina.html?file=abilita&slug=dash\">Dash</a> o <a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a></p>"
     },
     {
         "nome": "Spallata",
@@ -17,7 +17,7 @@
     {
         "nome": "Way of the smoking lung: Catch",
         "slug": "way-of-the-smoking-lung-catch",
-        "contenuto": "<p>Crei una nuvola di fumo usando 2 punti ki intorno a te. Puoi scegliere allora uno dei seguenti effetti:</p>\n<p>Lingering energy: La nuvola infligge danno pari a 1d4 ogni turno ad ogni creatura tranne te</p>\n<p>Purple Haze: La nuvola diventa terreno difficile per ogni creatura entro 15 ft da te tranne te.</p>\n<p>Puoi creare un illusione maggiore come Silent Image nella nuvola, ma ogni nemico che ci interagisce fisicamente capisce che è falsa.</p>"
+        "contenuto": "<p>Crei una nuvola di fumo usando 2 punti ki intorno a te. Puoi scegliere allora uno dei seguenti effetti:</p>\n<li><p>Lingering energy: La nuvola infligge danno pari a 1d4 ogni turno ad ogni creatura tranne te</p>\n<li><p>Purple Haze: La nuvola diventa terreno difficile per ogni creatura entro 15 ft da te tranne te.</p>\n<li><p>Puoi creare un illusione maggiore come Silent Image nella nuvola, ma ogni nemico che ci interagisce fisicamente capisce che è falsa.</p>"
     },
     {
         "nome": "Quickened Healing",
@@ -32,13 +32,13 @@
     {
         "nome": "Deflect",
         "slug": "deflect",
-        "reaction": 1,
+        "reazione": 1,
         "contenuto": "Puoi ridurre il danno ricevuto da un proiettile di 1d10 + DEX + 6, se il danno è ridotto a 0 puoi rilanciare il proiettile al mittente."
     },
     {
         "nome": "Skyfall",
         "slug": "skyfall",
-        "reaction": 1,
+        "reazione": 1,
         "contenuto": "Puoi ridurre il danno da caduta di 5 * lvl da monaco."
     },
     {
@@ -68,8 +68,8 @@
     {
         "nome": "Occhio della Foresta",
         "slug": "occhio-della-foresta",
-        "reaction": 1,
-        "contenuto": "Quando una creatura grande quanto te entro 5ft da te ne attacca un'altra (non te) puoi usare una Reaction per intrappolarla con delle liane. Chi è intrappolato ha svantaggio ad attaccare."
+        "reazione": 1,
+        "contenuto": "Quando una creatura grande quanto te entro 5ft da te ne attacca un'altra (non te) puoi usare una reazione per intrappolarla con delle liane. Chi è intrappolato ha svantaggio ad attaccare."
     },
     {
         "nome": "Occhi della Foresta",
@@ -169,7 +169,7 @@
     {
         "nome": "Modalità Birillo",
         "slug": "modalita-birillo",
-        "contenuto": "<p>Una volta che entri in forma <a href=\"../pagine/pagina.html?file=creature&slug=birillo\">Birillo</a>:</p>\n<li><p>Aumenti i tuoi punti ferita di 20 punti</p>\n<li><p>Diventi immune al veleno</p>\n<li><p>Ottieni la reaction: Parry</p>\n<li><p>Sblocchi morso e acid spray</p>\n<li><p>Ottieni +2 a <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e +2 ai COS save</p>\n<li><p>Dimezzi la tua velocità di movimento</p>\n<li><p> -3 ad attaccare</p>"
+        "contenuto": "<p>Una volta che entri in forma <a href=\"../pagine/pagina.html?file=creature&slug=birillo\">Birillo</a>:</p>\n<li><p>Aumenti i tuoi punti ferita di 20 punti</p>\n<li><p>Diventi immune al veleno</p>\n<li><p>Ottieni la reazione: Parry</p>\n<li><p>Sblocchi morso e acid spray</p>\n<li><p>Ottieni +2 a <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e +2 ai COS save</p>\n<li><p>Dimezzi la tua velocità di movimento</p>\n<li><p> -3 ad attaccare</p>"
     },
     {
         "nome": "Modalità Riccardo",
@@ -195,13 +195,13 @@
     {
         "nome": "Dodge",
         "slug": "dodge",
-        "reaction": 1,
+        "reazione": 1,
         "contenuto": "Puoi toglieri di mezzo velocemente e dimezzare il danno subito."
     },
     {
         "nome": "Parry",
         "slug": "parry",
-        "reaction": 1,
+        "reazione": 1,
         "contenuto": "Puoi parare un attacco e dimezzare il danno subito per te e per chiunque entro 5ft."
     },
     {
@@ -244,7 +244,7 @@
     {
         "nome": "Cutting Glom",
         "slug": "cutting-glom",
-        "reaction": 1,
+        "reazione": 1,
         "contenuto": "Quando una creatura visibile entro 60 ft da te fa un Attacco o un Ability check puoi decidere di rimuovere 1d6 dal danno, dal tiro di Attacco o dal Check."
     },
     {
@@ -276,19 +276,19 @@
     {
         "nome": "Benedizione di Miscelius",
         "slug": "benedizione-di-miscelius",
-        "reaction": 1,
+        "reazione": 1,
         "contenuto": "<p>Puoi avere vantaggio su attacco, ability check o tiro salvezza..</p>"
     },
     {
         "nome": "Baro al Tavolo",
         "slug": "baro-al-tavolo",
-        "reaction": 1,
+        "reazione": 1,
         "contenuto": "Puoi aggiungere o sottrarre 1d10 ad un tiro per attaccare, un ability check o tiro salvezza di una creatura che vedi entro 60ft."
     },
     {
         "nome": "Tiro Fortunato",
         "slug": "tiro-fortunato",
-        "reaction": 1,
+        "reazione": 1,
         "contenuto": "Quando una creatura fa un attacco, un check o save puoi aggiungere o sottrarre 1d4 al tiro."
     },
     

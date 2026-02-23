@@ -6,7 +6,7 @@
         "livello":6,
         "razza":"Umano",
         "background":"&lt;REDACTED&gt;",
-        "immagine":"Kalu.jpg",
+        "immagine":"persone/Kalu.jpg",
         "forza":10,
         "destrezza":24,
         "costituzione":16,
@@ -29,7 +29,7 @@
             "Rapidità di Mano +7"
         ],
         "oggetti":[
-            "Pacchetto di Sigarette",
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=pacchetto-di-sigarette\">Pacchetto di Sigarette</a>",
             "Bastone da Combattimento",
             "<a href=\"../pagine/pagina.html?file=oggetti&slug=bende-dell-aria\">Bende dell'Aria</a>",
             "<a href=\"../pagine/pagina.html?file=oggetti&slug=bende-del-fulmine\">Bende del Fulmine</a>",
@@ -43,8 +43,8 @@
             "<a href=\"../pagine/pagina.html?file=abilita&slug=way-of-the-smoking-lung-catch\">Way of the smoking lung: Catch</a>",
             "<a href=\"../pagine/pagina.html?file=abilita&slug=quickened-healing\">Quickened Healing</a>",
             "<a href=\"../pagine/pagina.html?file=abilita&slug=lingering-smoke\">Lingering Smoke</a>",
-            "<a href=\"../pagine/pagina.html?file=abilita&slug=deflect\">Deflect (Reaction)</a>",
-            "<a href=\"../pagine/pagina.html?file=abilita&slug=skyfall\">Skyfall (Reaction)</a>"
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=deflect\">Deflect</a> (Reazione)",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=skyfall\">Skyfall</a> (Reazione)"
         ],
         "azioni":[
             "Attacco con Bastone da Combattimento",
@@ -60,7 +60,7 @@
         "livello": 6,
         "razza": "Glommita",
         "background": "Saggio",
-        "immagine": "Tasarau.png",
+        "immagine": "persone/Tasarau.png",
         "forza": 12,
         "destrezza": 16,
         "costituzione": 12,
@@ -84,7 +84,7 @@
         ],
         "trucchetti": [
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=light\">Light</a>",
-            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=resistence\">Resistence (Reaction)</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=resistence\">Resistence</a> (Reazione)",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=gust\">Gust</a>",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=liana-super-gay\">Liana Super Gay</a>"
         ],
@@ -99,11 +99,11 @@
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=enhance-ability\">Enhance Ability</a>",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=call-lightning\">Call Lightning</a>",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=glomming-ray\">Glomming Ray</a>",
-            "<a href=\"../pagine/pagina.html?file=abilita&slug=liana-gay\">Liana Gay (Azione Bonus)</a>",
-            "<a href=\"../pagine/pagina.html?file=abilita&slug=radici-del-santuario\">Radice del Santuario (Azione Bonus)</a>",
-            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=corazza-protettiva\">Corazza Protettiva (Reaction)</a>",
-            "<a href=\"../pagine/pagina.html?file=abilita&slug=occhio-della-foresta\">Occhio della Foresta (Reaction)</a>",
-            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=assorbi-elemento\">Assorbi Elemento (Reaction)</a>"
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=liana-gay\">Liana Gay</a> (Azione Bonus)",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=radici-del-santuario\">Radice del Santuario</a> (Azione Bonus)",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=corazza-protettiva\">Corazza Protettiva</a> (Reazione)",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=occhio-della-foresta\">Occhio della Foresta</a> (Reazione)",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=assorbi-elemento\">Assorbi Elemento</a> (Reazione)"
             
         ],
         "tratti_speciali": [
@@ -118,14 +118,14 @@
         "abilità_speciali": [
             "<a href=\"../pagine/pagina.html?file=abilita&slug=mimetismo-glommitico\">Mimetismo Glommitico",
             "<a href=\"../pagine/pagina.html?file=abilita&slug=occhi-della-foresta\">Occhi della Foresta</a>",
-            "<a href=\"../pagine/pagina.html?file=ablita&slug=mazzone\">Mazzone</a>",
-            "<a href=\"../pagine/pagina.html?file=ablita&slug=poison-gas-witchglaive\">Poison Gas</a>",
-            "<a href=\"../pagine/pagina.html?file=ablita&slug=vile-blast-witchglaive\">Vile Blast</a>",
-            "<a href=\"../pagine/pagina.html?file=ablita&slug=kamehameha-glommitica\">Kamehameha Glommitica</a>"
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=mazzone\">Mazzone</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=poison-gas-witchglaive\">Poison Gas</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=vile-blast-witchglaive\">Vile Blast</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=kamehameha-glommitica\">Kamehameha Glommitica</a>"
         ],
         "azioni": [
             "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=witch-glaive\">Witch Glaive</a>",
-            "Attacco con <a href=\"../pagine/pagina.html?file=ablita&slug=mazzone\">Mazzone</a>",
+            "Attacco con <a href=\"../pagine/pagina.html?file=abilita&slug=mazzone\">Mazzone</a>",
             "Lancio Incantesimi"
         ]
     },
@@ -136,7 +136,7 @@
         "livello":6,
         "razza":"Umano?",
         "background":"Faraone",
-        "immagine":"glomphar.png",
+        "immagine":"persone/glomphar.png",
         "forza":10,
         "destrezza":14,
         "costituzione":12,
@@ -159,7 +159,7 @@
         ],
         "trucchetti":[
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=guidance\">Guidance</a>",
-            "<a href=\"../pagine/pagina.html?file=ablita&slug=spare-the-dying\">Slurp the Dying</a>"
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=spare-the-dying\">Slurp the Dying</a>"
         ],
         "incantesimi_conosciuti":[
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=bless\">Bless</a>",
@@ -172,7 +172,7 @@
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=sonno\">Sonno</a>",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=comando\">Comando</a>",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=jacobs-ladder\">Jacob's Ladder</a>",
-            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=scudo-di-slurp\">Scudo di Slurp (Azione Bonus)</a>"
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=scudo-di-slurp\">Scudo di Slurp</a> (Azione Bonus)"
         ],
         "tratti_speciali":[
             "<a href=\"../pagine/pagina.html?file=abilita&slug=scurovisione\">Scurovisione</a>"
@@ -180,7 +180,7 @@
         "oggetti":[
             "<a href=\"../pagine/pagina.html?file=oggetti&slug=armatura-del-geco-notturno\">Armatura del Geco Notturno</a>",
             "<a href=\"../pagine/pagina.html?file=oggetti&slug=cloak-of-the-moth\">Cloak of the Moth</a>",
-            "Bag of Holding",
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=bag-of-holding\">Bag of Holding</a>",
             "<a href=\"../pagine/pagina.html?file=oggetti&slug=l-orologio\">L'Orologio</a>"
         ],
         "abilità_speciali":[
@@ -207,7 +207,7 @@
         "livello":6,
         "razza":"Umano?",
         "background":"?",
-        "immagine":"Sarco.png",
+        "immagine":"persone/Sarco.png",
         "forza":12,
         "destrezza":14,
         "costituzione":24,
@@ -246,7 +246,7 @@
             "<a href=\"../pagine/pagina.html?file=abilita&slug=boom-boom-boom\">Boom Boom Boom</a>",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=sciame-reale\">Sciame Reale</a>",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=kachow\">Kachow</a>",
-            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=assorbi-elemento\">Assorbi Elemento (Reaction)</a>"
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=assorbi-elemento\">Assorbi Elemento</a> (Reazione)"
         ],
         "tratti_speciali":[
             "Parlare con gli Animali"
@@ -264,8 +264,8 @@
             "<a href=\"../pagine/pagina.html?file=abilita&slug=forza-insetta\">Forza Insetta</a>",
             "Sono Jean-Henri Fabre",
             "<a href=\"../pagine/pagina.html?file=abilita&slug=decompositore\">Decompositore</a>",
-            "<a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a> (Reaction - Solo in Forma Riccardo)",
-            "<a href=\"../pagine/pagina.html?file=abilita&slug=parry\">Parry</a> (Reaction - Solo in Forma Birillo)"
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a> (Reazione - Solo in Forma Riccardo)",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=parry\">Parry</a> (Reazione - Solo in Forma Birillo)"
         ],
         "azioni":[
             "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=tiny-bug-spear\">Tiny Bug Spear</a>",
@@ -280,7 +280,7 @@
         "livello":6,
         "razza":"?",
         "background":"?",
-        "immagine":"Romedio.png",
+        "immagine":"persone/Romedio.png",
         "forza":12,
         "destrezza":12,
         "costituzione":16,
@@ -322,7 +322,7 @@
         ],
         "oggetti": [
             "<a href=\"../pagine/pagina.html?file=oggetti&slug=armatura-pesante\">Armatura Pesante</a>",
-            "<a href=\"../pagine/pagina.html?file=oggetti&slug==boots-of-bounding\">Boots of Bounding</a>",
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=boots-of-bounding\">Boots of Bounding</a>",
             "<a href=\"../pagine/pagina.html?file=oggetti&slug=ocarina-of-minor-charm\">Ocarina of Minor Charm</a>"
         ],
         "abilità_speciali": [
@@ -332,7 +332,7 @@
             "<a href=\"../pagine/pagina.html?file=abilita&slug=hogwarts-academy\">Hogwarts Academy</a>",
             "<a href=\"../pagine/pagina.html?file=abilita&slug=i-believe-i-can-fly\">I Believe I can Fly</a>",
             "<a href=\"../pagine/pagina.html?file=abilita&slug=unlimited\">Unlimited...?</a>",
-            "<a href=\"../pagine/pagina.html?file=abilita&slug=cutting-glom\">Cutting Glom</a> (Reaction)"
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=cutting-glom\">Cutting Glom</a> (Reazione)"
         ],
         "azioni": [
             "Attacco con <a href=\"../pagine/pagina.html?file=abilita&slug=weapon-conjured\">Weapon Conjured</a>",
@@ -346,7 +346,7 @@
         "livello": 6,
         "razza": "Umano",
         "background": "Militare",
-        "immagine": "randomauro.png",
+        "immagine": "persone/randomauro.png",
         "forza": 8,
         "destrezza": 17,
         "costituzione": 10,
@@ -393,9 +393,9 @@
             "<a href=\"../pagine/pagina.html?file=abilita&slug=non-gioco-a-dadi-col-destino\">Non Gioco a Dadi col Destino</a>",
             "<a href=\"../pagine/pagina.html?file=abilita&slug=guida-di-glomphar\">Guida di Glomphar</a>",
             "<a href=\"../pagine/pagina.html?file=abilita&slug=bluff\">Bluff</a>",
-            "<a href=\"../pagine/pagina.html?file=abilita&slug=benedizione-di-miscelius\">Benedizione di Miscelius</a> (Reaction)",
-            "<a href=\"../pagine/pagina.html?file=abilita&slug=baro-al-tavolo\">Baro al Tavolo</a> (Reaction)",
-            "<a href=\"../pagine/pagina.html?file=abilita&slug=tiro-fortunato\">Tiro Fortunato</a> (Reaction)"
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=benedizione-di-miscelius\">Benedizione di Miscelius</a> (Reazione)",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=baro-al-tavolo\">Baro al Tavolo</a> (Reazione)",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=tiro-fortunato\">Tiro Fortunato</a> (Reazione)"
         ],
         "azioni": [
             "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=wand-of-wonder\">Wand of Wonder</a>",

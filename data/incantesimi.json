@@ -33,7 +33,7 @@
         "slug":"resistence",
         "durata":"Concentrazione, fino a 1 minuto",
         "livello":"Cantrip",
-        "reaction":1,
+        "reazione":1,
         "contenuto":"Tocchi una creatura, questa può aggiungere 1d4 ad un tiro salvezza."
     },
     {
@@ -130,7 +130,7 @@
         "slug":"corazza-protettiva",
         "durata":"Concentrazione, fino a 1 ora",
         "livello":"2",
-        "reaction":1,
+        "reazione":1,
         "contenuto":"Crei una corazza momentanea che dimezza il danno per te ed i tuoi alleati entro 5 ft."
     },
     {
@@ -138,7 +138,7 @@
         "slug":"assorbi-elemento",
         "durata":"1 turno",
         "livello":"1",
-        "reaction":1,
+        "reazione":1,
         "contenuto":"<p>Puoi assorbire pare dell'energia di un colpo dimezzandone il danno.</p>\n<p>Inoltre al tuo prossimo attacco aggiungi 3d6 danni del tipo assorbito. (non funziona con danno <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a>, <ahref=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a>, psichico o da forza)</p>"
     },
     {
@@ -341,7 +341,7 @@
         "slug":"fiori-dargento",
         "durata":"istantaneo",
         "livello":"1",
-        "reaction":1,
+        "reazione":1,
         "contenuto":"<p>Un alleato (anche te stesso) ottiene Vantaggio mentre un nemico ottiene Svantaggio.</p>\n<p>Funziona solo su attacco, ability check e save throw.</p>"
     },
     {

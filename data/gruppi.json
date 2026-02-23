@@ -14,7 +14,7 @@
   {
     "nome": "Affamati",
     "slug": "affamati",
-    "immagine": "affamati.png",
+    "immagine": "gruppi/affamati.png",
     "contenuto": "<p><a href=\"../pagine/pagina.html?file=gruppi&amp;slug=glommatori\">Glommatori </a>affetti dalla <a href=\"../pagine/pagina.html?file=lore&amp;slug=la-fame\">Fame</a>.</p>"
   },
   {
@@ -50,7 +50,7 @@
   {
     "nome":"Cozzali",
     "slug":"cozzali",
-    "immagine":"cozzali.png",
+    "immagine":"gruppi/cozzali.png",
     "contenuto":"<p>I Cozzali sono una razza di creature ostili che vivono sull'<a href=\"../pagine/pagina.html?file=geografia&amp;slug=isola-di-tromboli\">isola di Tromboli</a> e che fanno parte della mafia di <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=baris\">Baris</a>.</p>"
   },
   {
