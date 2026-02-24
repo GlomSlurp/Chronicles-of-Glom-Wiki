@@ -134,6 +134,8 @@ fetch(`../data/${file}.json`)
             }
 
             document.getElementById("contenuto").innerHTML = extra + pagina.contenuto;
+            replaceScrambleWithEffect(document.getElementById("contenuto"));
+
 
             document.querySelectorAll("#contenuto details").forEach(details => {
                 details.removeAttribute("open");
@@ -211,6 +213,7 @@ fetch(`../data/${file}.json`)
 
             html += `</div>`;
             document.getElementById("contenuto").innerHTML = html;
+            replaceScrambleWithEffect(document.getElementById("contenuto"));
 
             // AUTO-AGGIUNGE &from=slug A TUTTI I LINK INTERNI
             const links = document.querySelectorAll("#contenuto a");
@@ -240,6 +243,7 @@ fetch(`../data/${file}.json`)
         console.error("Errore nel caricamento:", err);
         document.querySelector(".content").innerHTML = "<p>Errore nel caricamento della pagina.</p>";
     });
+
 </script>
 
 <script>
@@ -316,6 +320,29 @@ document.addEventListener("mousemove", function (event) {
         }, 150);
     }
 });
+</script>
+
+// ===============================
+// SCRAMBLE LOOP
+// ===============================
+<script>
+setInterval(() => {
+    document.querySelectorAll(".scramble-loop").forEach(el => {
+        const len = el.dataset.length || 12;
+        let out = "";
+        for (let i = 0; i < len; i++) {
+            out += String.fromCharCode(33 + Math.random() * 94);
+        }
+        el.textContent = out;
+    });
+}, 55);
+
+function replaceScrambleWithEffect(root) {
+    root.innerHTML = root.innerHTML.replace(/SCRAMBLE/g, () => {
+        return `<span class="scramble-loop" data-length="8"></span>`;
+    });
+}
+
 </script>
 
 </body>

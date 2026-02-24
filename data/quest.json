@@ -8,37 +8,37 @@
     {
         "nome":"Alex Zelop",
         "slug":"alex-zelop",
-        "immagine":"",
+        "immagine":"persone/No_Ordinary_Man.png",
         "contenuto":"Per chi lavorava <a href=\"pagina.html?file=persone&amp;slug=alex-zelop\" data-image=\"No_ordinary_man.png\">Alex Zelop</a>?"
     },
     {
         "nome":"Il Frammento di Glom",
         "slug":"il-frammento-di-glom",
-        "immagine":"",
+        "immagine":"lore/frammento_del_glom.png",
         "contenuto":"Perchè <a href=\"pagina.html?file=persone&amp;slug=alex-zelop\">Alex Zelop</a> e <a href=\"pagina.html?file=persone&amp;slug=l-albanese\" data-image=\"\">l'Albanese</a> volevano il frammento di <a href=\"pagina.html?file=lore&amp;slug=glom\" data-image=\"\">Glom</a>?"
     },
     {
         "nome":"Il Ruolo di Glom'Hella",
         "slug":"il-ruolo-di-glomhella",
-        "immagine":"",
+        "immagine":"creature/Glom_Hella.png",
         "contenuto":"Cosa centra <a href=\"pagina.html?file=creature&amp;slug=glomhella\">Glom'Hella</a> con ciò che è successo a <a href=\"pagina.html?file=luoghi&amp;slug=baris\">Baris</a> e alla <a href=\"pagina.html?file=luoghi&amp;slug=torre-di-baris\">Torre di Baris</a>?"
     },
     {
         "nome":"Il Diario di Moroboshi",
         "slug":"il-diario-di-moroboshi",
-        "immagine":"",
+        "immagine":"oggetti/diario-di-moroboshi.png",
         "contenuto":"Il diario di <a href=\"pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> avrá delle risposte finalmente?"
     },
     {
         "nome":"Tu sai chi",
         "slug":"tu-sai-chi",
-        "immagine":"",
+        "immagine":"tu-sai-chi.png",
         "contenuto":"Cosa è successo a tu sai chi?"
     },
     {
         "nome":"The Italian Brainrot",
         "slug":"the-italian-brainrot",
-        "immagine":"",
+        "immagine":"italian_brainrot.png",
         "contenuto":"<p>Cosa volevano <a href=\"pagina.html?file=creature&amp;slug=trallalero-trallala\">Trallalero Trallalà</a>, <a href=\"pagina.html?file=creature&amp;slug=lirili-larila\">Lirilì Larilà</a> e <a href=\"pagina.html?file=creature&amp;slug=brr-brr-patapim\">Brr Brr Patapim</a>?</p>"
     }
 ]
