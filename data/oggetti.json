@@ -44,7 +44,7 @@
     {
         "nome":"Witch Glaive",
         "slug":"witch-glaive",
-        "immagine":"",
+        "immagine":"oggetti/witch-glaive.png",
         "contenuto":"<p>Glaive appartenuta alla leggenda vivente di Barbataus. Permette l'uso di <a href=\"../pagine/pagina.html?file=abilita&slug=vile-blast-witchglaive\">Vile Blast</a>, <a href=\"../pagine/pagina.html?file=abilita&slug=poison-gas-witchglaive\">Poison Gas</a> e <a href=\"../pagine/pagina.html?file=incantesimi&slug=resistence\">Resistance</a>.</p>\n<p>Attunement necessario:</p>\n<p><a href=\"../pagine/pagina.html?file=incantesimi&slug=resistence\">Resistance</a>: livello 1</p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=poison-gas-witchglaive\">Poison Gas</a>: livello 2</p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=vile-blast-witchglaive\">Vile blast</a>: livello 3</p>"
     },
     {

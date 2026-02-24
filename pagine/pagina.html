@@ -66,14 +66,26 @@ function aggiornaTitolo(nomePagina) {
 // ===============================
 const backLink = document.getElementById("back-category");
 
+// Se arrivo da una scheda personaggio
 if (from) {
     backLink.href = `pagina.html?file=schede&slug=${from}`;
+
+    // Rimuove i trattini e capitalizza ogni parola
+    const nomePulito = from
+        .split("-")
+        .map(p => p.charAt(0).toUpperCase() + p.slice(1))
+        .join(" ");
+
+    backLink.textContent = "Torna a " + nomePulito;
+
 } else {
     const categorieSchede = ["abilita"];
     backLink.href =
         categorieSchede.includes(file)
             ? "schede.html"
             : `${file}.html`;
+
+    backLink.textContent = "Torna alla categoria";
 }
 
 // ===============================

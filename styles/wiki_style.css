@@ -157,7 +157,7 @@ header {
    SIDEBAR (Fantasy Card)
 -------------------------------------------------------------- */
 .sidebar {
-  width: 200px;
+  width: 220px;
   background: var(--panel);
   border: 1px solid var(--border);
   border-radius: 14px;
