@@ -69,7 +69,6 @@ Ogni file JSON rappresenta una categoria della wiki e contiene una lista di voci
     "reazione":1 "oppure" 0,
     "azione_bonus":1 "oppure" 0
 }
-
 🔍 Sistema di ricerca avanzato
 La pagina search.html include un motore di ricerca client‑side che funziona interamente in JavaScript e supporta:
 
