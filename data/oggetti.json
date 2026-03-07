@@ -108,6 +108,24 @@
         "contenuto":"Se è utilizzata da un Bardo, garantisce l'uso di 1 <a href=\"../pagine/pagina.html?file=incantesimi&slug=charm-person\">Charm Person</a> al giorno."
     },
     {
+        "nome":"Sicarius",
+        "slug":"sicarius",
+        "immagine":"oggetti/sicarius.png",
+        "contenuto":"<p>La spada tramandata nella famiglia di <a href=\"../pagine/pagina.html?file=persone&slug=dacario-john-icereign\">Dacario John Icereign</a> da generazioni, più forte di una spada imperiale.</p>\n<p>Usandola a due mani, guadagni 2d6 danni aggiuntivi per <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attacco</a>. Se manchi il bersaglio, esplode e i nemici entro 5ft devono superare un DEX save DC 15 o subiscono 2d6 danni da freddo</p>"
+    },
+    {
+        "nome":"Capsule",
+        "slug":"capsule",
+        "immagine":"",
+        "contenuto":"Possono replicare l'effetto degli <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a>. All'apertura creano delle armature che ti permettono di replicare un <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a"
+    },
+    {
+        "nome":"Dexter's Breath",
+        "slug":"dexters-breath",
+        "immagine":"",
+        "contenuto":"Il bastone di <a href=\"../pagine/pagina.html?file=persone&slug=corex\">Corex</a> che rivela la canna del suo fucile."
+    },
+    {
         "nome":"Wand of Wonder",
         "slug":"wand-of-wonder",
         "immagine":"oggetti/wand-of-wonder.png",

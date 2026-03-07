@@ -106,6 +106,13 @@
         "contenuto":"<p>Tocchi 2 creature e le conferisci un potenziamento magico. Scegli uno dei seguenti effetti, il bersaglio ottiene l'effetto fino al termine dell'incantesimo.</p>\n<li><p>RESISTENZA DI BARBAMAGLIO IL POSSENTE: Il bersaglio ha vantaggio alle prove di Costituzione. Inoltre, ottiene 2d6 punti ferita temporanei, che vengono persi quando l'incantesimo termina.</p>\n<li><p>FORZA DI MAZZABOSCIDE IL MAZZOLATORE: Il bersaglio ha vantaggio alle prove di Forza e la sua capacità di carico raddoppia.</p>\n<li><p>AGILITA' DI MIMETICUS IL VELOCE: Il bersaglio ha vantaggio alle prove di Destrezza. Inoltre, non subisce danni da caduta fino a 20ft se non è incapacitato.</p>\n<li><p>SLENDORE DI TRONCANNORE: Il bersaglio ha vantaggio alle prove di Carisma.SCALTREZZA DI QUERCUS IL GIUDIZIOSO. Il bersaglio ha vantaggio alle prove di Intelligenza.</p>\n<li><p>SAGGEZZA DEL SAGGIO DISTRUTTORE: Il bersaglio ha vantaggio alle prove di Saggezza.</p>"
     },
     {
+        "nome":"Mirror Image",
+        "slug":"mirror-image",
+        "durata":"1 minuto",
+        "livello":"2",
+        "contenuto":"Crei 3 copie di te stesso che seguono i tuoi stessi movimenti. Per colpirti con 3 copie presenti, tira 1d20: 6 o meno se 3 copie presenti, 8 o meno se 2, 11 o meno se 1. Le copie tirano <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">difesa</a> come te."
+    },
+    {
         "nome":"Call Lightning",
         "slug":"call-lightning",
         "durata":"Concentrazione, fino a 10 minuti",
@@ -352,6 +359,27 @@
         "contenuto":"<p>Una creatura entro 30ft deve superare un WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o credere di essere tuo amico (se il bersaglio sta combattendo ha Vantaggio al save).</p>\n<p>L'effetto dura fino al termine dell'Incantesimo o se il bersaglio subisce dei danni. Una volta che l'effetto termina, il bersaglio è a conoscenza di essere caduto sotto l'effetto di Charm Person.</p>"
     },
     {
+        "nome":"Identificare",
+        "slug":"identificare",
+        "durata":"istantaneo",
+        "livello":"1",
+        "contenuto":"Scegli un oggetto che devi toccare durante il lancio dell'<a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a>. Se si tratta di un <a href=\"../pagine/pagina.html?file=regole&slug=oggetti-magici\">oggetto magico</a> o di un altro oggetto infuso di magia, apprendi le sue proprietà e come usarlo, se necessita di <a href=\"../pagine/pagina.html?file=regole&slug=attunement\">attumement</a> per usarlo e quante cariche contiene se ne contiene. Apprendi se l'oggetto è influenzato da eventuali <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a> e quali essi siano. Se l'oggetto è stato creato da un <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a>, apprendi quale <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a> l'ha creato. Se invece tocchi una creatura durante il lancio dell'<a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a>, apprendi quali <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a> influenzano attualmente quella creatura, se ce ne sono."
+    },
+    {
+        "nome":"Sanctuary",
+        "slug":"sanctuary",
+        "durata":"1 minuto",
+        "livello":"1",
+        "contenuto":"Tocchi una creatura che ottiene la proprietà di protezione (non protegge da attacchi ad area). Ogni qualvolta una creatura vuole <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attaccare</a> una creatura, questa deve fare un check WIS 18 oppure perdere l'azione."
+    },
+    {
+        "nome":"Enlarge/Reduce",
+        "slug":"enlarge-reduce",
+        "durata":"Concentrazione, fino a 1 minuto",
+        "livello":"2",
+        "contenuto":"<p>Toccando una creatura puoi farla diventare più grande o piccola e guadagna le seguenti proprietà:</p>\n<li><p>Grande: Vantaggio a FOR save, FOR check e aumenta il <a href=\"../pagine/pagina.html?file=regole&slug=danno\">danno</a> di 1d4</p>\n<li><p>Piccolo:Svantaggio a FOR save, FOR check e riduce il <a href=\"../pagine/pagina.html?file=regole&slug=danno\">danno</a> di 1d4 </p>"
+    },
+    {
         "nome":"Firebolt",
         "slug":"firebolt",
         "durata":"istantaneo",
@@ -367,10 +395,10 @@
     },
     {
         "nome":"Colpo Tuonante",
-        "slug":"colpo-tuonante",
+        "slug":"booming-blade",
         "durata":"1 turno",
         "livello":"Cantrip",
-        "contenuto":"Se il bersaglio è colpito dall'arma, al prossimo movimento subirà 2d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni eletrici."
+        "contenuto":"Se il bersaglio è colpito dall'arma, al prossimo movimento subirà 2d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni elettrici."
     },
     {
         "nome":"Mani Brucianti",
@@ -380,8 +408,8 @@
         "contenuto":"Tutte le creature in un cono di 15ft davanti a te devono fare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare i danni."
     },
     {
-        "nome":"Tempesta di Glom",
-        "slug":"tempesta-di-glom",
+        "nome":"Thunderwave",
+        "slug":"thunderwave",
         "durata":"istantaneo",
         "livello":"1",
         "contenuto":"Crei un cubo di 15ft di fulmini. Tutte le creature nell'area devono fare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare o subiscono 3d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni elettrici e sono spinti di 10ft"
@@ -392,5 +420,52 @@
         "durata":"istantaneo",
         "livello":"3",
         "contenuto":"Evochi una palla di fuoco che colpisce entro 150ft. Tutte le creature nell'area devono fare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare o subiscono 8d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni da fuoco."
+    },
+    {
+        "nome":"Ice Storm",
+        "slug":"ice-storm",
+        "durata":"istantaneo",
+        "livello":"4",
+        "contenuto":"Chicchi di grandine duri quanto pietre piovono sul terreno all'interno di un cilindro del raggio di 20ft e alto 40ft centrato su un punto entro 300ft. Ogni creatura nel cilindro deve effettuare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>. Se lo fallisce, subisce 2d8 danni contundenti e 4d6 danni da freddo, mentre se lo supera, subisce soltanto la metà di quei danni. La grandine trasforma l'area di effetto della tempesta in terreno difficile fino alla fine del turno successivo dell'incantatore."
+    },
+    {
+        "nome":"Steel Wind Strike",
+        "slug":"steel-wind-strike",
+        "durata":"istantaneo",
+        "livello":"5",
+        "contenuto":"Dissolvi la <a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a> e sparisci. Scegli fino a 5 creature che puoi vedere entro 30 ft. Per ogni <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attacco</a> andato a buon fine infliggi danno a ogni target che colpisci (5 tiri diversi) e ti puoi teletrasportare in uno spazio non occupato entro 5 ft da uno dei target che hai colpito o mancato"
+
+    },
+    {
+        "nome":"Spiderman",
+        "slug":"spiderman",
+        "durata":"Concentrazione, fino a 1 ora",
+        "contenuto":"Diventi Spiderman."
+    },
+    {
+        "nome":"Trasformazione",
+        "slug":"trasformazione",
+        "durata":"Concentrazione, fino a 1 ora",
+        "contenuto":"Cambi il tuo aspetto."
+    },
+    {
+        "nome":"Magic Missile",
+        "slug":"magic-missile",
+        "durata":"istantaneo",
+        "livello":"1",
+        "contenuto":"Crei 3 raggi di energia che possono colpire o uno o più bersagli. Devi compiere un <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attacco</a> per raggio."
+    },
+    {
+        "nome":"Rampino Elettrico",
+        "slug":"rampino-elettrico",
+        "durata":"istantaneo",
+        "contenuto":"FOR save DC 18  o il bersaglio viene trascinati verso di te subendo 2d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni elettrici."
+    },
+    {
+        "nome":"Catapulta",
+        "slug":"catapulta",
+        "durata":"istantaneo",
+        "livello":"1",
+        "contenuto":"Sollevi un oggetto che va dai 2 ai 4 kg e lo lanci a 90ft. Il bersaglio deve superare un DEX save DC 18 o subisce 3d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni contundenti."
     }
 ]

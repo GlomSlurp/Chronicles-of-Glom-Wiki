@@ -30,6 +30,24 @@
     "contenuto": "<p>Sir Romedio & Guglielmo hanno incontrato <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=hellius\">Hellius</a> e <a href=\"../pagine/pagina.html?file=persone&amp;slug=gokudo\">Gokudo</a> ad un negozio a <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=mola-di-baris\">Mola di Baris</a>.</p>"
   },
   {
+    "nome":"Dacario John Icereign",
+    "slug":"dacario-john-icereign",
+    "immagine":"persone/dacario.png",
+    "contenuto":"<p class=\"scramble-loop\" data-length=\"40\"></p>"
+  },
+  {
+    "nome":"Corex",
+    "slug":"corex",
+    "immagine":"persone/corex.png",
+    "contenuto":"<p class=\"scramble-loop\" data-length=\"40\"></p>"
+  },
+  {
+    "nome":"Dinoh",
+    "slug":"dinoh",
+    "immagine":"persone/dinoh.png",
+    "contenuto":""
+  },
+  {
     "nome": "Randomauro",
     "slug": "randomauro",
     "immagine": "persone/randomauro.png",

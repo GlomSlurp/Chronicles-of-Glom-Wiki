@@ -41,13 +41,13 @@
     "nome": "Riposo Lungo",
     "slug": "riposo-lungo",
     "immagine": "",
-    "contenuto": "<p>Durante un riposo lungo, si recuperano tutti i propri punti ferita ed <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a>.</p>"
+    "contenuto": "<p>Durante un riposo lungo, si recuperano tutti i propri punti ferita, abilità ed <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a>.</p>"
   },
   {
     "nome": "Riposo Breve",
     "slug": "riposo-breve",
     "immagine": "",
-    "contenuto": "<p>Durante un riposo breve, si può spendere fino a metà dei propri dadi vita per recuperare punti ferita.</p>\n<p>Per chi utilizza <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a>, si recupera anche metà dei propri <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a>.</p>"
+    "contenuto": "<p>Durante un riposo breve, si può spendere fino a metà dei propri dadi vita per recuperare punti ferita.</p>\n<p>Per chi utilizza <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a>, si recupera anche metà dei propri <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a>.</p>\n<p>Inoltre è possibile recuperare l'uso di alcune abilità</p>"
   },
   {
     "nome": "Morte e Morire",

@@ -1,0 +1,41 @@
+[
+    {
+        "forza":[
+            "Atletica"
+        ]
+    },
+    {
+        "destrezza":[
+            "Acrobazia",
+            "Rapidità di mano",
+            "Furtività"
+        ]
+        
+    },
+    {
+        "intelligenza":[
+            "Arcano",
+            "Storia",
+            "Investigare",
+            "Natura",
+            "Religione"
+        ]
+    },
+    {
+        "saggezza":[
+            "Addestrare animali",
+            "Intuizione",
+            "Medicina",
+            "Percezione",
+            "Sopravvivenza"
+        ]
+    },
+    {
+        "carisma":[
+            "Ingannare",
+            "Intimidire",
+            "Intrattenere",
+            "Persuadere"
+        ]
+    }
+]

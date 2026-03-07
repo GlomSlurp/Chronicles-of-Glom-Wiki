@@ -248,6 +248,87 @@
         "contenuto": "Quando una creatura visibile entro 60 ft da te fa un Attacco o un Ability check puoi decidere di rimuovere 1d6 dal danno, dal tiro di Attacco o dal Check."
     },
     {
+        "nome":"Icereign Blood",
+        "slug":"icereign-blood",
+        "contenuto":"Ottieni resistenza ai danni da freddo quando impugni la <a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a> a due mani."
+    },
+    {
+        "nome":"Sneak Attack",
+        "slug":"sneak-attack",
+        "contenuto":"Una volta per turno puoi infliggere 1d6 danni extra a una creatura che colpisci con un attacco se hai vantaggio sul <a href=\"../pagine/pagina.html?file=regole&slug=tiro-per-colpire\">tiro per colpire</a>."
+    },
+    {
+        "nome":"Second Wind",
+        "slug":"second-wind",
+        "azione_bonus": 1,
+        "contenuto":"Puoi usare un'azione bonus per recuperare 1d10 + il tuo livello da guerriero punti ferita. Puoi utilizzarlo una volta per <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a> o <a href=\"../pagine/pagina.html?file=regole&slug=riposo-lungo\">Riposo Lungo</a>."
+    },
+    {
+        "nome":"Action Surge",
+        "slug":"action-surge",
+        "contenuto":"Una volta per <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a> o <a href=\"../pagine/pagina.html?file=regole&slug=riposo-lungo\">Riposo Lungo</a>, puoi usare quest'abilità per guadagnare un'azione extra"
+    },
+    {
+        "nome":"Extra Attack",
+        "slug":"extra-attack",
+        "contenuto":"Puoi compiere 2 <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attacchi</a> invece che 1."
+    },
+    {
+        "nome":"Concentrazione Vitale",
+        "slug":"concentrazione-vitale",
+        "contenuto":"Ad ogni <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a>, scegli un tipo di creatura qualsiasi che non sia un abitante dell'<a href=\"../pagine/pagina.html?file=geografia&slug=impero\">Impero</a>. Finchè mantieni la tua concentrazione su queste creature hai vantaggio su Furtività e Percezione contro di loro"
+    },
+    {
+        "nome":"Marchio di In Vernus",
+        "slug":"marchio-di-in-vernus",
+        "azione_bonus":1,
+        "durata":"1 minuto",
+        "contenuto":"<p>Usi un azione bonus per gelare la tua arma e marchiare una creatura a tua scelta per un azione. Per 1 minuto da quando viene colpita, i tuoi attacchi guadagnano 1d6 danni aggiuntivi e riduci i suoi movimenti di 10 ft.</p>\n<p> Ogni turno può fare un COS save DC 15 per annullare il marchio, se è una creatura col tuo focus ha svantaggio al save.</p>"
+    },
+    {
+        "nome":"Lupo Solitario",
+        "slug":"lupo-solitario",
+        "contenuto":"<p>Quando la <a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a> è sguainata e la impugni a due mani, guadagni la possibilità di castare <a href=\"../pagine/pagina.html?file=abilita&slug=ice-storm\">Ice Storm</a> oppure <a href=\"../pagine/pagina.html?file=abilita&slug=steel-wind-strike\">Colpo Fulmineo</a>, ma ritorni a usarla a una mano subito dopo per la fatica.</p>\n<p>Questo fino ad un <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a> per <a href=\"../pagine/pagina.html?file=incantesimi&slug=ice-storm\">Ice Storm</a> mentre <a href=\"../pagine/pagina.html?file=incantesimi&slug=steel-wind-strike\">Colpo Fulmineo</a> ti rende incapacitato in battaglia (non riesci a usare un'arma fino ad un <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a>).</p>"
+    },
+    {
+        "nome":"Imposizione Gelata",
+        "slug":"imposizione-gelata",
+        "reazione":1,
+        "contenuto":"<strong>Con scudo:</strong> Quando una creatura che puoi vedere entro 5 ft da te sta venendo attaccata puoi difenderla con lo scudo: svantaggio su <a href=\"../pagine/pagina.html?file=regole&slug=tiro-per-colpire\">tiro per colpire</a> del nemico sulla creatura."
+    },
+    {
+        "nome":"Scudo Imperiale",
+        "slug":"scudo-imperiale",
+        "reazione":1,
+        "contenuto":"Quando una creatura che puoi vedere ti colpisce e fa danno con un arma, puoi rispondere usando 1 carica di Scudo Imperiale Invernus, rispondendo con 2d4 danni e assorbendo questi 2d4 come armatura di ghiaccio per 6 turni"
+    },
+    {
+        "nome":"Il Lavoro di Dexter",
+        "slug":"il-lavoro-di-dexter",
+        "contenuto":"Ad ogni <a href=\"../pagine/pagina.html?file=regole&slug=riposo-lungo\">Riposo Lungo</a> puoi cambiarne le proprietà delle <a href=\"../pagine/pagina.html?file=oggetti&slug=capsule\">capsule</a> e attaccarle alla tua armatura da infiltratore: hai vantaggio sulle prove di Furtività."
+    },
+    {
+        "nome":"Infusioni",
+        "slug":"infusioni",
+        "contenuto":"Puoi infondere la magia in degli oggetti per creare i seguenti equipaggiamenti: Winding boots, Homunculus, Arma incantata, Spell refueling ring."
+    },
+    {
+        "nome":"Ferocia Preistorica",
+        "slug":"ferocia-preistorica",
+        "contenuto":"Mentre sei trasformato hai +5 al danno inferto. Se al danno esce 1 o 2, devi tirare nuovamente."
+    },
+    {
+        "nome":"Paleontologo, io?",
+        "slug":"paleontologo-io",
+        "contenuto":"Spendi 1 minuto per ottenere 1 trasformazione."
+    },
+    {
+        "nome":"Jurassik Park",
+        "slug":"jurassic-park",
+        "azione_bonus":1,
+        "contenuto":"Puoi trasformarti in un dinosauro. Durante la trasformazione si sente in sottofondo: This Animal I Have Become."
+    },
+    {
         "nome": "Wild Glom Surge",
         "slug": "wild-glom-surge",
         "contenuto": "Tira 1d20, se esce da 1 a 5, tira 1d20 e 1d100 su Wild Glom Table per scoprire l'effetto."
@@ -296,5 +377,15 @@
         "nome":"Weapon Conjured",
         "slug":"weapon-conjured",
         "contenuto":"Ricrea una spada illusoria basata su una spada leggendaria che un tempo vedesti."
+    },
+    {
+        "nome":"Dexter's Sleep",
+        "slug":"dexters-sleep",
+        "contenuto":"<p>Colpo singolo del fucile semiautomatico:</p>\n<li><p> 1 Azione per sparare</p>\n<li><p> 1 Azione per inserire un altro proiettile</p>\n<li><p> Full Round Action per ricaricare tutto il fucile</p>\n<p> Ogni due colpi andati a segno si attva <a href=\"../pagine/pagine.html?file=abilita&slug=sleep-well\">Sleep Well</a>. Distanza massima tra un proiettile e l'altro: 2 turni."
+    },
+    {
+        "nome":"Sleep Well",
+        "slug":"sleep-well",
+        "contenuto":"COS save DC 18 oppure il bersaglio cade nel sonno"
     }
 ]

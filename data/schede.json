@@ -16,17 +16,14 @@
         "punti_ferita":47,
         "velocita":"45 ft",
         "ki": "6",
-        "proficiency_bonus": 3,
         "tiri_salvezza":[
-            "Destrezza +6",
-            "Saggezza +4"
+            "destrezza",
+            "saggezza"
         ],
         "abilità":[
             "Acrobazia +14",
-            "Furtività +8",
-            "Intuizione +0",
-            "Percezione +0",
-            "Rapidità di Mano +7"
+            "Furtività",
+            "Rapidità di mano"
         ],
         "oggetti":[
             "<a href=\"../pagine/pagina.html?file=oggetti&slug=pacchetto-di-sigarette\">Pacchetto di Sigarette</a>",
@@ -70,17 +67,16 @@
         "punti_ferita": 44,
         "velocita": "30 ft",
         "slot_incantesimi": "8",
-        "proficiency_bonus": 3,
         "tiri_salvezza": [
-            "Destrezza +2",
-            "Costituzione +1",
-            "Intelligenza +2",
-            "Saggezza +3"
+            "destrezza",
+            "costituzione",
+            "intelligenza",
+            "saggezza"
         ],
         "abilità": [
-            "Intuizione +6",
-            "Natura +6",
-            "Percezione +6"
+            "Intuizione",
+            "Natura",
+            "Percezione"
         ],
         "trucchetti": [
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=light\">Light</a>",
@@ -146,16 +142,15 @@
         "punti_ferita":34,
         "velocita":"30 ft",
         "slot_incantesimi":"7",
-        "proficiency_bonus": 3,
         "tiri_salvezza":[
-            "Costituzione +1",
-            "Saggezza +3",
-            "Carisma +3"
+            "costituzione",
+            "saggezza",
+            "carisma"
         ],
         "abilità":[
-            "Intuizione +5",
-            "Percezione +5",
-            "Religione +2"
+            "Intuizione",
+            "Percezione",
+            "Religione"
         ],
         "trucchetti":[
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=guidance\">Guidance</a>",
@@ -218,19 +213,18 @@
         "velocita":"30 ft",
         "popolazione":6,
         "slot_incantesimi":"8",
-        "proficiency_bonus": 3,
         "tiri_salvezza":[
-            "Destrezza +1",
-            "Costituzione +4",
-            "Saggezza +1",
-            "Carisma +2"
+            "destrezza",
+            "costituzione",
+            "saggezza",
+            "carisma"
         ],
         "abilità":[
-            "Addestrare Animali +3",
-            "Atletica +2",
-            "Natura +3",
-            "Percezione +3",
-            "Sopravvivenza +6"
+            "Addestrare animali",
+            "Atletica",
+            "Natura +2",
+            "Percezione +7",
+            "Sopravvivenza +7"
         ],
         "trucchetti":[
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=thunderclap\">Thunderclap</a>",
@@ -290,18 +284,17 @@
         "punti_ferita":43,
         "velocita":"40 ft, 45ft in volo",
         "slot_incantesimi":4,
-        "proficiency_bonus": 3,
         "tiri_salvezza": [
-            "Destrezza +3",
-            "Carisma +3"
+            "destrezza",
+            "carisma"
         ],
         "abilità": [
-            "Addestrare Animali +2",
-            "Atletica +4",
-            "Ingannare +5",
-            "Intrattenere +5",
-            "Intuizione +4",
-            "Persuadere +5"
+            "Addestrare animali",
+            "Atletica",
+            "Ingannare",
+            "Intrattenere",
+            "Intuizione",
+            "Persuadere"
         ],
         "trucchetti": [
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=mano-spettrale\">Mano Spettrale</a>",
@@ -340,6 +333,151 @@
         ]
     },
     {
+        "nome":"Dacario John Icereign",
+        "slug":"dacario-john-icereign",
+        "classe":"Guerriero",
+        "livello":6,
+        "razza":"Umano",
+        "background":"",
+        "immagine":"persone/dacario.png",
+        "forza": 16,
+        "destrezza": 20,
+        "costituzione": 16,
+        "intelligenza": 10,
+        "saggezza": 12,
+        "carisma": 14,
+        "punti_ferita": 60,
+        "velocita": "30 ft",
+        "tiri_salvezza": [
+            "forza",
+            "destrezza",
+            "costituzione"
+        ],
+        "abilità": [
+            "Acrobazia",
+            "Furtività",
+            "Ingannare",
+            "Persuadere",
+            "Rapidità di mano",
+            "Sopravvivenza"
+        ],
+        "tratti_speciali": [
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=icereign-blood\">Icereign Blood</a>"
+        ],
+        "oggetti": [
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a>",
+            "Scudo Imperiale Invernus"
+        ],
+        "abilità_speciali": [
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=sneak-attack\">Sneak Attack</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=action-surge\">Spirito Indomabile</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=extra-attack\">Legge del più Forte</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=concentrazione-vitale\">Concentrazione Vitale</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=lupo-solitario\">Lupo Solitario</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=second-wind\">Resilienza di Giaccio</a> (Azione Bonus)",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=marchio-di-in-vernus\">Marchio di In Vernus</a> (Azione Bonus)",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=imposizione-gelata\">Imposizione Gelata</a> (Reazione)",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=scudo-imperiale\">Scudo Imperiale</a> (Reazione)"
+        ],
+        "azioni": [
+            "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a> a una mano",
+            "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a> a due mani"
+        ]
+    },
+    {
+        "nome": "Corex",
+        "slug": "corex",
+        "classe": "Artefice - Armaiolo",
+        "livello": 6,
+        "razza": "Umano",
+        "background": "",
+        "immagine": "persone/corex.png",
+        "forza": 10,
+        "destrezza": 16,
+        "costituzione": 18,
+        "intelligenza": 20,
+        "saggezza": 15,
+        "carisma": 12,
+        "punti_ferita": "",
+        "munizioni": "4",
+        "tiri_salvezza": [
+            "costituzione",
+            "intelligenza"
+        ],
+        "abilità": [
+            "Medicina",
+            "Percezione"
+        ],
+        "oggetti": [
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=capsule\">Caspsule</a>",
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=dexters-breath\">Dexter's Breath</a>"
+        ],
+        "abilità_speciali": [
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=il-lavoro-di-dexter\">Il Lavoro di Dexter</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=extra-attack\">Extra Attack</a>",
+            "Infusioni",
+            "Capsula: <a href=\"../pagine/pagina.html?file=incantesimi&slug=mirror-image\">Mirror Image</a>",
+            "Capsula: <a href=\"../pagine/pagina.html?file=incantesimi&slug=identificare\">Identficare</a>",
+            "Capsula: <a href=\"../pagine/pagina.html?file=incantesimi&slug=cura-ferite\">Armatura Dottore</a>",
+            "Capsula: <a href=\"../pagine/pagina.html?file=incantesimi&slug=sanctuary\">Armatura Guardiano</a>",
+            "Capsula: <a href=\"../pagine/pagina.html?file=incantesimi&slug=spiderman\">Armatura Spiderman</a>",
+            "Capsula: <a href=\"../pagine/pagina.html?file=incantesimi&slug=trasformazione\">Armatura Trasformante</a>",
+            "Capsula: <a href=\"../pagine/pagina.html?file=incantesimi&slug=enlarge-reduce\">Armatura Durex</a>",
+            "Capsula: <a href=\"../pagine/pagina.html?file=incantesimi&slug=magic-missile\">Magic Missile</a>",
+            "Capsula: <a href=\"../pagine/pagina.html?file=incantesimi&slug=thunderwave\">Thunderwave</a>",
+            "Capsula: <a href=\"../pagine/pagina.html?file=incantesimi&slug=shatter\">Shatter</a>",
+            "Capsula: <a href=\"../pagine/pagina.html?file=incantesimi&slug=firebolt\">Lanciafiamme</a>",
+            "Capsula: <a href=\"../pagine/pagina.html?file=incantesimi&slug=rampino-elettrico\">Rampino Elettrico</a>",
+            "Capsula: <a href=\"../pagine/pagina.html?file=incantesimi&slug=catapulta\">Catapulta</a>",
+            "Capsula: <a href=\"../pagine/pagina.html?file=incantesimi&slug=booming-blade\">Lanciafulmini</a>"
+        ],
+        "azioni": [
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=dexters-sleep\">Dexter's Sleep</a>",
+            "Lancio <a href=\"../pagine/pagina.html?file=oggetti&slug=capsule\">Capsule</a>"
+        ]
+    },
+    {
+        "nome":"Dinoh",
+        "slug":"dinoh",
+        "classe":"Druido - Circle of Prehistoric Ferocity",
+        "livello":6,
+        "razza":"Umano",
+        "background":"",
+        "immagine":"persone/dinoh.png",
+        "forza": 26,
+        "destrezza": 18,
+        "costituzione": 19,
+        "intelligenza": 8,
+        "saggezza": 10,
+        "carisma": 7,
+        "punti_ferita": 55,
+        "velocita": "30 ft",
+        "trasformazioni":14,
+        "tiri_salvezza":[
+            "forza",
+            "destrezza",
+            "costituzione"
+        ],
+        "abilità":[
+            "Addestrare animali+2",
+            "Atletica",
+            "Natura+2"
+        ],
+        "oggetti":[
+            "Spada Corta"
+        ],
+        "abilità_speciali":[
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=ferocia-preistorica\">Ferocia Preistorica</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=paleontologo-io\">Paleontologo, io?</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=jurassic-park\">Jurassic Park</a> (Azione Bonus)"
+        ],
+        "azioni":[
+            "Attacco con Spada Corta",
+            "Attacco con Primal Savagery",
+            "Trasformazione con <a href=\"../pagine/pagina.html?file=abilita&slug=jurassic-park\">Jurassic Park</a>"
+        ]
+    },
+    {
         "nome": "Randomauro",
         "slug": "randomauro",
         "classe": "Stregone - Wild Magic",
@@ -356,26 +494,25 @@
         "punti_ferita": 29,
         "velocita": "30 ft",
         "slot_incantesimi": "8",
-        "proficiency_bonus": 3,
         "tiri_salvezza": [
-            "Destrezza +2",
-            "Saggezza +3",
-            "Carisma +3"
+            "destrezza",
+            "saggezza",
+            "carisma"
         ],
         "abilità": [
-            "Intimidire +6",
-            "Intuizione +6",
-            "Medicina +6",
-            "Percezione +6"
+            "Intimidire",
+            "Intuizione",
+            "Medicina",
+            "Percezione"
         ],
         "trucchetti": [
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=firebolt\">Firebolt</a>",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=blade-ward\">Blade Ward</a>",
-            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=colpo-tuonante\">Colpo Tuonante</a>"
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=booming-blade\">Colpo Tuonante</a>"
         ],
         "incantesimi_conosciuti": [
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=mani-brucianti\">Mani brucianti</a>",
-            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=tempesta-di-glom\">Tempesta di Glom</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=thunderwave\">Tempesta di Glom</a>",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=palla-di-fuoco\">Palla di fuoco</a>",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=alter-self\">Alter Self</a>",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=annulla-magia\">Annulla Magia</a>"
@@ -388,7 +525,7 @@
             "<a href=\"../pagine/pagina.html?file=oggetti&slug=wand-of-minor-chaos\">Wand of Minor Chaos</a>"
         ],
         "abilità_speciali": [
-            "<a href=\"../pagine/pagine.html?file=abilita&slug=wild-glom-surge\">Wild Glom Surge</a>",
+            "<a href=\"../pagine/pagina.html?file=abilita&slug=wild-glom-surge\">Wild Glom Surge</a>",
             "<a href=\"../pagine/pagina.html?file=abilita&slug=sovraccarico-di-slurp\">Sovraccarico di Slurp</a>",
             "<a href=\"../pagine/pagina.html?file=abilita&slug=non-gioco-a-dadi-col-destino\">Non Gioco a Dadi col Destino</a>",
             "<a href=\"../pagine/pagina.html?file=abilita&slug=guida-di-glomphar\">Guida di Glomphar</a>",
