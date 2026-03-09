@@ -30,22 +30,22 @@
     "contenuto": "<p>Sir Romedio & Guglielmo hanno incontrato <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=hellius\">Hellius</a> e <a href=\"../pagine/pagina.html?file=persone&amp;slug=gokudo\">Gokudo</a> ad un negozio a <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=mola-di-baris\">Mola di Baris</a>.</p>"
   },
   {
-    "nome":"Dacario John Icereign",
-    "slug":"dacario-john-icereign",
-    "immagine":"persone/dacario.png",
-    "contenuto":"<p class=\"scramble-loop\" data-length=\"40\"></p>"
+    "nome": "Dacario John Icereign",
+    "slug": "dacario-john-icereign",
+    "immagine": "persone/dacario.png",
+    "contenuto": "<p class=\"scramble-loop\" data-length=\"40\"></p>"
   },
   {
-    "nome":"Corex",
-    "slug":"corex",
-    "immagine":"persone/corex.png",
-    "contenuto":"<p class=\"scramble-loop\" data-length=\"40\"></p>"
+    "nome": "Corex",
+    "slug": "corex",
+    "immagine": "persone/corex.png",
+    "contenuto": "<p class=\"scramble-loop\" data-length=\"40\"></p>"
   },
   {
-    "nome":"Dinoh",
-    "slug":"dinoh",
-    "immagine":"persone/dinoh.png",
-    "contenuto":""
+    "nome": "Dinoh",
+    "slug": "dinoh",
+    "immagine": "persone/dinoh.png",
+    "contenuto": "<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"font-size: 18pt; color: rgb(185, 106, 217);\"><strong>Backstory</strong></span></summary>\n<p>Accordion body...</p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><strong><span style=\"font-size: 18pt; color: rgb(185, 106, 217);\">Aspetto</span></strong></summary>\n<p>Si presenta come una persona distinta e ben vestita. L'unico elemento che rivela la sua natura &egrave; la sua testa di dinosauro che sembra essere una maschera, oppure no...</p>\n</details>\n<details class=\"mce-accordion\" open=\"open\">\n<summary><span style=\"font-size: 18pt; color: rgb(185, 106, 217);\"><strong>Personalit&agrave;</strong></span></summary>\n<p>Sembra sempre distratto o assorto nei suoi pensieri, fino a quando qualcuno non gli rivolge la parola. A quel punto fa una semplice domanda: qual &egrave; il tuo dinosauro preferito?</p>\n<p>Da l&igrave;, a seconda della risposta, potrebbe partire in uno sproloquio su quale sia il miglior dinosauro, oppure diventare il miglior amico dello sfortunato che gli ha rivolto la parola, non ha mezzi termini.</p>\n</details>\n<p>&nbsp;</p>"
   },
   {
     "nome": "Randomauro",
@@ -162,10 +162,10 @@
     "contenuto": "<p>.</p>"
   },
   {
-    "nome":"Peter Pack",
-    "slug":"peter-pack",
-    "immagine":"persone/Peter_Pack.png",
-    "contenuto":"<p>Peter Pack è un mercenario che lavora per conto di <a href=\"../pagine/pagina.html?file=persone&amp;slug=max\">Max</a>.</p>"
+    "nome": "Peter Pack",
+    "slug": "peter-pack",
+    "immagine": "persone/Peter_Pack.png",
+    "contenuto": "<p>Peter Pack è un mercenario che lavora per conto di <a href=\"../pagine/pagina.html?file=persone&amp;slug=max\">Max</a>.</p>"
   },
   {
     "nome": "Divino Lucas Karuso",
@@ -210,21 +210,21 @@
     "contenuto": "<p>Calogero / Lacadrega &egrave; un goblin che ha incontrato <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> e gli altri nella <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=tomba-di-glomhella\">Tomba di Glom'Hella</a>.</p>"
   },
   {
-    "nome":"Jova",
-    "slug":"jova",
-    "immagine":"persone/jova.png",
-    "contenuto":"Componente del <a href=\"../pagine/pagina.html?file=gruppi&slug=team-fuma\">Team FUMA</a>."
+    "nome": "Jova",
+    "slug": "jova",
+    "immagine": "persone/jova.png",
+    "contenuto": "Componente del <a href=\"../pagine/pagina.html?file=gruppi&slug=team-fuma\">Team FUMA</a>."
   },
   {
-    "nome":"Nikolaus",
-    "slug":"nikolaus",
-    "immagine":"persone/nikolaus.png",
-    "contenuto":"Componente del <a href=\"../pagine/pagina.html?file=gruppi&slug=team-fuma\">Team FUMA</a>."
+    "nome": "Nikolaus",
+    "slug": "nikolaus",
+    "immagine": "persone/nikolaus.png",
+    "contenuto": "Componente del <a href=\"../pagine/pagina.html?file=gruppi&slug=team-fuma\">Team FUMA</a>."
   },
   {
-    "nome":"Franziskus",
-    "slug":"franziskus",
-    "immagine":"persone/franziskus.png",
-    "contenuto":"Componente del <a href=\"../pagine/pagina.html?file=gruppi&slug=team-fuma\">Team FUMA</a>."
+    "nome": "Franziskus",
+    "slug": "franziskus",
+    "immagine": "persone/franziskus.png",
+    "contenuto": "Componente del <a href=\"../pagine/pagina.html?file=gruppi&slug=team-fuma\">Team FUMA</a>."
   }
 ]

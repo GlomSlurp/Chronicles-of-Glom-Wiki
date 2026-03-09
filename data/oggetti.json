@@ -117,7 +117,7 @@
         "nome":"Capsule",
         "slug":"capsule",
         "immagine":"",
-        "contenuto":"Possono replicare l'effetto degli <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a>. All'apertura creano delle armature che ti permettono di replicare un <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a"
+        "contenuto":"<p>Possono replicare l'effetto degli <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a>.</p>\n<p>All'apertura creano delle armature che ti permettono di replicare un <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a>.</p>"
     },
     {
         "nome":"Dexter's Breath",
@@ -136,5 +136,10 @@
         "slug":"wand-of-minor-chaos",
         "immagine":"oggetti/wand-minor-chaos.png",
         "contenuto":"<p>Puoi usare 1 carica per scegliere una creatura entro 120ft, questa è il bersaglio dell'effetto del <a href=\"../pagine/pagina.html?file=abilita&slug=wild-glom-surge\">Wild Glom Surge</a>.</p>\n<p>La Wand of Minor Chaos ha 4 cariche, ricarica 1d4 cariche al tramonto.</p>"
+    },
+    {
+        "nome":"Spada Corta",
+        "slug":"spada-corta",
+        "contenuto":"Una semplice spada con una lama corta, non sembra essere molto efficace."
     }
 ]

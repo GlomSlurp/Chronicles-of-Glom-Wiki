@@ -346,7 +346,7 @@
         "intelligenza": 10,
         "saggezza": 12,
         "carisma": 14,
-        "punti_ferita": 60,
+        "punti_ferita": 50,
         "velocita": "30 ft",
         "tiri_salvezza": [
             "forza",
@@ -398,7 +398,7 @@
         "intelligenza": 20,
         "saggezza": 15,
         "carisma": 12,
-        "punti_ferita": "",
+        "punti_ferita": 53,
         "munizioni": "4",
         "tiri_salvezza": [
             "costituzione",
@@ -433,6 +433,7 @@
         ],
         "azioni": [
             "<a href=\"../pagine/pagina.html?file=abilita&slug=dexters-sleep\">Dexter's Sleep</a>",
+            "Attacco con <a href=\"../pagine/pagina.html?file=incantesimi&slug=booming-blade\">Lanciafulmini</a>",
             "Lancio <a href=\"../pagine/pagina.html?file=oggetti&slug=capsule\">Capsule</a>"
         ]
     },
@@ -464,7 +465,7 @@
             "Natura+2"
         ],
         "oggetti":[
-            "Spada Corta"
+            "<a href=\"../pagine/pagina.html?file=oggetti&slug=spada-corta\">Spada Corta</a>"
         ],
         "abilità_speciali":[
             "<a href=\"../pagine/pagina.html?file=abilita&slug=ferocia-preistorica\">Ferocia Preistorica</a>",
@@ -472,8 +473,8 @@
             "<a href=\"../pagine/pagina.html?file=abilita&slug=jurassic-park\">Jurassic Park</a> (Azione Bonus)"
         ],
         "azioni":[
-            "Attacco con Spada Corta",
-            "Attacco con Primal Savagery",
+            "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=spada-corta\">Spada Corta</a>",
+            "Attacco con <a href=\"../pagine/pagina.html?file=abilita&slug=primal-savagery\">Primal Savagery</a>",
             "Trasformazione con <a href=\"../pagine/pagina.html?file=abilita&slug=jurassic-park\">Jurassic Park</a>"
         ]
     },
