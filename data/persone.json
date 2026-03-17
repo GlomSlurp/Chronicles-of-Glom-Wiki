@@ -69,7 +69,7 @@
     "nome": "Hellius",
     "slug": "hellius",
     "immagine": "persone/Hellius.jpg",
-    "contenuto": "<p>Hellius &egrave; un mercenario che si &egrave; unito a <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> e <a href=\"../pagine/pagina.html?file=persone&amp;slug=azbaken\">Azbaken</a> per salvare i prigionieri nella <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=la-prigione-di-baris\">Prigione di Baris</a>.</p>"
+    "contenuto": "<p>Hellius &egrave; un mercenario che si &egrave; unito a <a href=\"../pagine/pagina.html?file=persone&amp;slug=tasarau\">Tasarau</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=kalu\">Kalu</a>, <a href=\"../pagine/pagina.html?file=persone&amp;slug=moroboshi\">Moroboshi</a> e <a href=\"../pagine/pagina.html?file=persone&amp;slug=azbaken\">Azbaken</a> per salvare i prigionieri nella <a href=\"../pagine/pagina.html?file=luoghi&amp;slug=la-prigione-di-baris\">Prigione di Baris</a>.</p>\n<p>Dopo gli eventi di The Baris Incident sembra cambiato.</p>\n<p><img src=\"..\\images\\persone/hellius2.png\" alt=\"\" width=\"234\" height=\"241\"></p>"
   },
   {
     "nome": "Mr. Niceman",
