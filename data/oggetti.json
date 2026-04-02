@@ -1,5 +1,11 @@
 [
     {
+        "nome":"L'Artefatto",
+        "slug":"l-artefatto",
+        "immagine":"tu-sai-chi.png",
+        "contenuto":"Questo oggetto, che il party ha recuperato in seguito all'ordine di Umbranix, sembra essere capace di ferire <a href=\"pagina.html?file=persone&amp;slug=imperatore\">l'Imperatore</a>."
+    },
+    {
         "nome":"Bende dell'Aria",
         "slug":"bende-dell-aria",
         "immagine":"oggetti/bende-aria.png",

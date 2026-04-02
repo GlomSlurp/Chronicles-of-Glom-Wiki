@@ -28,5 +28,15 @@
     "slug": "frammento-del-glom",
     "immagine": "lore/frammento_del_glom.png",
     "contenuto": "<p>Il Frammento del Glom sembra un cristallo di <a href=\"../pagine/pagina.html?file=lore&amp;slug=glom\">Glom</a> che sembra avere poteri speciali.</p>"
+  },
+  {
+    "nome":"Console",
+    "slug":"console",
+    "contenuto":"<p>Il Console è un'alta carica nell'<a href=\"../pagine/pagina.html?file=lore&amp;slug=impero\">Impero</a>.</p>\n<p>Tempo fa <a href=\"../pagine/pagina.html?file=persone&amp;slug=corex\">Corex</a> ha ricoperto questa carica.</p>"
+  },
+  {
+    "nome":"Vicario",
+    "slug":"vicario",
+    "contenuto":"<p>Il Vicario e' un'alta carica nell'<a href=\"../pagine/pagina.html?file=lore&amp;slug=impero\">Impero</a>, al di sopra del <a href=\"../pagine/pagina.html?file=lore&amp;slug=console\">Console</a>.</p>\n<p>A quanto sembra, <a href=\"../pagine/pagina.html?file=persone&slug=konstantine\">Konstantine</a> lo è.</p>"
   }
 ]

@@ -2,8 +2,14 @@
     {
         "nome":"Vox",
         "slug":"vox",
-        "immagine":"",
+        "immagine":"tu-sai-chi.png",
         "contenuto":"Cosa è Vox?"
+    },
+    {
+        "nome":"L'Artefatto",
+        "slug":"l-artefatto",
+        "immagine":"",
+        "contenuto":"Di cosa è capace l'Artefatto? Perché <a href=\"pagina.html?file=persone&amp;slug=konstantine\">Konstantine</a> lo voleva?"
     },
     {
         "nome":"Alex Zelop",

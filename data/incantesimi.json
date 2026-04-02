@@ -8,15 +8,15 @@
         "contenuto":"<p>Cambi forma scegliendo tra queste:</p>\n<li><p>Adattamento acquatico: respiri sott'acqua e non sei rallentato in ambienti acquatici.</p>\n<li><p>Cambio aspetto: puoi cambiare una o più caratteristiche per renderle uguali a quelle di un altro umanoide che hai visto.</p>\n<li><p>Armi naturali: Cambi parti del tuo corpo con armi del mondo naturale ricevendo + 1 ad attaccare e facendo 1d6 danni contundenti.</p>"
     },
     {
-        "nome":"Annulla Magia",
-        "slug":"annulla-magia",
+        "nome":"Dispel Magic",
+        "slug":"dispel-magic",
         "durata":"istantaneo",
         "livello":"3",
         "contenuto":"Scegli una creatura, oggetto o effetto magico in vista. Qualsiasi incantesimo di livello 2 o inferiore è interrotto. Altrimenti tira WIS con DC 10 + lvl incantesimo, se ha successo l'incantesimo termina."
     },
     {
-        "nome":"Illusione Minore",
-        "slug":"illusione-minore",
+        "nome":"Minor Illusion",
+        "slug":"minor-illusion",
         "durata":"1 minuto",
         "livello":"Cantrip",
         "contenuto":"<p>Crei un suono o un'immagine di un oggetto entro 30ft che permane per la durata dell'incantesimo. L'illusione termina anche se la interrompi con un'azione o se lanci questo incantesimo di nuovo.</p>\n<p>Se crei l'immagine di un oggetto, quell'oggetto non deve essere più grande di un cubo di 5ft.</p>\n<p>L'immagine non può emettere suoni, luci, odori o qualsiasi altro effetto sensoriale. Un'interazione fisica con l'immagine rivela che si tratta di un'illusione, in quanto gli oggetti la attraversano. Se una creatura usa la sua azione per esaminare il suono o l'immagine, può determinare che si tratta di un'illusione se effettua con successo una prova di Intelligenza (Indagare) contro la tua DC.</p>\n<p>Se una creatura discerne l'illusione per ciò che è, l'illusione si attenua per quella creatura.</p>"
@@ -44,8 +44,8 @@
         "contenuto":"<p>Entro 30ft puoi creare uno di questi effetti:</p>\n<li><p>Una creatura grande quanto te o più piccola deve superare un FOR save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per non essere spostata di 5ft.</p>\n<li><p>Sposti un oggetto di massimo 2Kg di 10ft.</p>\n<li><p>Crei una brezza che muove le foglie o i vestiti.</p>"
     },
     {
-        "nome":"Aura Faraonica",
-        "slug":"aura-faraonica",
+        "nome":"Aura of Vitality",
+        "slug":"aura-of-vitality",
         "durata":"Concentrazione, fino a  5 turni",
         "livello":"3",
         "contenuto":"<p>Crei un'area di 30ft attorno a te stesso che ti segue.</p>\n<p>Come azione bonus puoi scegliere 1 creatura nell'area e curarla di 2d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita.</p>"
@@ -58,15 +58,15 @@
         "contenuto":"<p>Crei un'area di 30ft attorno a te stesso che ti segue.</p>\n<p>Come azione bonus puoi scegliere 1 creatura nell'area e curarla di 2d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita. A fine aura glommitica tutte le creature in aura guadagnano 2d4 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita e puoi incanalare l'energia per la <a href=\"../pagine/pagina.html?file=abilita&slug=kamehameha-glommitica\">Kamehameha Glommitica</a>.</p>"
     },
     {
-        "nome":"Benedizione della Natura",
-        "slug":"benedizione-della-natura",
+        "nome":"Longstrider",
+        "slug":"longstrider",
         "durata":"1 ora",
         "livello":"1",
         "contenuto":"Tocchi una creatura, questa aumenta la propria velocità di 10ft."
     },
     {
-        "nome":"Cura Ferite",
-        "slug":"cura-ferite",
+        "nome":"Cure Wounds",
+        "slug":"cure-wounds",
         "durata":"istantaneo",
         "livello":"1",
         "contenuto":"Tocchi una creatura, questa guadagna 1d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita. Non funziona sui costrutti."
@@ -85,8 +85,8 @@
         "contenuto":"<p>Crei una sfera di energia attingendo ai poteri glommitici, può annullare il fuoco.</p>\n<p>Può essere utilizzata un numero di volte pari al Modificatore WIS</p>\n<p>Mentre è disponibile almeno 1 utilizzo hai vantaggio su WIS check che coinvolgono la vista ed emani una fioca luce verdastra.</p>"
     },
     {
-        "nome":"Crescita Vigorosa",
-        "slug":"crescita-vigorosa",
+        "nome":"Plant Growth",
+        "slug":"plant-growth",
         "durata":"istantaneo",
         "livello":"3",
         "contenuto":"<p>2 possibili utilizzi:</p>\n<li><p>Come azione: tutte le piante in un'area di 100ft crescono e si ingrandiscono, ogni 4ft di movimento valgono come 1ft.</p>\n<li><p>Come rituale in 8 ore: ogni pianta entro 1/2 miglio crescono rigogliose e producono il doppio rispetto al normale.</p>"
@@ -127,22 +127,22 @@
         "contenuto":"Crei 4 raggi, possono colpire 1 o più bersagli che subiscono 2d6 danni da <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a> ciascuno."
     },
     {
-        "nome":"Liana Super Gay",
-        "slug":"liana-super-gay",
+        "nome":"Thorn Whip",
+        "slug":"thorn-whip",
         "livello":"Cantrip",
         "contenuto":"Se l'attacco va a buon fine e la creatura è grande quanto te o più piccola è tirata di 10ft verso di te."
     },
     {
-        "nome":"Corazza Protettiva",
-        "slug":"corazza-protettiva",
+        "nome":"Barkskin",
+        "slug":"barkskin",
         "durata":"Concentrazione, fino a 1 ora",
         "livello":"2",
         "reazione":1,
         "contenuto":"Crei una corazza momentanea che dimezza il danno per te ed i tuoi alleati entro 5 ft."
     },
     {
-        "nome":"Assorbi Elemento",
-        "slug":"assorbi-elemento",
+        "nome":"Absorb Element",
+        "slug":"absorb-element",
         "durata":"1 turno",
         "livello":"1",
         "reazione":1,
@@ -204,15 +204,15 @@
         "contenuto":"Puoi vedere creature invisibili e che appartengono al piano etereo."
     },
     {
-        "nome":"Sonno",
-        "slug":"sonno",
+        "nome":"Sleep",
+        "slug":"sleep",
         "durata":"1 minuto",
         "livello":"1",
         "contenuto":"<p>Questo incantesimo fa in modo che le creature siano vittime di un sonno magico.</p>\n<p>Tira 5d8; il totale ottenuto è l'ammontare di creature in punti ferita che questo incantesimo può influenzare. Le creature entro 20ft da un punto a tua scelta situato entro la gittata sono influenzate in ordine crescente dei loro punti ferita (ignorando le creature prive di sensi). A partire dalla creatura che possiede meno punti ferita attuali, ogni creatura influenzata da questo incantesimo cade priva di sensi finché l'incantesimo non termina o il dormiente subisce danni o qualcuno usa un'azione per scuotere o schiaffeggiare il dormiente per svegliarlo.</p>\n<p>Si sottraggono i punti ferita di ogni creatura dal totale prima di passare alla creatura con l'ammontare immediatamente superiore di punti ferita. I punti ferita di una creatura devono essere pari o inferiori al totale rimanente affinché quella creatura possa essere influenzata. Le creature non morte e quelle immuni all'essere affascinate non sono influenzate da questo incantesimo.</p>"
     },
     {
-        "nome":"Comando",
-        "slug":"comando",
+        "nome":"Command",
+        "slug":"command",
         "durata":"1 turno",
         "livello":"1",
         "contenuto":"Una creatura a tua scelta deve superare un WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per non ubbidire a una parola (un comando) che dici, il comando non deve recare danno alla creatura. Se non può ubbidire, l'incantesimo finisce"
@@ -238,8 +238,8 @@
         "contenuto":"Le tue bende possono raggiungere fino a 20ft di distanza e provare ad intrappolare un nemico, questo deve fare un FOR save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>. Se si libera le bende si rompono fino a quando non vengono sostituite."
     },
     {
-        "nome":"Slurp the Dead",
-        "slug":"slurp-the-dead",
+        "nome":"Toll the Dead",
+        "slug":"toll-the-dead",
         "durata":"istantaneo",
         "livello":"Cantrip",
         "contenuto":"Una creatura entro 60ft deve superare un CAR save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> oppure:</p>\n<p>Subisce 1d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a> se ha tutti gli punti ferita</p>\n<p>Subisce 1d12 danni da <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a> se ha meno punti ferita del suo massimo.</p>"
@@ -252,8 +252,8 @@
         "contenuto":"Una creatura colipita deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o subire 2d6 danni elettrici, vale per qualsiasi creatura entro 5ft."
     },
     {
-        "nome":"Pietra Magica",
-        "slug":"pietra-magica",
+        "nome":"Magic Stone",
+        "slug":"magic-stone",
         "durata":"1 minuto",
         "livello":"Cantrip",
         "contenuto":"Tocchi fino a 3 sassolini infondendoli di magia, tu o un'altra creatura può lanciarli provocando 1d6 + WIS danni contundenti."
@@ -280,22 +280,22 @@
         "contenuto":"Tu ed altre 10 creature potete respirare sott'acqua."
     },
     {
-        "nome":"Sciame Reale",
-        "slug":"sciame-reale",
+        "nome":"Insect Plague",
+        "slug":"insect-plague",
         "durata":"Concentrazione, fino a 10 minuti",
         "livello":"3",
         "contenuto":"<p>un nugolo di locuste assedia un'area di 20ft, all'inizio di ogni turno ogni creatura nell'area subisce 4d8 danni perforanti e 1d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni velenosi.</p>\n<p>Il bersaglio può dimezzare il danno se supera un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>. Chi fallisce il save è avvelenato (1d6 danni per 1d4 turni).</p>"
     },
     {
-        "nome":"Kachow",
-        "slug":"kachow",
+        "nome":"Elemental Bane",
+        "slug":"elemental-bane",
         "livello":"4",
         "durata":"Concentrazione, fino a 1 minuto",
         "contenuto":"Una creatura entro 90ft deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>. Se fallisce subisce 2d6 danni a scelta tra acido, freddo, fuoco o elettrico, inoltre perde ogni resistenza al tipo di danno subito."
     },
     {
-        "nome":"Mano Spettrale",
-        "slug":"mano-spettrale",
+        "nome":"Mage Hand",
+        "slug":"mage-hand",
         "durata":"1 minuto",
         "livello":"Cantrip",
         "azione_bonus":1,
@@ -344,8 +344,8 @@
         "contenuto":"<p>Crei un rumore assordante che parte da un punto entro 60ft da te.</p>\n<p>Ogni creatura in un raggio di 10ft deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o subire 3d8 danni elettrici.</p>\n<p>Se il bersaglio è composto da materiale inorganico ha svantaggio al save.</p>"
     },
     {
-        "nome":"Fiori d'Argento",
-        "slug":"fiori-dargento",
+        "nome":"Silvery Barbs",
+        "slug":"silvery-barbs",
         "durata":"istantaneo",
         "livello":"1",
         "reazione":1,
@@ -359,8 +359,8 @@
         "contenuto":"<p>Una creatura entro 30ft deve superare un WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o credere di essere tuo amico (se il bersaglio sta combattendo ha Vantaggio al save).</p>\n<p>L'effetto dura fino al termine dell'Incantesimo o se il bersaglio subisce dei danni. Una volta che l'effetto termina, il bersaglio è a conoscenza di essere caduto sotto l'effetto di Charm Person.</p>"
     },
     {
-        "nome":"Identificare",
-        "slug":"identificare",
+        "nome":"Identify",
+        "slug":"identify",
         "durata":"istantaneo",
         "livello":"1",
         "contenuto":"Scegli un oggetto che devi toccare durante il lancio dell'<a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a>. Se si tratta di un <a href=\"../pagine/pagina.html?file=regole&slug=oggetti-magici\">oggetto magico</a> o di un altro oggetto infuso di magia, apprendi le sue proprietà e come usarlo, se necessita di <a href=\"../pagine/pagina.html?file=regole&slug=attunement\">attumement</a> per usarlo e quante cariche contiene se ne contiene. Apprendi se l'oggetto è influenzato da eventuali <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a> e quali essi siano. Se l'oggetto è stato creato da un <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a>, apprendi quale <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a> l'ha creato. Se invece tocchi una creatura durante il lancio dell'<a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a>, apprendi quali <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a> influenzano attualmente quella creatura, se ce ne sono."
@@ -394,7 +394,7 @@
         "contenuto":"Hai resistenza a danni contundenti, taglienti, perforanti non magici."
     },
     {
-        "nome":"Colpo Tuonante",
+        "nome":"Booming Blade",
         "slug":"booming-blade",
         "durata":"1 turno",
         "livello":"Cantrip",
@@ -415,8 +415,8 @@
         "contenuto":"Crei un cubo di 15ft di fulmini. Tutte le creature nell'area devono fare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare o subiscono 3d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni elettrici e sono spinti di 10ft"
     },
     {
-        "nome":"Palla di Fuoco",
-        "slug":"palla-di-fuoco",
+        "nome":"Fire Ball",
+        "slug":"fire-ball",
         "durata":"istantaneo",
         "livello":"3",
         "contenuto":"Evochi una palla di fuoco che colpisce entro 150ft. Tutte le creature nell'area devono fare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare o subiscono 8d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni da fuoco."
@@ -462,8 +462,8 @@
         "contenuto":"FOR save DC 18  o il bersaglio viene trascinati verso di te subendo 2d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni elettrici."
     },
     {
-        "nome":"Catapulta",
-        "slug":"catapulta",
+        "nome":"Catapult",
+        "slug":"catapult",
         "durata":"istantaneo",
         "livello":"1",
         "contenuto":"Sollevi un oggetto che va dai 2 ai 4 kg e lo lanci a 90ft. Il bersaglio deve superare un DEX save DC 18 o subisce 3d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni contundenti."
