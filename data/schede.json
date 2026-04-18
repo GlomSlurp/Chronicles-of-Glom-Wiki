@@ -272,7 +272,7 @@
         "slug":"sir-romedio-e-guglielmo",
         "classe":"Bardo - College of Lore",
         "livello":6,
-        "razza":"SCRAMBLE",
+        "razza":"Cavallo",
         "background":"SCRAMBLE",
         "immagine":"persone/Romedio.png",
         "forza":12,
@@ -482,7 +482,7 @@
         "nome": "Randomauro",
         "slug": "randomauro",
         "classe": "Stregone - Wild Magic",
-        "livello": 6,
+        "livello": 7,
         "razza": "Umano",
         "background": "Militare",
         "immagine": "persone/randomauro.png",
@@ -490,11 +490,11 @@
         "destrezza": 17,
         "costituzione": 10,
         "intelligenza": 10,
-        "saggezza": 22,
-        "carisma": 23,
+        "saggezza": 24,
+        "carisma": 24,
         "punti_ferita": 29,
         "velocita": "30 ft",
-        "slot_incantesimi": "8",
+        "slot_incantesimi": "9",
         "tiri_salvezza": [
             "destrezza",
             "saggezza",
@@ -516,7 +516,9 @@
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=thunderwave\">Tempesta di Glom</a>",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=fire-ball\">Palla di fuoco</a>",
             "<a href=\"../pagine/pagina.html?file=incantesimi&slug=alter-self\">Alter Self</a>",
-            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=dispel-magic\">Annulla Magia</a>"
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=dispel-magic\">Annulla Magia</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=pyrothecnics\">Pyrothecnics</a>",
+            "<a href=\"../pagine/pagina.html?file=incantesimi&slug=spray-of-cards\">Full House</a>"
         ],
         "tratti_speciali": [
             "<a href=\"../pagine/pagina.html?file=abilita&slug=percezione-del-magico\">Percezione del Magico</a>"

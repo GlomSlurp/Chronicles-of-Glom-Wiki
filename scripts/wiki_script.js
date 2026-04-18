@@ -101,6 +101,10 @@ fetch(`../data/${file}.json`)
                 extra += `<p><strong>Durata:</strong> ${pagina.durata}</p>`;
             }
 
+            if (pagina.range){
+                extra += `<p><strong>Range:</strong> ${pagina.range}</p>`;
+            }
+
             if (pagina.descrizione) {
                 extra += `<p>${pagina.descrizione}</p>`;
             }
@@ -109,13 +113,22 @@ fetch(`../data/${file}.json`)
                 extra += `<p><strong>Livello:</strong> ${pagina.livello}</p>`;
             }
 
-            document.getElementById("contenuto").innerHTML = extra + pagina.contenuto;
-            replaceScrambleWithEffect(document.getElementById("contenuto"));
+            // contenuto principale
+            const contenutoEl = document.getElementById("contenuto");
+            contenutoEl.innerHTML = extra + pagina.contenuto;
 
+            // upcast separato
+            const upcastEl = document.getElementById("upcast");
 
-            document.querySelectorAll("#contenuto details").forEach(details => {
-                details.removeAttribute("open");
-            });
+            if (pagina.upcast) {
+                upcastEl.innerHTML = `<h3>Upcast</h3><p>${pagina.upcast}</p>`;
+                upcastEl.style.display = "block";
+            } else {
+                upcastEl.innerHTML = "";
+                upcastEl.style.display = "none";
+            }
+
+            replaceScrambleWithEffect(contenutoEl);
         }
 
         // ===============================

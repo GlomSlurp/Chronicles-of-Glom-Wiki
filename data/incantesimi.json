@@ -4,6 +4,7 @@
         "nome":"Alter Self",
         "slug":"alter-self",
         "durata":"1 ora",
+        "range":"Te stesso",
         "livello":"2",
         "contenuto":"<p>Cambi forma scegliendo tra queste:</p>\n<li><p>Adattamento acquatico: respiri sott'acqua e non sei rallentato in ambienti acquatici.</p>\n<li><p>Cambio aspetto: puoi cambiare una o più caratteristiche per renderle uguali a quelle di un altro umanoide che hai visto.</p>\n<li><p>Armi naturali: Cambi parti del tuo corpo con armi del mondo naturale ricevendo + 1 ad attaccare e facendo 1d6 danni contundenti.</p>"
     },
@@ -11,13 +12,16 @@
         "nome":"Dispel Magic",
         "slug":"dispel-magic",
         "durata":"istantaneo",
+        "range":"120 ft",
         "livello":"3",
-        "contenuto":"Scegli una creatura, oggetto o effetto magico in vista. Qualsiasi incantesimo di livello 2 o inferiore è interrotto. Altrimenti tira WIS con DC 10 + lvl incantesimo, se ha successo l'incantesimo termina."
+        "contenuto":"Scegli una creatura, oggetto o effetto magico in vista. Qualsiasi incantesimo di livello 2 o inferiore è interrotto. Altrimenti tira WIS con DC 10 + lvl incantesimo, se ha successo l'incantesimo termina.",
+        "upcast":"A partire dal livello 6 puoi annullare incantesimi di livello pari a: Tuo livello diviso 2 (approssimato per difetto)."
     },
     {
         "nome":"Minor Illusion",
         "slug":"minor-illusion",
         "durata":"1 minuto",
+        "range":"30 ft",
         "livello":"Cantrip",
         "contenuto":"<p>Crei un suono o un'immagine di un oggetto entro 30ft che permane per la durata dell'incantesimo. L'illusione termina anche se la interrompi con un'azione o se lanci questo incantesimo di nuovo.</p>\n<p>Se crei l'immagine di un oggetto, quell'oggetto non deve essere più grande di un cubo di 5ft.</p>\n<p>L'immagine non può emettere suoni, luci, odori o qualsiasi altro effetto sensoriale. Un'interazione fisica con l'immagine rivela che si tratta di un'illusione, in quanto gli oggetti la attraversano. Se una creatura usa la sua azione per esaminare il suono o l'immagine, può determinare che si tratta di un'illusione se effettua con successo una prova di Intelligenza (Indagare) contro la tua DC.</p>\n<p>Se una creatura discerne l'illusione per ciò che è, l'illusione si attenua per quella creatura.</p>"
     },
@@ -25,6 +29,7 @@
         "nome":"Light",
         "slug":"light",
         "durata":"1 ora",
+        "range":"Tocco",
         "livello":"Cantrip",
         "contenuto":"Tocchi un oggetto non più grande di un cubo di 10ft: questo emana luce intesa per 20ft e luce fioca per altri 20ft."
     },
@@ -32,6 +37,7 @@
         "nome":"Resistence",
         "slug":"resistence",
         "durata":"Concentrazione, fino a 1 minuto",
+        "range":"Tocco",
         "livello":"Cantrip",
         "reazione":1,
         "contenuto":"Tocchi una creatura, questa può aggiungere 1d4 ad un tiro salvezza."
@@ -40,6 +46,7 @@
         "nome":"Gust",
         "slug":"gust",
         "durata":"istantaneo",
+        "range":"30 ft",
         "livello":"Cantrip",
         "contenuto":"<p>Entro 30ft puoi creare uno di questi effetti:</p>\n<li><p>Una creatura grande quanto te o più piccola deve superare un FOR save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per non essere spostata di 5ft.</p>\n<li><p>Sposti un oggetto di massimo 2Kg di 10ft.</p>\n<li><p>Crei una brezza che muove le foglie o i vestiti.</p>"
     },
@@ -47,6 +54,7 @@
         "nome":"Aura of Vitality",
         "slug":"aura-of-vitality",
         "durata":"Concentrazione, fino a  5 turni",
+        "range":"Te stesso (area 30ft)",
         "livello":"3",
         "contenuto":"<p>Crei un'area di 30ft attorno a te stesso che ti segue.</p>\n<p>Come azione bonus puoi scegliere 1 creatura nell'area e curarla di 2d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita.</p>"
     },
@@ -54,6 +62,7 @@
         "nome":"Aura Glommitica",
         "slug":"aura-glommitica",
         "durata":"Concentrazione, fino a  5 turni",
+        "range":"Te stesso (area 30ft)",
         "livello":"3",
         "contenuto":"<p>Crei un'area di 30ft attorno a te stesso che ti segue.</p>\n<p>Come azione bonus puoi scegliere 1 creatura nell'area e curarla di 2d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita. A fine aura glommitica tutte le creature in aura guadagnano 2d4 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita e puoi incanalare l'energia per la <a href=\"../pagine/pagina.html?file=abilita&slug=kamehameha-glommitica\">Kamehameha Glommitica</a>.</p>"
     },
@@ -61,20 +70,25 @@
         "nome":"Longstrider",
         "slug":"longstrider",
         "durata":"1 ora",
+        "range":"Tocco",
         "livello":"1",
-        "contenuto":"Tocchi una creatura, questa aumenta la propria velocità di 10ft."
+        "contenuto":"Tocchi una creatura, questa aumenta la propria velocità di 10ft.",
+        "upcast":"A partire dal livello 4, ogni due livelli puoi aggiungere un bersaglio."
     },
     {
         "nome":"Cure Wounds",
         "slug":"cure-wounds",
         "durata":"istantaneo",
+        "range":"Tocco",
         "livello":"1",
-        "contenuto":"Tocchi una creatura, questa guadagna 1d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita. Non funziona sui costrutti."
+        "contenuto":"Tocchi una creatura, questa guadagna 1d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita. Non funziona sui costrutti.",
+        "upcast":"A partire dal livello 4, ogni due livelli aggiungi 1d8 alla cura."
     },
     {
         "nome":"Entangle",
         "slug":"entangle",
         "durata":"Concentrazione, fino a 1 minuto",
+        "range":"90 ft",
         "livello":"1",
         "contenuto":"Entro 90ft liane crescono dal terreno in un' area di 20ft considerata come terreno difficile. Una creatura che si trova nell'area mentre appare deve superare un FOR save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o essere bloccata."
     },
@@ -82,12 +96,15 @@
         "nome":"Sfera Glommitica",
         "slug":"sfera-glommitica",
         "livello":"2",
-        "contenuto":"<p>Crei una sfera di energia attingendo ai poteri glommitici, può annullare il fuoco.</p>\n<p>Può essere utilizzata un numero di volte pari al Modificatore WIS</p>\n<p>Mentre è disponibile almeno 1 utilizzo hai vantaggio su WIS check che coinvolgono la vista ed emani una fioca luce verdastra.</p>"
+        "range":"60 ft",
+        "contenuto":"<p>Crei una sfera di energia attingendo ai poteri glommitici, una creatura colpita subisce 3d8 danni e può annullare il fuoco.</p>\n<p>Può essere utilizzata un numero di volte pari al Modificatore WIS</p>\n<p>Mentre è disponibile almeno 1 utilizzo hai vantaggio su WIS check che coinvolgono la vista ed emani una fioca luce verdastra.</p>",
+        "upcast":"Aggiungi 1d8 danni al livello 5, 2d8 al livello 11, 3d8 al livello 17."
     },
     {
         "nome":"Plant Growth",
         "slug":"plant-growth",
         "durata":"istantaneo",
+        "range":"150 ft",
         "livello":"3",
         "contenuto":"<p>2 possibili utilizzi:</p>\n<li><p>Come azione: tutte le piante in un'area di 100ft crescono e si ingrandiscono, ogni 4ft di movimento valgono come 1ft.</p>\n<li><p>Come rituale in 8 ore: ogni pianta entro 1/2 miglio crescono rigogliose e producono il doppio rispetto al normale.</p>"
     },
@@ -95,6 +112,7 @@
         "nome":"Lesser Restoration",
         "slug":"lesser-restoration",
         "durata":"istantaneo",
+        "range":"Tocco",
         "livello":"2",
         "contenuto":"<p>Tocchi una creatura e puoi porre fine a una malattia o a una condizione che la affligge.</p>\n<p>La condizione può essere accecata, assordata, paralizzata o avvelenata.</p>"
     },
@@ -102,13 +120,16 @@
         "nome":"Enhance Ability",
         "slug":"enhance-ability",
         "durata":"Concentrazione, fino a 1 ora",
+        "range":"Tocco",
         "livello":"2",
-        "contenuto":"<p>Tocchi 2 creature e le conferisci un potenziamento magico. Scegli uno dei seguenti effetti, il bersaglio ottiene l'effetto fino al termine dell'incantesimo.</p>\n<li><p>RESISTENZA DI BARBAMAGLIO IL POSSENTE: Il bersaglio ha vantaggio alle prove di Costituzione. Inoltre, ottiene 2d6 punti ferita temporanei, che vengono persi quando l'incantesimo termina.</p>\n<li><p>FORZA DI MAZZABOSCIDE IL MAZZOLATORE: Il bersaglio ha vantaggio alle prove di Forza e la sua capacità di carico raddoppia.</p>\n<li><p>AGILITA' DI MIMETICUS IL VELOCE: Il bersaglio ha vantaggio alle prove di Destrezza. Inoltre, non subisce danni da caduta fino a 20ft se non è incapacitato.</p>\n<li><p>SLENDORE DI TRONCANNORE: Il bersaglio ha vantaggio alle prove di Carisma.SCALTREZZA DI QUERCUS IL GIUDIZIOSO. Il bersaglio ha vantaggio alle prove di Intelligenza.</p>\n<li><p>SAGGEZZA DEL SAGGIO DISTRUTTORE: Il bersaglio ha vantaggio alle prove di Saggezza.</p>"
+        "contenuto":"<p>Tocchi 2 creature e le conferisci un potenziamento magico. Scegli uno dei seguenti effetti, il bersaglio ottiene l'effetto fino al termine dell'incantesimo.</p>\n<li><p>RESISTENZA DI BARBAMAGLIO IL POSSENTE: Il bersaglio ha vantaggio alle prove di Costituzione. Inoltre, ottiene 2d6 punti ferita temporanei, che vengono persi quando l'incantesimo termina.</p>\n<li><p>FORZA DI MAZZABOSCIDE IL MAZZOLATORE: Il bersaglio ha vantaggio alle prove di Forza e la sua capacità di carico raddoppia.</p>\n<li><p>AGILITA' DI MIMETICUS IL VELOCE: Il bersaglio ha vantaggio alle prove di Destrezza. Inoltre, non subisce danni da caduta fino a 20ft se non è incapacitato.</p>\n<li><p>SLENDORE DI TRONCANNORE: Il bersaglio ha vantaggio alle prove di Carisma.SCALTREZZA DI QUERCUS IL GIUDIZIOSO. Il bersaglio ha vantaggio alle prove di Intelligenza.</p>\n<li><p>SAGGEZZA DEL SAGGIO DISTRUTTORE: Il bersaglio ha vantaggio alle prove di Saggezza.</p>",
+        "upcast":"A partire dal livello 6, ogni due livelli puoi aggiungere un bersaglio."
     },
     {
         "nome":"Mirror Image",
         "slug":"mirror-image",
         "durata":"1 minuto",
+        "range":"Te stesso",
         "livello":"2",
         "contenuto":"Crei 3 copie di te stesso che seguono i tuoi stessi movimenti. Per colpirti con 3 copie presenti, tira 1d20: 6 o meno se 3 copie presenti, 8 o meno se 2, 11 o meno se 1. Le copie tirano <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">difesa</a> come te."
     },
@@ -116,26 +137,42 @@
         "nome":"Call Lightning",
         "slug":"call-lightning",
         "durata":"Concentrazione, fino a 10 minuti",
+        "range":"120 ft",
         "livello":"3",
-        "contenuto":"Concentrazione, 10 minuti.Crei una nuvola di 60ft e alta 10ft ad un'altezza di 100ft. Tutte le creature entro 5ft dal bersaglio che puoi vedere devono superare un DEX sve DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare 3d10 danni da fulmine.Ad ogni turno puoi scegliere di attaccare lo stesso bersaglio o un altro.Se castata all'aperto aumenta la propria forza aggiungendo 1d10 danni da fulmine."
+        "contenuto":"Concentrazione, 10 minuti.Crei una nuvola di 60ft e alta 10ft ad un'altezza di 100ft. Tutte le creature entro 5ft dal bersaglio che puoi vedere devono superare un DEX sve DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare 3d10 danni elettrici.Ad ogni turno puoi scegliere di attaccare lo stesso bersaglio o un altro.Se castata all'aperto aumenta la propria forza aggiungendo 1d10 danni elettrici.",
+        "upcast":"A partire dal livello 8, ogni due livelli puoi aggiungere 1d10 danni elettrici."
     },
     {
         "nome":"Glomming Ray",
         "slug":"glomming-ray",
         "durata":"istantaneo",
+        "range":"120 ft",
         "livello":"2",
-        "contenuto":"Crei 4 raggi, possono colpire 1 o più bersagli che subiscono 2d6 danni da <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a> ciascuno."
+        "contenuto":"Crei 4 raggi, possono colpire 1 o più bersagli che subiscono 2d6 danni da <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a> ciascuno.",
+        "upcast":"A partire dal livello 6, ogni due livelli puoi lanciare un raggio aggiuntivo."
+    },
+    {
+        "nome":"Scorching Ray",
+        "slug":"scorching-ray",
+        "durata":"istantaneo",
+        "range":"120 ft",
+        "livello":"2",
+        "contenuto":"Crei 4 raggi, possono colpire 1 o più bersagli che subiscono 2d6 danni da fuoco ciascuno.",
+        "upcast":"A partire dal livello 6, ogni due livelli puoi lanciare un raggio aggiuntivo."
     },
     {
         "nome":"Thorn Whip",
         "slug":"thorn-whip",
         "livello":"Cantrip",
-        "contenuto":"Se l'attacco va a buon fine e la creatura è grande quanto te o più piccola è tirata di 10ft verso di te."
+        "range":"30 ft",
+        "contenuto":"<p>Colpisci il nemico con una liana che fa 1d6 danni taglienti.</p>\n<p>Se l'attacco va a buon fine e la creatura è grande quanto te o più piccola è tirata di 10ft verso di te.</p>",
+        "upcast":"Aggiungi 1d6 danni al livello 5, 2d6 al livello 11, 3d6 al livello 17."
     },
     {
         "nome":"Barkskin",
         "slug":"barkskin",
         "durata":"Concentrazione, fino a 1 ora",
+        "range":"Tocco",
         "livello":"2",
         "reazione":1,
         "contenuto":"Crei una corazza momentanea che dimezza il danno per te ed i tuoi alleati entro 5 ft."
@@ -144,14 +181,17 @@
         "nome":"Absorb Element",
         "slug":"absorb-element",
         "durata":"1 turno",
+        "range":"Te stesso",
         "livello":"1",
         "reazione":1,
-        "contenuto":"<p>Puoi assorbire pare dell'energia di un colpo dimezzandone il danno.</p>\n<p>Inoltre al tuo prossimo attacco aggiungi 3d6 danni del tipo assorbito. (non funziona con danno <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a>, <ahref=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a>, psichico o da forza)</p>"
+        "contenuto":"<p>Puoi assorbire pare dell'energia di un colpo dimezzandone il danno.</p>\n<p>Inoltre al tuo prossimo attacco aggiungi 3d6 danni del tipo assorbito. (non funziona con danno <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a>, <ahref=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a>, psichico o da forza)</p>",
+        "upcast":"A partire dal livello 4, ogni due livelli puoi aggiungere 1d6 danni al prossimo attacco."
     },
     {
         "nome":"Guidance",
         "slug":"guidance",
         "durata":"Concentrazione, fino a 1 minuto",
+        "range":"Tocco",
         "livello":"Cantrip",
         "contenuto":"Tocchi una creatura, per 10 turni la creatura può aggiungere o sottrarre 1d4 ad un ability check a scelta"
     },
@@ -159,6 +199,7 @@
         "nome":"Spare the Dying",
         "slug":"spare-the-dying",
         "durata":"istantaneo",
+        "range":"Tocco",
         "livello":"Cantrip",
         "contenuto":"Tocchi una creatura, questa ritorna cosciente con 1 punti ferita."
     },
@@ -166,8 +207,10 @@
         "nome":"Bless",
         "slug":"bless",
         "durata":"Concentrazione, fino a 1 minuto",
+        "range":"30 ft",
         "livello":"1",
-        "contenuto":"Scegli fino a 3 creature, entro 30 ft possono aggiungere o sottrarre 1d4 ad un save throw o un attacco."
+        "contenuto":"Scegli fino a 3 creature, entro 30 ft possono aggiungere o sottrarre 1d4 ad un save throw o un attacco.",
+        "upcast":"A partire dal livello 4, ogni due livelli puoi aggiungere un bersaglio."
     },
     {
         "nome":"Primal Slurp Surge",
@@ -179,20 +222,25 @@
         "nome":"Aid",
         "slug":"aid",
         "durata":"8 ore",
+        "range":"30 ft",
         "livello":"2",
-        "contenuto":"Puoi assegnare a 3 tuoi alleati (anche te stesso) 15 punti ferita temporanei."
+        "contenuto":"Puoi assegnare a 3 tuoi alleati (anche te stesso) 15 punti ferita temporanei.",
+        "upcast":"A partire dal livello 6, ogni due livelli aggiungi 5 punti ferita temporanei al totale."
     },
     {
         "nome":"Spirit Guardian",
         "slug":"spirit-guardian",
         "durata":"Concentrazione, fino a 10 minuti",
+        "range":"Te stesso (area 15ft)",
         "livello":"3",
-        "contenuto":"Chiami dei guardiani attorno a te, scegli delle creature entro 15ft da te. Queste creature subiscono l'effetto di Terreno Difficile e devono superare un WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare 3d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a> o <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a>."
+        "contenuto":"Chiami dei guardiani attorno a te, scegli delle creature entro 15ft da te. Queste creature subiscono l'effetto di Terreno Difficile e devono superare un WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare 3d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a> o <a href=\"../pagine/pagina.html?file=lore&slug=slurp\">Slurp</a>.",
+        "upcast":"A partire dal livello 8, ogni due livelli il danno aumenta di 1d8."
     },
     {
         "nome":"Tiny Hut",
         "slug":"tiny-hut",
         "durata":"8 ore",
+        "range":"Te stesso (area 10ft)",
         "livello":"3",
         "contenuto":"<p>Crei una piccola piramide di 10 ft di raggio attorno a te che si disintegra una volta che lasci l'area e nessuna spell può passarvi attraverso.</p>\n<p>Fino a 9 creature di media dimensione possono entrarvi ma se una creatura non autorizzata entra, la spell finisce.</p>\n<p>Servono 1d3 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> round per evocare questa piramide</p>"
     },
@@ -200,6 +248,7 @@
         "nome":"See Invisibility",
         "slug":"see-invisibility",
         "durata":"1 ora",
+        "range":"Te stesso",
         "livello":"2",
         "contenuto":"Puoi vedere creature invisibili e che appartengono al piano etereo."
     },
@@ -207,15 +256,19 @@
         "nome":"Sleep",
         "slug":"sleep",
         "durata":"1 minuto",
+        "range":"90 ft",
         "livello":"1",
-        "contenuto":"<p>Questo incantesimo fa in modo che le creature siano vittime di un sonno magico.</p>\n<p>Tira 5d8; il totale ottenuto è l'ammontare di creature in punti ferita che questo incantesimo può influenzare. Le creature entro 20ft da un punto a tua scelta situato entro la gittata sono influenzate in ordine crescente dei loro punti ferita (ignorando le creature prive di sensi). A partire dalla creatura che possiede meno punti ferita attuali, ogni creatura influenzata da questo incantesimo cade priva di sensi finché l'incantesimo non termina o il dormiente subisce danni o qualcuno usa un'azione per scuotere o schiaffeggiare il dormiente per svegliarlo.</p>\n<p>Si sottraggono i punti ferita di ogni creatura dal totale prima di passare alla creatura con l'ammontare immediatamente superiore di punti ferita. I punti ferita di una creatura devono essere pari o inferiori al totale rimanente affinché quella creatura possa essere influenzata. Le creature non morte e quelle immuni all'essere affascinate non sono influenzate da questo incantesimo.</p>"
+        "contenuto":"<p>Questo incantesimo fa in modo che le creature siano vittime di un sonno magico.</p>\n<p>Tira 5d8; il totale ottenuto è l'ammontare di creature in punti ferita che questo incantesimo può influenzare. Le creature entro 20ft da un punto a tua scelta situato entro la gittata sono influenzate in ordine crescente dei loro punti ferita (ignorando le creature prive di sensi). A partire dalla creatura che possiede meno punti ferita attuali, ogni creatura influenzata da questo incantesimo cade priva di sensi finché l'incantesimo non termina o il dormiente subisce danni o qualcuno usa un'azione per scuotere o schiaffeggiare il dormiente per svegliarlo.</p>\n<p>Si sottraggono i punti ferita di ogni creatura dal totale prima di passare alla creatura con l'ammontare immediatamente superiore di punti ferita. I punti ferita di una creatura devono essere pari o inferiori al totale rimanente affinché quella creatura possa essere influenzata. Le creature non morte e quelle immuni all'essere affascinate non sono influenzate da questo incantesimo.</p>",
+        "upcast":"A partire dal livello 4, ogni due livelli puoi tirare 2d8 aggiuntivi."
     },
     {
         "nome":"Command",
         "slug":"command",
         "durata":"1 turno",
+        "range":"60 ft",
         "livello":"1",
-        "contenuto":"Una creatura a tua scelta deve superare un WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per non ubbidire a una parola (un comando) che dici, il comando non deve recare danno alla creatura. Se non può ubbidire, l'incantesimo finisce"
+        "contenuto":"Una creatura a tua scelta deve superare un WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per non ubbidire a una parola (un comando) che dici, il comando non deve recare danno alla creatura. Se non può ubbidire, l'incantesimo finisce.",
+        "upcast":"A partire dal livello 4, ogni due livelli puoi aggiungere un bersaglio entro 30ft dal primo."
     },
     {
         "nome":"Jacob's Ladder",
@@ -228,6 +281,7 @@
         "nome":"Scudo di Slurp",
         "slug":"scudo-di-slurp",
         "durata":"10 turni",
+        "range":"60 ft",
         "livello":"1",
         "azione_bonus":1,
         "contenuto":"Uno scudo protettivo appare intorno a una creatura che scegli, +2 a Difesa."
@@ -248,13 +302,16 @@
         "nome":"Thunderclap",
         "slug":"thunderclap",
         "durata":"istantaneo",
+        "range":"Te stesso (area 5ft)",
         "livello":"Cantrip",
-        "contenuto":"Una creatura colipita deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o subire 2d6 danni elettrici, vale per qualsiasi creatura entro 5ft."
+        "contenuto":"Una creatura colipita deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o subire 2d6 danni elettrici, vale per qualsiasi creatura entro 5ft.",
+        "upcast":"Aggiungi 1d6 danni al livello 5, 2d6 al livello 11, 3d6 al livello 17."
     },
     {
         "nome":"Magic Stone",
         "slug":"magic-stone",
         "durata":"1 minuto",
+        "range":"Tocco",
         "livello":"Cantrip",
         "contenuto":"Tocchi fino a 3 sassolini infondendoli di magia, tu o un'altra creatura può lanciarli provocando 1d6 + WIS danni contundenti."
     },
@@ -262,20 +319,26 @@
         "nome":"Infestation",
         "slug":"infestation",
         "durata":"istantaneo",
+        "range":"30 ft",
         "livello":"Cantrip",
-        "contenuto":"<p>Il bersaglio è circondato da parassiti e deve passare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o subisce 1d6 danni da veleno.</p>\n<p>Si muove di 5ft in una direzione e non subisce attacchi di opportunità. 1d4 per la direzione:<p>\n<li><p>1 Nord<p>\n<li><p>2 Sud<p>\n<li><p>3 Est<p>\n<li><p>4 Ovest.</p>"
+        "contenuto":"<p>Il bersaglio è circondato da parassiti e deve passare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o subisce 1d6 danni da veleno.</p>\n<p>Si muove di 5ft in una direzione e non subisce attacchi di opportunità. 1d4 per la direzione:<p>\n<li><p>1 Nord<p>\n<li><p>2 Sud<p>\n<li><p>3 Est<p>\n<li><p>4 Ovest.</p>",
+        "upcast":"Aggiungi 1d6 danni al livello 5, 2d6 al livello 11, 3d6 al livello 17."
     },
     {
         "nome":"Healing Word",
         "slug":"healing-word",
         "durata":"istantaneo",
+        "azione_bonus":1,
+        "range":"60 ft",
         "livello":"1",
-        "contenuto":"una creatura a tua scelta viene curata di 1d4 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita.</p>\n<p>aggiungi 1d4 per ogni livello oltre il primo.</p>"
+        "contenuto":"una creatura a tua scelta viene curata di 1d4 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita.</p>\n<p>aggiungi 1d4 per ogni livello oltre il primo.</p>",
+        "upcast":"A partire dal livello 4, ogni due livelli puoi aggiungere 1d4 alla cura."
     },
     {
         "nome":"Water Breathing",
         "slug":"water-breathing",
         "durata":"24 ore",
+        "range":"30 ft",
         "livello":"3",
         "contenuto":"Tu ed altre 10 creature potete respirare sott'acqua."
     },
@@ -283,20 +346,25 @@
         "nome":"Insect Plague",
         "slug":"insect-plague",
         "durata":"Concentrazione, fino a 10 minuti",
+        "range":"300ft",
         "livello":"3",
-        "contenuto":"<p>un nugolo di locuste assedia un'area di 20ft, all'inizio di ogni turno ogni creatura nell'area subisce 4d8 danni perforanti e 1d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni velenosi.</p>\n<p>Il bersaglio può dimezzare il danno se supera un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>. Chi fallisce il save è avvelenato (1d6 danni per 1d4 turni).</p>"
+        "contenuto":"<p>un nugolo di locuste assedia un'area di 20ft, all'inizio di ogni turno ogni creatura nell'area subisce 4d8 danni perforanti e 1d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni velenosi.</p>\n<p>Il bersaglio può dimezzare il danno se supera un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>. Chi fallisce il save è avvelenato (1d6 danni per 1d4 turni).</p>",
+        "upcast":"A partire dal livello 12, ogni due livelli puoi aggiungere 1d8 al danno."
     },
     {
         "nome":"Elemental Bane",
         "slug":"elemental-bane",
         "livello":"4",
         "durata":"Concentrazione, fino a 1 minuto",
-        "contenuto":"Una creatura entro 90ft deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>. Se fallisce subisce 2d6 danni a scelta tra acido, freddo, fuoco o elettrico, inoltre perde ogni resistenza al tipo di danno subito."
+        "range":"90 ft",
+        "contenuto":"Una creatura entro 90ft deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>. Se fallisce subisce 2d6 danni a scelta tra acido, freddo, fuoco o elettrico, inoltre perde ogni resistenza al tipo di danno subito.",
+        "upcast":"A partire dal livello 10, ogni due livelli puoi aggiungere un bersaglio entro 30ft dal primo."
     },
     {
         "nome":"Mage Hand",
         "slug":"mage-hand",
         "durata":"1 minuto",
+        "range":"30 ft",
         "livello":"Cantrip",
         "azione_bonus":1,
         "contenuto":"Puoi castare una mano spettrale che compie azioni per te. La mano può allontanarsi fino a 30ft."
@@ -305,13 +373,16 @@
         "nome":"Sacred Flame",
         "slug":"sacred-flame",
         "durata":"istantaneo",
+        "range":"60 ft",
         "livello":"Cantrip",
-        "contenuto":"Una creatura colpita è avvolta dalle fiamme sacre. Se il bersaglio non supera un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> subisce 2d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a>."
+        "contenuto":"Una creatura colpita è avvolta dalle fiamme sacre. Se il bersaglio non supera un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> subisce 2d8 danni da <a href=\"../pagine/pagina.html?file=lore&slug=glom\">Glom</a>.",
+        "upcast":"Aggiungi 1d8 danni al livello 5, 2d8 al livello 11, 3d8 al livello 17."
     },
     {
         "nome":"Comprehend Languages",
         "slug":"comprehend-languages",
         "durata":"1 ora",
+        "range":"Te stesso",
         "livello":"1",
         "contenuto":"Puoi parlare e leggere qualsiasi lingua."
     },
@@ -319,6 +390,7 @@
         "nome":"Knock",
         "slug":"knock",
         "durata":"istantaneo",
+        "range":"60 ft",
         "livello":"2",
         "contenuto":"Puoi sbloccare un meccanismo a tua scelta, questo però emetterà un suono udibile per 300ft."
     },
@@ -326,6 +398,7 @@
         "nome":"Speak with the Dead",
         "slug":"speak-with-the-dead",
         "durata":"1 minuto",
+        "range":"10 ft",
         "livello":"3",
         "contenuto":"Puoi parlare con qualsiasi creatura morta, puoi effettuare 5 domande al massimo."
     },
@@ -333,6 +406,7 @@
         "nome":"Locate Object",
         "slug":"locate-object",
         "durata":"Concentrazione, fino a 10 minuti",
+        "range":"Te stesso",
         "livello":"2",
         "contenuto":"<p>Descrivi un oggetto che ti sia familiare, che tu abbia visto da vicino (entro 30 ft) o una tipologia di oggetto.</p>\n<p>Puoi localizzarlo entro 1000 ft, anche se in movimento, ma se ha attorno a se del piombo la spell fallisce."
     },
@@ -340,13 +414,16 @@
         "nome":"Shatter",
         "slug":"shatter",
         "durata":"istantaneo",
+        "range":"60 ft",
         "livello":"2",
-        "contenuto":"<p>Crei un rumore assordante che parte da un punto entro 60ft da te.</p>\n<p>Ogni creatura in un raggio di 10ft deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o subire 3d8 danni elettrici.</p>\n<p>Se il bersaglio è composto da materiale inorganico ha svantaggio al save.</p>"
+        "contenuto":"<p>Crei un rumore assordante che parte da un punto entro 60ft da te.</p>\n<p>Ogni creatura in un raggio di 10ft deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o subire 3d8 danni elettrici.</p>\n<p>Se il bersaglio è composto da materiale inorganico ha svantaggio al save.</p>",
+        "upcast":"A partire dal livello 6, ogni due livelli puoi aggiungere 1d8 danni elettrici."
     },
     {
         "nome":"Silvery Barbs",
         "slug":"silvery-barbs",
         "durata":"istantaneo",
+        "range":"60 ft",
         "livello":"1",
         "reazione":1,
         "contenuto":"<p>Un alleato (anche te stesso) ottiene Vantaggio mentre un nemico ottiene Svantaggio.</p>\n<p>Funziona solo su attacco, ability check e save throw.</p>"
@@ -355,13 +432,16 @@
         "nome":"Charm Person",
         "slug":"charm-person",
         "durata":"1 ora",
+        "range":"30 ft",
         "livello":"1",
-        "contenuto":"<p>Una creatura entro 30ft deve superare un WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o credere di essere tuo amico (se il bersaglio sta combattendo ha Vantaggio al save).</p>\n<p>L'effetto dura fino al termine dell'Incantesimo o se il bersaglio subisce dei danni. Una volta che l'effetto termina, il bersaglio è a conoscenza di essere caduto sotto l'effetto di Charm Person.</p>"
+        "contenuto":"<p>Una creatura entro 30ft deve superare un WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o credere di essere tuo amico (se il bersaglio sta combattendo ha Vantaggio al save).</p>\n<p>L'effetto dura fino al termine dell'Incantesimo o se il bersaglio subisce dei danni. Una volta che l'effetto termina, il bersaglio è a conoscenza di essere caduto sotto l'effetto di Charm Person.</p>",
+        "upcast":"A partire dal livello 4, ogni due livelli puoi aggiungere un bersaglio entro 30ft dal primo."
     },
     {
         "nome":"Identify",
         "slug":"identify",
         "durata":"istantaneo",
+        "range":"Tocco",
         "livello":"1",
         "contenuto":"Scegli un oggetto che devi toccare durante il lancio dell'<a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a>. Se si tratta di un <a href=\"../pagine/pagina.html?file=regole&slug=oggetti-magici\">oggetto magico</a> o di un altro oggetto infuso di magia, apprendi le sue proprietà e come usarlo, se necessita di <a href=\"../pagine/pagina.html?file=regole&slug=attunement\">attumement</a> per usarlo e quante cariche contiene se ne contiene. Apprendi se l'oggetto è influenzato da eventuali <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a> e quali essi siano. Se l'oggetto è stato creato da un <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a>, apprendi quale <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a> l'ha creato. Se invece tocchi una creatura durante il lancio dell'<a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a>, apprendi quali <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a> influenzano attualmente quella creatura, se ce ne sono."
     },
@@ -369,6 +449,7 @@
         "nome":"Sanctuary",
         "slug":"sanctuary",
         "durata":"1 minuto",
+        "range":"30 ft",
         "livello":"1",
         "contenuto":"Tocchi una creatura che ottiene la proprietà di protezione (non protegge da attacchi ad area). Ogni qualvolta una creatura vuole <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attaccare</a> una creatura, questa deve fare un check WIS 18 oppure perdere l'azione."
     },
@@ -376,6 +457,7 @@
         "nome":"Enlarge/Reduce",
         "slug":"enlarge-reduce",
         "durata":"Concentrazione, fino a 1 minuto",
+        "range":"30 ft",
         "livello":"2",
         "contenuto":"<p>Toccando una creatura puoi farla diventare più grande o piccola e guadagna le seguenti proprietà:</p>\n<li><p>Grande: Vantaggio a FOR save, FOR check e aumenta il <a href=\"../pagine/pagina.html?file=regole&slug=danno\">danno</a> di 1d4</p>\n<li><p>Piccolo:Svantaggio a FOR save, FOR check e riduce il <a href=\"../pagine/pagina.html?file=regole&slug=danno\">danno</a> di 1d4 </p>"
     },
@@ -383,13 +465,16 @@
         "nome":"Firebolt",
         "slug":"firebolt",
         "durata":"istantaneo",
+        "range":"120 ft",
         "livello":"Cantrip",
-        "contenuto":"Evochi una freccia di fuoco che colpisce entro 120ft."
+        "contenuto":"Evochi una freccia di fuoco che colpisce entro 120ft, il bersaglio subisce 1d10 danni da fuoco.",
+        "upcast":"Aggiungi 1d10 danni al livello 5, 2d10 al livello 11, 3d10 al livello 17."
     },
     {
         "nome":"Blade Ward",
         "slug":"blade-ward",
         "durata":"1 turno",
+        "range":"Te stesso",
         "livello":"Cantrip",
         "contenuto":"Hai resistenza a danni contundenti, taglienti, perforanti non magici."
     },
@@ -397,43 +482,54 @@
         "nome":"Booming Blade",
         "slug":"booming-blade",
         "durata":"1 turno",
+        "range":"Te stesso (area 5ft)",
         "livello":"Cantrip",
-        "contenuto":"Se il bersaglio è colpito dall'arma, al prossimo movimento subirà 2d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni elettrici."
+        "contenuto":"Se il bersaglio è colpito dall'arma, al prossimo movimento subirà 2d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni elettrici.",
+        "upcast":"Aggiungi 1d8 danni al livello 5, 2d8 al livello 11, 3d8 al livello 17."
     },
     {
         "nome":"Mani Brucianti",
         "slug":"mani-brucianti",
         "durata":"istantaneo",
+        "range":"Te stesso (cono 15ft)",
         "livello":"1",
-        "contenuto":"Tutte le creature in un cono di 15ft davanti a te devono fare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare i danni."
+        "contenuto":"Tutte le creature in un cono di 15ft davanti a te devono fare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare 3d6 danni da fuoco.",
+        "upcast":"A partire dal livello 4, ogni due livelli aggiungi 1d6 danni da fuoco."
     },
     {
         "nome":"Thunderwave",
         "slug":"thunderwave",
         "durata":"istantaneo",
+        "range":"Te stesso (area 15ft)",
         "livello":"1",
-        "contenuto":"Crei un cubo di 15ft di fulmini. Tutte le creature nell'area devono fare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare o subiscono 3d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni elettrici e sono spinti di 10ft"
+        "contenuto":"Crei un cubo di 15ft di fulmini. Tutte le creature nell'area devono fare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare o subiscono 3d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni elettrici e sono spinti di 10ft.",
+        "upcast":"A partire dal livello 4, ogni due livelli aggiungi 1d8 danni elettrici."
     },
     {
         "nome":"Fire Ball",
         "slug":"fire-ball",
         "durata":"istantaneo",
+        "range":"150 ft",
         "livello":"3",
-        "contenuto":"Evochi una palla di fuoco che colpisce entro 150ft. Tutte le creature nell'area devono fare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare o subiscono 8d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni da fuoco."
+        "contenuto":"Evochi una palla di fuoco che colpisce entro 150ft. Tutte le creature nell'area devono fare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare o subiscono 8d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni da fuoco.",
+        "upcast":"A partire dal livello 4, ogni due livelli aggiungi 1d6 danni da fuoco."
     },
     {
         "nome":"Ice Storm",
         "slug":"ice-storm",
         "durata":"istantaneo",
+        "range":"300ft",
         "livello":"4",
-        "contenuto":"Chicchi di grandine duri quanto pietre piovono sul terreno all'interno di un cilindro del raggio di 20ft e alto 40ft centrato su un punto entro 300ft. Ogni creatura nel cilindro deve effettuare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>. Se lo fallisce, subisce 2d8 danni contundenti e 4d6 danni da freddo, mentre se lo supera, subisce soltanto la metà di quei danni. La grandine trasforma l'area di effetto della tempesta in terreno difficile fino alla fine del turno successivo dell'incantatore."
+        "contenuto":"Chicchi di grandine duri quanto pietre piovono sul terreno all'interno di un cilindro del raggio di 20ft e alto 40ft centrato su un punto entro 300ft. Ogni creatura nel cilindro deve effettuare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>. Se lo fallisce, subisce 2d8 danni contundenti e 4d6 danni da freddo, mentre se lo supera, subisce soltanto la metà di quei danni. La grandine trasforma l'area di effetto della tempesta in terreno difficile fino alla fine del turno successivo dell'incantatore.",
+        "upcast":"A partire dal livello 10, ogni due livelli aggiungi 1d6 danni da freddo."
     },
     {
         "nome":"Steel Wind Strike",
         "slug":"steel-wind-strike",
         "durata":"istantaneo",
+        "range":"30 ft",
         "livello":"5",
-        "contenuto":"Dissolvi la <a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a> e sparisci. Scegli fino a 5 creature che puoi vedere entro 30 ft. Per ogni <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attacco</a> andato a buon fine infliggi danno a ogni target che colpisci (5 tiri diversi) e ti puoi teletrasportare in uno spazio non occupato entro 5 ft da uno dei target che hai colpito o mancato"
+        "contenuto":"Dissolvi la <a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a> e sparisci. Scegli fino a 5 creature che puoi vedere entro 30 ft. Per ogni <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attacco</a> andato a buon fine infliggi danno a ogni target che colpisci (5 tiri diversi) e ti puoi teletrasportare in uno spazio non occupato entro 5 ft da uno dei target che hai colpito o mancato."
 
     },
     {
@@ -452,8 +548,10 @@
         "nome":"Magic Missile",
         "slug":"magic-missile",
         "durata":"istantaneo",
+        "range":"120 ft",
         "livello":"1",
-        "contenuto":"Crei 3 raggi di energia che possono colpire o uno o più bersagli. Devi compiere un <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attacco</a> per raggio."
+        "contenuto":"Crei 3 raggi di energia che possono colpire o uno o più bersagli. Devi compiere un <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attacco</a> per raggio.",
+        "upcast":"A partire dal livello 4, ogni due livelli puoi aggiungere un raggio."
     },
     {
         "nome":"Rampino Elettrico",
@@ -465,7 +563,26 @@
         "nome":"Catapult",
         "slug":"catapult",
         "durata":"istantaneo",
+        "range":"60 ft",
         "livello":"1",
-        "contenuto":"Sollevi un oggetto che va dai 2 ai 4 kg e lo lanci a 90ft. Il bersaglio deve superare un DEX save DC 18 o subisce 3d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni contundenti."
+        "contenuto":"Sollevi un oggetto che va dai 2 ai 4 kg e lo lanci a 90ft. Il bersaglio deve superare un DEX save DC 18 o subisce 3d8 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> danni contundenti.",
+        "upcast":"A partire dal livello 4, ogni due livelli aggiungi 1d8 danni contundenti e il peso massimo aumenta di 2kg."
+    },
+    {
+        "nome":"Pyrothecnics",
+        "slug":"pyrothecnics",
+        "durata":"istantaneo",
+        "range":"60 ft",
+        "livello":"2",
+        "contenuto":"<p>Entro 60ft spegni delle fiamme in un'area di 5ft cubi, così puoi creare:</p>\n<p li> <strong>Fuochi d'artificio:</strong> ogni creatura entro 10ft deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per non essere Accecata fino alla fine del prossimo turno;</p>\n<p li> <strong>Fumo:</strong> crei fumo in un'area di 20ft che sparisce se c'è vento o dopo 1 minuto.</p>"
+    },
+    {
+        "nome":"Spray of Cards",
+        "slug":"spray-of-cards",
+        "durata":"istantaneo",
+        "range":"Te stesso (area 15ft)",
+        "livello":"2",
+        "contenuto":"Tutte le creature in un cono di 15ft davanti a te devono fare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare 2d10 danni da forza.",
+        "upcast":"A partire dal livello 6, ogni due livelli aggiungi 1d10 danni da forza."
     }
 ]
