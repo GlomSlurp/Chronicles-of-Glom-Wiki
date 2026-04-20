@@ -87,7 +87,7 @@
         "nome":"Tiny Bug Spear",
         "slug":"tiny-bug-spear",
         "immagine":"oggetti/tiny-bug-spear.png",
-        "contenuto":"<p>Una lancia che assomiglia ad un pungiglione.</p>\n<p>Attunement necessario:</p>\n<li><a href=\"../pagine/pagina.html?file=abilita&slug=harmonic-repopulation\">Harmonic Repopulation</a>: livello 2</li>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=boom-boom-boom\">Boom Boom Boom</a>: livello 3</p>"
+        "contenuto":"<p>Una lancia che assomiglia ad un pungiglione.</p>\n<p>Attunement necessario:</p>\n<li><a href=\"../pagine/pagina.html?file=abilita&slug=harmonic-repopulation\">Harmonic Repopulation</a>: livello 2</li>\n<p><li><a href=\"../pagine/pagina.html?file=abilita&slug=boom-boom-boom\">Boom Boom Boom</a>: livello 3</p></li>"
     },
     {
         "nome":"Ring of Wild Shape",

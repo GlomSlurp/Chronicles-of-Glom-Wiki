@@ -143,12 +143,13 @@
     {
         "nome": "Harmonic Repopulation",
         "slug": "harmonic-repopulation",
-        "contenuto": "Quando colpisci puoi usare <a href=\"../pagine/pagina.html?file=incantesimi&slug=infestation\">Infestation</a> come azione bonus, ma invece di far muovere il bersaglio puoi aggiungere gli insetti vicini a te alla tua popolazione: Guadagni 1d6 punti popolazione. Non può eccedere il limite massimo."
+        "contenuto": "<p>Quando colpisci puoi usare <a href=\"../pagine/pagina.html?file=incantesimi&slug=infestation\">Infestation</a> come azione bonus, ma invece di far muovere il bersaglio puoi aggiungere gli insetti vicini a te alla tua popolazione:</p>\n<p> Guadagni 1d6 punti popolazione. Non puoi eccedere il limite massimo.</p>"
     },
     {
         "nome": "Boom Boom Boom",
         "slug": "boom-boom-boom",
         "durata": "Concentrazione, fino a 1 minuto",
+        "range": "30 ft",
         "contenuto": "Usando la Tiny Bug Spear puoi dirigere i tuoi insetti per farli cantare. Infliggi danni psichici pari a: WIS + COS + 4 ad ogni nemico che ti può sentire entro 30 ft. Il bersaglio può dimezzare il danno se supera un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>."
     },
     {
