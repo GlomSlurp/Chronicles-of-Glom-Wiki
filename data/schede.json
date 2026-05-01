@@ -40,7 +40,7 @@
       "Attacco con Bastone da Combattimento",
       "I Pungi nelle Mani",
       "I Pungi nelle Mani (elettrici)",
-      "I Pungi nelle Mani (infuocati"
+      "I Pungi nelle Mani (infuocati)"
     ]
   },
   {
@@ -202,13 +202,13 @@
     ],
     "incantesimi_conosciuti": [
       "<a href=\"../pagine/pagina.html?file=incantesimi&slug=cure-wounds\">Cura Ferite</a>",
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=healing-word\">Healing Word</a>",
       "<a href=\"../pagine/pagina.html?file=incantesimi&slug=water-breathing\">Water Breathing</a>",
       "<a href=\"../pagine/pagina.html?file=abilita&slug=brutalita-insetta\">Brutalità Insetta</a>",
       "<a href=\"../pagine/pagina.html?file=abilita&slug=harmonic-repopulation\">Harmonic Repopulation</a>",
       "<a href=\"../pagine/pagina.html?file=abilita&slug=boom-boom-boom\">Boom Boom Boom</a>",
       "<a href=\"../pagine/pagina.html?file=incantesimi&slug=insect-plague\">Sciame Reale</a>",
       "<a href=\"../pagine/pagina.html?file=incantesimi&slug=elemental-bane\">Kachow</a>",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=healing-word\">Healing Word</a> (Azione Bonus)",
       "<a href=\"../pagine/pagina.html?file=incantesimi&slug=absorb-element\">Assorbi Elemento</a> (Reazione)"
     ],
     "tratti_speciali": ["Parlare con gli Animali"],

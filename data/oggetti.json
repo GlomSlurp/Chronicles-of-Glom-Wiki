@@ -1,151 +1,151 @@
 [
-    {
-        "nome":"L'Artefatto",
-        "slug":"l-artefatto",
-        "immagine":"tu-sai-chi.png",
-        "contenuto":"Questo oggetto, che il party ha recuperato in seguito all'ordine di Umbranix, sembra essere capace di ferire <a href=\"pagina.html?file=persone&amp;slug=imperatore\">l'Imperatore</a>."
-    },
-    {
-        "nome":"Bende dell'Aria",
-        "slug":"bende-dell-aria",
-        "immagine":"oggetti/bende-aria.png",
-        "contenuto":"Incanali il potere del vento e in caso di hit puoi infliggere 2d66 danni taglienti extra oltre quelli che infliggi."
-    },
-    {
-        "nome":"Bende del Fulmine",
-        "slug":"bende-del-fulmine",
-        "immagine":"oggetti/bende-fulmine.png",
-        "contenuto":"In caso di hit, se un altro target è entro 5 ft, puoi infliggere 1d8 danni elettrici extra oltre quelli che infliggi già (solo sul primo hit)"
-    },
-    {
-        "nome":"Bende del Fuoco",
-        "slug":"bende-del-fuoco",
-        "immagine":"oggetti/bende-fuoco.png",
-        "contenuto":"<p>Guanti che prendono fuoco utilizzando la mente di chi li usa.</p>\n<p> Boostano ogni colpo consecutivo e si resettano dopo ogni turno. Al primo colpo aggiungo zero, al secondo 1d8, al terzo 2d8 e al quarto 3d8.</p>"
-    },
-    {
-        "nome":"Pacchetto di Sigarette",
-        "slug":"pacchetto-di-sigarette",
-        "immagine":"oggetti/pacchetto-sigarette.png",
-        "contenuto":"Un pacchetto che contiene 12 sigarette, donato da <a href=\"../pagine/pagina.html?file=persone&slug=hellius\">Hellius</a> a <a href=\"../pagine/pagina.html?file=persone&slug=kalu\">Kalu</a>."
-    },
-    {
-        "nome":"Rellana's Medallion",
-        "slug":"rellanas-medallion",
-        "immagine":"oggetti/rellana-medallion.png",
-        "contenuto":"Permette l'uso di <a href=\"../pagine/pagina.html?file=incantesimi&slug=light\">Light</a> e aggiunge +1d8 alle cure"
-    },
-    {
-        "nome":"Amuleto Ammazzafiamme",
-        "slug":"amuleto-ammazzafiamme",
-        "immagine":"oggetti/amuleto-ammazzafiamme.png",
-        "contenuto":"Amuleto lasciato da un <a href=\"../pagine/pagina.html?file=creature&slug=purifier\">Purifier</a> nella <a href=\"../pagine/pagina.html?file=luoghi&slug=la-prigione-di-baris\">Prigione di Baris</a>. Sembra che riesca a proteggere il portatore dal fuoco."
-    },
-    {
-        "nome":"Anello Scacciafame",
-        "slug":"anello-scacciafame",
-        "immagine":"oggetti/anello-scacciafame.png",
-        "contenuto":"?"
-    },
-    {
-        "nome":"Witch Glaive",
-        "slug":"witch-glaive",
-        "immagine":"oggetti/witch-glaive.png",
-        "contenuto":"<p>Glaive appartenuta alla leggenda vivente di Barbataus. Permette l'uso di <a href=\"../pagine/pagina.html?file=abilita&slug=vile-blast-witchglaive\">Vile Blast</a>, <a href=\"../pagine/pagina.html?file=abilita&slug=poison-gas-witchglaive\">Poison Gas</a> e <a href=\"../pagine/pagina.html?file=incantesimi&slug=resistence\">Resistance</a>.</p>\n<p>Attunement necessario:</p>\n<p><a href=\"../pagine/pagina.html?file=incantesimi&slug=resistence\">Resistance</a>: livello 1</p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=poison-gas-witchglaive\">Poison Gas</a>: livello 2</p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=vile-blast-witchglaive\">Vile blast</a>: livello 3</p>"
-    },
-    {
-        "nome":"Bracers of the Flow",
-        "slug":"bracers-of-the-flow",
-        "immagine":"oggetti/bracers-of-flow.png",
-        "contenuto":" + 1 ac difesa, restora 1d4 ki per charge, ha 5 charge al giorno"
-    },
-    {
-        "nome":"Cloak of the Moth",
-        "slug":"cloak-of-the-moth",
-        "immagine":"oggetti/cloak-of-the-moth.png",
-        "contenuto":"Hai +1 alle prove di Furtività e se rimani fermo hai +1 a Difesa."
-    },
-    {
-        "nome":"Armatura del Geco Notturno",
-        "slug":"armatura-del-geco-notturno",
-        "immagine":"oggetti/armatura-geco-notturno.png",
-        "contenuto":"Hai +1 a Difesa e vantaggio sulle prove di Furtività se in oscurità o penombra."
-    },
-    {
-        "nome":"Bag of Holding",
-        "slug":"bag-of-holding",
-        "immagine":"oggetti/bag-of-holding.png",
-        "contenuto":"<p>Una borsa con queste caratteristiche:</p>\n<li><p> Dimensioni interne: spazio extradimensionale di circa 2ft  di diametro alla bocca e 4ft di profondità, con un volume massimo di 64ft³ e un limite di peso di 500Kg.</p>\n<li><p> Accesso: recuperare un oggetto richiede un'azione.</p>\n<li><p>Rischio di rottura: se sovraccaricata, forata o strappata, si rompe e i suoi contenuti vengono dispersi in un altro Piano Dimensionale.</p>"
-    },
-    {
-        "nome":"L'Orologio",    
-        "slug":"l-orologio",
-        "immagine":"oggetti/orologio.png",
-        "contenuto":"Un orologio che fa tic tac. A volte, però, sembra fermarsi per qualche istante."
-    },
-    {
-        "nome":"Tiny Bug Spear",
-        "slug":"tiny-bug-spear",
-        "immagine":"oggetti/tiny-bug-spear.png",
-        "contenuto":"<p>Una lancia che assomiglia ad un pungiglione.</p>\n<p>Attunement necessario:</p>\n<li><a href=\"../pagine/pagina.html?file=abilita&slug=harmonic-repopulation\">Harmonic Repopulation</a>: livello 2</li>\n<p><li><a href=\"../pagine/pagina.html?file=abilita&slug=boom-boom-boom\">Boom Boom Boom</a>: livello 3</p></li>"
-    },
-    {
-        "nome":"Ring of Wild Shape",
-        "slug":"ring-of-wild-shape",
-        "immagine":"oggetti/ring-of-wild-shape.png",
-        "contenuto":"+ 1 trasformazione."
-    },
-    {
-        "nome":"Armatura Pesante",
-        "slug":"armatura-pesante",
-        "immagine":"oggetti/armatura-pesante.png",
-        "contenuto":"+2 a <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a>."
-    },
-    {
-        "nome":"Boots of Bounding",
-        "slug":"boots-of-bounding",
-        "immagine":"oggetti/boots-of-bounding.png",
-        "contenuto":"Raddoppiano la distanza massima di salto, sia in avanti sia in alto."
-    },
-    {
-        "nome":"Ocarina of Minor Charm",
-        "slug":"ocarina-of-minor-charm",
-        "immagine":"oggetti/ocarina-minor-charm.png",
-        "contenuto":"Se è utilizzata da un Bardo, garantisce l'uso di 1 <a href=\"../pagine/pagina.html?file=incantesimi&slug=charm-person\">Charm Person</a> al giorno."
-    },
-    {
-        "nome":"Sicarius",
-        "slug":"sicarius",
-        "immagine":"oggetti/sicarius.png",
-        "contenuto":"<p>La spada tramandata nella famiglia di <a href=\"../pagine/pagina.html?file=persone&slug=dacario-john-icereign\">Dacario John Icereign</a> da generazioni, più forte di una spada imperiale.</p>\n<p>Usandola a due mani, guadagni 2d6 danni aggiuntivi per <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attacco</a>. Se manchi il bersaglio, esplode e i nemici entro 5ft devono superare un DEX save DC 15 o subiscono 2d6 danni da freddo</p>"
-    },
-    {
-        "nome":"Capsule",
-        "slug":"capsule",
-        "immagine":"",
-        "contenuto":"<p>Possono replicare l'effetto degli <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a>.</p>\n<p>All'apertura creano delle armature che ti permettono di replicare un <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a>.</p>"
-    },
-    {
-        "nome":"Dexter's Breath",
-        "slug":"dexters-breath",
-        "immagine":"",
-        "contenuto":"Il bastone di <a href=\"../pagine/pagina.html?file=persone&slug=corex\">Corex</a> che rivela la canna del suo fucile."
-    },
-    {
-        "nome":"Wand of Wonder",
-        "slug":"wand-of-wonder",
-        "immagine":"oggetti/wand-of-wonder.png",
-        "contenuto":"<p>Puoi usare 1 carica per scegliere una creatura entro 120ft. Tira 1d100 e vedi la Wonder Table. La creatura è il bersaglio dell'effetto (DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>).</p>\n<p>La Wand of Wonder ha 7 cariche, ricarica 1d6 + 1 cariche al tramonto. "
-    },
-    {
-        "nome":"Wand of Minor Chaos",
-        "slug":"wand-of-minor-chaos",
-        "immagine":"oggetti/wand-minor-chaos.png",
-        "contenuto":"<p>Puoi usare 1 carica per scegliere una creatura entro 120ft, questa è il bersaglio dell'effetto del <a href=\"../pagine/pagina.html?file=abilita&slug=wild-glom-surge\">Wild Glom Surge</a>.</p>\n<p>La Wand of Minor Chaos ha 4 cariche, ricarica 1d4 cariche al tramonto.</p>"
-    },
-    {
-        "nome":"Spada Corta",
-        "slug":"spada-corta",
-        "contenuto":"Una semplice spada con una lama corta, non sembra essere molto efficace."
-    }
+  {
+    "nome": "L'Artefatto",
+    "slug": "l-artefatto",
+    "immagine": "tu-sai-chi.png",
+    "contenuto": "Questo oggetto, che il party ha recuperato in seguito all'ordine di Umbranix, sembra essere capace di ferire <a href=\"pagina.html?file=persone&amp;slug=imperatore\">l'Imperatore</a>."
+  },
+  {
+    "nome": "Bende dell'Aria",
+    "slug": "bende-dell-aria",
+    "immagine": "oggetti/bende-aria.png",
+    "contenuto": "Incanali il potere del vento e in caso di hit puoi infliggere 2d66 danni taglienti extra oltre quelli che infliggi."
+  },
+  {
+    "nome": "Bende del Fulmine",
+    "slug": "bende-del-fulmine",
+    "immagine": "oggetti/bende-fulmine.png",
+    "contenuto": "In caso di hit, se un altro target è entro 5 ft, puoi infliggere 1d8 danni elettrici extra oltre quelli che infliggi già (solo sul primo hit)"
+  },
+  {
+    "nome": "Bende del Fuoco",
+    "slug": "bende-del-fuoco",
+    "immagine": "oggetti/bende-fuoco.png",
+    "contenuto": "<p>Guanti che prendono fuoco utilizzando la mente di chi li usa.</p>\n<p> Boostano ogni colpo consecutivo e si resettano dopo ogni turno. Al primo colpo aggiungo zero, al secondo 1d8, al terzo 2d8 e al quarto 3d8.</p>"
+  },
+  {
+    "nome": "Pacchetto di Sigarette",
+    "slug": "pacchetto-di-sigarette",
+    "immagine": "oggetti/pacchetto-sigarette.png",
+    "contenuto": "Un pacchetto che contiene 12 sigarette, donato da <a href=\"../pagine/pagina.html?file=persone&slug=hellius\">Hellius</a> a <a href=\"../pagine/pagina.html?file=persone&slug=kalu\">Kalu</a>."
+  },
+  {
+    "nome": "Rellana's Medallion",
+    "slug": "rellanas-medallion",
+    "immagine": "oggetti/rellana-medallion.png",
+    "contenuto": "Permette l'uso di <a href=\"../pagine/pagina.html?file=incantesimi&slug=light\">Light</a> e aggiunge +1d8 alle cure"
+  },
+  {
+    "nome": "Amuleto Ammazzafiamme",
+    "slug": "amuleto-ammazzafiamme",
+    "immagine": "oggetti/amuleto-ammazzafiamme.png",
+    "contenuto": "Amuleto lasciato da un <a href=\"../pagine/pagina.html?file=creature&slug=purifier\">Purifier</a> nella <a href=\"../pagine/pagina.html?file=luoghi&slug=la-prigione-di-baris\">Prigione di Baris</a>. Sembra che riesca a proteggere il portatore dal fuoco."
+  },
+  {
+    "nome": "Anello Scacciafame",
+    "slug": "anello-scacciafame",
+    "immagine": "oggetti/anello-scacciafame.png",
+    "contenuto": "?"
+  },
+  {
+    "nome": "Witch Glaive",
+    "slug": "witch-glaive",
+    "immagine": "oggetti/witch-glaive.png",
+    "contenuto": "<p>Glaive appartenuta alla leggenda vivente di Barbataus. Permette l'uso di <a href=\"../pagine/pagina.html?file=abilita&slug=vile-blast-witchglaive\">Vile Blast</a>, <a href=\"../pagine/pagina.html?file=abilita&slug=poison-gas-witchglaive\">Poison Gas</a> e <a href=\"../pagine/pagina.html?file=incantesimi&slug=resistence\">Resistance</a>.</p>\n<p>Attunement necessario:</p>\n<p><a href=\"../pagine/pagina.html?file=incantesimi&slug=resistence\">Resistance</a>: livello 1</p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=poison-gas-witchglaive\">Poison Gas</a>: livello 2</p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=vile-blast-witchglaive\">Vile blast</a>: livello 3</p>"
+  },
+  {
+    "nome": "Bracers of the Flow",
+    "slug": "bracers-of-the-flow",
+    "immagine": "oggetti/bracers-of-flow.png",
+    "contenuto": " + 1 ac difesa, restora 1d4 ki per charge, ha 5 charge al giorno"
+  },
+  {
+    "nome": "Cloak of the Moth",
+    "slug": "cloak-of-the-moth",
+    "immagine": "oggetti/cloak-of-the-moth.png",
+    "contenuto": "Hai +1 alle prove di Furtività e se rimani fermo hai +1 a Difesa."
+  },
+  {
+    "nome": "Armatura del Geco Notturno",
+    "slug": "armatura-del-geco-notturno",
+    "immagine": "oggetti/armatura-geco-notturno.png",
+    "contenuto": "Hai +1 a Difesa e vantaggio sulle prove di Furtività se in oscurità o penombra."
+  },
+  {
+    "nome": "Bag of Holding",
+    "slug": "bag-of-holding",
+    "immagine": "oggetti/bag-of-holding.png",
+    "contenuto": "<p>Una borsa con queste caratteristiche:</p>\n<li><p> Dimensioni interne: spazio extradimensionale di circa 2ft  di diametro alla bocca e 4ft di profondità, con un volume massimo di 64ft³ e un limite di peso di 500Kg.</p>\n<li><p> Accesso: recuperare un oggetto richiede un'<a href=\"../pagine/pagina.html?file=regole&slug=azioni\">azione</a>.</p>\n<li><p>Rischio di rottura: se sovraccaricata, forata o strappata, si rompe e i suoi contenuti vengono dispersi in un altro Piano Dimensionale.</p>"
+  },
+  {
+    "nome": "L'Orologio",
+    "slug": "l-orologio",
+    "immagine": "oggetti/orologio.png",
+    "contenuto": "Un orologio che fa tic tac. A volte, però, sembra fermarsi per qualche istante."
+  },
+  {
+    "nome": "Tiny Bug Spear",
+    "slug": "tiny-bug-spear",
+    "immagine": "oggetti/tiny-bug-spear.png",
+    "contenuto": "<p>Una lancia che assomiglia ad un pungiglione.</p>\n<p>Attunement necessario:</p>\n<li><a href=\"../pagine/pagina.html?file=abilita&slug=harmonic-repopulation\">Harmonic Repopulation</a>: livello 2</li>\n<p><li><a href=\"../pagine/pagina.html?file=abilita&slug=boom-boom-boom\">Boom Boom Boom</a>: livello 3</p></li>"
+  },
+  {
+    "nome": "Ring of Wild Shape",
+    "slug": "ring-of-wild-shape",
+    "immagine": "oggetti/ring-of-wild-shape.png",
+    "contenuto": "+ 1 trasformazione."
+  },
+  {
+    "nome": "Armatura Pesante",
+    "slug": "armatura-pesante",
+    "immagine": "oggetti/armatura-pesante.png",
+    "contenuto": "+2 a <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a>."
+  },
+  {
+    "nome": "Boots of Bounding",
+    "slug": "boots-of-bounding",
+    "immagine": "oggetti/boots-of-bounding.png",
+    "contenuto": "Raddoppiano la distanza massima di salto, sia in avanti sia in alto."
+  },
+  {
+    "nome": "Ocarina of Minor Charm",
+    "slug": "ocarina-of-minor-charm",
+    "immagine": "oggetti/ocarina-minor-charm.png",
+    "contenuto": "Se è utilizzata da un Bardo, garantisce l'uso di 1 <a href=\"../pagine/pagina.html?file=incantesimi&slug=charm-person\">Charm Person</a> al giorno."
+  },
+  {
+    "nome": "Sicarius",
+    "slug": "sicarius",
+    "immagine": "oggetti/sicarius.png",
+    "contenuto": "<p>La spada tramandata nella famiglia di <a href=\"../pagine/pagina.html?file=persone&slug=dacario-john-icereign\">Dacario John Icereign</a> da generazioni, più forte di una spada imperiale.</p>\n<p>Usandola a due mani, guadagni 2d6 danni aggiuntivi per <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attacco</a>. Se manchi il bersaglio, esplode e i nemici entro 5ft devono superare un DEX save DC 15 o subiscono 2d6 danni da freddo</p>"
+  },
+  {
+    "nome": "Capsule",
+    "slug": "capsule",
+    "immagine": "",
+    "contenuto": "<p>Possono replicare l'effetto degli <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimi</a>.</p>\n<p>All'apertura creano delle armature che ti permettono di replicare un <a href=\"../pagine/pagina.html?file=regole&slug=incantesimi\">incantesimo</a>.</p>"
+  },
+  {
+    "nome": "Dexter's Breath",
+    "slug": "dexters-breath",
+    "immagine": "",
+    "contenuto": "Il bastone di <a href=\"../pagine/pagina.html?file=persone&slug=corex\">Corex</a> che rivela la canna del suo fucile."
+  },
+  {
+    "nome": "Wand of Wonder",
+    "slug": "wand-of-wonder",
+    "immagine": "oggetti/wand-of-wonder.png",
+    "contenuto": "<p>Puoi usare 1 carica per scegliere una creatura entro 120ft. Tira 1d100 e vedi la Wonder Table. La creatura è il bersaglio dell'effetto (DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>).</p>\n<p>La Wand of Wonder ha 7 cariche, ricarica 1d6 + 1 cariche al tramonto. "
+  },
+  {
+    "nome": "Wand of Minor Chaos",
+    "slug": "wand-of-minor-chaos",
+    "immagine": "oggetti/wand-minor-chaos.png",
+    "contenuto": "<p>Puoi usare 1 carica per scegliere una creatura entro 120ft, questa è il bersaglio dell'effetto del <a href=\"../pagine/pagina.html?file=abilita&slug=wild-glom-surge\">Wild Glom Surge</a>.</p>\n<p>La Wand of Minor Chaos ha 4 cariche, ricarica 1d4 cariche al tramonto.</p>"
+  },
+  {
+    "nome": "Spada Corta",
+    "slug": "spada-corta",
+    "contenuto": "Una semplice spada con una lama corta, non sembra essere molto efficace."
+  }
 ]

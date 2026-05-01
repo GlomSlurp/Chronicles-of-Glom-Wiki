@@ -1,400 +1,400 @@
 [
-    {
-        "nome": "Percezione del Magico",
-        "slug": "percezione-del-magico",
-        "contenuto": "Puoi percepire la magia, la visione è come una vista termica."
-    },
-    {
-        "nome": "Cig Master",
-        "slug": "cig-master",
-        "contenuto": "<p>Puoi usare tre effetti bonus fumando una sigaretta</p>\n<p>1)Tira altri 1 colpo</p>\n<p>2)Può Usare <a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a> come reazione</p>\n<p>3)Può usare <a href=\"../pagine/pagina.html?file=abilita&slug=dash\">Dash</a> o <a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a></p>"
-    },
-    {
-        "nome": "Spallata",
-        "slug": "spallata",
-        "contenuto": "Puoi caricare un nemico a 10ft da te, in questo modo aggiungi 5 danni al tuo attacco. Se l'attacco è andato a buon fine il nemico è spinto di 10ft indietro."
-    },
-    {
-        "nome": "Way of the smoking lung: Catch",
-        "slug": "way-of-the-smoking-lung-catch",
-        "contenuto": "<p>Crei una nuvola di fumo usando 2 punti ki intorno a te. Puoi scegliere allora uno dei seguenti effetti:</p>\n<li><p>Lingering energy: La nuvola infligge danno pari a 1d4 ogni turno ad ogni creatura tranne te</p>\n<li><p>Purple Haze: La nuvola diventa terreno difficile per ogni creatura entro 15 ft da te tranne te.</p>\n<li><p>Puoi creare un illusione maggiore come Silent Image nella nuvola, ma ogni nemico che ci interagisce fisicamente capisce che è falsa.</p>"
-    },
-    {
-        "nome": "Quickened Healing",
-        "slug": "quickened-healing",
-        "contenuto": "Puoi usare 2 punti ki per curare te stessa di 1d4 + DEX punti ferita."
-    },
-    {
-        "nome": "Lingering Smoke",
-        "slug": "lingering-smoke",
-        "contenuto": "<p>La tua capacità di manipolare il fumo migliora, permettendoti di colpire nemici a distanza. Durante il tuo turno, puoi spendere 1 punto Ki (senza usare un'azione) per conferire ai tuoi pugni la proprietà Reach (5 ft di reach in più sui colpi) fino all'inizio del tuo turno successivo. Vale anche come proprietà quando fumi una sigaretta per flurry of blows.</p>\n<p> Quando colpisci una creatura, puoi costringerla a superare un tiro salvezza di Forza DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o essere attratta fino a 10ft verso di te.</p>\n<p> Inoltre, durante questo periodo puoi effettuare colpi a mani nude da una nube di fumo creata con Mystic Smoke. Questi attacchi possono colpire qualsiasi creatura entro 5 ft. dalla nube. Se usi questa capacità per attrarre il bersaglio dalla nube, viene spostato verso il centro della nube invece che verso di te.</p>"
-    },
-    {
-        "nome": "Deflect",
-        "slug": "deflect",
-        "reazione": 1,
-        "contenuto": "Puoi ridurre il danno ricevuto da un proiettile di 1d10 + DEX + 6, se il danno è ridotto a 0 puoi rilanciare il proiettile al mittente."
-    },
-    {
-        "nome": "Skyfall",
-        "slug": "skyfall",
-        "reazione": 1,
-        "contenuto": "Puoi ridurre il danno da caduta di 5 * lvl da monaco."
-    },
-    {
-        "nome": "Scurovisione",
-        "slug": "scurovisione",
-        "contenuto": "Puoi vedere nell'oscurità non magica per 30ft. La visione è in bianco e nero."
-    },
-    {
-        "nome": "Kamehameha Glommitica",
-        "slug": "kamehameha-glommitica",
-        "durata": "Full Round Action",
-        "contenuto": "<p>Incanala tutta l'energia assorbita da <a href=\"../pagine/pagina.html?file=incantesimi&slug=aura-glommitica\">Aura Glommitica</a> per creare un onda energetica.</p>\n<p>Per ogni persona curata aggiunge 1d6+ <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> al danno della kamehameha, il danno è danno da forza. DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare.</p>"
-    },
-    {
-        "nome": "Liana Gay",
-        "slug": "liana-gay",
-        "durata": "1 minuto",
-        "azione_bonus": 1,
-        "contenuto": "Una creatura entro 20ft deve superare un FOR save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>, altrimenti è intrappolata. Mentre la creatura è intrappolata puoi usare un'azione per infliggere 1d8 danni contundenti. L'effetto termina se il bersaglio subisce danni da fuoco."
-    },
-    {
-        "nome": "Radici del Santuario",
-        "slug": "radici-del-santuario",
-        "azione_bonus": 1,
-        "contenuto": "<p>Quando lanci una spell puoi creare un'area di 15ft fino al prossimo turno. In quest' area:</p>\n<p>-Tu e i tuoi alleati avete mezza copertura (+2 a Difesa)</p>\n<p>-Un nemico che inizia il proprio turno nell'area subisce 2 danni da veleno per livello incantesimo lanciato.</p>"
-    },
-    {
-        "nome": "Occhio della Foresta",
-        "slug": "occhio-della-foresta",
-        "reazione": 1,
-        "contenuto": "Quando una creatura grande quanto te entro 5ft da te ne attacca un'altra (non te) puoi usare una reazione per intrappolarla con delle liane. Chi è intrappolato ha svantaggio ad attaccare."
-    },
-    {
-        "nome": "Occhi della Foresta",
-        "slug": "occhi-della-foresta",
-        "contenuto": "<p>- Quando colpisci una creatura usando un attacco di opportunità, la sua velocità diventa 0ft per 1 turno.</p>\n<p>- I nemici causano attacchi di opportunità anche se usano Disengage.</p>"
-    },
-    {
-        "nome": "Mimetismo Glommitico",
-        "slug": "mimetismo-glommitico",
-        "contenuto": "<p>Se sei in una foresta o circondato da alberi non puoi essere visto.</p>\n<p>Se una creatura ha True Sight può vederti.</p>"
-    },
-    {
-        "nome": "Mazzone",
-        "slug": "mazzone",
-        "contenuto": "Sradichi 2 alberi dal terreno per usarli come armi che si sgretolano se colpite in difesa e durano 3 colpi. Puoi craftare qualsiasi arma, ma dipende da quanto grande è la fonte."
-    },
-    {
-        "nome": "Poison Gas",
-        "slug": "poison-gas-witchglaive",
-        "durata": "Concentrazione, fino a 10 minuti",
-        "contenuto": "La <a href=\"../pagine/pagina.html?file=oggetti&slug=witch-glaive\">Witch Glaive</a> genera un'area di 15ft attorno a te che causa 1d6 danni velenosi ogni turno. La <a href=\"../pagine/pagina.html?file=oggetti&slug=witch-glaive\">Witch Glaive</a> genera delle bombe su di se che puoi staccare per lanciare addosso all'avversario. Ogni 24 ore puoi tirare un 1d6 per la quantità di bombe da usare 1 per fight. Le bombe generano un'area di 15 ft che si espande ad ogni turno per 4 turni, e causa 1d6 danni velenosi per turno se non si supera un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>."
-    },
-    {
-        "nome": "Vile Blast",
-        "slug": "vile-blast-witchglaive",
-        "immagine": "",
-        "contenuto": "<p>Quando attacchi con la <a href=\"../pagine/pagina.html?file=oggetti&slug=witch-glaive\">Witch Glaive</a> puoi far uscire dell'acido da tutte le bombe, il bersaglio deve fare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>.</p>\n<li><p>Non passato: subisce 6d6 danni da acido e tolgono 1 al tiro <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e al COS save per tutto il prossimo turno.</p>\n<li><p>Passato: subisce 3d4 danni da acido</p>"
-    },
-    {
-        "nome": "A me gli Occhi",
-        "slug": "a-me-gli-occhi",
-        "durata": "1 minuto",
-        "contenuto": "Puoi incutere timore nei non morti. Questi devono superare un WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> oppure usare un turno per scappare il più possibile da te"
-    },
-    {
-        "nome": "Pharaonic Sanctuary",
-        "slug": "pharaonic-sanctuary",
-        "durata": "1 minuto",
-        "contenuto": "<p>Crei una piramide che ha un aura con raggio 30 ft e può grantare uno di questi due effetti a ogni creatura (incluso te)</p>\n<p>1)Ogni creatura viene curata da fear/charm.</p>\n<p>2)Ogni creatura guadagna 1d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita temporanei fino quando è nella zona interessata</p>"
-    },
-    {
-        "nome": "Harness Slurping Power",
-        "slug": "harness-slurping-power",
-        "azione_bonus": 1,
-        "durata": "10 minuti",
-        "contenuto": "Puoi ottenere un numero di Slot Incantesimi pari a metà del tuo Proficiency Bonus (approssimato per eccesso)."
-    },
-    {
-        "nome": "Eyes of Doom",
-        "slug": "eyes-of-doom",
-        "durata": "10 minuti",
-        "contenuto": "Ottieni Scurovisione per 300 ft. Come azione, puoi donare la scurovisione condividendola fino ad un massimo di 3 creature consenzienti."
-    },
-    {
-        "nome": "Aura dei Caduti",
-        "slug": "aura-dei-caduti",
-        "immagine": "",
-        "contenuto": "<p>Quando scendi sotto i 13 punti ferita, le tue bende iniziano a cadere, rivelando un cadavere ormai mummificato; queste iniziano a sembrare delle ombre, espandendosi fino a 15ft da te. A quel punto:</p>\n<li><p>I tuoi alleati entro 15ft ottengono vantaggio sui DEX save.</p>\n<li><p>IL raggio di Pharaonic Sanctuary viene aumentato di 5ft.</p>"
-    },
-    {
-        "nome": "Vendetta Sepolta",
-        "slug": "vendetta-sepolta",
-        "contenuto": "Mentre è attivo <a href=\"../pagine/pagina.html?file=abilita&slug=aura-dei-caduti\">Aura dei Caduti</a> ed un alleato entro 15ft colpisce un nemico di media dimensione, puoi usare le bende per farlo cadere prono."
-    },
-    {
-        "nome": "Brutalità Insetta",
-        "slug": "brutalita-insetta",
-        "durata": "1 turno",
-        "contenuto": "Muti le tue appendici in quelle di un insetto e colpisci una creatura entro 5ft. Al termine torni normale."
-    },
-    {
-        "nome": "Harmonic Repopulation",
-        "slug": "harmonic-repopulation",
-        "contenuto": "<p>Quando colpisci puoi usare <a href=\"../pagine/pagina.html?file=incantesimi&slug=infestation\">Infestation</a> come azione bonus, ma invece di far muovere il bersaglio puoi aggiungere gli insetti vicini a te alla tua popolazione:</p>\n<p> Guadagni 1d6 punti popolazione. Non puoi eccedere il limite massimo.</p>"
-    },
-    {
-        "nome": "Boom Boom Boom",
-        "slug": "boom-boom-boom",
-        "durata": "Concentrazione, fino a 1 minuto",
-        "range": "30 ft",
-        "contenuto": "Usando la Tiny Bug Spear puoi dirigere i tuoi insetti per farli cantare. Infliggi danni psichici pari a: WIS + COS + 4 ad ogni nemico che ti può sentire entro 30 ft. Il bersaglio può dimezzare il danno se supera un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>."
-    },
-    {
-        "nome": "Popolazione",
-        "slug": "popolazione",
-        "contenuto": "<p>Puoi usare i tuoi insetti per compiere queste azioni:</p>\n<p>-Pestilenza (1 punto): una creatura entro 30ft deve superare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per non subire 1d4 danni psichici ed avere svantaggio ad Attacco e <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> fino al suo prossimo turno;</p>\n<p>-Sciamata (2 punti): una creatura entro 30ft deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare 2d12+7 danni psichici;</p>\n<p>-Armatura di insetti (3 punti): guadagni 5 * modificatore COS punti ferita temporanei.</p>\n<p>-Forza Mostruosa (2 punti): quando fai un attacco melee puoi aggiungere 2 al tiro per attaccare e al danno.</p>"
-    },
-    {
-        "nome": "Richiamo degli Insetti",
-        "slug": "richiamo-degli-insetti",
-        "contenuto": "<p>Puoi chiamare a te 1 tra le seguenti creature che agiranno subito dopo di te:</p>\n<li><p> 1 <a href=\"../pagine/pagina.html?file=creature&slug=birillo\">Birillo</a>;</p>\n<li><p>- 2 Giant Spider;</p>\n<li><p>- 3 Riccardo;</p>\n<li><p>- 4 Elton.</p>"
-    },
-    {
-        "nome": "Forma Insetta",
-        "slug": "forma-insetta",
-        "contenuto": "<p>Sviluppi un legame profondo con i suoi insetti e puoi usare questo legame per fonderti ed ottenere 4 nuove forme:<li></p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=modalita-riccardo\">Modalità Riccardo</a> (3 volte per settimana)</p>\n<p><li><a href=\"../pagine/pagina.html?file=abilita&slug=modalita-birillo\">Modalità Birillo</a> (1 volta per settimana)</p>\n<p><li>Modalità Ragno (2 volte per settimana)</p>\n<p><li>Modalità Elton (4 volte a settimana)</p>\n<p>Una voltà fusa con l'insetto scelto esso non potrà essere richiamato per una settimana.</p>\n<p>Serve 1 punto insetto per fondersi e la forma può finire una volta che:</p>\n<p>1) Si finiscono i punti insetto</p>\n<p>2) Si scende a 0 punti ferita</p>\n<p>3) Si cade sotto un controllo mentale</p>\n<p>4) Discrezione dei master.</p></li>"
-    },
-    {
-        "nome": "Modalità Birillo",
-        "slug": "modalita-birillo",
-        "contenuto": "<p>Una volta che entri in forma <a href=\"../pagine/pagina.html?file=creature&slug=birillo\">Birillo</a>:</p>\n<li><p>Aumenti i tuoi punti ferita di 20 punti</p>\n<li><p>Diventi immune al veleno</p>\n<li><p>Ottieni la reazione: Parry</p>\n<li><p>Sblocchi morso e acid spray</p>\n<li><p>Ottieni +2 a <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e +2 ai COS save</p>\n<li><p>Dimezzi la tua velocità di movimento</p>\n<li><p> -3 ad attaccare</p>"
-    },
-    {
-        "nome": "Modalità Riccardo",
-        "slug": "modalita-riccardo",
-        "contenuto": "<p>Una volta che entri in forma Riccardo ottieni:</p>\n<li><p>Aumenti la propriatua velocità di 40ft per movimento</p>\n<li><p>Ottieni +2 ad inziativa</p>\n<li><p>Ottieni <a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a></p>\n<li><p>Puoi volare per brevi distanze</p>\n<li><p>Ottieni dei pungiglioni velenosi</p>\n<li><p> -2 su FOR save, <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e perdi 1d6 punti ferita</p>\n<li><p>Perdi <a href=\"../pagine/pagina.html?file=abilita&slug=brutalita-insetta\">Brutalità Insetta</a> ed <a href=\"../pagine/pagina.html?file=incantesimi&slug=infestation\">Infestation</a>."
-    },
-    {
-        "nome": "Crawling Sensation",
-        "slug": "crawling-sensation",
-        "durata": "1 turno per modificatore WIS",
-        "contenuto": "Puoi spendere da 1 a 5 Punti Popolazione durante un attacco. Il bersaglio deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o essere infestato. Se il bersaglio è infestato, subisce 1d8 danni perforanti per Punto Popolazione, ha svantaggio su COS save, COS check e attacco."
-    },
-    {
-        "nome": "Forza Insetta",
-        "slug": "forza-insetta",
-        "contenuto": "<p>Usando 1 Punto Popolazione puoi raddoppiare la tua velocità.</p>\n<p>Usando 2 Punti Popolazione puoi aggiungere 2 al prossimo tiro per attaccare e al danno.</p>"
-    },
-    {
-        "nome": "Decompositore",
-        "slug": "decompositore",
-        "contenuto": "Sei resistente ai danni psichici ed ogni creatura colpita da un tuo incantesimo che fa danni psichici subisce 1d4 danni aggiuntivi per ogni dado di danno."
-    },
-    {
-        "nome": "Dodge",
-        "slug": "dodge",
-        "reazione": 1,
-        "contenuto": "Puoi toglieri di mezzo velocemente e dimezzare il danno subito."
-    },
-    {
-        "nome": "Parry",
-        "slug": "parry",
-        "reazione": 1,
-        "contenuto": "Puoi parare un attacco e dimezzare il danno subito per te e per chiunque entro 5ft."
-    },
-    {
-        "nome": "Dash",
-        "slug": "dash",
-        "durata": "1 turno",
-        "contenuto": "Puoi raddoppiare la tua velocità."
-    },
-    {
-        "nome": "Eroi, combattenti di Mordor!",
-        "slug": "eroi-combattenti-di-mordor",
-        "contenuto": "<p>Usando un azione bonus, puoi ispirare i tuoi alleati.</p>\n<p>Una volta per turno, entro 60ft, una creatura a tua scelta (che sia visibile) può aggiungere 1d8 a:</p>\n<li><p>Un Attacco</p>\n<li><p>Un Ability check</p>\n<li><p>Un Save (eccetto per riprendersi dopo aver perso i sensi)</p>\n<p>Una creatura che usa una magia che è stata ispirata può decidere di aggiungere il d8 come danno magico, o come cura ulteriore.</p>\n<p>Puoi usare questa abilità un numero di volte pari al tuo CAR mod per long rest.</p>"
-    },
-    {
-        "nome": "Cavallo di Battaglia",
-        "slug": "cavallo-di-battaglia",
-        "contenuto": "Puoi aggiungere il tuo proficiency bonus a qualsiasi ability check."
-    },
-    {
-        "nome": "Song of Glom",
-        "slug": "song-of-glom",
-        "contenuto": "Usando le tue doti canore, puoi far guadagnare a qualsiasi alleato (o te stesso) che possa sentire la tua performance un extra 1d6 punti ferita."
-    },
-    {
-        "nome": "Hogwarts Academy",
-        "slug": "hogwarts-academy",
-        "contenuto": "Puoi creare fino a 4 luci di una forma che ricordi una torcia o delle sfere fino a 60ft visibili da te. Le sfere creano luce per 10ft. Se una luce è più lontana da un altra di 20 ft, svanisce. Puoi combinarle per una luce più forte."
-    },
-    {
-        "nome": "I Believe I can Fly",
-        "slug": "i-believe-i-can-fly",
-        "contenuto": "<p>Puoi far spuntare delle ali dal tuo cavallo e aumentare la tua velocità di 5ft mentre sei in volo.</p>\n<p>Non puoi supportare più persone e non puoi fare lunghi tragitti."
-    },
-    {
-        "nome": "Unlimited...?",
-        "slug": "unlimited",
-        "durata": "1 settimana",
-        "contenuto": "<p>Puoi imparare a congiurare momentaneamente delle armi. Per congiurarle devi fare un WIS check DC 10 +:</p>\n<li><p>5 se sono rare</p>\n<li><p>7 se sono molto rare</p>\n<li><p>30 per leggendarie</p>"
-    },
-    {
-        "nome": "Cutting Glom",
-        "slug": "cutting-glom",
-        "reazione": 1,
-        "contenuto": "Quando una creatura visibile entro 60 ft da te fa un Attacco o un Ability check puoi decidere di rimuovere 1d6 dal danno, dal tiro di Attacco o dal Check."
-    },
-    {
-        "nome":"Icereign Blood",
-        "slug":"icereign-blood",
-        "contenuto":"Ottieni resistenza ai danni da freddo quando impugni la <a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a> a due mani."
-    },
-    {
-        "nome":"Sneak Attack",
-        "slug":"sneak-attack",
-        "contenuto":"Una volta per turno puoi infliggere 1d6 danni extra a una creatura che colpisci, questo se hai vantaggio sul <a href=\"../pagine/pagina.html?file=regole&slug=tiro-per-colpire\">tiro per colpire</a>."
-    },
-    {
-        "nome":"Second Wind",
-        "slug":"second-wind",
-        "azione_bonus": 1,
-        "contenuto":"Puoi usare un'azione bonus per recuperare 1d10 + il tuo livello da guerriero punti ferita. Puoi utilizzarlo una volta per <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a> o <a href=\"../pagine/pagina.html?file=regole&slug=riposo-lungo\">Riposo Lungo</a>."
-    },
-    {
-        "nome":"Action Surge",
-        "slug":"action-surge",
-        "contenuto":"Una volta per <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a> o <a href=\"../pagine/pagina.html?file=regole&slug=riposo-lungo\">Riposo Lungo</a> puoi usare quest'abilità per guadagnare un'azione extra"
-    },
-    {
-        "nome":"Extra Attack",
-        "slug":"extra-attack",
-        "contenuto":"Puoi compiere 2 <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attacchi</a> invece che 1."
-    },
-    {
-        "nome":"Concentrazione Vitale",
-        "slug":"concentrazione-vitale",
-        "durata":"Concentrazione",
-        "contenuto":"Ad ogni <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a>, scegli un tipo di creatura qualsiasi che non sia un abitante dell'<a href=\"../pagine/pagina.html?file=geografia&slug=impero\">Impero</a>. Finchè mantieni la tua concentrazione su queste creature hai vantaggio su Furtività e Percezione contro di loro"
-    },
-    {
-        "nome":"Marchio di In Vernus",
-        "slug":"marchio-di-in-vernus",
-        "azione_bonus":1,
-        "durata":"1 minuto",
-        "contenuto":"<p>Usi un azione bonus per gelare la tua arma e marchiare una creatura a tua scelta per un azione. Per 1 minuto da quando viene colpita, i tuoi attacchi guadagnano 1d6 danni aggiuntivi e riduci i suoi movimenti di 10 ft.</p>\n<p> Ogni turno può fare un COS save DC 15 per annullare il marchio, se è una creatura col tuo focus ha svantaggio al save.</p>"
-    },
-    {
-        "nome":"Lupo Solitario",
-        "slug":"lupo-solitario",
-        "contenuto":"<p>Quando la <a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a> è sguainata e la impugni a due mani, guadagni la possibilità di castare <a href=\"../pagine/pagina.html?file=abilita&slug=ice-storm\">Ice Storm</a> oppure <a href=\"../pagine/pagina.html?file=abilita&slug=steel-wind-strike\">Colpo Fulmineo</a>, ma ritorni a usarla a una mano subito dopo per la fatica.</p>\n<p>Questo fino ad un <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a> per <a href=\"../pagine/pagina.html?file=incantesimi&slug=ice-storm\">Ice Storm</a>, mentre <a href=\"../pagine/pagina.html?file=incantesimi&slug=steel-wind-strike\">Colpo Fulmineo</a> ti rende incapacitato in battaglia (non riesci a usare un'arma fino ad un <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a>).</p>"
-    },
-    {
-        "nome":"Imposizione Gelata",
-        "slug":"imposizione-gelata",
-        "reazione":1,
-        "contenuto":"<strong>Con scudo:</strong> Quando una creatura che puoi vedere entro 5 ft da te sta venendo attaccata puoi difenderla con lo scudo: svantaggio su <a href=\"../pagine/pagina.html?file=regole&slug=tiro-per-colpire\">tiro per colpire</a> del nemico sulla creatura."
-    },
-    {
-        "nome":"Scudo Imperiale",
-        "slug":"scudo-imperiale",
-        "reazione":1,
-        "durata":"6 turni",
-        "contenuto":"Quando una creatura che puoi vedere ti colpisce e fa danno con un arma, puoi rispondere usando 1 carica di Scudo Imperiale Invernus, rispondendo con 2d4 danni e assorbendo questi 2d4 come armatura di ghiaccio per 6 turni"
-    },
-    {
-        "nome":"Il Lavoro di Dexter",
-        "slug":"il-lavoro-di-dexter",
-        "contenuto":"Ad ogni <a href=\"../pagine/pagina.html?file=regole&slug=riposo-lungo\">Riposo Lungo</a> puoi cambiarne le proprietà delle <a href=\"../pagine/pagina.html?file=oggetti&slug=capsule\">capsule</a> e attaccarle alla tua armatura da infiltratore, hai anche vantaggio sulle prove di Furtività."
-    },
-    {
-        "nome":"Infusioni",
-        "slug":"infusioni",
-        "contenuto":"Puoi infondere la magia in degli oggetti per creare i seguenti equipaggiamenti: Winding boots, Homunculus, Arma incantata, Spell refueling ring."
-    },
-    {
-        "nome":"Ferocia Preistorica",
-        "slug":"ferocia-preistorica",
-        "contenuto":"Mentre sei trasformato hai +5 al danno inferto. Se al danno esce 1 o 2, devi tirare nuovamente."
-    },
-    {
-        "nome":"Paleontologo, io?",
-        "slug":"paleontologo-io",
-        "durata":"Concentrazione, 1 minuto",
-        "contenuto":"Spendi 1 minuto per ottenere 1 trasformazione."
-    },
-    {
-        "nome":"Jurassik Park",
-        "slug":"jurassic-park",
-        "azione_bonus":1,
-        "contenuto":"Puoi trasformarti in un dinosauro. Durante la trasformazione si sente in sottofondo: This Animal I Have Become."
-    },
-    {
-        "nome":"Primal Savagery",
-        "slug":"primal-savagery",
-        "contenuto":"Cedi agli istinti predatori, i tuoi denti crescono e spuntano degli artigli. Attacchi una creatura entro 5ft."
-    },
-    {
-        "nome": "Wild Glom Surge",
-        "slug": "wild-glom-surge",
-        "contenuto": "Tira 1d20, se esce da 1 a 5, tira 1d20 e 1d100 su Wild Glom Table per scoprire l'effetto."
-    },
-    {
-        "nome": "Sovraccarico di Slurp",
-        "slug": "sovraccarico-di-slurp",
-        "contenuto": "<p>Dopo il lancio di un incantesimo o dopo un ability check, il Master può decidere di far attivare il <a href=\"../pagine/pagine.html?file=abilita&slug=wild-glom-surge\">Wild Glom Surge</a>.</p>\n<p>Si può tirare su Wild Glom Table per ripristinare un utilizzo di un incantesimo/abilità.</p>"
-    },
-    {
-        "nome": "Non Gioco a Dadi col Destino",
-        "slug": "non-gioco-a-dadi-col-destino",
-        "azione_bonus": 1,
-        "contenuto": "Puoi tirare nuovamente un tiro d'attacco o tiro salvezza non andato a buon fine come azione bonus."
-    },
-    {
-        "nome": "Guida di Glomphar",
-        "slug": "guida-di-glomphar",
-        "contenuto": "Puoi ritirare 1 ability check utilizzando il nuovo tiro."
-    },
-    {
-        "nome": "Bluff",
-        "slug": "bluff",
-        "contenuto": "<p>Quando cadi a 0 punti ferita guadagni 1d4 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita temporanei.</p>\n<p>Ha un utilizzo per <a href=\"../pagine/pagina.html?file=regole&slug=long-rest\">Long Rest</a>.</p>"
-    },
-    {
-        "nome": "Benedizione di Miscelius",
-        "slug": "benedizione-di-miscelius",
-        "reazione": 1,
-        "contenuto": "<p>Puoi avere vantaggio su attacco, ability check o tiro salvezza..</p>"
-    },
-    {
-        "nome": "Baro al Tavolo",
-        "slug": "baro-al-tavolo",
-        "reazione": 1,
-        "contenuto": "Puoi aggiungere o sottrarre 1d10 ad un tiro per attaccare, un ability check o tiro salvezza di una creatura che vedi entro 60ft."
-    },
-    {
-        "nome": "Tiro Fortunato",
-        "slug": "tiro-fortunato",
-        "reazione": 1,
-        "contenuto": "Quando una creatura fa un attacco, un check o save puoi aggiungere o sottrarre 1d4 al tiro."
-    },
-    
-    {
-        "nome":"Weapon Conjured",
-        "slug":"weapon-conjured",
-        "contenuto":"Ricrea una spada illusoria basata su una spada leggendaria che un tempo vedesti."
-    },
-    {
-        "nome":"Dexter's Sleep",
-        "slug":"dexters-sleep",
-        "contenuto":"<p>Colpo singolo del fucile semiautomatico:</p>\n<li><p> 1 Azione per sparare</p>\n<li><p> 1 Azione per inserire un altro proiettile</p>\n<li><p> Full Round Action per ricaricare tutto il fucile</p>\n<p> Ogni due colpi andati a segno si attva <a href=\"../pagine/pagina.html?file=abilita&slug=sleep-well\">Sleep Well</a>. Distanza massima tra un proiettile e l'altro: 2 turni."
-    },
-    {
-        "nome":"Sleep Well",
-        "slug":"sleep-well",
-        "contenuto":"COS save DC 18 oppure il bersaglio si addormenta."
-    }
+  {
+    "nome": "Percezione del Magico",
+    "slug": "percezione-del-magico",
+    "contenuto": "Puoi percepire la magia, la visione è come una vista termica."
+  },
+  {
+    "nome": "Cig Master",
+    "slug": "cig-master",
+    "contenuto": "<p>Puoi usare tre effetti bonus fumando una sigaretta</p>\n<p>1)Tira altri 1 colpo</p>\n<p>2)Può Usare <a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a> come reazione</p>\n<p>3)Può usare <a href=\"../pagine/pagina.html?file=abilita&slug=dash\">Dash</a> o <a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a></p>"
+  },
+  {
+    "nome": "Spallata",
+    "slug": "spallata",
+    "contenuto": "Puoi caricare un nemico a 10ft da te, in questo modo aggiungi 5 danni al tuo attacco. Se l'attacco è andato a buon fine il nemico è spinto di 10ft indietro."
+  },
+  {
+    "nome": "Way of the smoking lung: Catch",
+    "slug": "way-of-the-smoking-lung-catch",
+    "contenuto": "<p>Crei una nuvola di fumo usando 2 punti ki intorno a te. Puoi scegliere allora uno dei seguenti effetti:</p>\n<li><p>Lingering energy: La nuvola infligge danno pari a 1d4 ogni turno ad ogni creatura tranne te</p>\n<li><p>Purple Haze: La nuvola diventa terreno difficile per ogni creatura entro 15 ft da te tranne te.</p>\n<li><p>Puoi creare un illusione maggiore come Silent Image nella nuvola, ma ogni nemico che ci interagisce fisicamente capisce che è falsa.</p>"
+  },
+  {
+    "nome": "Quickened Healing",
+    "slug": "quickened-healing",
+    "contenuto": "Puoi usare 2 punti ki per curare te stessa di 1d4 + DEX punti ferita."
+  },
+  {
+    "nome": "Lingering Smoke",
+    "slug": "lingering-smoke",
+    "contenuto": "<p>La tua capacità di manipolare il fumo migliora, permettendoti di colpire nemici a distanza. Durante il tuo turno, puoi spendere 1 punto Ki (senza usare un'<a href=\"../pagine/pagina.html?file=regole&slug=azioni\">azione</a>) per conferire ai tuoi pugni la proprietà Reach (5 ft di reach in più sui colpi) fino all'inizio del tuo turno successivo. Vale anche come proprietà quando fumi una sigaretta per flurry of blows.</p>\n<p> Quando colpisci una creatura, puoi costringerla a superare un tiro salvezza di Forza DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o essere attratta fino a 10ft verso di te.</p>\n<p> Inoltre, durante questo periodo puoi effettuare colpi a mani nude da una nube di fumo creata con Mystic Smoke. Questi attacchi possono colpire qualsiasi creatura entro 5 ft. dalla nube. Se usi questa capacità per attrarre il bersaglio dalla nube, viene spostato verso il centro della nube invece che verso di te.</p>"
+  },
+  {
+    "nome": "Deflect",
+    "slug": "deflect",
+    "reazione": 1,
+    "contenuto": "Puoi ridurre il danno ricevuto da un proiettile di 1d10 + DEX + 6, se il danno è ridotto a 0 puoi rilanciare il proiettile al mittente."
+  },
+  {
+    "nome": "Skyfall",
+    "slug": "skyfall",
+    "reazione": 1,
+    "contenuto": "Puoi ridurre il danno da caduta di 5 * lvl da monaco."
+  },
+  {
+    "nome": "Scurovisione",
+    "slug": "scurovisione",
+    "contenuto": "Puoi vedere nell'oscurità non magica per 30ft. La visione è in bianco e nero."
+  },
+  {
+    "nome": "Kamehameha Glommitica",
+    "slug": "kamehameha-glommitica",
+    "durata": "Full Round Action",
+    "contenuto": "<p>Incanala tutta l'energia assorbita da <a href=\"../pagine/pagina.html?file=incantesimi&slug=aura-glommitica\">Aura Glommitica</a> per creare un onda energetica.</p>\n<p>Per ogni persona curata aggiunge 1d6+ <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> al danno della kamehameha, il danno è danno da forza. DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare.</p>"
+  },
+  {
+    "nome": "Liana Gay",
+    "slug": "liana-gay",
+    "durata": "1 minuto",
+    "azione_bonus": 1,
+    "contenuto": "Una creatura entro 20ft deve superare un FOR save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>, altrimenti è intrappolata. Mentre la creatura è intrappolata puoi usare un'<a href=\"../pagine/pagina.html?file=regole&slug=azioni\">azione</a> per infliggere 1d8 danni contundenti. L'effetto termina se il bersaglio subisce danni da fuoco."
+  },
+  {
+    "nome": "Radici del Santuario",
+    "slug": "radici-del-santuario",
+    "azione_bonus": 1,
+    "contenuto": "<p>Quando lanci una spell puoi creare un'area di 15ft fino al prossimo turno. In quest' area:</p>\n<p>-Tu e i tuoi alleati avete mezza copertura (+2 a Difesa)</p>\n<p>-Un nemico che inizia il proprio turno nell'area subisce 2 danni da veleno per livello incantesimo lanciato.</p>"
+  },
+  {
+    "nome": "Occhio della Foresta",
+    "slug": "occhio-della-foresta",
+    "reazione": 1,
+    "contenuto": "Quando una creatura grande quanto te entro 5ft da te ne attacca un'altra (non te) puoi usare una reazione per intrappolarla con delle liane. Chi è intrappolato ha svantaggio ad attaccare."
+  },
+  {
+    "nome": "Occhi della Foresta",
+    "slug": "occhi-della-foresta",
+    "contenuto": "<p>- Quando colpisci una creatura usando un attacco di opportunità, la sua velocità diventa 0ft per 1 turno.</p>\n<p>- I nemici causano attacchi di opportunità anche se usano Disengage.</p>"
+  },
+  {
+    "nome": "Mimetismo Glommitico",
+    "slug": "mimetismo-glommitico",
+    "contenuto": "<p>Se sei in una foresta o circondato da alberi non puoi essere visto.</p>\n<p>Se una creatura ha True Sight può vederti.</p>"
+  },
+  {
+    "nome": "Mazzone",
+    "slug": "mazzone",
+    "contenuto": "Sradichi 2 alberi dal terreno per usarli come armi che si sgretolano se colpite in difesa e durano 3 colpi. Puoi craftare qualsiasi arma, ma dipende da quanto grande è la fonte."
+  },
+  {
+    "nome": "Poison Gas",
+    "slug": "poison-gas-witchglaive",
+    "durata": "Concentrazione, fino a 10 minuti",
+    "contenuto": "La <a href=\"../pagine/pagina.html?file=oggetti&slug=witch-glaive\">Witch Glaive</a> genera un'area di 15ft attorno a te che causa 1d6 danni velenosi ogni turno. La <a href=\"../pagine/pagina.html?file=oggetti&slug=witch-glaive\">Witch Glaive</a> genera delle bombe su di se che puoi staccare per lanciare addosso all'avversario. Ogni 24 ore puoi tirare un 1d6 per la quantità di bombe da usare 1 per fight. Le bombe generano un'area di 15 ft che si espande ad ogni turno per 4 turni, e causa 1d6 danni velenosi per turno se non si supera un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>."
+  },
+  {
+    "nome": "Vile Blast",
+    "slug": "vile-blast-witchglaive",
+    "immagine": "",
+    "contenuto": "<p>Quando attacchi con la <a href=\"../pagine/pagina.html?file=oggetti&slug=witch-glaive\">Witch Glaive</a> puoi far uscire dell'acido da tutte le bombe, il bersaglio deve fare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>.</p>\n<li><p>Non passato: subisce 6d6 danni da acido e tolgono 1 al tiro <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e al COS save per tutto il prossimo turno.</p>\n<li><p>Passato: subisce 3d4 danni da acido</p>"
+  },
+  {
+    "nome": "A me gli Occhi",
+    "slug": "a-me-gli-occhi",
+    "durata": "1 minuto",
+    "contenuto": "Puoi incutere timore nei non morti. Questi devono superare un WIS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> oppure usare un turno per scappare il più possibile da te"
+  },
+  {
+    "nome": "Pharaonic Sanctuary",
+    "slug": "pharaonic-sanctuary",
+    "durata": "1 minuto",
+    "contenuto": "<p>Crei una piramide che ha un aura con raggio 30 ft e può grantare uno di questi due effetti a ogni creatura (incluso te)</p>\n<p>1)Ogni creatura viene curata da fear/charm.</p>\n<p>2)Ogni creatura guadagna 1d6 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita temporanei fino quando è nella zona interessata</p>"
+  },
+  {
+    "nome": "Harness Slurping Power",
+    "slug": "harness-slurping-power",
+    "azione_bonus": 1,
+    "durata": "10 minuti",
+    "contenuto": "Puoi ottenere un numero di Slot Incantesimi pari a metà del tuo Proficiency Bonus (approssimato per eccesso)."
+  },
+  {
+    "nome": "Eyes of Doom",
+    "slug": "eyes-of-doom",
+    "durata": "10 minuti",
+    "contenuto": "Ottieni Scurovisione per 300 ft. Come <a href=\"../pagine/pagina.html?file=regole&slug=azioni\">azione</a>, puoi donare la scurovisione condividendola fino ad un massimo di 3 creature consenzienti."
+  },
+  {
+    "nome": "Aura dei Caduti",
+    "slug": "aura-dei-caduti",
+    "immagine": "",
+    "contenuto": "<p>Quando scendi sotto i 13 punti ferita, le tue bende iniziano a cadere, rivelando un cadavere ormai mummificato; queste iniziano a sembrare delle ombre, espandendosi fino a 15ft da te. A quel punto:</p>\n<li><p>I tuoi alleati entro 15ft ottengono vantaggio sui DEX save.</p>\n<li><p>IL raggio di Pharaonic Sanctuary viene aumentato di 5ft.</p>"
+  },
+  {
+    "nome": "Vendetta Sepolta",
+    "slug": "vendetta-sepolta",
+    "contenuto": "Mentre è attivo <a href=\"../pagine/pagina.html?file=abilita&slug=aura-dei-caduti\">Aura dei Caduti</a> ed un alleato entro 15ft colpisce un nemico di media dimensione, puoi usare le bende per farlo cadere prono."
+  },
+  {
+    "nome": "Brutalità Insetta",
+    "slug": "brutalita-insetta",
+    "durata": "1 turno",
+    "contenuto": "Muti le tue appendici in quelle di un insetto e colpisci una creatura entro 5ft. Al termine torni normale."
+  },
+  {
+    "nome": "Harmonic Repopulation",
+    "slug": "harmonic-repopulation",
+    "contenuto": "<p>Quando colpisci puoi usare <a href=\"../pagine/pagina.html?file=incantesimi&slug=infestation\">Infestation</a> come azione bonus, ma invece di far muovere il bersaglio puoi aggiungere gli insetti vicini a te alla tua popolazione:</p>\n<p> Guadagni 1d6 punti popolazione. Non puoi eccedere il limite massimo.</p>"
+  },
+  {
+    "nome": "Boom Boom Boom",
+    "slug": "boom-boom-boom",
+    "durata": "Concentrazione, fino a 1 minuto",
+    "range": "30 ft",
+    "contenuto": "Usando la Tiny Bug Spear puoi dirigere i tuoi insetti per farli cantare. Infliggi danni psichici pari a: WIS + COS + 4 ad ogni nemico che ti può sentire entro 30 ft. Il bersaglio può dimezzare il danno se supera un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>."
+  },
+  {
+    "nome": "Popolazione",
+    "slug": "popolazione",
+    "contenuto": "<p>Puoi usare i tuoi insetti per compiere queste azioni:</p>\n<p>-Pestilenza (1 punto): una creatura entro 30ft deve superare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per non subire 1d4 danni psichici ed avere svantaggio ad Attacco e <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> fino al suo prossimo turno;</p>\n<p>-Sciamata (2 punti): una creatura entro 30ft deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per dimezzare 2d12+7 danni psichici;</p>\n<p>-Armatura di insetti (3 punti): guadagni 5 * modificatore COS punti ferita temporanei.</p>\n<p>-Forza Mostruosa (2 punti): quando fai un attacco melee puoi aggiungere 2 al tiro per attaccare e al danno.</p>"
+  },
+  {
+    "nome": "Richiamo degli Insetti",
+    "slug": "richiamo-degli-insetti",
+    "contenuto": "<p>Puoi chiamare a te 1 tra le seguenti creature che agiranno subito dopo di te:</p>\n<li><p> 1 <a href=\"../pagine/pagina.html?file=creature&slug=birillo\">Birillo</a>;</p>\n<li><p>- 2 Giant Spider;</p>\n<li><p>- 3 Riccardo;</p>\n<li><p>- 4 Elton.</p>"
+  },
+  {
+    "nome": "Forma Insetta",
+    "slug": "forma-insetta",
+    "contenuto": "<p>Sviluppi un legame profondo con i suoi insetti e puoi usare questo legame per fonderti ed ottenere 4 nuove forme:<li></p>\n<p><a href=\"../pagine/pagina.html?file=abilita&slug=modalita-riccardo\">Modalità Riccardo</a> (3 volte per settimana)</p>\n<p><li><a href=\"../pagine/pagina.html?file=abilita&slug=modalita-birillo\">Modalità Birillo</a> (1 volta per settimana)</p>\n<p><li>Modalità Ragno (2 volte per settimana)</p>\n<p><li>Modalità Elton (4 volte a settimana)</p>\n<p>Una voltà fusa con l'insetto scelto esso non potrà essere richiamato per una settimana.</p>\n<p>Serve 1 punto insetto per fondersi e la forma può finire una volta che:</p>\n<p>1) Si finiscono i punti insetto</p>\n<p>2) Si scende a 0 punti ferita</p>\n<p>3) Si cade sotto un controllo mentale</p>\n<p>4) Discrezione dei master.</p></li>"
+  },
+  {
+    "nome": "Modalità Birillo",
+    "slug": "modalita-birillo",
+    "contenuto": "<p>Una volta che entri in forma <a href=\"../pagine/pagina.html?file=creature&slug=birillo\">Birillo</a>:</p>\n<li><p>Aumenti i tuoi punti ferita di 20 punti</p>\n<li><p>Diventi immune al veleno</p>\n<li><p>Ottieni la reazione: Parry</p>\n<li><p>Sblocchi morso e acid spray</p>\n<li><p>Ottieni +2 a <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e +2 ai COS save</p>\n<li><p>Dimezzi la tua velocità di movimento</p>\n<li><p> -3 ad attaccare</p>"
+  },
+  {
+    "nome": "Modalità Riccardo",
+    "slug": "modalita-riccardo",
+    "contenuto": "<p>Una volta che entri in forma Riccardo ottieni:</p>\n<li><p>Aumenti la propriatua velocità di 40ft per movimento</p>\n<li><p>Ottieni +2 ad inziativa</p>\n<li><p>Ottieni <a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a></p>\n<li><p>Puoi volare per brevi distanze</p>\n<li><p>Ottieni dei pungiglioni velenosi</p>\n<li><p> -2 su FOR save, <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e perdi 1d6 punti ferita</p>\n<li><p>Perdi <a href=\"../pagine/pagina.html?file=abilita&slug=brutalita-insetta\">Brutalità Insetta</a> ed <a href=\"../pagine/pagina.html?file=incantesimi&slug=infestation\">Infestation</a>."
+  },
+  {
+    "nome": "Crawling Sensation",
+    "slug": "crawling-sensation",
+    "durata": "1 turno per modificatore WIS",
+    "contenuto": "Puoi spendere da 1 a 5 Punti Popolazione durante un attacco. Il bersaglio deve superare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> o essere infestato. Se il bersaglio è infestato, subisce 1d8 danni perforanti per Punto Popolazione, ha svantaggio su COS save, COS check e attacco."
+  },
+  {
+    "nome": "Forza Insetta",
+    "slug": "forza-insetta",
+    "contenuto": "<p>Usando 1 Punto Popolazione puoi raddoppiare la tua velocità.</p>\n<p>Usando 2 Punti Popolazione puoi aggiungere 2 al prossimo tiro per attaccare e al danno.</p>"
+  },
+  {
+    "nome": "Decompositore",
+    "slug": "decompositore",
+    "contenuto": "Sei resistente ai danni psichici ed ogni creatura colpita da un tuo incantesimo che fa danni psichici subisce 1d4 danni aggiuntivi per ogni dado di danno."
+  },
+  {
+    "nome": "Dodge",
+    "slug": "dodge",
+    "reazione": 1,
+    "contenuto": "Puoi toglieri di mezzo velocemente e dimezzare il danno subito."
+  },
+  {
+    "nome": "Parry",
+    "slug": "parry",
+    "reazione": 1,
+    "contenuto": "Puoi parare un attacco e dimezzare il danno subito per te e per chiunque entro 5ft."
+  },
+  {
+    "nome": "Dash",
+    "slug": "dash",
+    "durata": "1 turno",
+    "contenuto": "Puoi raddoppiare la tua velocità."
+  },
+  {
+    "nome": "Eroi, combattenti di Mordor!",
+    "slug": "eroi-combattenti-di-mordor",
+    "contenuto": "<p>Usando un'azione bonus, puoi ispirare i tuoi alleati.</p>\n<p>Una volta per turno, entro 60ft, una creatura a tua scelta (che sia visibile) può aggiungere 1d8 a:</p>\n<li><p>Un Attacco</p>\n<li><p>Un Ability check</p>\n<li><p>Un Save (eccetto per riprendersi dopo aver perso i sensi)</p>\n<p>Una creatura che usa una magia che è stata ispirata può decidere di aggiungere il d8 come danno magico, o come cura ulteriore.</p>\n<p>Puoi usare questa abilità un numero di volte pari al tuo CAR mod per long rest.</p>"
+  },
+  {
+    "nome": "Cavallo di Battaglia",
+    "slug": "cavallo-di-battaglia",
+    "contenuto": "Puoi aggiungere il tuo proficiency bonus a qualsiasi ability check."
+  },
+  {
+    "nome": "Song of Glom",
+    "slug": "song-of-glom",
+    "contenuto": "Usando le tue doti canore, puoi far guadagnare a qualsiasi alleato (o te stesso) che possa sentire la tua performance un extra 1d6 punti ferita."
+  },
+  {
+    "nome": "Hogwarts Academy",
+    "slug": "hogwarts-academy",
+    "contenuto": "Puoi creare fino a 4 luci di una forma che ricordi una torcia o delle sfere fino a 60ft visibili da te. Le sfere creano luce per 10ft. Se una luce è più lontana da un altra di 20 ft, svanisce. Puoi combinarle per una luce più forte."
+  },
+  {
+    "nome": "I Believe I can Fly",
+    "slug": "i-believe-i-can-fly",
+    "contenuto": "<p>Puoi far spuntare delle ali dal tuo cavallo e aumentare la tua velocità di 5ft mentre sei in volo.</p>\n<p>Non puoi supportare più persone e non puoi fare lunghi tragitti."
+  },
+  {
+    "nome": "Unlimited...?",
+    "slug": "unlimited",
+    "durata": "1 settimana",
+    "contenuto": "<p>Puoi imparare a congiurare momentaneamente delle armi. Per congiurarle devi fare un WIS check DC 10 +:</p>\n<li><p>5 se sono rare</p>\n<li><p>7 se sono molto rare</p>\n<li><p>30 per leggendarie</p>"
+  },
+  {
+    "nome": "Cutting Glom",
+    "slug": "cutting-glom",
+    "reazione": 1,
+    "contenuto": "Quando una creatura visibile entro 60 ft da te fa un Attacco o un Ability check puoi decidere di rimuovere 1d6 dal danno, dal tiro di Attacco o dal Check."
+  },
+  {
+    "nome": "Icereign Blood",
+    "slug": "icereign-blood",
+    "contenuto": "Ottieni resistenza ai danni da freddo quando impugni la <a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a> a due mani."
+  },
+  {
+    "nome": "Sneak Attack",
+    "slug": "sneak-attack",
+    "contenuto": "Una volta per turno puoi infliggere 1d6 danni extra a una creatura che colpisci, questo se hai vantaggio sul <a href=\"../pagine/pagina.html?file=regole&slug=tiro-per-colpire\">tiro per colpire</a>."
+  },
+  {
+    "nome": "Second Wind",
+    "slug": "second-wind",
+    "azione_bonus": 1,
+    "contenuto": "Puoi usare un'azione bonus per recuperare 1d10 + il tuo livello da guerriero punti ferita. Puoi utilizzarlo una volta per <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a> o <a href=\"../pagine/pagina.html?file=regole&slug=riposo-lungo\">Riposo Lungo</a>."
+  },
+  {
+    "nome": "Action Surge",
+    "slug": "action-surge",
+    "contenuto": "Una volta per <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a> o <a href=\"../pagine/pagina.html?file=regole&slug=riposo-lungo\">Riposo Lungo</a> puoi usare quest'abilità per guadagnare un'<a href=\"../pagine/pagina.html?file=regole&slug=azioni\">azione</a> extra"
+  },
+  {
+    "nome": "Extra Attack",
+    "slug": "extra-attack",
+    "contenuto": "Puoi compiere 2 <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attacchi</a> invece che 1."
+  },
+  {
+    "nome": "Concentrazione Vitale",
+    "slug": "concentrazione-vitale",
+    "durata": "Concentrazione",
+    "contenuto": "Ad ogni <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a>, scegli un tipo di creatura qualsiasi che non sia un abitante dell'<a href=\"../pagine/pagina.html?file=geografia&slug=impero\">Impero</a>. Finchè mantieni la tua concentrazione su queste creature hai vantaggio su Furtività e Percezione contro di loro"
+  },
+  {
+    "nome": "Marchio di In Vernus",
+    "slug": "marchio-di-in-vernus",
+    "azione_bonus": 1,
+    "durata": "1 minuto",
+    "contenuto": "<p>Usi un'azione bonus per gelare la tua arma e marchiare una creatura a tua scelta per un'<a href=\"../pagine/pagina.html?file=regole&slug=azioni\">azione</a>. Per 1 minuto da quando viene colpita, i tuoi attacchi guadagnano 1d6 danni aggiuntivi e riduci i suoi movimenti di 10 ft.</p>\n<p> Ogni turno può fare un COS save DC 15 per annullare il marchio, se è una creatura col tuo focus ha svantaggio al save.</p>"
+  },
+  {
+    "nome": "Lupo Solitario",
+    "slug": "lupo-solitario",
+    "contenuto": "<p>Quando la <a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a> è sguainata e la impugni a due mani, guadagni la possibilità di castare <a href=\"../pagine/pagina.html?file=abilita&slug=ice-storm\">Ice Storm</a> oppure <a href=\"../pagine/pagina.html?file=abilita&slug=steel-wind-strike\">Colpo Fulmineo</a>, ma ritorni a usarla a una mano subito dopo per la fatica.</p>\n<p>Questo fino ad un <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a> per <a href=\"../pagine/pagina.html?file=incantesimi&slug=ice-storm\">Ice Storm</a>, mentre <a href=\"../pagine/pagina.html?file=incantesimi&slug=steel-wind-strike\">Colpo Fulmineo</a> ti rende incapacitato in battaglia (non riesci a usare un'arma fino ad un <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a>).</p>"
+  },
+  {
+    "nome": "Imposizione Gelata",
+    "slug": "imposizione-gelata",
+    "reazione": 1,
+    "contenuto": "<strong>Con scudo:</strong> Quando una creatura che puoi vedere entro 5 ft da te sta venendo attaccata puoi difenderla con lo scudo: svantaggio su <a href=\"../pagine/pagina.html?file=regole&slug=tiro-per-colpire\">tiro per colpire</a> del nemico sulla creatura."
+  },
+  {
+    "nome": "Scudo Imperiale",
+    "slug": "scudo-imperiale",
+    "reazione": 1,
+    "durata": "6 turni",
+    "contenuto": "Quando una creatura che puoi vedere ti colpisce e fa danno con un arma, puoi rispondere usando 1 carica di Scudo Imperiale Invernus, rispondendo con 2d4 danni e assorbendo questi 2d4 come armatura di ghiaccio per 6 turni"
+  },
+  {
+    "nome": "Il Lavoro di Dexter",
+    "slug": "il-lavoro-di-dexter",
+    "contenuto": "Ad ogni <a href=\"../pagine/pagina.html?file=regole&slug=riposo-lungo\">Riposo Lungo</a> puoi cambiarne le proprietà delle <a href=\"../pagine/pagina.html?file=oggetti&slug=capsule\">capsule</a> e attaccarle alla tua armatura da infiltratore, hai anche vantaggio sulle prove di Furtività."
+  },
+  {
+    "nome": "Infusioni",
+    "slug": "infusioni",
+    "contenuto": "Puoi infondere la magia in degli oggetti per creare i seguenti equipaggiamenti: Winding boots, Homunculus, Arma incantata, Spell refueling ring."
+  },
+  {
+    "nome": "Ferocia Preistorica",
+    "slug": "ferocia-preistorica",
+    "contenuto": "Mentre sei trasformato hai +5 al danno inferto. Se al danno esce 1 o 2, devi tirare nuovamente."
+  },
+  {
+    "nome": "Paleontologo, io?",
+    "slug": "paleontologo-io",
+    "durata": "Concentrazione, 1 minuto",
+    "contenuto": "Spendi 1 minuto per ottenere 1 trasformazione."
+  },
+  {
+    "nome": "Jurassik Park",
+    "slug": "jurassic-park",
+    "azione_bonus": 1,
+    "contenuto": "Puoi trasformarti in un dinosauro. Durante la trasformazione si sente in sottofondo: This Animal I Have Become."
+  },
+  {
+    "nome": "Primal Savagery",
+    "slug": "primal-savagery",
+    "contenuto": "Cedi agli istinti predatori, i tuoi denti crescono e spuntano degli artigli. Attacchi una creatura entro 5ft."
+  },
+  {
+    "nome": "Wild Glom Surge",
+    "slug": "wild-glom-surge",
+    "contenuto": "Tira 1d20, se esce da 1 a 5, tira 1d20 e 1d100 su Wild Glom Table per scoprire l'effetto."
+  },
+  {
+    "nome": "Sovraccarico di Slurp",
+    "slug": "sovraccarico-di-slurp",
+    "contenuto": "<p>Dopo il lancio di un incantesimo o dopo un ability check, il Master può decidere di far attivare il <a href=\"../pagine/pagine.html?file=abilita&slug=wild-glom-surge\">Wild Glom Surge</a>.</p>\n<p>Si può tirare su Wild Glom Table per ripristinare un utilizzo di un incantesimo/abilità.</p>"
+  },
+  {
+    "nome": "Non Gioco a Dadi col Destino",
+    "slug": "non-gioco-a-dadi-col-destino",
+    "azione_bonus": 1,
+    "contenuto": "Puoi tirare nuovamente un tiro d'attacco o tiro salvezza non andato a buon fine come azione bonus."
+  },
+  {
+    "nome": "Guida di Glomphar",
+    "slug": "guida-di-glomphar",
+    "contenuto": "Puoi ritirare 1 ability check utilizzando il nuovo tiro."
+  },
+  {
+    "nome": "Bluff",
+    "slug": "bluff",
+    "contenuto": "<p>Quando cadi a 0 punti ferita guadagni 1d4 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> punti ferita temporanei.</p>\n<p>Ha un utilizzo per <a href=\"../pagine/pagina.html?file=regole&slug=long-rest\">Long Rest</a>.</p>"
+  },
+  {
+    "nome": "Benedizione di Miscelius",
+    "slug": "benedizione-di-miscelius",
+    "reazione": 1,
+    "contenuto": "<p>Puoi avere vantaggio su attacco, ability check o tiro salvezza..</p>"
+  },
+  {
+    "nome": "Baro al Tavolo",
+    "slug": "baro-al-tavolo",
+    "reazione": 1,
+    "contenuto": "Puoi aggiungere o sottrarre 1d10 ad un tiro per attaccare, un ability check o tiro salvezza di una creatura che vedi entro 60ft."
+  },
+  {
+    "nome": "Tiro Fortunato",
+    "slug": "tiro-fortunato",
+    "reazione": 1,
+    "contenuto": "Quando una creatura fa un attacco, un check o save puoi aggiungere o sottrarre 1d4 al tiro."
+  },
+
+  {
+    "nome": "Weapon Conjured",
+    "slug": "weapon-conjured",
+    "contenuto": "Ricrea una spada illusoria basata su una spada leggendaria che un tempo vedesti."
+  },
+  {
+    "nome": "Dexter's Sleep",
+    "slug": "dexters-sleep",
+    "contenuto": "<p>Colpo singolo del fucile semiautomatico:</p>\n<li><p> 1 <a href=\"../pagine/pagina.html?file=regole&slug=azioni\">Azione</a> per sparare</p>\n<li><p> 1 <a href=\"../pagine/pagina.html?file=regole&slug=azioni\">Azione</a> per inserire un altro proiettile</p>\n<li><p> Full Round Action per ricaricare tutto il fucile</p>\n<p> Ogni due colpi andati a segno si attva <a href=\"../pagine/pagina.html?file=abilita&slug=sleep-well\">Sleep Well</a>. Distanza massima tra un proiettile e l'altro: 2 turni."
+  },
+  {
+    "nome": "Sleep Well",
+    "slug": "sleep-well",
+    "contenuto": "COS save DC 18 oppure il bersaglio si addormenta."
+  }
 ]
