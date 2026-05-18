@@ -1,97 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Wiki di Chronicles of Glom</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/wiki_style.css"/>
-    <link rel="website icon" type="png" href="./images/Chronicles_logo.png"/>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/wiki_style.css" />
+    <link rel="website icon" type="png" href="./images/Chronicles_logo.png" />
+  </head>
 
-<body>
+  <body>
+    <header>
+      <div class="title">Chronicles Of Glom</div>
 
-<header>
-    <div class="title">Chronicles Of Glom</div>
+      <div class="spacer" style="height: 16px"></div>
+      <div class="subtitle">Wiki Ufficiale</div>
 
-    <div class="spacer" style="height: 16px;"></div>
-    <div class="subtitle">Wiki Ufficiale</div>
+      <div class="spacer" style="height: 16px"></div>
 
-    <div class="spacer" style="height: 16px;"></div>
+      <form action="./pagine/search.html" method="GET" class="wiki-search">
+        <input
+          type="text"
+          name="q"
+          placeholder="Cerca nella Wiki..."
+          required
+        />
+      </form>
+    </header>
 
-    <form action="./pagine/search.html" method="GET" class="wiki-search">
-        <input type="text" name="q" placeholder="Cerca nella Wiki..." required>
-    </form>
-</header>
-
-
-<main class="wiki-layout">
-
-    <aside class="sidebar">
+    <main class="wiki-layout">
+      <aside class="sidebar">
         <h3>Sezioni</h3>
         <ul>
-            <li><a href="./pagine/schede.html">Schede Personaggi</a></li>
-            <li><a href="./pagine/quest.html">Quest</a></li>
-            <li><a href="./pagine/persone.html">Persone</a></li>
-            <li><a href="./pagine/creature.html">Creature</a></li>
-            <li><a href="./pagine/luoghi.html">Luoghi</a></li>
-            <li><a href="./pagine/lore.html">Lore</a></li>
-            <li><a href="./pagine/gruppi.html">Gruppi</a></li>
-            <li><a href="./pagine/geografia.html">Geografia</a></li>
-            <li><a href="./pagine/divinita.html">Divinità</a></li>
-            <li><a href="./pagine/incantesimi.html">Incantesimi</a></li>
-            <li><a href="./pagine/oggetti.html">Oggetti</a></li>
-            <li><a href="./pagine/regole.html">Regole</a></li>
+          <li><a href="./pagine/schede.html">Schede Personaggi</a></li>
+          <li><a href="./pagine/quest.html">Quest</a></li>
+          <li><a href="./pagine/persone.html">Persone</a></li>
+          <li><a href="./pagine/creature.html">Creature</a></li>
+          <li><a href="./pagine/luoghi.html">Luoghi</a></li>
+          <li><a href="./pagine/lore.html">Lore</a></li>
+          <li><a href="./pagine/gruppi.html">Gruppi</a></li>
+          <li><a href="./pagine/geografia.html">Geografia</a></li>
+          <li><a href="./pagine/divinita.html">Divinità</a></li>
+          <li><a href="./pagine/incantesimi.html">Incantesimi</a></li>
+          <li><a href="./pagine/oggetti.html">Oggetti</a></li>
+          <li><a href="./pagine/regole.html">Regole</a></li>
         </ul>
-    </aside>
+      </aside>
 
-    <article class="content">
+      <article class="content">
         <h1>Benvenuto nella Wiki di Chronicles of Glom</h1>
-        <p>Qui troverai informazioni ufficiali su personaggi, creature, luoghi e la storia del mondo di Glomran.</p>
-        <p>Inoltre puoi trovare le quest disponibili, visualizzare le schede dei personaggi e leggere le regole.</p>
-        <img src="./images/magoRandom.png"
-     alt="Logo di Chronicles of Glom"
-     style="display: block; margin: 0 auto; width: 20%; height: auto;" />
-    </article>
+        <p>
+          Qui troverai informazioni ufficiali su personaggi, creature, luoghi e
+          la storia del mondo di Glomran.
+        </p>
+        <p>
+          Inoltre puoi trovare le quest disponibili, visualizzare le schede dei
+          personaggi e leggere le regole.
+        </p>
+        <img
+          src="./images/magoRandom.png"
+          alt="Logo di Chronicles of Glom"
+          style="display: block; margin: 0 auto; width: 20%; height: auto"
+        />
+      </article>
+    </main>
 
-</main>
+    <footer>
+      <a href="./admin/admin_wiki_editor.html">Gestisci Articoli</a> |
 
-<footer>
+      <small><span id="currentYear"></span> &copy; D&D Campaign Wiki</small>
 
-    <a href="./admin/admin_wiki_editor.html">Gestisci Articoli</a> |
+      <script>
+        // Imposta l'anno corrente nel footer
+        document.getElementById("currentYear").textContent =
+          new Date().getFullYear();
+      </script>
+    </footer>
 
-    <small><span id="currentYear"></span> &copy; D&D Campaign Manager</small>
+    <script>
+      // Anteprima link
+      const card = document.querySelector(".card");
+      const hideLinkPreview = () => (card.style.display = "none");
+      const showLinkPreview = (e) => {
+        const image = e.currentTarget.getAttribute("data-image");
+        card.querySelector("img").setAttribute("src", image);
+        const title = e.currentTarget.getAttribute("data-title");
+        card.querySelector("h5").textContent = title;
+        const text = e.currentTarget.getAttribute("data-text");
+        card.querySelector("p").textContent = text;
+        e.currentTarget.appendChild(card);
+        card.style.display = "inline-block";
+      };
 
-<script>
-    // Imposta l'anno corrente nel footer
-    document.getElementById('currentYear').textContent = new Date().getFullYear();
-</script>
-
-</footer>
-
-
-
-<script>
-
-// Anteprima link
-const card = document.querySelector('.card');
-const hideLinkPreview = () => card.style.display = 'none';
-const showLinkPreview = e => {
-  const image = e.currentTarget.getAttribute('data-image');
-  card.querySelector('img').setAttribute('src', image);
-  const title = e.currentTarget.getAttribute('data-title');
-  card.querySelector('h5').textContent = title;
-  const text = e.currentTarget.getAttribute('data-text');
-  card.querySelector('p').textContent = text;
-  e.currentTarget.appendChild(card);
-  card.style.display = 'inline-block';
-};
-
-document.querySelectorAll('.link-with-preview').forEach(el => {
-  el.addEventListener('mouseover', showLinkPreview);
-  el.addEventListener('mouseleave', hideLinkPreview);
-});   
-
-</script>
-
-</body>
+      document.querySelectorAll(".link-with-preview").forEach((el) => {
+        el.addEventListener("mouseover", showLinkPreview);
+        el.addEventListener("mouseleave", hideLinkPreview);
+      });
+    </script>
+  </body>
 </html>

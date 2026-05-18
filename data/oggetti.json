@@ -120,6 +120,12 @@
     "contenuto": "<p>La spada tramandata nella famiglia di <a href=\"../pagine/pagina.html?file=persone&slug=dacario-john-icereign\">Dacario John Icereign</a> da generazioni, più forte di una spada imperiale.</p>\n<p>Usandola a due mani, guadagni 2d6 danni aggiuntivi per <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attacco</a>. Se manchi il bersaglio, esplode e i nemici entro 5ft devono superare un DEX save DC 15 o subiscono 2d6 danni da freddo</p>"
   },
   {
+    "nome": "Electra",
+    "slug": "electra",
+    "immagine": "oggetti/electra.jpg",
+    "contenuto": "Ha 6 charge elettriche, fin quando è carica inflgge 2d6 <a href=\"../pagine/pagina.html?file=regole&slug=danno\">danni</a> elettrici bonus. Usando 2 cariche puoi provare a <a href=\"../pagine/pagina.html?file=regole&slug=condizioni\">stunnare</a> un nemico che deve superare un COS save DC 16. Se finisce le charge, si perdono i <a href=\"../pagine/pagina.html?file=regole&slug=danno\">danni</a> bonus."
+  },
+  {
     "nome": "Capsule",
     "slug": "capsule",
     "immagine": "",

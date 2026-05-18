@@ -42,9 +42,21 @@
     "contenuto": "Puoi ridurre il danno da caduta di 5 * lvl da monaco."
   },
   {
+    "nome": "Mobile",
+    "slug": "mobile",
+    "reazione": 1,
+    "contenuto": "<p>Ti senti più rapido e:</p>\n<p><li>La tua velocità aumenta di 10 ft per turno</p\n<p><li>Usando <a href=\"../pagine/pagina.html?file=regole&slug=dash\">Dash</a> ignori il terreno difficile</p>\n<p><li>Quando <a href=\"../pagine/pagina.html?file=regole&slug=attacchi\">attacco</a> una creatura non provochi se il tuo <a href=\"../pagine/pagina.html?file=regole&slug=attacco-di-opportunita\">attacco di opportunità</a>, a prescindere che entri o meno."
+  },
+  {
+    "nome": "Evasion",
+    "slug": "evasion",
+    "reazione": 1,
+    "contenuto": "Puoi superare qualsiasi DEX save di un attacco che puoi vedere, non prendendo danno."
+  },
+  {
     "nome": "Scurovisione",
     "slug": "scurovisione",
-    "contenuto": "Puoi vedere nell'oscurità non magica per 30ft. La visione è in bianco e nero."
+    "contenuto": "Puoi vedere nell'oscurità non magica. La visione però è in bianco e nero."
   },
   {
     "nome": "Kamehameha Glommitica",
@@ -97,6 +109,17 @@
     "slug": "vile-blast-witchglaive",
     "immagine": "",
     "contenuto": "<p>Quando attacchi con la <a href=\"../pagine/pagina.html?file=oggetti&slug=witch-glaive\">Witch Glaive</a> puoi far uscire dell'acido da tutte le bombe, il bersaglio deve fare un COS save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>.</p>\n<li><p>Non passato: subisce 6d6 danni da acido e tolgono 1 al tiro <a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> e al COS save per tutto il prossimo turno.</p>\n<li><p>Passato: subisce 3d4 danni da acido</p>"
+  },
+  {
+    "nome": "Healer",
+    "slug": "healer",
+    "contenuto": "<p>Sei un curatore esperto ed ottieni queste capacità:</p>\n<p><li>Quando stabilizzi una creatura morente, questa ottiene 1 punto ferita aggiuntivo;</p>\n<p><li>Puoi usare 1 utilizzo del kit da curatore per far recuperare 1d6 + 4 punti ferita ad una creatura. Inoltre questa guadagna punti ferita pari al massimo di 1 dado vita.</p>\n<p>Una creatura non può recuperare punti ferita grazie a questa abilità fino ad un <a href=\"../pagine/pagina.html?file=regole&slug=riposo-breve\">Riposo Breve</a></p>"
+  },
+  {
+    "nome": "Rinascita Floreale",
+    "slug": "rinascita-floreale",
+    "azione_bonus": 1,
+    "contenuto": "<p>Fai sbocciare dei fiori sul tuo corpo che hanno diverse proprietá:</p>\n<p><li>Fiore Glommitico - Stabilizza una creatura morente;</p>\n<p><li>Fiore di Autumnia - Permette al target di aggiungere [2d4 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a>] danni elettrici al prossimo colpo, oppure diventare resistente ai danni elettrici fino al turno successivo in cui sboccia.</p>"
   },
   {
     "nome": "A me gli Occhi",
@@ -192,6 +215,12 @@
     "nome": "Decompositore",
     "slug": "decompositore",
     "contenuto": "Sei resistente ai danni psichici ed ogni creatura colpita da un tuo incantesimo che fa danni psichici subisce 1d4 danni aggiuntivi per ogni dado di danno."
+  },
+  {
+    "nome": "Rotting Blood",
+    "slug": "rotting-blood",
+    "reazione": 1,
+    "contenuto": "Un nemico che ti <a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attacca</a> deve superare un DEX save DC 10 + <a href=\"../pagine/pagina.html?file=regole&slug=modificatore-principale\">Modificatore Principale</a> per non subire metà del danno causato dall'<a href=\"../pagine/pagina.html?file=regole&slug=attacco\">attacco</a> (come <a href=\"../pagine/pagina.html?file=regole&slug=danno\">danno</a> da acido o fuoco)."
   },
   {
     "nome": "Dodge",
@@ -299,11 +328,24 @@
     "contenuto": "<strong>Con scudo:</strong> Quando una creatura che puoi vedere entro 5 ft da te sta venendo attaccata puoi difenderla con lo scudo: svantaggio su <a href=\"../pagine/pagina.html?file=regole&slug=tiro-per-colpire\">tiro per colpire</a> del nemico sulla creatura."
   },
   {
+    "nome": "Cunning Action",
+    "slug": "cunning-action",
+    "azione_bonus": 1,
+    "contenuto": "Puoi usare <a href=\"../pagine/pagina.html?file=regole&slug=dash\">Dash</a>, <a href=\"../pagine/pagina.html?file=regole&slug=disengage\">Disengage</a> o furtività"
+  },
+  {
     "nome": "Scudo Imperiale",
     "slug": "scudo-imperiale",
     "reazione": 1,
     "durata": "6 turni",
     "contenuto": "Quando una creatura che puoi vedere ti colpisce e fa danno con un arma, puoi rispondere usando 1 carica di Scudo Imperiale Invernus, rispondendo con 2d4 danni e assorbendo questi 2d4 come armatura di ghiaccio per 6 turni"
+  },
+  {
+    "nome": "Shield Meat",
+    "slug": "shield-meat",
+    "durata": "2 turni",
+    "reazione": 1,
+    "contenuto": "Quando un alleato si trova a meno di 5ft da te, puoi assumere una posizione in cui puoi scegliere di diventare il bersaglio degli attacchi destinati all'alleato. Perché funzioni, l'alleato deve restare in piedi accanto a te."
   },
   {
     "nome": "Il Lavoro di Dexter",

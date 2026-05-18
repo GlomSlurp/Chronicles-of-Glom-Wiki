@@ -1,44 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title id="page-title">Wiki</title>
     <link rel="stylesheet" href="../styles/wiki_style.css" />
-    <link rel="website icon" type="png" href="../images/Chronicles_logo.png"/>
-</head>
+    <link rel="website icon" type="png" href="../images/Chronicles_logo.png" />
+  </head>
 
-<body>
+  <body>
+    <header>
+      <div class="title">Chronicles Of Glom</div>
+      <div class="subtitle" id="subtitle">Wiki</div>
+    </header>
 
-<header>
-    <div class="title">Chronicles Of Glom</div>
-    <div class="subtitle" id="subtitle">Wiki</div>
-</header>
-
-<main class="wiki-layout">
-
-    <aside class="sidebar">
+    <main class="wiki-layout">
+      <aside class="sidebar">
         <h3>Indice</h3>
         <ul>
-            <li><a href="../index.html">Pagina Principale</a></li>
-            <li><a id="back-category" href="#">Torna alla categoria</a></li>
+          <li><a href="../index.html">Pagina Principale</a></li>
+          <li><a id="back-category" href="#">Torna alla categoria</a></li>
         </ul>
-    </aside>
+      </aside>
 
-    <article class="content">
+      <article class="content">
         <div id="infobox"></div>
         <h1 id="nome"></h1>
         <div class="lore-text" id="contenuto"></div>
         <div id="upcast"></div>
-    </article>
+      </article>
+    </main>
 
-</main>
+    <footer>
+      <small><span id="currentYear"></span> &copy; D&D Campaign Wiki</small>
+    </footer>
 
-<footer>
-    <small><span id="currentYear"></span> &copy; D&D Campaign Manager</small>
-
-</footer>
-
-<script src="../scripts/wiki_script.js"></script>
-
-</body>
+    <script src="../scripts/wiki_script.js"></script>
+  </body>
 </html>

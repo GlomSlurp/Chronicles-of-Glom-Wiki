@@ -195,6 +195,15 @@
     "contenuto": "Tocchi una creatura, per 10 turni la creatura può aggiungere o sottrarre 1d4 ad un ability check a scelta"
   },
   {
+    "nome": "Guardian of Nature",
+    "slug": "guardian-of-nature",
+    "durata": "Concentrazione, fino a 1 minuto",
+    "range": "Te stesso",
+    "livello": "4",
+    "azione_bonus": 1,
+    "contenuto": "<p>Attingi ai poteri del mondo naturali e ne diventi temporaneamente il guardiano, puoi assumere le forme Troncalion e Grand'Albero.</p>\n<p><li>Troncalion:</p>\n<p>Quando assumi questa forma ottieni:<ul><li>10ft di movimento aggiuntivo;<li><a href=\"../pagine/pagina.html?file=abilita&slug=scurovisione\">Scurovisione</a> di 120ft;<li><a href=\"../pagine/pagina.html?file=regole&slug=attacco\">Attacchi</a> con <a href=\"../pagine/pagina.html?file=regole&slug=vantaggio\">Vantaggio</a>;<li>Aggiungi 1d6 danni quando colpisci.</p></ul>\n<p><li>Grand'Albero:</p>\n<p>Quando assumi questa forma ottieni:<ul><li>10 punti ferita temporanei;<li><a href=\"../pagine/pagina.html?file=regole&slug=vantaggio\">Vantaggio</a> su COS save;<li><a href=\"../pagine/pagina.html?file=regole&slug=difesa\">Difesa</a> con <a href=\"../pagine/pagina.html?file=regole&slug=vantaggio\">Vantaggio</a>;<li>Attorno a te si crea un'area di 15ft che è terreno difficile.</ul></p>"
+  },
+  {
     "nome": "Spare the Dying",
     "slug": "spare-the-dying",
     "durata": "istantaneo",

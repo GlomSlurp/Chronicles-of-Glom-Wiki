@@ -3,21 +3,21 @@
     "nome": "Kalu",
     "slug": "kalu",
     "classe": "Monaco - Way of the Smoking Lung",
-    "livello": 6,
+    "livello": 7,
     "razza": "Umano",
     "background": "&lt;REDACTED&gt;",
     "immagine": "persone/Kalu.jpg",
     "forza": 10,
-    "destrezza": 24,
+    "destrezza": 26,
     "costituzione": 16,
     "intelligenza": 10,
-    "saggezza": 20,
+    "saggezza": 21,
     "carisma": 8,
-    "punti_ferita": 47,
+    "punti_ferita": 54,
     "velocita": "45 ft",
-    "ki": "6",
+    "ki": "7",
     "tiri_salvezza": ["destrezza", "saggezza"],
-    "abilità": ["Acrobazia +14", "Furtività", "Rapidità di mano"],
+    "abilità": ["Acrobazia +15", "Furtività", "Rapidità di mano"],
     "oggetti": [
       "<a href=\"../pagine/pagina.html?file=oggetti&slug=pacchetto-di-sigarette\">Pacchetto di Sigarette</a>",
       "Bastone da Combattimento",
@@ -33,8 +33,10 @@
       "<a href=\"../pagine/pagina.html?file=abilita&slug=way-of-the-smoking-lung-catch\">Way of the smoking lung: Catch</a>",
       "<a href=\"../pagine/pagina.html?file=abilita&slug=quickened-healing\">Quickened Healing</a>",
       "<a href=\"../pagine/pagina.html?file=abilita&slug=lingering-smoke\">Lingering Smoke</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=mobile\">Mobile</a>",
       "<a href=\"../pagine/pagina.html?file=abilita&slug=deflect\">Deflect</a> (Reazione)",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=skyfall\">Skyfall</a> (Reazione)"
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=skyfall\">Skyfall</a> (Reazione)",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=evasion\">Evasion</a> (Reazione)"
     ],
     "azioni": [
       "Attacco con Bastone da Combattimento",
@@ -47,17 +49,17 @@
     "nome": "Tasarau",
     "slug": "tasarau",
     "classe": "Druido - Circle of the Primordial Forest",
-    "livello": 6,
+    "livello": 7,
     "razza": "Glommita",
     "background": "Saggio",
     "immagine": "persone/Tasarau.png",
     "forza": 12,
     "destrezza": 16,
     "costituzione": 12,
-    "intelligenza": 16,
-    "saggezza": 22,
+    "intelligenza": 18,
+    "saggezza": 23,
     "carisma": 10,
-    "punti_ferita": 44,
+    "punti_ferita": 53,
     "velocita": "30 ft",
     "slot_incantesimi": "8",
     "tiri_salvezza": ["destrezza", "costituzione", "intelligenza", "saggezza"],
@@ -81,6 +83,7 @@
       "<a href=\"../pagine/pagina.html?file=incantesimi&slug=glomming-ray\">Glomming Ray</a>",
       "<a href=\"../pagine/pagina.html?file=abilita&slug=liana-gay\">Liana Gay</a> (Azione Bonus)",
       "<a href=\"../pagine/pagina.html?file=abilita&slug=radici-del-santuario\">Radice del Santuario</a> (Azione Bonus)",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=guardian-of-nature\">Guardian of Nature</a> (Azione Bonus)",
       "<a href=\"../pagine/pagina.html?file=incantesimi&slug=barkskin\">Corazza Protettiva</a> (Reazione)",
       "<a href=\"../pagine/pagina.html?file=abilita&slug=occhio-della-foresta\">Occhio della Foresta</a> (Reazione)",
       "<a href=\"../pagine/pagina.html?file=incantesimi&slug=absorb-element\">Assorbi Elemento</a> (Reazione)"
@@ -100,12 +103,195 @@
       "<a href=\"../pagine/pagina.html?file=abilita&slug=mazzone\">Mazzone</a>",
       "<a href=\"../pagine/pagina.html?file=abilita&slug=poison-gas-witchglaive\">Poison Gas</a>",
       "<a href=\"../pagine/pagina.html?file=abilita&slug=vile-blast-witchglaive\">Vile Blast</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=kamehameha-glommitica\">Kamehameha Glommitica</a>"
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=kamehameha-glommitica\">Kamehameha Glommitica</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=healer\">Healer</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=rinascita-floreale\">Rinascita Floreale</a>"
     ],
     "azioni": [
       "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=witch-glaive\">Witch Glaive</a>",
       "Attacco con <a href=\"../pagine/pagina.html?file=abilita&slug=mazzone\">Mazzone</a>",
       "Lancio Incantesimi"
+    ]
+  },
+  {
+    "nome": "Sarcophaga Carnaria",
+    "slug": "sarcophaga-carnaria",
+    "classe": "Druido - Entomancer",
+    "livello": 7,
+    "razza": "Umano?",
+    "background": "SCRAMBLE",
+    "immagine": "persone/Sarco.png",
+    "forza": 11,
+    "destrezza": 14,
+    "costituzione": 25,
+    "intelligenza": 10,
+    "saggezza": 18,
+    "carisma": 12,
+    "punti_ferita": 59,
+    "velocita": "30 ft",
+    "popolazione": 7,
+    "slot_incantesimi": "9",
+    "tiri_salvezza": ["destrezza", "costituzione", "saggezza", "carisma"],
+    "abilità": [
+      "Addestrare animali",
+      "Atletica",
+      "Natura +4",
+      "Percezione +4",
+      "Sopravvivenza +7"
+    ],
+    "trucchetti": [
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=thunderclap\">Thunderclap</a>",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=magic-stone\">Pietra Magica</a>",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=infestation\">Infestation</a>"
+    ],
+    "incantesimi_conosciuti": [
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=cure-wounds\">Cura Ferite</a>",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=water-breathing\">Water Breathing</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=brutalita-insetta\">Brutalità Insetta</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=harmonic-repopulation\">Harmonic Repopulation</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=boom-boom-boom\">Boom Boom Boom</a>",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=insect-plague\">Sciame Reale</a>",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=elemental-bane\">Kachow</a>",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=healing-word\">Healing Word</a> (Azione Bonus)",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=absorb-element\">Assorbi Elemento</a> (Reazione)"
+    ],
+    "tratti_speciali": ["Parlare con gli Animali"],
+    "oggetti": [
+      "<a href=\"../pagine/pagina.html?file=oggetti&slug=tiny-bug-spear\">Tiny Bug Spear</a>",
+      "<a href=\"../pagine/pagina.html?file=oggetti&slug=ring-of-wild-shape\">Ring of Wild Shape</a>",
+      "Tarocchi Caotici"
+    ],
+    "abilità_speciali": [
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=popolazione\">Popolazione</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=richiamo-degli-insetti\">Richiamo degli Insetti</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=forma-insetta\">Forma Insetta</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=crawling-sensation\">Crawling Sensation</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=forza-insetta\">Forza Insetta</a>",
+      "Sono Jean-Henri Fabre",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=decompositore\">Decompositore</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a> (Reazione - Solo in Forma Riccardo)",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=parry\">Parry</a> (Reazione - Solo in Forma Birillo)",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=rotting-blood\">Rotting Blood</a> (Reazione - Solo in Forma Sarcophaga Carnaria)",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=resistence\">Resistence</a> (Reazione)"
+    ],
+    "azioni": [
+      "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=tiny-bug-spear\">Tiny Bug Spear</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=richiamo-degli-insetti\">Richiamo degli Insetti</a>",
+      "Lancio Incantesimi"
+    ]
+  },
+  {
+    "nome": "Sir Romedio e Guglielmo",
+    "slug": "sir-romedio-e-guglielmo",
+    "classe": "Bardo - College of Lore",
+    "livello": 7,
+    "razza": "Cavallo",
+    "background": "SCRAMBLE",
+    "immagine": "persone/Romedio.png",
+    "forza": 12,
+    "destrezza": 12,
+    "costituzione": 16,
+    "intelligenza": 16,
+    "saggezza": 14,
+    "carisma": 20,
+    "punti_ferita": 50,
+    "velocita": "40 ft, 45ft in volo",
+    "slot_incantesimi": 4,
+    "tiri_salvezza": ["destrezza", "carisma"],
+    "abilità": [
+      "Addestrare animali",
+      "Atletica",
+      "Ingannare",
+      "Intrattenere",
+      "Intuizione",
+      "Persuadere"
+    ],
+    "trucchetti": [
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=mage-hand\">Mano Spettrale</a>",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=sacred-flame\">Sacred Flame</a>",
+      "Mending"
+    ],
+    "incantesimi_conosciuti": [
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=comprehend-languages\">Comprehend Languages</a>",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=knock\">Knock</a>",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=speak-with-the-dead\">Speak with the Dead</a>",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=locate-object\">Locate Object</a>",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=spirit-guardians\">Spirit Guardians</a>",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=shatter\">Shatter</a>",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=dispel-magic\">Dispel Magic</a>",
+      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=silvery-barbs\">Fiori d'Argento</a> (Reazione)"
+    ],
+    "tratti_speciali": [
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=percezione-del-magico\">Percezione del magico</a>"
+    ],
+    "oggetti": [
+      "<a href=\"../pagine/pagina.html?file=oggetti&slug=armatura-pesante\">Armatura Pesante</a>",
+      "<a href=\"../pagine/pagina.html?file=oggetti&slug=boots-of-bounding\">Boots of Bounding</a>",
+      "<a href=\"../pagine/pagina.html?file=oggetti&slug=ocarina-of-minor-charm\">Ocarina of Minor Charm</a>"
+    ],
+    "abilità_speciali": [
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=eroi-combattenti-di-mordor\">Eroi, combattenti di Mordor!</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=cavallo-di-battaglia\">Cavallo di Battaglia</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=song-of-glom\">Song of Glom</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=hogwarts-academy\">Hogwarts Academy</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=i-believe-i-can-fly\">I Believe I can Fly</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=unlimited\">Unlimited...?</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=cutting-glom\">Cutting Glom</a> (Reazione)"
+    ],
+    "azioni": [
+      "Attacco con <a href=\"../pagine/pagina.html?file=abilita&slug=weapon-conjured\">Weapon Conjured</a>",
+      "Lancio incantesimi"
+    ]
+  },
+  {
+    "nome": "Dacario John Icereign",
+    "slug": "dacario-john-icereign",
+    "classe": "Guerriero",
+    "livello": 7,
+    "razza": "Umano",
+    "background": "Soldato",
+    "immagine": "persone/dacario.png",
+    "forza": 16,
+    "destrezza": 20,
+    "costituzione": 16,
+    "intelligenza": 10,
+    "saggezza": 12,
+    "carisma": 14,
+    "punti_ferita": 58,
+    "velocita": "30 ft",
+    "tiri_salvezza": ["forza", "destrezza", "costituzione"],
+    "abilità": [
+      "Acrobazia",
+      "Furtività",
+      "Ingannare",
+      "Persuadere",
+      "Rapidità di mano",
+      "Sopravvivenza"
+    ],
+    "tratti_speciali": [
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=icereign-blood\">Icereign Blood</a>"
+    ],
+    "oggetti": [
+      "<a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a>",
+      "Scudo Imperiale Invernus",
+      "<a href=\"../pagine/pagina.html?file=oggetti&slug=electra\">Electra</a>"
+    ],
+    "abilità_speciali": [
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=sneak-attack\">Sneak Attack</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=action-surge\">Spirito Indomabile</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=extra-attack\">Legge del più Forte</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=concentrazione-vitale\">Concentrazione Vitale</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=lupo-solitario\">Lupo Solitario</a>",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=second-wind\">Resilienza di Giaccio</a> (Azione Bonus)",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=marchio-di-in-vernus\">Marchio di In Vernus</a> (Azione Bonus)",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=cunning-action\">Dacario Action</a> (Azione Bonus)",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=imposizione-gelata\">Imposizione Gelata</a> (Reazione)",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=scudo-imperiale\">Scudo Imperiale</a> (Reazione)",
+      "<a href=\"../pagine/pagina.html?file=abilita&slug=shield-meat\">Shield Meat</a> (Reazione)"
+    ],
+    "azioni": [
+      "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a> a una mano",
+      "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a> a due mani"
     ]
   },
   {
@@ -170,181 +356,6 @@
     ]
   },
   {
-    "nome": "Sarcophaga Carnaria",
-    "slug": "sarcophaga-carnaria",
-    "classe": "Druido - Entomancer",
-    "livello": 6,
-    "razza": "Umano?",
-    "background": "SCRAMBLE",
-    "immagine": "persone/Sarco.png",
-    "forza": 12,
-    "destrezza": 14,
-    "costituzione": 24,
-    "intelligenza": 10,
-    "saggezza": 16,
-    "carisma": 12,
-    "punti_ferita": 44,
-    "velocita": "30 ft",
-    "popolazione": 6,
-    "slot_incantesimi": "8",
-    "tiri_salvezza": ["destrezza", "costituzione", "saggezza", "carisma"],
-    "abilità": [
-      "Addestrare animali",
-      "Atletica",
-      "Natura +2",
-      "Percezione +7",
-      "Sopravvivenza +7"
-    ],
-    "trucchetti": [
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=thunderclap\">Thunderclap</a>",
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=magic-stone\">Pietra Magica</a>",
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=infestation\">Infestation</a>"
-    ],
-    "incantesimi_conosciuti": [
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=cure-wounds\">Cura Ferite</a>",
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=water-breathing\">Water Breathing</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=brutalita-insetta\">Brutalità Insetta</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=harmonic-repopulation\">Harmonic Repopulation</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=boom-boom-boom\">Boom Boom Boom</a>",
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=insect-plague\">Sciame Reale</a>",
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=elemental-bane\">Kachow</a>",
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=healing-word\">Healing Word</a> (Azione Bonus)",
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=absorb-element\">Assorbi Elemento</a> (Reazione)"
-    ],
-    "tratti_speciali": ["Parlare con gli Animali"],
-    "oggetti": [
-      "<a href=\"../pagine/pagina.html?file=oggetti&slug=tiny-bug-spear\">Tiny Bug Spear</a>",
-      "<a href=\"../pagine/pagina.html?file=oggetti&slug=ring-of-wild-shape\">Ring of Wild Shape</a>",
-      "Tarocchi Caotici"
-    ],
-    "abilità_speciali": [
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=popolazione\">Popolazione</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=richiamo-degli-insetti\">Richiamo degli Insetti</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=forma-insetta\">Forma Insetta</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=crawling-sensation\">Crawling Sensation</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=forza-insetta\">Forza Insetta</a>",
-      "Sono Jean-Henri Fabre",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=decompositore\">Decompositore</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=dodge\">Dodge</a> (Reazione - Solo in Forma Riccardo)",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=parry\">Parry</a> (Reazione - Solo in Forma Birillo)"
-    ],
-    "azioni": [
-      "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=tiny-bug-spear\">Tiny Bug Spear</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=richiamo-degli-insetti\">Richiamo degli Insetti</a>",
-      "Lancio Incantesimi"
-    ]
-  },
-  {
-    "nome": "Sir Romedio e Guglielmo",
-    "slug": "sir-romedio-e-guglielmo",
-    "classe": "Bardo - College of Lore",
-    "livello": 6,
-    "razza": "Cavallo",
-    "background": "SCRAMBLE",
-    "immagine": "persone/Romedio.png",
-    "forza": 12,
-    "destrezza": 12,
-    "costituzione": 16,
-    "intelligenza": 16,
-    "saggezza": 14,
-    "carisma": 18,
-    "punti_ferita": 43,
-    "velocita": "40 ft, 45ft in volo",
-    "slot_incantesimi": 4,
-    "tiri_salvezza": ["destrezza", "carisma"],
-    "abilità": [
-      "Addestrare animali",
-      "Atletica",
-      "Ingannare",
-      "Intrattenere",
-      "Intuizione",
-      "Persuadere"
-    ],
-    "trucchetti": [
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=mage-hand\">Mano Spettrale</a>",
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=sacred-flame\">Sacred Flame</a>",
-      "Mending"
-    ],
-    "incantesimi_conosciuti": [
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=comprehend-languages\">Comprehend Languages</a>",
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=knock\">Knock</a>",
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=speak-with-the-dead\">Speak with the Dead</a>",
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=locate-object\">Locate Object</a>",
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=spirit-guardians\">Spirit Guardians</a>",
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=shatter\">Shatter</a>",
-      "<a href=\"../pagine/pagina.html?file=incantesimi&slug=silvery-barbs\">Fiori d'Argento</a> (Reazione)"
-    ],
-    "tratti_speciali": [
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=percezione-del-magico\">Percezione del magico</a>"
-    ],
-    "oggetti": [
-      "<a href=\"../pagine/pagina.html?file=oggetti&slug=armatura-pesante\">Armatura Pesante</a>",
-      "<a href=\"../pagine/pagina.html?file=oggetti&slug=boots-of-bounding\">Boots of Bounding</a>",
-      "<a href=\"../pagine/pagina.html?file=oggetti&slug=ocarina-of-minor-charm\">Ocarina of Minor Charm</a>"
-    ],
-    "abilità_speciali": [
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=eroi-combattenti-di-mordor\">Eroi, combattenti di Mordor!</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=cavallo-di-battaglia\">Cavallo di Battaglia</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=song-of-glom\">Song of Glom</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=hogwarts-academy\">Hogwarts Academy</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=i-believe-i-can-fly\">I Believe I can Fly</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=unlimited\">Unlimited...?</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=cutting-glom\">Cutting Glom</a> (Reazione)"
-    ],
-    "azioni": [
-      "Attacco con <a href=\"../pagine/pagina.html?file=abilita&slug=weapon-conjured\">Weapon Conjured</a>",
-      "Lancio incantesimi"
-    ]
-  },
-  {
-    "nome": "Dacario John Icereign",
-    "slug": "dacario-john-icereign",
-    "classe": "Guerriero",
-    "livello": 6,
-    "razza": "Umano",
-    "background": "",
-    "immagine": "persone/dacario.png",
-    "forza": 16,
-    "destrezza": 20,
-    "costituzione": 16,
-    "intelligenza": 10,
-    "saggezza": 12,
-    "carisma": 14,
-    "punti_ferita": 50,
-    "velocita": "30 ft",
-    "tiri_salvezza": ["forza", "destrezza", "costituzione"],
-    "abilità": [
-      "Acrobazia",
-      "Furtività",
-      "Ingannare",
-      "Persuadere",
-      "Rapidità di mano",
-      "Sopravvivenza"
-    ],
-    "tratti_speciali": [
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=icereign-blood\">Icereign Blood</a>"
-    ],
-    "oggetti": [
-      "<a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a>",
-      "Scudo Imperiale Invernus"
-    ],
-    "abilità_speciali": [
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=sneak-attack\">Sneak Attack</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=action-surge\">Spirito Indomabile</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=extra-attack\">Legge del più Forte</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=concentrazione-vitale\">Concentrazione Vitale</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=lupo-solitario\">Lupo Solitario</a>",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=second-wind\">Resilienza di Giaccio</a> (Azione Bonus)",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=marchio-di-in-vernus\">Marchio di In Vernus</a> (Azione Bonus)",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=imposizione-gelata\">Imposizione Gelata</a> (Reazione)",
-      "<a href=\"../pagine/pagina.html?file=abilita&slug=scudo-imperiale\">Scudo Imperiale</a> (Reazione)"
-    ],
-    "azioni": [
-      "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a> a una mano",
-      "Attacco con <a href=\"../pagine/pagina.html?file=oggetti&slug=sicarius\">Sicarius</a> a due mani"
-    ]
-  },
-  {
     "nome": "Corex",
     "slug": "corex",
     "classe": "Artefice - Armaiolo",
@@ -395,17 +406,17 @@
     "nome": "Dinoh",
     "slug": "dinoh",
     "classe": "Druido - Circle of Prehistoric Ferocity",
-    "livello": 6,
+    "livello": 7,
     "razza": "Umano",
     "background": "",
     "immagine": "persone/dinoh.png",
     "forza": 26,
     "destrezza": 18,
-    "costituzione": 19,
+    "costituzione": 22,
     "intelligenza": 8,
     "saggezza": 10,
     "carisma": 7,
-    "punti_ferita": 55,
+    "punti_ferita": 63,
     "velocita": "30 ft",
     "trasformazioni": 14,
     "tiri_salvezza": ["forza", "destrezza", "costituzione"],
